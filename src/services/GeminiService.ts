@@ -1,4 +1,4 @@
-import { GoogleGenAI, HarmCategory, HarmBlockThreshold } from "@google/genai";
+import axios from 'axios';
 
 const API_KEY = process.env.GEMINI_API_KEY;
 
@@ -6,8 +6,24 @@ if (!API_KEY) {
   throw new Error("GEMINI_API_KEY is not set in environment variables.");
 }
 
-const genAI = new GoogleGenAI(API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+const MODEL_NAME = "models/gemini-flash-latest";
+const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL_NAME}:generateContent?key=${API_KEY}`;
+
+// Replicating enums from the removed @google/genai package
+type HarmCategory =
+  | "HARM_CATEGORY_HARASSMENT"
+  | "HARM_CATEGORY_HATE_SPEECH"
+  | "HARM_CATEGORY_SEXUALLY_EXPLICIT"
+  | "HARM_CATEGORY_DANGEROUS_CONTENT";
+
+type HarmBlockThreshold = "BLOCK_MEDIUM_AND_ABOVE";
+
+const safetySettings: { category: HarmCategory; threshold: HarmBlockThreshold }[] = [
+  { category: "HARM_CATEGORY_HARASSMENT", threshold: "BLOCK_MEDIUM_AND_ABOVE" },
+  { category: "HARM_CATEGORY_HATE_SPEECH", threshold: "BLOCK_MEDIUM_AND_ABOVE" },
+  { category: "HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold: "BLOCK_MEDIUM_AND_ABOVE" },
+  { category: "HARM_CATEGORY_DANGEROUS_CONTENT", threshold: "BLOCK_MEDIUM_AND_ABOVE" },
+];
 
 const generationConfig = {
   temperature: 0.9,
@@ -16,16 +32,8 @@ const generationConfig = {
   maxOutputTokens: 2048,
 };
 
-const safetySettings = [
-  { category: HarmCategory.HARM_CATEGORY_HARASSMENT, threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE },
-  { category: HarmCategory.HARM_CATEGORY_HATE_SPEECH, threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE },
-  { category: HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT, threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE },
-  { category: HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT, threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE },
-];
-
+// This function is a DOM helper and is independent of the API client
 export const getCVDataFromDOM = (): string => {
-    // Re-render the CV in a hidden element to extract its text content,
-    // ensuring we get data from the single source of truth (cv-data.json).
     const cvContainer = document.querySelector('.cv-container');
     if (!cvContainer) return "CV data not found.";
     
@@ -47,6 +55,7 @@ export const getCVDataFromDOM = (): string => {
     return cvText;
 };
 
+// The main function to generate the cover letter, now using axios
 export const generateCoverLetter = async (cvData: string, jobInfo: string, imagePart: any | null): Promise<string> => {
     const prompt = `
 Vous êtes un coach carrière expert, spécialisé dans le marché du travail français. Votre mission est de rédiger une lettre de motivation exceptionnelle, prête à l'emploi.
@@ -89,11 +98,31 @@ Générez uniquement le texte complet de la lettre, en commençant par le nom du
         parts.push(imagePart);
     }
 
-    const result = await model.generateContent({
+    const payload = {
         contents: [{ role: "user", parts }],
         generationConfig,
         safetySettings,
-    });
+    };
 
-    return result.response.text();
+    try {
+        const response = await axios.post(API_URL, payload, {
+            headers: { 'Content-Type': 'application/json' }
+        });
+
+        const text = response.data?.candidates?.[0]?.content?.parts?.[0]?.text;
+        if (!text) {
+            console.error("Invalid response structure from Gemini API:", response.data);
+            throw new Error("Empty or invalid response from Gemini API");
+        }
+        return text.trim();
+    } catch (error) {
+        if (axios.isAxiosError(error)) {
+            const errorData = error.response?.data?.error;
+            console.error("Axios error calling Gemini API:", errorData || error.message);
+            const errorMessage = errorData ? `${errorData.message} (Code: ${errorData.code})` : error.message;
+            throw new Error(`API call failed: ${errorMessage}`);
+        }
+        console.error("Unknown error calling Gemini API:", error);
+        throw error;
+    }
 };

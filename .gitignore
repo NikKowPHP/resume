@@ -1,5 +1,8 @@
 node_modules
 repomix-output.xml
 .env
+.env.local
 .DS_Store
 package-lock.json
+dist
+TASKS.md

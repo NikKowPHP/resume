@@ -6,8 +6,8 @@ if (!API_KEY) {
   throw new Error("GEMINI_API_KEY is not set in environment variables.");
 }
 
-const MODEL_NAME = "models/gemini-flash-latest";
-const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL_NAME}:generateContent?key=${API_KEY}`;
+const MODEL_NAME = "gemini-flash-latest"; // Corrected model name
+const API_URL = `/api/v1beta/models/${MODEL_NAME}:generateContent?key=${API_KEY}`; // Use proxy and corrected URL structure
 
 // Replicating enums from the removed @google/genai package
 type HarmCategory =

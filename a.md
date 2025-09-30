@@ -1,43 +1,23 @@
 <response>
-<reasoning>
-My plan is to replace the `@google/genai` SDK with direct REST API calls using `axios`, as requested by the user who provided a `curl`-like implementation as a reference. The provided code is for a Node.js backend, so I will adapt its core logic to the existing frontend application.
+  <reasoning>
+    The user is encountering a CORS error and a 404 Not Found error when the frontend application calls the Google Gemini API. This is happening for two reasons:
+    1.  The Gemini API endpoint URL is malformed in `src/services/GeminiService.ts`, containing a duplicate `models/` segment, which causes the 404 error.
+    2.  Direct client-side calls to the Gemini API are blocked by browser security policies (CORS) because the API server doesn't send the required `Access-Control-Allow-Origin` header.
 
-1.  **Update Dependencies:** I will modify `package.json` to remove the `@google/genai` package and add `axios`.
-2.  **Refactor Gemini Service:** I will rewrite `src/services/GeminiService.ts`. The new implementation will use `axios` to make a `POST` request to the Gemini API's `generateContent` endpoint. I'll replicate the necessary types for `safetySettings` that were previously imported from the SDK and construct the API request payload according to the API documentation and the user's reference code. The function signatures will remain the same to avoid breaking other parts of the application.
-3.  **Update Task List:** I will add the completed task to `TASKS.md`.
-</reasoning>
-<commands>
-<![CDATA[
-npm install axios
-npm uninstall @google/genai
+    My plan is to fix both issues:
+    1.  In `src/services/GeminiService.ts`, I will correct the `MODEL_NAME` constant to fix the API URL.
+    2.  To resolve the CORS issue, I will configure Vite's development server to act as a proxy. I will modify `vite.config.ts` to forward requests made to a local `/api` path to the actual Gemini API.
+    3.  I will then update the `API_URL` in `src/services/GeminiService.ts` to point to this local proxied path.
+    4.  Finally, as a `TASKS.md` file does not exist, I will create one to log this completed task.
+  </reasoning>
+  <modifications>
+    <file path="TASKS.md">
+      <![CDATA[
+- [x] Fix CORS error when calling Gemini API
 ]]>
-</commands>
-<modifications>
-<file path="package.json">
-<![CDATA[
-{
-  "name": "empty",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "axios": "^1.7.2"
-  },
-  "devDependencies": {
-    "@types/node": "^22.14.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
-  }
-}
-]]>
-</file>
-<file path="src/services/GeminiService.ts">
-<![CDATA[
+    </file>
+    <file path="src/services/GeminiService.ts">
+      <![CDATA[
 import axios from 'axios';
 
 const API_KEY = process.env.GEMINI_API_KEY;
@@ -46,8 +26,8 @@ if (!API_KEY) {
   throw new Error("GEMINI_API_KEY is not set in environment variables.");
 }
 
-const MODEL_NAME = "gemini-1.5-flash";
-const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL_NAME}:generateContent?key=${API_KEY}`;
+const MODEL_NAME = "gemini-flash-latest"; // Corrected model name
+const API_URL = `/api/v1beta/models/${MODEL_NAME}:generateContent?key=${API_KEY}`; // Use proxy and corrected URL structure
 
 // Replicating enums from the removed @google/genai package
 type HarmCategory =
@@ -167,12 +147,39 @@ Générez uniquement le texte complet de la lettre, en commençant par le nom du
     }
 };
 ]]>
-</file>
-<file path="TASKS.md">
-<![CDATA[
-- [x] Perform refactor to use SoC and all best practices in development, highly modular, detach data to a separate json data to be able to change it.
-- [x] Replace Gemini SDK with a direct REST API implementation using axios.
+    </file>
+    <file path="vite.config.ts">
+      <![CDATA[
+import path from 'path';
+import { defineConfig, loadEnv } from 'vite';
+
+
+export default defineConfig(({ mode }) => {
+    const env = loadEnv(mode, process.cwd(), '');
+    return {
+      server: {
+        port: 3000,
+        host: '0.0.0.0',
+        proxy: {
+          '/api': {
+            target: 'https://generativelanguage.googleapis.com',
+            changeOrigin: true,
+            rewrite: (path) => path.replace(/^\/api/, ''),
+          },
+        },
+      },
+      plugins: [],
+      define: {
+        'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
+      },
+      resolve: {
+        alias: {
+          '@': path.resolve(__dirname, './src'),
+        }
+      }
+    };
+});
 ]]>
-</file>
-</modifications>
+    </file>
+  </modifications>
 </response>

@@ -1,0 +1,43 @@
+/* --- CORPORATE TEMPLATE STYLES --- */
+.corporate-template .cv-container-corporate {
+  width: 210mm;
+  min-height: 297mm;
+  margin: 0 auto;
+  background-color: var(--cv-background);
+  box-shadow: 0 4px 12px var(--shadow-color);
+  padding: 1.5rem;
+}
+.corporate-template .header-corporate {
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid var(--heading-color);
+  margin-bottom: 1rem;
+}
+.corporate-template .header-corporate h1 { letter-spacing: 3px; }
+.corporate-template .header-corporate h3 { color: var(--accent-color); }
+.corporate-template .contact-corporate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.5rem;
+  margin-top: 0.75rem;
+}
+.corporate-template .contact-item-corporate { display: flex; align-items: center; gap: 0.5rem; }
+.corporate-template .section-corporate {
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border-color);
+  margin-top: 0.5rem;
+}
+.corporate-template h2 { border: none; text-align: left; padding-bottom: 0; }
+.corporate-template .job-corporate { margin-bottom: 1rem; }
+.corporate-template .job-header-corporate { display: flex; justify-content: space-between; }
+.corporate-template ul { padding-left: 1.2rem; }
+.corporate-template ul li { list-style-type: square; }
+.corporate-template .skills-grid-corporate { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.5rem 1rem; }
+.corporate-template .skill-title-corporate { margin-bottom: 0; font-size: 0.85rem;}
+
+@media print {
+  .corporate-template .cv-container-corporate {
+    padding: 1rem;
+  }
+}

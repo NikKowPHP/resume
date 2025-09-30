@@ -1,0 +1,107 @@
+/* --- CLASSIC TEMPLATE STYLES --- */
+.classic-template .cv-container {
+  display: flex;
+  width: 210mm;
+  min-height: 297mm;
+  margin: 0 auto;
+  background-color: var(--cv-background);
+  box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+.classic-template .left-column {
+  width: 35%;
+  background-color: var(--left-column-background);
+  padding: 1.2rem;
+  border-right: 1px solid var(--border-color);
+}
+
+.classic-template .right-column {
+  width: 65%;
+  padding: 1.2rem;
+}
+
+.classic-template .profile-image {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  margin: 0 auto 1rem auto;
+  border: 4px solid var(--cv-background);
+  display: block;
+  object-fit: cover;
+}
+
+.classic-template .right-column h3 {
+  font-size: 0.95rem;
+  color: var(--accent-color);
+}
+
+.classic-template .job h4 a {
+  color: var(--link-color);
+  text-decoration: none;
+  border-bottom: 1.5px solid var(--link-color);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.classic-template .job h4 a:hover {
+  color: var(--button-hover-color);
+  border-bottom-color: var(--button-hover-color);
+  background-color: rgba(43, 108, 176, 0.05);
+}
+
+.classic-template .left-column ul li {
+  margin-bottom: 0.45rem;
+  font-size: 0.85em;
+}
+
+.classic-template .left-column ul.contact-list li {
+  display: flex;
+  align-items: flex-start;
+}
+
+.classic-template .left-column ul.contact-list li svg {
+  margin-right: 0.6rem;
+  flex-shrink: 0;
+  color: var(--accent-color);
+  margin-top: 2px;
+}
+
+.classic-template .left-column h3 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin-top: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.classic-template .left-column p {
+  font-size: 0.85em;
+  line-height: 1.3;
+}
+
+.classic-template .job {
+  margin-bottom: 0.8rem;
+}
+
+.classic-template .company-info {
+  color: var(--accent-color);
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  font-size: 0.9em;
+}
+
+.classic-template .right-column ul {
+  padding-left: 1.2rem;
+}
+
+.classic-template .right-column ul li {
+  list-style-type: disc;
+  margin-bottom: 0.3rem;
+  line-height: 1.3;
+}
+
+@media print {
+  .classic-template .left-column, .classic-template .right-column {
+    padding: 1rem;
+  }
+}

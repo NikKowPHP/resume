@@ -1,0 +1,47 @@
+/* --- COMPACT TEMPLATE STYLES --- */
+.compact-template .cv-container-compact {
+  display: flex;
+  width: 210mm;
+  min-height: 297mm;
+  margin: 0 auto;
+  background-color: var(--cv-background);
+  box-shadow: 0 4px 12px var(--shadow-color);
+  font-size: 8pt;
+}
+.compact-template .left-column-compact {
+  width: 30%;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-right: 1px solid var(--border-color);
+}
+.compact-template .right-column-compact {
+  width: 70%;
+  padding: 1rem;
+}
+.compact-template .profile-image-compact {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
+  margin: 0 auto 0.5rem;
+}
+.compact-template .header-compact {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.compact-template .header-compact h1 { font-size: 1.5rem; }
+.compact-template .header-compact h3 { font-size: 0.85rem; }
+.compact-template h2 { font-size: 0.75rem; margin-bottom: 0.4rem; padding-bottom: 0.2rem; }
+.compact-template h4 { font-size: 0.8rem; }
+.compact-template .contact-list-compact li { display: flex; align-items: flex-start; margin-bottom: 0.3rem; }
+.compact-template .contact-list-compact svg { margin-right: 0.5rem; flex-shrink: 0; }
+.compact-template .right-column-compact ul { padding-left: 1rem; }
+.compact-template .right-column-compact ul li { margin-bottom: 0.2rem; }
+.compact-template .job { margin-bottom: 0.6rem; }
+
+@media print {
+  .compact-template .left-column-compact, .compact-template .right-column-compact {
+    padding: 1rem;
+  }
+}

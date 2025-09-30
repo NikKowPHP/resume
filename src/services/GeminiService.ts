@@ -119,7 +119,7 @@ Rédigez une lettre de motivation complète et professionnelle en **français un
 
 1.  **En-tête de l'expéditeur :** Intégrez directement les informations de contact du candidat (Nom, Titre, Téléphone, Email, etc.) de manière claire et professionnelle en haut à gauche.
 2.  **Destinataire :** Si le nom d'un contact ou de l'entreprise est disponible dans la description, adressez-lui la lettre. Sinon, utilisez une formule générique comme "À l'attention du Service Recrutement". Incluez la ville si possible.
-3.  **Date et Lieu :** Ajoutez le lieu de résidence du candidat et la date actuelle (ex: "Cracovie, le [Date actuelle]").
+3.  **Lieu :** Ajoutez uniquement le lieu de résidence du candidat (par exemple : "Cracovie,"). **N'incluez PAS la date.**
 4.  **Objet :** Créez un objet de lettre clair et concis. Par exemple : "Objet : Candidature au poste de [Intitulé du poste]".
 5.  **Corps de la lettre :**
     *   Rédigez une introduction percutante qui mentionne le poste visé.
@@ -132,11 +132,10 @@ Rédigez une lettre de motivation complète et professionnelle en **français un
 *   Le ton doit être professionnel, confiant et enthousiaste.
 *   La lettre doit être concise, percutante et sans fautes.
 *   Utilisez des sauts de ligne pour aérer le texte et séparer distinctement les paragraphes.
+*   **FORMATAGE :** La sortie doit être du **texte brut (plain text) uniquement**. N'utilisez AUCUN formatage Markdown (pas de **, *, #, listes, etc.).
 
-Générez uniquement le texte complet de la lettre, en commençant par le nom du candidat.
+Générez uniquement le texte brut et complet de la lettre, en commençant par le nom du candidat.
 `;
-    
-    console.log('cover letter data',prompt )
 
     const parts: any[] = [{ text: prompt }];
     if (imagePart) {

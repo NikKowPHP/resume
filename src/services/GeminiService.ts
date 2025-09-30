@@ -86,55 +86,52 @@ export const getCVDataAsText = (data: CVData): string => {
     return cvText.trim();
 };
 
-const promptInstructions: Record<LanguageCode, string> = {
-  fr: `Vous êtes un coach carrière expert, spécialisé dans le marché du travail français. Votre mission est de rédiger une lettre de motivation exceptionnelle, prête à l'emploi.
-**Instructions de rédaction :** Rédigez une lettre de motivation complète et professionnelle en **français uniquement**.`,
-  en: `You are an expert career coach specializing in the French job market. Your mission is to write an outstanding, ready-to-use cover letter.
-**Writing Instructions:** Write a complete and professional cover letter in **English only**.`,
-  pl: `Jesteś ekspertem ds. kariery, specjalizującym się we francuskim rynku pracy. Twoim zadaniem jest napisanie wyjątkowego, gotowego do użycia listu motywacyjnego.
-**Instrukcje pisania:** Napisz kompletny i profesjonalny list motywacyjny **wyłącznie w języku polskim**.`,
-  de: `Sie sind ein erfahrener Karrierecoach, der auf den französischen Arbeitsmarkt spezialisiert ist. Ihre Aufgabe ist es, ein herausragendes, gebrauchsfertiges Anschreiben zu verfassen.
-**Schreibanweisungen:** Verfassen Sie ein vollständiges und professionelles Anschreiben **nur auf Deutsch**.`,
+const languageMap: Record<LanguageCode, string> = {
+    fr: "French",
+    en: "English",
+    pl: "Polish",
+    de: "German"
 };
 
-const getBasePrompt = (lang: LanguageCode) => `
-${promptInstructions[lang]}
-
-La lettre doit être structurée comme suit, sans utiliser de placeholders comme "[Vos Coordonnées]" ou "[Coordonnées de l'entreprise]".
-
-1.  **En-tête de l'expéditeur :** Intégrez directement les informations de contact du candidat (Nom, Titre, Téléphone, Email, etc.) de manière claire et professionnelle en haut à gauche.
-2.  **Destinataire :** Si le nom d'un contact ou de l'entreprise est disponible dans la description, adressez-lui la lettre. Sinon, utilisez une formule générique comme "À l'attention du Service Recrutement". Incluez la ville si possible.
-3.  **Lieu :** Ajoutez uniquement le lieu de résidence du candidat (par exemple : "Cracovie,"). **N'incluez PAS la date.**
-4.  **Objet :** Créez un objet de lettre clair et concis. Par exemple : "Objet : Candidature au poste de [Intitulé du poste]".
-5.  **Corps de la lettre :**
-    *   Rédigez une introduction percutante qui mentionne le poste visé.
-    *   Développez 2-3 paragraphes qui mettent en évidence la correspondance entre les compétences et expériences du candidat (présentes dans le CV) et les exigences du poste. Utilisez des exemples concrets du CV.
-    *   Montrez un intérêt sincère pour l'entreprise.
-    *   Concluez avec un appel à l'action clair, en proposant un entretien.
-6.  **Formule de politesse et Signature :** Terminez par une formule de politesse professionnelle (ex: "Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.") suivie du nom complet du candidat.
-
-**Ton et Style :**
-*   Le ton doit être professionnel, confiant et enthousiaste.
-*   La lettre doit être concise, percutante et sans fautes.
-*   Utilisez des sauts de ligne pour aérer le texte et séparer distinctement les paragraphes.
-*   **FORMATAGE :** La sortie doit être du **texte brut (plain text) uniquement**. N'utilisez AUCUN formatage Markdown (pas de **, *, #, listes, etc.).
-
-Générez uniquement le texte brut et complet de la lettre, en commençant par le nom du candidat.
-`;
-
 export const generateCoverLetter = async (cvData: string, jobInfo: string, imagePart: any | null, lang: LanguageCode): Promise<string> => {
-    const prompt = `
-${getBasePrompt(lang)}
+    
+    const targetLanguage = languageMap[lang];
 
-**Informations sur le candidat (extrait du CV) :**
+    const prompt = `
+You are an expert career coach. Your mission is to write an outstanding, ready-to-use cover letter in **${targetLanguage} only**.
+
+**Candidate Information (from CV):**
 ---
 ${cvData}
 ---
 
-**Informations sur le poste/l'entreprise :**
+**Job/Company Information:**
 ---
-${jobInfo || "Veuillez analyser l'image ci-jointe pour la description du poste et les informations sur l'entreprise."}
+${jobInfo || "Please analyze the attached image for the job description and company information."}
 ---
+
+**Writing Instructions:**
+
+You must write a complete and professional cover letter following these rules precisely.
+
+1.  **Sender's Header:** Directly integrate the candidate's contact information (Name, Title, Phone, Email, etc.) clearly and professionally at the top left. Do not use placeholders like "[Your Contact Info]".
+2.  **Recipient:** If a contact person or company name is available, address the letter to them. Otherwise, use a generic salutation appropriate for the target language (e.g., "À l'attention du Service Recrutement" for French). Include the city if possible.
+3.  **Location:** Add only the candidate's city of residence (e.g., "Krakow,"). **DO NOT include the date.**
+4.  **Subject:** Create a clear and concise subject line. For example, in French: "Objet : Candidature au poste de [Job Title]".
+5.  **Body of the letter:**
+    *   Write a compelling introduction that mentions the targeted position.
+    *   Develop 2-3 paragraphs that highlight the match between the candidate's skills and experience (from the CV) and the job requirements. Use concrete examples from the CV.
+    *   Show sincere interest in the company.
+    *   Conclude with a clear call to action, proposing an interview.
+6.  **Closing and Signature:** End with a professional closing appropriate for the language (e.g., for French: "Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.") followed by the candidate's full name.
+
+**Tone and Style:**
+*   The tone must be professional, confident, and enthusiastic.
+*   The letter must be concise, impactful, and free of errors.
+*   Use line breaks to create space and clearly separate paragraphs.
+*   **FORMATTING:** The output must be **plain text only**. Do NOT use any Markdown formatting (no **, *, #, lists, etc.).
+
+Generate only the full, raw text of the letter, starting with the candidate's name.
 `;
 
     const parts: any[] = [{ text: prompt }];

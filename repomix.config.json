@@ -1,0 +1,5 @@
+{
+   "ignore": {
+    "customPatterns": ["*.test.ts", "docs/**", "apply_changes.sh", "repomix-output.xml", ".DS_Store", "a.md", "TASKS.md"]
+  }
+}

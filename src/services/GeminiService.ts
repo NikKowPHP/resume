@@ -1,4 +1,6 @@
 import axios from 'axios';
+import cvData from '../data/cv-data.json';
+import { CVData } from '../types';
 
 const API_KEY = process.env.GEMINI_API_KEY;
 
@@ -32,27 +34,68 @@ const generationConfig = {
   maxOutputTokens: 2048,
 };
 
-// This function is a DOM helper and is independent of the API client
+// This function now gets data from the JSON file, not the DOM.
 export const getCVDataFromDOM = (): string => {
-    const cvContainer = document.querySelector('.cv-container');
-    if (!cvContainer) return "CV data not found.";
-    
+    const data = cvData as CVData;
     let cvText = "";
-    const name = cvContainer.querySelector('h1')?.textContent?.trim() || '';
-    const title = cvContainer.querySelector('header h3')?.textContent?.trim() || '';
-    cvText += `Nom: ${name}\nTitre: ${title}\n\n`;
 
-    const sections = cvContainer.querySelectorAll('section');
-    sections.forEach(section => {
-        const sectionTitle = section.querySelector('h2')?.textContent?.trim();
-        if (sectionTitle) {
-            cvText += `## ${sectionTitle}\n`;
-            const content = Array.from(section.querySelectorAll('p, ul, .job')).map(el => (el as HTMLElement).innerText.replace(/\s\s+/g, ' ').trim()).join('\n');
-            cvText += `${content}\n\n`;
-        }
+    // Helper to strip HTML tags for plain text version
+    const stripHtml = (html: string) => html.replace(/<[^>]*>?/gm, '');
+
+    // Personal Info & Objective
+    cvText += `Nom: ${data.personalInfo.name}\n`;
+    cvText += `Titre: ${data.personalInfo.title}\n\n`;
+    cvText += `## OBJECTIF PROFESSIONNEL\n${data.personalInfo.professionalObjective}\n\n`;
+
+    // Experience
+    cvText += `## EXPÉRIENCE PROFESSIONNELLE\n`;
+    data.experience.forEach(job => {
+        cvText += `${job.title}\n`;
+        if (job.company) cvText += `${job.company} | `;
+        cvText += `${job.period}\n`;
+        job.responsibilities.forEach(res => {
+            cvText += `- ${stripHtml(res)}\n`;
+        });
+        cvText += '\n';
     });
 
-    return cvText;
+    // Projects
+    cvText += `## PROJETS SIGNIFICATIFS\n`;
+    data.projects.forEach(project => {
+        cvText += `${project.name} (${project.url})\n`;
+        cvText += `${stripHtml(project.description)}\n`;
+        cvText += `Stack Technique : ${stripHtml(project.stack)}\n\n`;
+    });
+
+    // Skills
+    cvText += `## COMPÉTENCES TECHNIQUES\n`;
+    data.skills.forEach(category => {
+        cvText += `${category.title}: ${category.skills.join(', ')}\n`;
+    });
+    cvText += '\n';
+
+    // Education
+    cvText += `## FORMATION\n`;
+    data.education.forEach(edu => {
+        cvText += `${edu.degree}\n`;
+        cvText += `${edu.institution} | ${edu.period}\n\n`;
+    });
+    
+    // Languages
+    cvText += `## LANGUES\n`;
+    data.languages.forEach(lang => {
+        cvText += `${lang.name}: ${lang.level}\n`;
+    });
+    cvText += '\n';
+    
+    // Contact information
+    cvText += `## CONTACT\n`;
+    data.contact.forEach(c => {
+        cvText += `${c.text}${c.url ? ` (${c.url})` : ''}\n`;
+    });
+    cvText += '\n';
+
+    return cvText.trim();
 };
 
 // The main function to generate the cover letter, now using axios

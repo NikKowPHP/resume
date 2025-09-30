@@ -1,5 +1,8 @@
 import { generateCoverLetter, getCVDataFromDOM } from '../services/GeminiService';
 import { blobToBase64 } from '../helpers';
+import { renderCvView } from './CvView';
+import cvData from '../data/cv-data.json';
+import { CVData } from '../types';
 
 export const renderLetterView = (): HTMLElement => {
   const element = document.createElement('div');
@@ -34,6 +37,10 @@ export const renderLetterView = (): HTMLElement => {
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
             Imprimer Lettre
         </button>
+        <button class="print-button" id="combine-print-btn" style="display: none;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+            Imprimer CV & Lettre
+        </button>
         <div id="letter-output" contenteditable="true">
             <p style="color: #666;">Votre lettre de motivation apparaîtra ici...</p>
         </div>
@@ -46,6 +53,7 @@ export const renderLetterView = (): HTMLElement => {
   const jobScreenshotInput = element.querySelector('#job-screenshot') as HTMLInputElement;
   const letterOutput = element.querySelector('#letter-output') as HTMLDivElement;
   const printLetterBtn = element.querySelector('#print-letter-btn') as HTMLButtonElement;
+  const combinePrintBtn = element.querySelector('#combine-print-btn') as HTMLButtonElement;
   const generateBtnText = element.querySelector('#generate-btn-text') as HTMLSpanElement;
   const generateBtnSpinner = element.querySelector('#generate-btn-spinner') as HTMLDivElement;
 
@@ -73,9 +81,10 @@ export const renderLetterView = (): HTMLElement => {
     setGeneratingState(true);
     letterOutput.innerHTML = '<p style="color: #666;">Génération de votre lettre de motivation, veuillez patienter...</p>';
     printLetterBtn.style.display = 'none';
+    combinePrintBtn.style.display = 'none';
 
     try {
-      const cvData = getCVDataFromDOM();
+      const cvDataString = getCVDataFromDOM();
       
       let imagePart = null;
       if (imageFile) {
@@ -88,10 +97,11 @@ export const renderLetterView = (): HTMLElement => {
         };
       }
       
-      const result = await generateCoverLetter(cvData, jobDescription, imagePart);
+      const result = await generateCoverLetter(cvDataString, jobDescription, imagePart);
       
       letterOutput.textContent = result;
       printLetterBtn.style.display = 'flex';
+      combinePrintBtn.style.display = 'flex';
 
     } catch (error) {
         console.error("Error generating letter:", error);
@@ -101,8 +111,46 @@ export const renderLetterView = (): HTMLElement => {
     }
   };
 
+  const handleCombinePrint = () => {
+    // 1. Create a container for printing
+    const printableArea = document.createElement('div');
+    printableArea.id = 'printable-area';
+
+    // 2. Get CV content
+    const cvView = renderCvView(cvData as CVData);
+    const cvContainer = cvView.querySelector('.cv-container');
+    if (cvContainer) {
+      cvContainer.classList.add('page-break');
+      printableArea.appendChild(cvContainer);
+    }
+    
+    // 3. Get Letter content
+    const letterOutputClone = element.querySelector('#letter-output')?.cloneNode(true) as HTMLElement;
+    if (letterOutputClone) {
+        printableArea.appendChild(letterOutputClone);
+    }
+
+    // 4. Add to DOM and add class to body for print styles
+    document.body.appendChild(printableArea);
+    document.body.classList.add('printing-combined');
+    
+    // 5. Setup cleanup
+    const cleanup = () => {
+        document.body.classList.remove('printing-combined');
+        if (document.body.contains(printableArea)) {
+            document.body.removeChild(printableArea);
+        }
+        window.removeEventListener('afterprint', cleanup);
+    };
+    window.addEventListener('afterprint', cleanup);
+
+    // 6. Print
+    window.print();
+  };
+
   generateBtn.addEventListener('click', handleGenerate);
   printLetterBtn.addEventListener('click', () => window.print());
+  combinePrintBtn.addEventListener('click', handleCombinePrint);
 
   return element;
 };

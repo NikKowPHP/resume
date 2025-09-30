@@ -1,24 +1,27 @@
 <response>
   <reasoning>
-    The user is encountering a CORS error and a 404 Not Found error when the frontend application calls the Google Gemini API. This is happening for two reasons:
-    1.  The Gemini API endpoint URL is malformed in `src/services/GeminiService.ts`, containing a duplicate `models/` segment, which causes the 404 error.
-    2.  Direct client-side calls to the Gemini API are blocked by browser security policies (CORS) because the API server doesn't send the required `Access-Control-Allow-Origin` header.
-
-    My plan is to fix both issues:
-    1.  In `src/services/GeminiService.ts`, I will correct the `MODEL_NAME` constant to fix the API URL.
-    2.  To resolve the CORS issue, I will configure Vite's development server to act as a proxy. I will modify `vite.config.ts` to forward requests made to a local `/api` path to the actual Gemini API.
-    3.  I will then update the `API_URL` in `src/services/GeminiService.ts` to point to this local proxied path.
-    4.  Finally, as a `TASKS.md` file does not exist, I will create one to log this completed task.
+    My plan is to refactor the `getCVDataFromDOM` function in `src/services/GeminiService.ts`.
+    The current implementation scrapes data from the HTML DOM, which is inefficient and couples the data logic to the view.
+    I will modify this function to build the CV text string directly from the `cv-data.json` file.
+    This involves:
+    1.  Importing `cvData` from `../data/cv-data.json` and the `CVData` type from `../types`.
+    2.  Rewriting the body of `getCVDataFromDOM` to iterate through the JSON object and format it into a structured plain text string, which is a more robust and decoupled approach. The function name will be kept to avoid breaking call sites.
+    3.  No other files need to be changed as the function signature remains the same.
+    4.  Finally, I will update `TASKS.md` to reflect the completion of this refactoring task.
   </reasoning>
   <modifications>
     <file path="TASKS.md">
       <![CDATA[
 - [x] Fix CORS error when calling Gemini API
+- [x] Add a button to combine the CV and cover letter in the same PDF on different pages.
+- [x] Refactor CV data retrieval to use JSON data directly instead of scraping the DOM.
 ]]>
     </file>
     <file path="src/services/GeminiService.ts">
       <![CDATA[
 import axios from 'axios';
+import cvData from '../data/cv-data.json';
+import { CVData } from '../types';
 
 const API_KEY = process.env.GEMINI_API_KEY;
 
@@ -52,27 +55,68 @@ const generationConfig = {
   maxOutputTokens: 2048,
 };
 
-// This function is a DOM helper and is independent of the API client
+// This function now gets data from the JSON file, not the DOM.
 export const getCVDataFromDOM = (): string => {
-    const cvContainer = document.querySelector('.cv-container');
-    if (!cvContainer) return "CV data not found.";
-    
+    const data = cvData as CVData;
     let cvText = "";
-    const name = cvContainer.querySelector('h1')?.textContent?.trim() || '';
-    const title = cvContainer.querySelector('header h3')?.textContent?.trim() || '';
-    cvText += `Nom: ${name}\nTitre: ${title}\n\n`;
 
-    const sections = cvContainer.querySelectorAll('section');
-    sections.forEach(section => {
-        const sectionTitle = section.querySelector('h2')?.textContent?.trim();
-        if (sectionTitle) {
-            cvText += `## ${sectionTitle}\n`;
-            const content = Array.from(section.querySelectorAll('p, ul, .job')).map(el => (el as HTMLElement).innerText.replace(/\s\s+/g, ' ').trim()).join('\n');
-            cvText += `${content}\n\n`;
-        }
+    // Helper to strip HTML tags for plain text version
+    const stripHtml = (html: string) => html.replace(/<[^>]*>?/gm, '');
+
+    // Personal Info & Objective
+    cvText += `Nom: ${data.personalInfo.name}\n`;
+    cvText += `Titre: ${data.personalInfo.title}\n\n`;
+    cvText += `## OBJECTIF PROFESSIONNEL\n${data.personalInfo.professionalObjective}\n\n`;
+
+    // Experience
+    cvText += `## EXPÉRIENCE PROFESSIONNELLE\n`;
+    data.experience.forEach(job => {
+        cvText += `${job.title}\n`;
+        if (job.company) cvText += `${job.company} | `;
+        cvText += `${job.period}\n`;
+        job.responsibilities.forEach(res => {
+            cvText += `- ${stripHtml(res)}\n`;
+        });
+        cvText += '\n';
     });
 
-    return cvText;
+    // Projects
+    cvText += `## PROJETS SIGNIFICATIFS\n`;
+    data.projects.forEach(project => {
+        cvText += `${project.name} (${project.url})\n`;
+        cvText += `${stripHtml(project.description)}\n`;
+        cvText += `Stack Technique : ${stripHtml(project.stack)}\n\n`;
+    });
+
+    // Skills
+    cvText += `## COMPÉTENCES TECHNIQUES\n`;
+    data.skills.forEach(category => {
+        cvText += `${category.title}: ${category.skills.join(', ')}\n`;
+    });
+    cvText += '\n';
+
+    // Education
+    cvText += `## FORMATION\n`;
+    data.education.forEach(edu => {
+        cvText += `${edu.degree}\n`;
+        cvText += `${edu.institution} | ${edu.period}\n\n`;
+    });
+    
+    // Languages
+    cvText += `## LANGUES\n`;
+    data.languages.forEach(lang => {
+        cvText += `${lang.name}: ${lang.level}\n`;
+    });
+    cvText += '\n';
+    
+    // Contact information
+    cvText += `## CONTACT\n`;
+    data.contact.forEach(c => {
+        cvText += `${c.text}${c.url ? ` (${c.url})` : ''}\n`;
+    });
+    cvText += '\n';
+
+    return cvText.trim();
 };
 
 // The main function to generate the cover letter, now using axios
@@ -146,39 +190,6 @@ Générez uniquement le texte complet de la lettre, en commençant par le nom du
         throw error;
     }
 };
-]]>
-    </file>
-    <file path="vite.config.ts">
-      <![CDATA[
-import path from 'path';
-import { defineConfig, loadEnv } from 'vite';
-
-
-export default defineConfig(({ mode }) => {
-    const env = loadEnv(mode, process.cwd(), '');
-    return {
-      server: {
-        port: 3000,
-        host: '0.0.0.0',
-        proxy: {
-          '/api': {
-            target: 'https://generativelanguage.googleapis.com',
-            changeOrigin: true,
-            rewrite: (path) => path.replace(/^\/api/, ''),
-          },
-        },
-      },
-      plugins: [],
-      define: {
-        'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
-      },
-      resolve: {
-        alias: {
-          '@': path.resolve(__dirname, './src'),
-        }
-      }
-    };
-});
 ]]>
     </file>
   </modifications>

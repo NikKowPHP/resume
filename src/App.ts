@@ -49,12 +49,10 @@ export class App {
   private setLanguage(lang: LanguageCode) {
     this.currentLanguage = lang;
     
-    // Update active button
     document.querySelectorAll('.lang-switch').forEach(btn => {
       btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
     });
     
-    // Re-render view with new language
     this.handleNavigation();
   }
 
@@ -63,15 +61,20 @@ export class App {
     if (this.navLetter) this.navLetter.textContent = uiTranslations[this.currentLanguage].letter;
   }
 
+  private updateCvData = (newCvData: CVData) => {
+    this.cvData[this.currentLanguage] = newCvData;
+    this.handleNavigation(); // Re-render with the new data
+  }
+
   private handleNavigation() {
     const hash = window.location.hash || '#cv';
-    this.container.innerHTML = ''; // Clear container
+    this.container.innerHTML = ''; 
     this.updateNavText();
 
     const currentCvData = this.cvData[this.currentLanguage];
 
     if (hash === '#cv') {
-      this.container.appendChild(renderCvView(currentCvData, this.currentLanguage));
+      this.container.appendChild(renderCvView(currentCvData, this.currentLanguage, this.updateCvData));
       this.navCV?.classList.add('active');
       this.navLetter?.classList.remove('active');
     } else if (hash === '#letter') {

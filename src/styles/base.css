@@ -113,7 +113,7 @@ body {
 }
 .template-btn.active, .template-btn:hover { background-color: var(--link-color); color: white; border-color: var(--link-color); }
 
-.print-button {
+.print-button, .review-button {
   background-color: var(--link-color);
   color: white;
   border: none;
@@ -128,7 +128,11 @@ body {
   align-items: center;
   gap: 8px;
 }
-.print-button:hover { background-color: var(--button-hover-color); transform: translateY(-1px); }
+.print-button:hover, .review-button:hover { background-color: var(--button-hover-color); transform: translateY(-1px); }
+.review-button { background-color: #38a169; }
+.review-button:hover { background-color: #2f855a; }
+.review-button:disabled { background-color: var(--accent-color); cursor: not-allowed; }
+.review-button .spinner { width: 16px; height: 16px; }
 
 #app-container {
   padding-top: 1rem;
@@ -183,6 +187,23 @@ body {
 #letter-output { background-color: #fff; border: 1px solid var(--border-color); padding: 2rem; border-radius: 6px; min-height: 297mm; line-height: 1.5; font-size: 10pt; white-space: pre-wrap; }
 #letter-output-container .print-button { position: absolute; right: 1rem; top: 1rem; }
 #letter-output-container #combine-print-btn { top: calc(1rem + 50px); }
+
+/* --- REVIEW MODAL --- */
+.modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 2000; display: flex; justify-content: center; align-items: center; }
+.modal-overlay.hidden { display: none; }
+.modal-content { background-color: white; padding: 2rem; border-radius: 8px; max-width: 700px; width: 90%; max-height: 90vh; display: flex; flex-direction: column; }
+.modal-title { margin-bottom: 1rem; color: var(--heading-color); }
+.modal-body { overflow-y: auto; flex-grow: 1; border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); padding: 1rem 0; }
+.modal-body ul { list-style-position: inside; }
+.modal-body li { margin-bottom: 0.5rem; }
+.modal-footer { padding-top: 1rem; display: flex; justify-content: flex-end; gap: 0.75rem; }
+.modal-button { padding: 0.6rem 1.2rem; border: none; border-radius: 6px; font-weight: 500; cursor: pointer; transition: background-color 0.2s; display: flex; align-items: center; gap: 0.5rem; }
+.modal-button.primary { background-color: var(--link-color); color: white; }
+.modal-button.primary:hover { background-color: var(--button-hover-color); }
+.modal-button.primary:disabled { background-color: var(--accent-color); cursor: not-allowed; }
+.modal-button.secondary { background-color: var(--border-color); color: var(--heading-color); }
+.modal-button.secondary:hover { background-color: #d1d5db; }
+.modal-button .spinner { width: 16px; height: 16px; }
 
 /* --- GLOBAL TYPOGRAPHY & SHARED STYLES --- */
 h1 { font-size: 1.75rem; font-weight: 700; color: var(--heading-color); margin-bottom: 0.2rem; letter-spacing: 1px; }

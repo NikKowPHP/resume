@@ -546,6 +546,86 @@ strong {
   gap: 0.5rem 1rem;
 }
 
+/* --- COMPACT TEMPLATE STYLES --- */
+.compact-template .cv-container-compact {
+  display: flex;
+  width: 210mm;
+  min-height: 297mm;
+  margin: 0 auto;
+  background-color: var(--cv-background);
+  box-shadow: 0 4px 12px var(--shadow-color);
+  font-size: 8pt;
+}
+.compact-template .left-column-compact {
+  width: 30%;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-right: 1px solid var(--border-color);
+}
+.compact-template .right-column-compact {
+  width: 70%;
+  padding: 1rem;
+}
+.compact-template .profile-image-compact {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
+  margin: 0 auto 0.5rem;
+}
+.compact-template .header-compact {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.compact-template .header-compact h1 { font-size: 1.5rem; }
+.compact-template .header-compact h3 { font-size: 0.85rem; }
+.compact-template h2 { font-size: 0.75rem; margin-bottom: 0.4rem; padding-bottom: 0.2rem; }
+.compact-template h4 { font-size: 0.8rem; }
+.compact-template .contact-list-compact li { display: flex; align-items: flex-start; margin-bottom: 0.3rem; }
+.compact-template .contact-list-compact svg { margin-right: 0.5rem; flex-shrink: 0; }
+.compact-template .right-column-compact ul { padding-left: 1rem; }
+.compact-template .right-column-compact ul li { margin-bottom: 0.2rem; }
+.compact-template .job { margin-bottom: 0.6rem; }
+
+/* --- CORPORATE TEMPLATE STYLES --- */
+.corporate-template .cv-container-corporate {
+  width: 210mm;
+  min-height: 297mm;
+  margin: 0 auto;
+  background-color: var(--cv-background);
+  box-shadow: 0 4px 12px var(--shadow-color);
+  padding: 1.5rem;
+}
+.corporate-template .header-corporate {
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid var(--heading-color);
+  margin-bottom: 1rem;
+}
+.corporate-template .header-corporate h1 { letter-spacing: 3px; }
+.corporate-template .header-corporate h3 { color: var(--accent-color); }
+.corporate-template .contact-corporate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.5rem;
+  margin-top: 0.75rem;
+}
+.corporate-template .contact-item-corporate { display: flex; align-items: center; gap: 0.5rem; }
+.corporate-template .section-corporate {
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border-color);
+  margin-top: 0.5rem;
+}
+.corporate-template h2 { border: none; text-align: left; padding-bottom: 0; }
+.corporate-template .job-corporate { margin-bottom: 1rem; }
+.corporate-template .job-header-corporate { display: flex; justify-content: space-between; }
+.corporate-template ul { padding-left: 1.2rem; }
+.corporate-template ul li { list-style-type: square; }
+.corporate-template .skills-grid-corporate { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.5rem 1rem; }
+.corporate-template .skill-title-corporate { margin-bottom: 0; font-size: 0.85rem;}
+
 
 /* --- PRINT STYLES --- */
 #printable-area {
@@ -573,7 +653,7 @@ strong {
     padding: 0;
   }
   
-  .cv-container, .cv-container-modern, #letter-output {
+  .cv-container, .cv-container-modern, .cv-container-compact, .cv-container-corporate, #letter-output {
     margin: 0;
     box-shadow: none;
     width: 210mm;
@@ -582,7 +662,10 @@ strong {
     max-height: 297mm;
   }
   
-  .classic-template .left-column, .classic-template .right-column, .modern-template .cv-container-modern {
+  .classic-template .left-column, .classic-template .right-column, 
+  .modern-template .cv-container-modern,
+  .compact-template .left-column-compact, .compact-template .right-column-compact,
+  .corporate-template .cv-container-corporate {
     padding: 1rem;
   }
   

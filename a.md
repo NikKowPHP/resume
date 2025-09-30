@@ -1,23 +1,17 @@
 <response>
   <reasoning>
-    My plan is to refactor the CSS as requested by splitting the monolithic `styles.css` file into multiple, template-specific files. This will improve organization and make styling individual templates easier to manage.
+    My plan is to refactor the Cover Letter page to have a modern, dashboard-like layout, as requested. This will improve the user experience by placing the controls and the output side-by-side, avoiding the need to scroll between them.
 
-    Regarding your question about Tailwind CSS: while it's a powerful tool, integrating it into this project would be overkill. It would require adding build dependencies (PostCSS, Autoprefixer) and would make the HTML generation logic within the TypeScript template files significantly more verbose and harder to read. Sticking with plain, scoped CSS is a cleaner and more direct solution for the current architecture.
+    Here's my approach:
+    1.  **Restructure the Layout (`LetterView.ts`):** I will remove the horizontal rule (`<hr />`) that separates the form from the output. The existing HTML structure, with the `generator-container` and `letter-output-container` as siblings, is already perfect for a flexbox-based two-column layout.
 
-    Here is my refactoring plan:
-    1.  **Create a `styles` directory:** I will move all styling into a new `src/styles` directory.
-    2.  **Create a `base.css` file:** This file will contain all shared styles, including root variables, navigation, UI controls, the letter generator, and global typography.
-    3.  **Create Template-Specific CSS Files:** I will create a separate CSS file for each CV template (`classic-template.css`, `modern-template.css`, etc.) and move the corresponding scoped styles into them.
-    4.  **Update `main.ts`:** I will update the main entry point to import the new base stylesheet along with all the individual template stylesheets.
-    5.  **Remove the old `styles.css` file.**
-    6.  **Update the task list** to reflect this refactoring.
+    2.  **Update Styles (`base.css`):**
+        *   I will modify the styles for the main `#letter-view` container, changing it from a single-column block to a flexbox container. This will arrange its children (the form and the output) into columns.
+        *   I will then apply panel-like styling (background, padding, shadow) to both the `.generator-container` (left column) and `#letter-output-container` (right column) to visually separate them.
+        *   To enhance usability, I'll make the `.generator-container` sticky, so the controls remain visible even if the generated letter on the right is long enough to scroll.
+
+    3.  **Update Task List:** I will add a new task to `TASKS.md` to document this layout update and mark it as complete.
   </reasoning>
-  <commands>
-    <![CDATA[
-mkdir -p "src/styles"
-rm "src/styles.css"
-]]>
-  </commands>
   <modifications>
     <file path="TASKS.md">
       <![CDATA[
@@ -26,26 +20,237 @@ rm "src/styles.css"
 - [x] Implement selectable CV templates with a preview.
 - [x] Add more CV templates ('Compact' and 'Corporate').
 - [x] Refactor CSS into template-specific files.
+- [x] Update Cover Letter page to a dashboard-style layout.
 ]]>
     </file>
-    <file path="src/main.ts">
+    <file path="src/components/LetterView.ts">
       <![CDATA[
-import { App } from './App';
-import './styles/base.css';
-import './styles/classic-template.css';
-import './styles/modern-template.css';
-import './styles/compact-template.css';
-import './styles/corporate-template.css';
+import { generateCoverLetter, getCVDataAsText } from '../services/GeminiService';
+import { blobToBase64 } from '../helpers';
+import { templates } from './cv-templates';
+import { LanguageCode, MultilingualCVData } from '../types';
 
-
-document.addEventListener('DOMContentLoaded', () => {
-  const appContainer = document.getElementById('app-container');
-  if (appContainer) {
-    new App(appContainer);
-  } else {
-    console.error('App container not found!');
+const translations = {
+  fr: {
+    title: "Générateur de Lettre de Motivation",
+    subtitle: "Générez une lettre de motivation personnalisée en utilisant les informations de votre CV et de l'offre d'emploi.",
+    jobDescriptionLabel: "Collez la description du poste ou les détails de l'entreprise ici",
+    jobDescriptionPlaceholder: "Ex: 'Nous recherchons un développeur Full Stack expérimenté avec une expertise en React et Node.js...'",
+    separator: "OU",
+    screenshotLabel: "Téléchargez une capture d'écran de l'offre d'emploi",
+    generateButton: "Générer la lettre",
+    generatingButton: "Génération en cours...",
+    printLetter: "Imprimer Lettre",
+    printCombined: "Imprimer CV & Lettre",
+    initialOutput: "Votre lettre de motivation apparaîtra ici...",
+    generatingOutput: "Génération de votre lettre de motivation, veuillez patienter...",
+    alert: "Veuillez fournir une description de poste ou une capture d'écran.",
+    error: "Une erreur est survenue lors de la génération de la lettre. Veuillez réessayer."
+  },
+  en: {
+    title: "Cover Letter Generator",
+    subtitle: "Generate a personalized cover letter using information from your CV and the job offer.",
+    jobDescriptionLabel: "Paste the job description or company details here",
+    jobDescriptionPlaceholder: "E.g., 'We are looking for an experienced Full Stack developer with expertise in React and Node.js...'",
+    separator: "OR",
+    screenshotLabel: "Upload a screenshot of the job offer",
+    generateButton: "Generate Letter",
+    generatingButton: "Generating...",
+    printLetter: "Print Letter",
+    printCombined: "Print CV & Letter",
+    initialOutput: "Your cover letter will appear here...",
+    generatingOutput: "Generating your cover letter, please wait...",
+    alert: "Please provide a job description or a screenshot.",
+    error: "An error occurred while generating the letter. Please try again."
+  },
+  pl: {
+    title: "Generator Listu Motywacyjnego",
+    subtitle: "Wygeneruj spersonalizowany list motywacyjny na podstawie informacji z Twojego CV i oferty pracy.",
+    jobDescriptionLabel: "Wklej tutaj opis stanowiska lub szczegóły dotyczące firmy",
+    jobDescriptionPlaceholder: "Np. 'Poszukujemy doświadczonego programisty Full Stack z doświadczeniem w React i Node.js...'",
+    separator: "LUB",
+    screenshotLabel: "Prześlij zrzut ekranu z ofertą pracy",
+    generateButton: "Generuj List",
+    generatingButton: "Generowanie...",
+    printLetter: "Drukuj List",
+    printCombined: "Drukuj CV i List",
+    initialOutput: "Twój list motywacyjny pojawi się tutaj...",
+    generatingOutput: "Generowanie listu motywacyjnego, proszę czekać...",
+    alert: "Proszę podać opis stanowiska lub zrzut ekranu.",
+    error: "Wystąpił błąd podczas generowania listu. Proszę spróbować ponownie."
+  },
+  de: {
+    title: "Anschreiben-Generator",
+    subtitle: "Erstellen Sie ein personalisiertes Anschreiben mit Informationen aus Ihrem Lebenslauf und dem Stellenangebot.",
+    jobDescriptionLabel: "Fügen Sie hier die Stellenbeschreibung oder Firmendetails ein",
+    jobDescriptionPlaceholder: "Z.B. 'Wir suchen einen erfahrenen Full-Stack-Entwickler mit Fachkenntnissen in React und Node.js...'",
+    separator: "ODER",
+    screenshotLabel: "Laden Sie einen Screenshot des Stellenangebots hoch",
+    generateButton: "Anschreiben erstellen",
+    generatingButton: "Wird erstellt...",
+    printLetter: "Anschreiben drucken",
+    printCombined: "CV & Anschreiben drucken",
+    initialOutput: "Ihr Anschreiben wird hier erscheinen...",
+    generatingOutput: "Ihr Anschreiben wird erstellt, bitte warten...",
+    alert: "Bitte geben Sie eine Stellenbeschreibung oder einen Screenshot an.",
+    error: "Beim Erstellen des Anschreibens ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
   }
-});
+};
+
+
+export const renderLetterView = (lang: LanguageCode, allCvData: MultilingualCVData): HTMLElement => {
+  const element = document.createElement('div');
+  element.id = 'letter-view';
+  const t = translations[lang];
+
+  element.innerHTML = `
+    <div class="generator-container">
+        <h1 class="generator-title">${t.title}</h1>
+        <p class="generator-subtitle">${t.subtitle}</p>
+
+        <div class="form-group">
+            <label for="job-description">${t.jobDescriptionLabel}</label>
+            <textarea id="job-description" name="job-description" rows="8" placeholder="${t.jobDescriptionPlaceholder}"></textarea>
+        </div>
+        
+        <div class="separator">${t.separator}</div>
+
+        <div class="form-group">
+            <label for="job-screenshot">${t.screenshotLabel}</label>
+            <input type="file" id="job-screenshot" name="job-screenshot" accept="image/*">
+        </div>
+
+        <button class="generate-button" id="generate-btn">
+            <span id="generate-btn-text">${t.generateButton}</span>
+            <div id="generate-btn-spinner" class="spinner" style="display: none;"></div>
+        </button>
+    </div>
+
+    <div id="letter-output-container">
+        <button class="print-button" id="print-letter-btn" style="display: none;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+            ${t.printLetter}
+        </button>
+        <button class="print-button" id="combine-print-btn" style="display: none;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+            ${t.printCombined}
+        </button>
+        <div id="letter-output" contenteditable="true">
+            <p style="color: #666;">${t.initialOutput}</p>
+        </div>
+    </div>
+  `;
+
+  // Attach event listeners
+  const generateBtn = element.querySelector('#generate-btn') as HTMLButtonElement;
+  const jobDescriptionInput = element.querySelector('#job-description') as HTMLTextAreaElement;
+  const jobScreenshotInput = element.querySelector('#job-screenshot') as HTMLInputElement;
+  const letterOutput = element.querySelector('#letter-output') as HTMLDivElement;
+  const printLetterBtn = element.querySelector('#print-letter-btn') as HTMLButtonElement;
+  const combinePrintBtn = element.querySelector('#combine-print-btn') as HTMLButtonElement;
+  const generateBtnText = element.querySelector('#generate-btn-text') as HTMLSpanElement;
+  const generateBtnSpinner = element.querySelector('#generate-btn-spinner') as HTMLDivElement;
+
+  const setGeneratingState = (isGenerating: boolean) => {
+    if (isGenerating) {
+        generateBtn.setAttribute('disabled', 'true');
+        generateBtnText.textContent = t.generatingButton;
+        generateBtnSpinner.style.display = 'block';
+    } else {
+        generateBtn.removeAttribute('disabled');
+        generateBtnText.textContent = t.generateButton;
+        generateBtnSpinner.style.display = 'none';
+    }
+  };
+
+  const handleGenerate = async () => {
+    const jobDescription = jobDescriptionInput.value;
+    const imageFile = jobScreenshotInput.files?.[0];
+
+    if (!jobDescription && !imageFile) {
+      alert(t.alert);
+      return;
+    }
+    
+    setGeneratingState(true);
+    letterOutput.innerHTML = `<p style="color: #666;">${t.generatingOutput}</p>`;
+    printLetterBtn.style.display = 'none';
+    combinePrintBtn.style.display = 'none';
+
+    try {
+      const cvDataForLang = allCvData[lang];
+      const cvDataString = getCVDataAsText(cvDataForLang);
+      
+      let imagePart = null;
+      if (imageFile) {
+        const base64Data = await blobToBase64(imageFile);
+        imagePart = {
+          inlineData: {
+            mimeType: imageFile.type,
+            data: base64Data
+          }
+        };
+      }
+      
+      const result = await generateCoverLetter(cvDataString, jobDescription, imagePart, lang);
+      
+      letterOutput.textContent = result;
+      printLetterBtn.style.display = 'flex';
+      combinePrintBtn.style.display = 'flex';
+
+    } catch (error) {
+        console.error("Error generating letter:", error);
+        letterOutput.innerHTML = `<p style="color: red;">${t.error}</p>`;
+    } finally {
+        setGeneratingState(false);
+    }
+  };
+
+  const handleCombinePrint = () => {
+    const printableArea = document.createElement('div');
+    printableArea.id = 'printable-area';
+    
+    // 1. Get CV content for the current language and selected template
+    const selectedTemplateId = (localStorage.getItem('selectedCvTemplate') || 'classic') as keyof typeof templates;
+    const cvDataForLang = allCvData[lang];
+    const templateRenderer = templates[selectedTemplateId].render;
+    const cvHtmlString = templateRenderer(cvDataForLang, lang);
+    
+    const cvPrintContainer = document.createElement('div');
+    cvPrintContainer.className = `${selectedTemplateId}-template page-break`;
+    cvPrintContainer.innerHTML = cvHtmlString;
+    printableArea.appendChild(cvPrintContainer);
+    
+    // 2. Get Letter content
+    const letterOutputClone = element.querySelector('#letter-output')?.cloneNode(true) as HTMLElement;
+    if (letterOutputClone) {
+        printableArea.appendChild(letterOutputClone);
+    }
+
+    // 3. Add to DOM and add class to body for print styles
+    document.body.appendChild(printableArea);
+    document.body.classList.add('printing-combined');
+    
+    // 4. Setup cleanup
+    const cleanup = () => {
+        document.body.classList.remove('printing-combined');
+        if (document.body.contains(printableArea)) {
+            document.body.removeChild(printableArea);
+        }
+        window.removeEventListener('afterprint', cleanup);
+    };
+    window.addEventListener('afterprint', cleanup);
+
+    // 5. Print
+    window.print();
+  };
+
+  generateBtn.addEventListener('click', handleGenerate);
+  printLetterBtn.addEventListener('click', () => window.print());
+  combinePrintBtn.addEventListener('click', handleCombinePrint);
+
+  return element;
+};
 ]]>
     </file>
     <file path="src/styles/base.css">
@@ -189,12 +394,30 @@ body {
 
 /* --- LETTER VIEW --- */
 #letter-view {
-    max-width: 900px;
+    display: flex;
+    gap: 2rem;
+    max-width: 1400px;
     margin: 1rem auto;
+    align-items: flex-start;
+}
+
+.generator-container {
+    flex: 1;
+    max-width: 450px;
+    background-color: var(--cv-background);
     padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px var(--shadow-color);
+    position: sticky;
+    top: 80px;
+}
+
+#letter-output-container {
+    flex: 1.5;
     background-color: var(--cv-background);
     border-radius: 8px;
     box-shadow: 0 4px 12px var(--shadow-color);
+    position: relative;
 }
 
 .generator-title { font-size: 1.75rem; font-weight: 700; color: var(--heading-color); margin-bottom: 0.5rem; text-align: center; }
@@ -214,9 +437,6 @@ body {
 .spinner { width: 18px; height: 18px; border: 2px solid var(--spinner-color); border-top-color: transparent; border-radius: 50%; animation: spin 1s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
-hr { border: none; border-top: 1px solid var(--border-color); margin: 2rem 0; }
-
-#letter-output-container { position: relative; }
 #letter-output { background-color: #fff; border: 1px solid var(--border-color); padding: 2rem; border-radius: 6px; min-height: 297mm; line-height: 1.5; font-size: 10pt; white-space: pre-wrap; }
 #letter-output-container .print-button { position: absolute; right: 1rem; top: 1rem; }
 #letter-output-container #combine-print-btn { top: calc(1rem + 50px); }
@@ -254,314 +474,6 @@ strong { font-weight: 700; color: var(--heading-color); }
   .page-break { page-break-after: always; }
   body.printing-combined > *:not(#printable-area) { display: none !important; }
   body.printing-combined #printable-area { display: block !important; }
-}
-]]>
-    </file>
-    <file path="src/styles/classic-template.css">
-      <![CDATA[
-/* --- CLASSIC TEMPLATE STYLES --- */
-.classic-template .cv-container {
-  display: flex;
-  width: 210mm;
-  min-height: 297mm;
-  margin: 0 auto;
-  background-color: var(--cv-background);
-  box-shadow: 0 4px 12px var(--shadow-color);
-}
-
-.classic-template .left-column {
-  width: 35%;
-  background-color: var(--left-column-background);
-  padding: 1.2rem;
-  border-right: 1px solid var(--border-color);
-}
-
-.classic-template .right-column {
-  width: 65%;
-  padding: 1.2rem;
-}
-
-.classic-template .profile-image {
-  width: 85px;
-  height: 85px;
-  border-radius: 50%;
-  margin: 0 auto 1rem auto;
-  border: 4px solid var(--cv-background);
-  display: block;
-  object-fit: cover;
-}
-
-.classic-template .right-column h3 {
-  font-size: 0.95rem;
-  color: var(--accent-color);
-}
-
-.classic-template .job h4 a {
-  color: var(--link-color);
-  text-decoration: none;
-  border-bottom: 1.5px solid var(--link-color);
-  transition: all 0.2s ease-in-out;
-  cursor: pointer;
-}
-
-.classic-template .job h4 a:hover {
-  color: var(--button-hover-color);
-  border-bottom-color: var(--button-hover-color);
-  background-color: rgba(43, 108, 176, 0.05);
-}
-
-.classic-template .left-column ul li {
-  margin-bottom: 0.45rem;
-  font-size: 0.85em;
-}
-
-.classic-template .left-column ul.contact-list li {
-  display: flex;
-  align-items: flex-start;
-}
-
-.classic-template .left-column ul.contact-list li svg {
-  margin-right: 0.6rem;
-  flex-shrink: 0;
-  color: var(--accent-color);
-  margin-top: 2px;
-}
-
-.classic-template .left-column h3 {
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--heading-color);
-  margin-top: 0.5rem;
-  margin-bottom: 0.3rem;
-}
-
-.classic-template .left-column p {
-  font-size: 0.85em;
-  line-height: 1.3;
-}
-
-.classic-template .job {
-  margin-bottom: 0.8rem;
-}
-
-.classic-template .company-info {
-  color: var(--accent-color);
-  font-weight: 500;
-  margin-bottom: 0.3rem;
-  font-size: 0.9em;
-}
-
-.classic-template .right-column ul {
-  padding-left: 1.2rem;
-}
-
-.classic-template .right-column ul li {
-  list-style-type: disc;
-  margin-bottom: 0.3rem;
-  line-height: 1.3;
-}
-
-@media print {
-  .classic-template .left-column, .classic-template .right-column {
-    padding: 1rem;
-  }
-}
-]]>
-    </file>
-    <file path="src/styles/compact-template.css">
-      <![CDATA[
-/* --- COMPACT TEMPLATE STYLES --- */
-.compact-template .cv-container-compact {
-  display: flex;
-  width: 210mm;
-  min-height: 297mm;
-  margin: 0 auto;
-  background-color: var(--cv-background);
-  box-shadow: 0 4px 12px var(--shadow-color);
-  font-size: 8pt;
-}
-.compact-template .left-column-compact {
-  width: 30%;
-  background-color: #f4f4f4;
-  padding: 1rem;
-  border-right: 1px solid var(--border-color);
-}
-.compact-template .right-column-compact {
-  width: 70%;
-  padding: 1rem;
-}
-.compact-template .profile-image-compact {
-  width: 75px;
-  height: 75px;
-  border-radius: 50%;
-  display: block;
-  object-fit: cover;
-  margin: 0 auto 0.5rem;
-}
-.compact-template .header-compact {
-  text-align: center;
-  margin-bottom: 1rem;
-}
-.compact-template .header-compact h1 { font-size: 1.5rem; }
-.compact-template .header-compact h3 { font-size: 0.85rem; }
-.compact-template h2 { font-size: 0.75rem; margin-bottom: 0.4rem; padding-bottom: 0.2rem; }
-.compact-template h4 { font-size: 0.8rem; }
-.compact-template .contact-list-compact li { display: flex; align-items: flex-start; margin-bottom: 0.3rem; }
-.compact-template .contact-list-compact svg { margin-right: 0.5rem; flex-shrink: 0; }
-.compact-template .right-column-compact ul { padding-left: 1rem; }
-.compact-template .right-column-compact ul li { margin-bottom: 0.2rem; }
-.compact-template .job { margin-bottom: 0.6rem; }
-
-@media print {
-  .compact-template .left-column-compact, .compact-template .right-column-compact {
-    padding: 1rem;
-  }
-}
-]]>
-    </file>
-    <file path="src/styles/corporate-template.css">
-      <![CDATA[
-/* --- CORPORATE TEMPLATE STYLES --- */
-.corporate-template .cv-container-corporate {
-  width: 210mm;
-  min-height: 297mm;
-  margin: 0 auto;
-  background-color: var(--cv-background);
-  box-shadow: 0 4px 12px var(--shadow-color);
-  padding: 1.5rem;
-}
-.corporate-template .header-corporate {
-  text-align: center;
-  padding-bottom: 1rem;
-  border-bottom: 3px solid var(--heading-color);
-  margin-bottom: 1rem;
-}
-.corporate-template .header-corporate h1 { letter-spacing: 3px; }
-.corporate-template .header-corporate h3 { color: var(--accent-color); }
-.corporate-template .contact-corporate {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem 1.5rem;
-  margin-top: 0.75rem;
-}
-.corporate-template .contact-item-corporate { display: flex; align-items: center; gap: 0.5rem; }
-.corporate-template .section-corporate {
-  padding-top: 0.5rem;
-  border-top: 1px solid var(--border-color);
-  margin-top: 0.5rem;
-}
-.corporate-template h2 { border: none; text-align: left; padding-bottom: 0; }
-.corporate-template .job-corporate { margin-bottom: 1rem; }
-.corporate-template .job-header-corporate { display: flex; justify-content: space-between; }
-.corporate-template ul { padding-left: 1.2rem; }
-.corporate-template ul li { list-style-type: square; }
-.corporate-template .skills-grid-corporate { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.5rem 1rem; }
-.corporate-template .skill-title-corporate { margin-bottom: 0; font-size: 0.85rem;}
-
-@media print {
-  .corporate-template .cv-container-corporate {
-    padding: 1rem;
-  }
-}
-]]>
-    </file>
-    <file path="src/styles/modern-template.css">
-      <![CDATA[
-/* --- MODERN TEMPLATE STYLES --- */
-.modern-template .cv-container-modern {
-  width: 210mm;
-  min-height: 297mm;
-  margin: 0 auto;
-  background-color: var(--cv-background);
-  box-shadow: 0 4px 12px var(--shadow-color);
-  padding: 1.5rem;
-}
-
-.modern-template .header-modern {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1.5rem;
-  border-bottom: 2px solid var(--border-color);
-  padding-bottom: 1rem;
-}
-
-.modern-template .profile-image-modern {
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  margin-right: 1.5rem;
-  object-fit: cover;
-}
-
-.modern-template .header-text-modern {
-  flex-grow: 1;
-}
-
-.modern-template .contact-modern {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem 2rem;
-  justify-content: center;
-  padding: 0.75rem;
-  background-color: var(--left-column-background);
-  border-radius: 6px;
-  margin-bottom: 1.5rem;
-}
-
-.modern-template .contact-item-modern {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.9em;
-}
-
-.modern-template .contact-item-modern svg {
-  color: var(--accent-color);
-}
-
-.modern-template .job-modern {
-  margin-bottom: 1rem;
-}
-.modern-template .job-header-modern {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: 0.2rem;
-}
-.modern-template .company-info-modern {
-  color: var(--accent-color);
-  font-weight: 500;
-  font-size: 0.9em;
-}
-.modern-template ul {
-  padding-left: 1.2rem;
-}
-.modern-template ul li {
-  list-style-type: disc;
-  margin-bottom: 0.3rem;
-  line-height: 1.3;
-}
-
-.modern-template .skills-grid-modern {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.8rem;
-}
-.modern-template .skill-title-modern {
-  font-size: 0.85rem;
-  margin-bottom: 0.2rem;
-}
-.modern-template .languages-modern {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 1rem;
-}
-
-@media print {
-  .modern-template .cv-container-modern {
-    padding: 1rem;
-  }
 }
 ]]>
     </file>

@@ -1,0 +1,5 @@
+node_modules
+repomix-output.xml
+.env
+.DS_Store
+package-lock.json

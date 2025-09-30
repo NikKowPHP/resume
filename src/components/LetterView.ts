@@ -1,7 +1,7 @@
 import { generateCoverLetter, getCVDataAsText } from '../services/GeminiService';
 import { blobToBase64 } from '../helpers';
-import { renderCvView } from './CvView';
-import { CVData, LanguageCode, MultilingualCVData } from '../types';
+import { templates } from './cv-templates';
+import { LanguageCode, MultilingualCVData } from '../types';
 
 const translations = {
   fr: {
@@ -182,29 +182,31 @@ export const renderLetterView = (lang: LanguageCode, allCvData: MultilingualCVDa
   };
 
   const handleCombinePrint = () => {
-    // 1. Create a container for printing
     const printableArea = document.createElement('div');
     printableArea.id = 'printable-area';
-
-    // 2. Get CV content for the current language
-    const cvView = renderCvView(allCvData[lang], lang);
-    const cvContainer = cvView.querySelector('.cv-container');
-    if (cvContainer) {
-      cvContainer.classList.add('page-break');
-      printableArea.appendChild(cvContainer);
-    }
     
-    // 3. Get Letter content
+    // 1. Get CV content for the current language and selected template
+    const selectedTemplateId = (localStorage.getItem('selectedCvTemplate') || 'classic') as keyof typeof templates;
+    const cvDataForLang = allCvData[lang];
+    const templateRenderer = templates[selectedTemplateId].render;
+    const cvHtmlString = templateRenderer(cvDataForLang, lang);
+    
+    const cvPrintContainer = document.createElement('div');
+    cvPrintContainer.className = `${selectedTemplateId}-template page-break`;
+    cvPrintContainer.innerHTML = cvHtmlString;
+    printableArea.appendChild(cvPrintContainer);
+    
+    // 2. Get Letter content
     const letterOutputClone = element.querySelector('#letter-output')?.cloneNode(true) as HTMLElement;
     if (letterOutputClone) {
         printableArea.appendChild(letterOutputClone);
     }
 
-    // 4. Add to DOM and add class to body for print styles
+    // 3. Add to DOM and add class to body for print styles
     document.body.appendChild(printableArea);
     document.body.classList.add('printing-combined');
     
-    // 5. Setup cleanup
+    // 4. Setup cleanup
     const cleanup = () => {
         document.body.classList.remove('printing-combined');
         if (document.body.contains(printableArea)) {
@@ -214,7 +216,7 @@ export const renderLetterView = (lang: LanguageCode, allCvData: MultilingualCVDa
     };
     window.addEventListener('afterprint', cleanup);
 
-    // 6. Print
+    // 5. Print
     window.print();
   };
 

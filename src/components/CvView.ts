@@ -1,121 +1,64 @@
-import { CVData, Contact, SkillCategory, Language, Experience, Project, Education, LanguageCode } from '../types';
-
-const createContactItem = (item: Contact) => `
-  <li>
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${item.svgPath}</svg>
-    ${item.url ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.text}</a>` : `<span>${item.text}</span>`}
-  </li>
-`;
-
-const createSkillCategory = (category: SkillCategory) => `
-  <h3>${category.title}</h3>
-  <p>${category.skills.join(', ')}</p>
-`;
-
-const createLanguageItem = (lang: Language) => `
-  <li><strong>${lang.name}:</strong> ${lang.level}</li>
-`;
-
-const createExperienceItem = (job: Experience) => `
-  <div class="job">
-    <h4>${job.title}</h4>
-    <p class="company-info">${job.company} | ${job.period}</p>
-    <ul>
-      ${job.responsibilities.map(res => `<li>${res}</li>`).join('')}
-    </ul>
-  </div>
-`;
-
-const createProjectItem = (project: Project) => `
-  <div class="job">
-    <h4><a href="${project.url}" target="_blank" rel="noopener noreferrer">${project.name}</a></h4>
-    <p>${project.description}</p>
-    <p><strong>${project.stack_title} :</strong> ${project.stack}</p>
-  </div>
-`;
-
-const createEducationItem = (edu: Education) => `
-  <div class="job">
-    <h4>${edu.degree}</h4>
-    <p class="company-info">${edu.institution} | ${edu.period}</p>
-  </div>
-`;
+import { CVData, LanguageCode } from '../types';
+import { templates } from './cv-templates';
 
 const translations = {
-    fr: { print: 'Imprimer CV' },
-    en: { print: 'Print CV' },
-    pl: { print: 'Drukuj CV' },
-    de: { print: 'Lebenslauf drucken' }
+    fr: { print: 'Imprimer CV', templates: 'Modèles' },
+    en: { print: 'Print CV', templates: 'Templates' },
+    pl: { print: 'Drukuj CV', templates: 'Szablony' },
+    de: { print: 'Lebenslauf drucken', templates: 'Vorlagen' }
 };
 
 export const renderCvView = (data: CVData, lang: LanguageCode): HTMLElement => {
   const element = document.createElement('div');
   element.id = 'cv-view';
-  element.innerHTML = `
-    <button class="print-button" onclick="window.print()">
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <polyline points="6 9 6 2 18 2 18 9"></polyline>
-        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
-        <rect x="6" y="14" width="12" height="8"></rect>
-      </svg>
-      ${translations[lang].print}
-    </button>
-    <div class="cv-container">
-      <aside class="left-column">
-        <img src="${data.personalInfo.image}" alt="${data.personalInfo.name}" class="profile-image">
-        
-        <section>
-          <h2>${data.sections.contact}</h2>
-          <ul class="contact-list">
-            ${data.contact.map(createContactItem).join('')}
-          </ul>
-        </section>
 
-        <section>
-          <h2>${data.sections.skills}</h2>
-          ${data.skills.map(createSkillCategory).join('')}
-        </section>
+  let selectedTemplateId = (localStorage.getItem('selectedCvTemplate') || 'classic') as keyof typeof templates;
 
-        <section>
-          <h2>${data.sections.languages}</h2>
-          <ul>
-            ${data.languages.map(createLanguageItem).join('')}
-          </ul>
-        </section>
+  const render = () => {
+    element.innerHTML = `
+      <div class="view-controls">
+        <div class="template-switcher">
+          <span class="switcher-label">${translations[lang].templates}:</span>
+          ${Object.entries(templates).map(([id, { name }]) => `
+            <button class="template-btn ${id === selectedTemplateId ? 'active' : ''}" data-template-id="${id}">
+              ${name}
+            </button>
+          `).join('')}
+        </div>
+        <button class="print-button" id="print-cv-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+            <rect x="6" y="14" width="12" height="8"></rect>
+          </svg>
+          ${translations[lang].print}
+        </button>
+      </div>
+      <div id="cv-render-output" class="${selectedTemplateId}-template">
+        ${templates[selectedTemplateId].render(data, lang)}
+      </div>
+    `;
 
-        <section>
-          <h2>${data.sections.status}</h2>
-          <p>${data.personalInfo.status}</p>
-        </section>
-      </aside>
+    // Re-attach event listeners after every render
+    attachListeners();
+  };
 
-      <main class="right-column">
-        <header>
-          <h1>${data.personalInfo.name}</h1>
-          <h3>${data.personalInfo.title}</h3>
-        </header>
+  const attachListeners = () => {
+    element.querySelector('#print-cv-btn')?.addEventListener('click', () => window.print());
 
-        <section>
-          <h2>${data.sections.objective}</h2>
-          <p>${data.personalInfo.professionalObjective}</p>
-        </section>
+    element.querySelectorAll('.template-btn').forEach(button => {
+      button.addEventListener('click', (e) => {
+        const target = e.currentTarget as HTMLButtonElement;
+        const newTemplateId = target.dataset.templateId as keyof typeof templates;
+        if (newTemplateId && newTemplateId !== selectedTemplateId) {
+          selectedTemplateId = newTemplateId;
+          localStorage.setItem('selectedCvTemplate', newTemplateId);
+          render(); // Re-render the whole view with the new template
+        }
+      });
+    });
+  };
 
-        <section>
-          <h2>${data.sections.experience}</h2>
-          ${data.experience.map(createExperienceItem).join('')}
-        </section>
-
-        <section>
-          <h2>${data.sections.projects}</h2>
-          ${data.projects.map(createProjectItem).join('')}
-        </section>
-
-        <section>
-          <h2>${data.sections.education}</h2>
-          ${data.education.map(createEducationItem).join('')}
-        </section>
-      </main>
-    </div>
-  `;
+  render();
   return element;
 };

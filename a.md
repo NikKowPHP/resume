@@ -1,13 +1,12 @@
 <response>
   <reasoning>
-    My plan is to refactor the `getCVDataFromDOM` function in `src/services/GeminiService.ts`.
-    The current implementation scrapes data from the HTML DOM, which is inefficient and couples the data logic to the view.
-    I will modify this function to build the CV text string directly from the `cv-data.json` file.
-    This involves:
-    1.  Importing `cvData` from `../data/cv-data.json` and the `CVData` type from `../types`.
-    2.  Rewriting the body of `getCVDataFromDOM` to iterate through the JSON object and format it into a structured plain text string, which is a more robust and decoupled approach. The function name will be kept to avoid breaking call sites.
-    3.  No other files need to be changed as the function signature remains the same.
-    4.  Finally, I will update `TASKS.md` to reflect the completion of this refactoring task.
+    My plan is to update the AI prompt in `src/services/GeminiService.ts` to meet the user's requirements.
+
+    1.  **Prevent Date Generation:** I will modify the instruction related to "Date et Lieu". I'll change it to only request the location ("Lieu") and add an explicit negative constraint: "**N'incluez PAS la date.**" This makes it very clear to the model that the date should be omitted.
+    2.  **Prevent Markdown Formatting:** I will add a new, explicit instruction under the "Ton et Style" section. This instruction will state that the output must be **plain text only** and that **no Markdown formatting** (like `**`, `*`, `#`, etc.) should be used.
+    3.  I will also reinforce this plain text requirement in the final instruction of the prompt.
+
+    These changes will be confined to the `prompt` constant within the `generateCoverLetter` function in `src/services/GeminiService.ts`. Finally, I will update `TASKS.md` to log the completion of this task.
   </reasoning>
   <modifications>
     <file path="TASKS.md">
@@ -15,6 +14,8 @@
 - [x] Fix CORS error when calling Gemini API
 - [x] Add a button to combine the CV and cover letter in the same PDF on different pages.
 - [x] Refactor CV data retrieval to use JSON data directly instead of scraping the DOM.
+- [x] Answer user question about sending JSON vs. formatted text to the AI.
+- [x] Fix AI prompt to prevent generating the date and any Markdown formatting.
 ]]>
     </file>
     <file path="src/services/GeminiService.ts">
@@ -140,7 +141,7 @@ Rédigez une lettre de motivation complète et professionnelle en **français un
 
 1.  **En-tête de l'expéditeur :** Intégrez directement les informations de contact du candidat (Nom, Titre, Téléphone, Email, etc.) de manière claire et professionnelle en haut à gauche.
 2.  **Destinataire :** Si le nom d'un contact ou de l'entreprise est disponible dans la description, adressez-lui la lettre. Sinon, utilisez une formule générique comme "À l'attention du Service Recrutement". Incluez la ville si possible.
-3.  **Date et Lieu :** Ajoutez le lieu de résidence du candidat et la date actuelle (ex: "Cracovie, le [Date actuelle]").
+3.  **Lieu :** Ajoutez uniquement le lieu de résidence du candidat (par exemple : "Cracovie,"). **N'incluez PAS la date.**
 4.  **Objet :** Créez un objet de lettre clair et concis. Par exemple : "Objet : Candidature au poste de [Intitulé du poste]".
 5.  **Corps de la lettre :**
     *   Rédigez une introduction percutante qui mentionne le poste visé.
@@ -153,8 +154,9 @@ Rédigez une lettre de motivation complète et professionnelle en **français un
 *   Le ton doit être professionnel, confiant et enthousiaste.
 *   La lettre doit être concise, percutante et sans fautes.
 *   Utilisez des sauts de ligne pour aérer le texte et séparer distinctement les paragraphes.
+*   **FORMATAGE :** La sortie doit être du **texte brut (plain text) uniquement**. N'utilisez AUCUN formatage Markdown (pas de **, *, #, listes, etc.).
 
-Générez uniquement le texte complet de la lettre, en commençant par le nom du candidat.
+Générez uniquement le texte brut et complet de la lettre, en commençant par le nom du candidat.
 `;
 
     const parts: any[] = [{ text: prompt }];

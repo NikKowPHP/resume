@@ -1,3 +1,5 @@
+export type LanguageCode = 'fr' | 'en' | 'pl' | 'de';
+
 export interface PersonalInfo {
   name: string;
   title: string;
@@ -33,6 +35,7 @@ export interface Project {
   name: string;
   url: string;
   description: string;
+  stack_title: string;
   stack: string;
 }
 
@@ -43,6 +46,16 @@ export interface Education {
 }
 
 export interface CVData {
+  sections: {
+    contact: string;
+    skills: string;
+    languages: string;
+    status: string;
+    objective: string;
+    experience: string;
+    projects: string;
+    education: string;
+  };
   personalInfo: PersonalInfo;
   contact: Contact[];
   skills: SkillCategory[];
@@ -51,3 +64,5 @@ export interface CVData {
   projects: Project[];
   education: Education[];
 }
+
+export type MultilingualCVData = Record<LanguageCode, CVData>;

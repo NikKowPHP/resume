@@ -32,10 +32,15 @@ body {
   border-bottom: 1px solid var(--border-color);
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
   position: sticky;
   top: 0;
   z-index: 1001;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
 }
 
 .nav-link {
@@ -56,6 +61,37 @@ body {
 .nav-link.active {
   color: var(--link-color);
   border-bottom-color: var(--link-color);
+}
+
+.lang-switcher {
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 0.5rem;
+}
+
+.lang-switch {
+  background: none;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--accent-color);
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.lang-switch:hover {
+  background-color: #f0f2f5;
+}
+
+.lang-switch.active {
+  background-color: var(--link-color);
+  color: white;
+  border-color: var(--link-color);
 }
 
 .print-button {

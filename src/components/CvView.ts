@@ -1,4 +1,4 @@
-import { CVData, Contact, SkillCategory, Language, Experience, Project, Education } from '../types';
+import { CVData, Contact, SkillCategory, Language, Experience, Project, Education, LanguageCode } from '../types';
 
 const createContactItem = (item: Contact) => `
   <li>
@@ -30,7 +30,7 @@ const createProjectItem = (project: Project) => `
   <div class="job">
     <h4><a href="${project.url}" target="_blank" rel="noopener noreferrer">${project.name}</a></h4>
     <p>${project.description}</p>
-    <p><strong>Stack Technique :</strong> ${project.stack}</p>
+    <p><strong>${project.stack_title} :</strong> ${project.stack}</p>
   </div>
 `;
 
@@ -41,7 +41,14 @@ const createEducationItem = (edu: Education) => `
   </div>
 `;
 
-export const renderCvView = (data: CVData): HTMLElement => {
+const translations = {
+    fr: { print: 'Imprimer CV' },
+    en: { print: 'Print CV' },
+    pl: { print: 'Drukuj CV' },
+    de: { print: 'Lebenslauf drucken' }
+};
+
+export const renderCvView = (data: CVData, lang: LanguageCode): HTMLElement => {
   const element = document.createElement('div');
   element.id = 'cv-view';
   element.innerHTML = `
@@ -51,33 +58,33 @@ export const renderCvView = (data: CVData): HTMLElement => {
         <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
         <rect x="6" y="14" width="12" height="8"></rect>
       </svg>
-      Imprimer CV
+      ${translations[lang].print}
     </button>
     <div class="cv-container">
       <aside class="left-column">
         <img src="${data.personalInfo.image}" alt="${data.personalInfo.name}" class="profile-image">
         
         <section>
-          <h2>CONTACT</h2>
+          <h2>${data.sections.contact}</h2>
           <ul class="contact-list">
             ${data.contact.map(createContactItem).join('')}
           </ul>
         </section>
 
         <section>
-          <h2>COMPÉTENCES TECHNIQUES</h2>
+          <h2>${data.sections.skills}</h2>
           ${data.skills.map(createSkillCategory).join('')}
         </section>
 
         <section>
-          <h2>LANGUES</h2>
+          <h2>${data.sections.languages}</h2>
           <ul>
             ${data.languages.map(createLanguageItem).join('')}
           </ul>
         </section>
 
         <section>
-          <h2>STATUT</h2>
+          <h2>${data.sections.status}</h2>
           <p>${data.personalInfo.status}</p>
         </section>
       </aside>
@@ -89,22 +96,22 @@ export const renderCvView = (data: CVData): HTMLElement => {
         </header>
 
         <section>
-          <h2>OBJECTIF PROFESSIONNEL</h2>
+          <h2>${data.sections.objective}</h2>
           <p>${data.personalInfo.professionalObjective}</p>
         </section>
 
         <section>
-          <h2>EXPÉRIENCE PROFESSIONNELLE</h2>
+          <h2>${data.sections.experience}</h2>
           ${data.experience.map(createExperienceItem).join('')}
         </section>
 
         <section>
-          <h2>PROJETS SIGNIFICATIFS</h2>
+          <h2>${data.sections.projects}</h2>
           ${data.projects.map(createProjectItem).join('')}
         </section>
 
         <section>
-          <h2>FORMATION</h2>
+          <h2>${data.sections.education}</h2>
           ${data.education.map(createEducationItem).join('')}
         </section>
       </main>

@@ -1,6 +1,5 @@
 import axios from 'axios';
-import cvData from '../data/cv-data.json';
-import { CVData } from '../types';
+import { CVData, LanguageCode } from '../types';
 
 const API_KEY = process.env.GEMINI_API_KEY;
 
@@ -8,10 +7,9 @@ if (!API_KEY) {
   throw new Error("GEMINI_API_KEY is not set in environment variables.");
 }
 
-const MODEL_NAME = "gemini-flash-latest"; // Corrected model name
-const API_URL = `/api/v1beta/models/${MODEL_NAME}:generateContent?key=${API_KEY}`; // Use proxy and corrected URL structure
+const MODEL_NAME = "gemini-flash-latest";
+const API_URL = `/api/v1beta/models/${MODEL_NAME}:generateContent?key=${API_KEY}`;
 
-// Replicating enums from the removed @google/genai package
 type HarmCategory =
   | "HARM_CATEGORY_HARASSMENT"
   | "HARM_CATEGORY_HATE_SPEECH"
@@ -34,21 +32,16 @@ const generationConfig = {
   maxOutputTokens: 2048,
 };
 
-// This function now gets data from the JSON file, not the DOM.
-export const getCVDataFromDOM = (): string => {
-    const data = cvData as CVData;
+export const getCVDataAsText = (data: CVData): string => {
     let cvText = "";
 
-    // Helper to strip HTML tags for plain text version
     const stripHtml = (html: string) => html.replace(/<[^>]*>?/gm, '');
 
-    // Personal Info & Objective
-    cvText += `Nom: ${data.personalInfo.name}\n`;
-    cvText += `Titre: ${data.personalInfo.title}\n\n`;
-    cvText += `## OBJECTIF PROFESSIONNEL\n${data.personalInfo.professionalObjective}\n\n`;
+    cvText += `Name: ${data.personalInfo.name}\n`;
+    cvText += `Title: ${data.personalInfo.title}\n\n`;
+    cvText += `## ${data.sections.objective}\n${data.personalInfo.professionalObjective}\n\n`;
 
-    // Experience
-    cvText += `## EXPÉRIENCE PROFESSIONNELLE\n`;
+    cvText += `## ${data.sections.experience}\n`;
     data.experience.forEach(job => {
         cvText += `${job.title}\n`;
         if (job.company) cvText += `${job.company} | `;
@@ -59,37 +52,32 @@ export const getCVDataFromDOM = (): string => {
         cvText += '\n';
     });
 
-    // Projects
-    cvText += `## PROJETS SIGNIFICATIFS\n`;
+    cvText += `## ${data.sections.projects}\n`;
     data.projects.forEach(project => {
         cvText += `${project.name} (${project.url})\n`;
         cvText += `${stripHtml(project.description)}\n`;
-        cvText += `Stack Technique : ${stripHtml(project.stack)}\n\n`;
+        cvText += `${project.stack_title} : ${stripHtml(project.stack)}\n\n`;
     });
 
-    // Skills
-    cvText += `## COMPÉTENCES TECHNIQUES\n`;
+    cvText += `## ${data.sections.skills}\n`;
     data.skills.forEach(category => {
         cvText += `${category.title}: ${category.skills.join(', ')}\n`;
     });
     cvText += '\n';
 
-    // Education
-    cvText += `## FORMATION\n`;
+    cvText += `## ${data.sections.education}\n`;
     data.education.forEach(edu => {
         cvText += `${edu.degree}\n`;
         cvText += `${edu.institution} | ${edu.period}\n\n`;
     });
     
-    // Languages
-    cvText += `## LANGUES\n`;
+    cvText += `## ${data.sections.languages}\n`;
     data.languages.forEach(lang => {
         cvText += `${lang.name}: ${lang.level}\n`;
     });
     cvText += '\n';
     
-    // Contact information
-    cvText += `## CONTACT\n`;
+    cvText += `## ${data.sections.contact}\n`;
     data.contact.forEach(c => {
         cvText += `${c.text}${c.url ? ` (${c.url})` : ''}\n`;
     });
@@ -98,24 +86,21 @@ export const getCVDataFromDOM = (): string => {
     return cvText.trim();
 };
 
-// The main function to generate the cover letter, now using axios
-export const generateCoverLetter = async (cvData: string, jobInfo: string, imagePart: any | null): Promise<string> => {
-    const prompt = `
-Vous êtes un coach carrière expert, spécialisé dans le marché du travail français. Votre mission est de rédiger une lettre de motivation exceptionnelle, prête à l'emploi.
+const promptInstructions: Record<LanguageCode, string> = {
+  fr: `Vous êtes un coach carrière expert, spécialisé dans le marché du travail français. Votre mission est de rédiger une lettre de motivation exceptionnelle, prête à l'emploi.
+**Instructions de rédaction :** Rédigez une lettre de motivation complète et professionnelle en **français uniquement**.`,
+  en: `You are an expert career coach specializing in the French job market. Your mission is to write an outstanding, ready-to-use cover letter.
+**Writing Instructions:** Write a complete and professional cover letter in **English only**.`,
+  pl: `Jesteś ekspertem ds. kariery, specjalizującym się we francuskim rynku pracy. Twoim zadaniem jest napisanie wyjątkowego, gotowego do użycia listu motywacyjnego.
+**Instrukcje pisania:** Napisz kompletny i profesjonalny list motywacyjny **wyłącznie w języku polskim**.`,
+  de: `Sie sind ein erfahrener Karrierecoach, der auf den französischen Arbeitsmarkt spezialisiert ist. Ihre Aufgabe ist es, ein herausragendes, gebrauchsfertiges Anschreiben zu verfassen.
+**Schreibanweisungen:** Verfassen Sie ein vollständiges und professionelles Anschreiben **nur auf Deutsch**.`,
+};
 
-**Informations sur le candidat (extrait du CV) :**
----
-${cvData}
----
+const getBasePrompt = (lang: LanguageCode) => `
+${promptInstructions[lang]}
 
-**Informations sur le poste/l'entreprise :**
----
-${jobInfo || "Veuillez analyser l'image ci-jointe pour la description du poste et les informations sur l'entreprise."}
----
-
-**Instructions de rédaction :**
-
-Rédigez une lettre de motivation complète et professionnelle en **français uniquement**. La lettre doit être structurée comme suit, sans utiliser de placeholders comme "[Vos Coordonnées]" ou "[Coordonnées de l'entreprise]".
+La lettre doit être structurée comme suit, sans utiliser de placeholders comme "[Vos Coordonnées]" ou "[Coordonnées de l'entreprise]".
 
 1.  **En-tête de l'expéditeur :** Intégrez directement les informations de contact du candidat (Nom, Titre, Téléphone, Email, etc.) de manière claire et professionnelle en haut à gauche.
 2.  **Destinataire :** Si le nom d'un contact ou de l'entreprise est disponible dans la description, adressez-lui la lettre. Sinon, utilisez une formule générique comme "À l'attention du Service Recrutement". Incluez la ville si possible.
@@ -135,6 +120,21 @@ Rédigez une lettre de motivation complète et professionnelle en **français un
 *   **FORMATAGE :** La sortie doit être du **texte brut (plain text) uniquement**. N'utilisez AUCUN formatage Markdown (pas de **, *, #, listes, etc.).
 
 Générez uniquement le texte brut et complet de la lettre, en commençant par le nom du candidat.
+`;
+
+export const generateCoverLetter = async (cvData: string, jobInfo: string, imagePart: any | null, lang: LanguageCode): Promise<string> => {
+    const prompt = `
+${getBasePrompt(lang)}
+
+**Informations sur le candidat (extrait du CV) :**
+---
+${cvData}
+---
+
+**Informations sur le poste/l'entreprise :**
+---
+${jobInfo || "Veuillez analyser l'image ci-jointe pour la description du poste et les informations sur l'entreprise."}
+---
 `;
 
     const parts: any[] = [{ text: prompt }];

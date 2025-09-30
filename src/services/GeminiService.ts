@@ -135,6 +135,8 @@ Rédigez une lettre de motivation complète et professionnelle en **français un
 
 Générez uniquement le texte complet de la lettre, en commençant par le nom du candidat.
 `;
+    
+    console.log('cover letter data',prompt )
 
     const parts: any[] = [{ text: prompt }];
     if (imagePart) {

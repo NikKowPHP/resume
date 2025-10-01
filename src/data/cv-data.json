@@ -12,9 +12,9 @@
     },
     "personalInfo": {
       "name": "MIKITA KAVALIOU",
-      "title": "Développeur Full Stack | Spécialiste TypeScript, React & Node.js",
+      "title": "Développeur Full Stack | Spécialiste IA, TypeScript & Node.js",
       "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-      "professionalObjective": "Développeur Full Stack avec 2 ans d'expérience dans la conception d'applications web performantes. Je cherche à rejoindre une équipe dynamique pour construire des produits innovants. Désireux de mettre mes compétences en pratique dans un environnement francophone, je suis passionné par la résolution de problèmes complexes et la création d'expériences utilisateur de haute qualité.",
+      "professionalObjective": "Développeur Full Stack avec 2 ans d'expérience, expert dans l'exploitation de l'IA pour le développement rapide et l'intégration de modèles d'IA avancés pour créer des produits intelligents et centrés sur l'utilisateur. Je cherche à rejoindre une équipe dynamique pour construire des produits innovants, en mettant à profit ma passion pour la résolution de problèmes complexes et la création d'expériences utilisateur de haute qualité.",
       "status": "Éligible à un visa de travail en France."
     },
     "contact": [
@@ -26,11 +26,12 @@
       { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
     ],
     "skills": [
+      { "title": "IA & Développement", "skills": ["Intégration de LLM (Google, Groq)", "Automatisation des workflows IA", "Prompt Engineering", "Développement assisté par IA"] },
       { "title": "Langages", "skills": ["TypeScript", "JavaScript (ES6+)", "PHP", "SQL"] },
-      { "title": "Frontend", "skills": ["React", "Next.js", "Svelte", "Tailwind CSS", "Bootstrap"] },
-      { "title": "Backend", "skills": ["Node.js", "Nest.js", "Express", "Laravel", "Symfony"] },
+      { "title": "Frontend", "skills": ["React", "Next.js", "Svelte", "Tailwind CSS"] },
+      { "title": "Backend", "skills": ["Node.js", "Nest.js", "Express", "Laravel"] },
       { "title": "Bases de Données", "skills": ["PostgreSQL", "MySQL", "MongoDB"] },
-      { "title": "Cloud & DevOps", "skills": ["Supabase", "Google Cloud", "Docker", "Git", "CI/CD (GitHub Actions)"] }
+      { "title": "Outils & Plateformes", "skills": ["Supabase", "Google Cloud", "Docker", "Git", "CI/CD (GitHub Actions)"] }
     ],
     "languages": [
       { "name": "Russe", "level": "Langue maternelle" },
@@ -42,13 +43,13 @@
       { "name": "Portugais", "level": "B1" }
     ],
     "experience": [
-      { "title": "Développeur Web Full Stack", "company": "Basesystem", "period": "Février 2024 - Présent", "responsibilities": [ "En collaboration avec l'équipe Produit, conception et déploiement de 3 fonctionnalités majeures pour une plateforme e-commerce, résultant en une <strong>augmentation de 15%</strong> de l'engagement client.", "Optimisation du backend (<strong>Laravel, MySQL</strong>) pour réduire le temps de réponse moyen des API de <strong>30%</strong>, améliorant ainsi l'expérience sur le frontend <strong>React</strong>.", "Intégration de l'API de paiement <strong>Stripe</strong>, sécurisant le flux de transactions et augmentant le taux de conversion de <strong>5%</strong>." ] },
-      { "title": "Développeur Web Full Stack (Freelance)", "company": "", "period": "Janvier 2024 - Présent", "responsibilities": [ "Gestion de projet et développement de A à Z pour 4 applications web, en <strong>communication directe avec les clients</strong> pour définir les besoins et livrer des solutions sur-mesure.", "Mise en place d'architectures backend robustes avec <strong>Node.js</strong> et <strong>Nest.js</strong>, en suivant les principes de clean architecture." ] }
+      { "title": "Développeur Web Full Stack", "company": "Basesystem", "period": "Février 2024 - Présent", "responsibilities": [ "Conception et déploiement de 3 fonctionnalités majeures pour une plateforme e-commerce, résultant en une <strong>augmentation de 15%</strong> de l'engagement client.", "Optimisation du backend (<strong>Laravel, MySQL</strong>) pour réduire le temps de réponse moyen des API de <strong>30%</strong>, améliorant ainsi l'expérience sur le frontend <strong>React</strong>.", "Intégration de l'API de paiement <strong>Stripe</strong>, sécurisant le flux de transactions et augmentant le taux de conversion de <strong>5%</strong>." ] },
+      { "title": "Développeur Web Full Stack (Freelance)", "company": "", "period": "Janvier 2024 - Présent", "responsibilities": [ "Gestion de projet et développement de A à Z pour 4 applications web, en <strong>communication directe avec les clients</strong>.", "Mise en place d'architectures backend robustes avec <strong>Node.js</strong> et <strong>Nest.js</strong>, en suivant les principes de clean architecture.", "Mise en œuvre de <strong>workflows de développement pilotés par l'IA</strong> pour accélérer la livraison des projets et améliorer la qualité du code." ] }
     ],
     "projects": [
-      { "name": "Lexity : AI Language Learning PWA", "url": "https://lexity.app", "description": "Création d'une PWA visant à <strong>réduire le temps d'apprentissage de 30%</strong> en forçant la pratique active via des retours IA.", "stack_title": "Stack Technique", "stack": "<strong>Next.js, TypeScript, Supabase (PostgreSQL), Tailwind CSS, Architecture multi-IA (Google, Groq, Cerebras).</strong>" },
-      { "name": "Interly : AI Interview Prep Platform", "url": "https://interly.app", "description": "Développement d'une plateforme visant à <strong>augmenter la confiance des candidats</strong> et leurs performances en entretien grâce à des simulations IA.", "stack_title": "Stack Technique", "stack": "<strong>Next.js, TypeScript, Supabase (PostgreSQL), Tailwind CSS, Architecture multi-IA (Google, Groq, Cerebras).</strong>" },
-      { "name": "ZIRO.FIT : Fitness Trainer Platform", "url": "https://ziro.fit", "description": "Plateforme permettant aux coachs sportifs de <strong>créer des pages personnalisées</strong> pour présenter leur travail et gérer leur activité.", "stack_title": "Stack Technique", "stack": "<strong>Laravel, Livewire, Alpine.js, Tailwind CSS, PostgreSQL, AWS.</strong>" }
+      { "name": "Lexity : AI Language Learning PWA", "url": "https://lexity.app", "description": "Création d'une PWA visant à <strong>réduire le temps d'apprentissage de 30%</strong>. <strong>Développée via un workflow augmenté par l'IA</strong>, permettant un prototypage et une implémentation rapides des fonctionnalités.", "stack_title": "Stack Technique", "stack": "<strong>Next.js, TypeScript, Supabase (PostgreSQL), Tailwind CSS, Architecture multi-IA (Google, Groq, Cerebras).</strong>" },
+      { "name": "Interly : AI Interview Prep Platform", "url": "https://interly.app", "description": "Développement d'une plateforme visant à <strong>augmenter la confiance des candidats</strong> en entretien. <strong>Construite avec un processus fortement assisté par l'IA</strong>, démontrant une exécution efficace du concept au déploiement.", "stack_title": "Stack Technique", "stack": "<strong>Next.js, TypeScript, Supabase (PostgreSQL), Tailwind CSS, Architecture multi-IA (Google, Groq, Cerebras).</strong>" },
+      { "name": "ZIRO.FIT : AI Fitness Trainer Platform", "url": "https://ziro.fit", "description": "Développement d'une plateforme pour coachs sportifs, dotée d'un <strong>assistant IA pour générer automatiquement des plans d'exercices personnalisés</strong>, optimisant la création et la gestion des entraînements.", "stack_title": "Stack Technique", "stack": "<strong>Laravel, Livewire, Alpine.js, Tailwind CSS, PostgreSQL, AWS.</strong>" }
     ],
     "education": [
       { "degree": "Diplôme de Technicien en Radio-électronique (équivalent Bac+4)", "institution": "Collège d'État Supérieur de Radiotechnique de Minsk", "period": "2015 - 2019" }
@@ -67,9 +68,9 @@
     },
     "personalInfo": {
       "name": "MIKITA KAVALIOU",
-      "title": "Full Stack Developer | TypeScript, React & Node.js Specialist",
+      "title": "Full Stack Developer | AI Specialist, TypeScript & Node.js",
       "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-      "professionalObjective": "Full Stack Developer with 2 years of experience in designing high-performance web applications. I am looking to join a dynamic team to build innovative products. Eager to apply my skills in a French-speaking environment, I am passionate about solving complex problems and creating high-quality user experiences.",
+      "professionalObjective": "Full Stack Developer with 2 years of experience, expert in leveraging AI for rapid development and integrating advanced AI models to create intelligent, user-centric products. I am looking to join a dynamic team to build innovative products, leveraging a passion for solving complex problems and creating high-quality user experiences.",
       "status": "Eligible for a work visa in France."
     },
     "contact": [
@@ -81,11 +82,12 @@
       { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
     ],
     "skills": [
+      { "title": "AI & Development", "skills": ["LLM Integration (Google, Groq)", "AI-driven Workflow Automation", "Prompt Engineering", "AI-assisted Development"] },
       { "title": "Languages", "skills": ["TypeScript", "JavaScript (ES6+)", "PHP", "SQL"] },
-      { "title": "Frontend", "skills": ["React", "Next.js", "Svelte", "Tailwind CSS", "Bootstrap"] },
-      { "title": "Backend", "skills": ["Node.js", "Nest.js", "Express", "Laravel", "Symfony"] },
+      { "title": "Frontend", "skills": ["React", "Next.js", "Svelte", "Tailwind CSS"] },
+      { "title": "Backend", "skills": ["Node.js", "Nest.js", "Express", "Laravel"] },
       { "title": "Databases", "skills": ["PostgreSQL", "MySQL", "MongoDB"] },
-      { "title": "Cloud & DevOps", "skills": ["Supabase", "Google Cloud", "Docker", "Git", "CI/CD (GitHub Actions)"] }
+      { "title": "Tools & Platforms", "skills": ["Supabase", "Google Cloud", "Docker", "Git", "CI/CD (GitHub Actions)"] }
     ],
     "languages": [
       { "name": "Russian", "level": "Native" },
@@ -97,13 +99,13 @@
       { "name": "Portuguese", "level": "B1" }
     ],
     "experience": [
-      { "title": "Full Stack Web Developer", "company": "Basesystem", "period": "February 2024 - Present", "responsibilities": [ "In collaboration with the Product team, designed and deployed 3 major features for an e-commerce platform, resulting in a <strong>15% increase</strong> in customer engagement.", "Optimized the backend (<strong>Laravel, MySQL</strong>) to reduce average API response time by <strong>30%</strong>, thereby improving the frontend <strong>React</strong> experience.", "Integrated the <strong>Stripe</strong> payment API, securing the transaction flow and increasing the conversion rate by <strong>5%</strong>." ] },
-      { "title": "Full Stack Web Developer (Freelance)", "company": "", "period": "January 2024 - Present", "responsibilities": [ "End-to-end project management and development for 4 web applications, in <strong>direct communication with clients</strong> to define needs and deliver custom solutions.", "Implemented robust backend architectures with <strong>Node.js</strong> and <strong>Nest.js</strong>, following clean architecture principles." ] }
+      { "title": "Full Stack Web Developer", "company": "Basesystem", "period": "February 2024 - Present", "responsibilities": [ "Designed and deployed 3 major features for an e-commerce platform, resulting in a <strong>15% increase</strong> in customer engagement.", "Optimized the backend (<strong>Laravel, MySQL</strong>) to reduce average API response time by <strong>30%</strong>, improving the frontend <strong>React</strong> experience.", "Integrated the <strong>Stripe</strong> payment API, securing the transaction flow and increasing the conversion rate by <strong>5%</strong>." ] },
+      { "title": "Full Stack Web Developer (Freelance)", "company": "", "period": "January 2024 - Present", "responsibilities": [ "End-to-end project management and development for 4 web applications in <strong>direct communication with clients</strong>.", "Implemented robust backend architectures with <strong>Node.js</strong> and <strong>Nest.js</strong>, following clean architecture principles.", "Leveraged <strong>AI-driven development workflows</strong> to accelerate project delivery and enhance code quality." ] }
     ],
     "projects": [
-      { "name": "Lexity: AI Language Learning PWA", "url": "https://lexity.app", "description": "Creation of a PWA aiming to <strong>reduce learning time by 30%</strong> by forcing active practice through AI feedback.", "stack_title": "Tech Stack", "stack": "<strong>Next.js, TypeScript, Supabase (PostgreSQL), Tailwind CSS, Multi-IA Architecture (Google, Groq, Cerebras).</strong>" },
-      { "name": "Interly: AI Interview Prep Platform", "url": "https://interly.app", "description": "Development of a platform aimed at <strong>increasing candidate confidence</strong> and interview performance through AI simulations.", "stack_title": "Tech Stack", "stack": "<strong>Next.js, TypeScript, Supabase (PostgreSQL), Tailwind CSS, Multi-IA Architecture (Google, Groq, Cerebras).</strong>" },
-      { "name": "ZIRO.FIT: Fitness Trainer Platform", "url": "https://ziro.fit", "description": "A platform allowing fitness trainers to <strong>create personalized pages</strong> to showcase their work and manage their business.", "stack_title": "Tech Stack", "stack": "<strong>Laravel, Livewire, Alpine.js, Tailwind CSS, PostgreSQL, AWS.</strong>" }
+      { "name": "Lexity: AI Language Learning PWA", "url": "https://lexity.app", "description": "Creation of a PWA aiming to <strong>reduce learning time by 30%</strong>. <strong>Developed using an AI-augmented workflow</strong>, enabling rapid prototyping and feature implementation.", "stack_title": "Tech Stack", "stack": "<strong>Next.js, TypeScript, Supabase (PostgreSQL), Tailwind CSS, Multi-AI Architecture (Google, Groq, Cerebras).</strong>" },
+      { "name": "Interly: AI Interview Prep Platform", "url": "https://interly.app", "description": "Development of a platform to <strong>increase candidate confidence</strong> in interviews. <strong>Built with a heavily AI-assisted process</strong>, demonstrating efficient execution from concept to deployment.", "stack_title": "Tech Stack", "stack": "<strong>Next.js, TypeScript, Supabase (PostgreSQL), Tailwind CSS, Multi-AI Architecture (Google, Groq, Cerebras).</strong>" },
+      { "name": "ZIRO.FIT: AI Fitness Trainer Platform", "url": "https://ziro.fit", "description": "Developed a platform for fitness trainers featuring an <strong>AI-powered assistant to automatically generate personalized exercise plans</strong>, streamlining workout creation and management.", "stack_title": "Tech Stack", "stack": "<strong>Laravel, Livewire, Alpine.js, Tailwind CSS, PostgreSQL, AWS.</strong>" }
     ],
     "education": [
       { "degree": "Diploma of Technician in Radio-electronics (equivalent to Bachelor's degree)", "institution": "Minsk State Higher College of Radiotechnics", "period": "2015 - 2019" }
@@ -122,9 +124,9 @@
     },
     "personalInfo": {
       "name": "MIKITA KAVALIOU",
-      "title": "Full Stack Developer | Specjalista TypeScript, React i Node.js",
+      "title": "Full Stack Developer | Specjalista AI, TypeScript i Node.js",
       "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-      "professionalObjective": "Full Stack Developer z 2-letnim doświadczeniem w projektowaniu wydajnych aplikacji internetowych. Chcę dołączyć do dynamicznego zespołu, aby tworzyć innowacyjne produkty. Chętny do wykorzystania moich umiejętności w środowisku francuskojęzycznym, pasjonuję się rozwiązywaniem złożonych problemów i tworzeniem wysokiej jakości doświadczeń użytkownika.",
+      "professionalObjective": "Full Stack Developer z 2-letnim doświadczeniem, ekspert w wykorzystaniu AI do szybkiego rozwoju i integracji zaawansowanych modeli AI w celu tworzenia inteligentnych produktów zorientowanych na użytkownika. Chcę dołączyć do dynamicznego zespołu, aby budować innowacyjne produkty, wykorzystując pasję do rozwiązywania złożonych problemów i tworzenia wysokiej jakości doświadczeń użytkownika.",
       "status": "Uprawniony do wizy pracowniczej we Francji."
     },
     "contact": [
@@ -136,11 +138,12 @@
       { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
     ],
     "skills": [
+      { "title": "AI i Rozwój Oprogramowania", "skills": ["Integracja LLM (Google, Groq)", "Automatyzacja przepływu pracy AI", "Prompt Engineering", "Rozwój wspomagany przez AI"] },
       { "title": "Języki programowania", "skills": ["TypeScript", "JavaScript (ES6+)", "PHP", "SQL"] },
-      { "title": "Frontend", "skills": ["React", "Next.js", "Svelte", "Tailwind CSS", "Bootstrap"] },
-      { "title": "Backend", "skills": ["Node.js", "Nest.js", "Express", "Laravel", "Symfony"] },
+      { "title": "Frontend", "skills": ["React", "Next.js", "Svelte", "Tailwind CSS"] },
+      { "title": "Backend", "skills": ["Node.js", "Nest.js", "Express", "Laravel"] },
       { "title": "Bazy danych", "skills": ["PostgreSQL", "MySQL", "MongoDB"] },
-      { "title": "Cloud & DevOps", "skills": ["Supabase", "Google Cloud", "Docker", "Git", "CI/CD (GitHub Actions)"] }
+      { "title": "Narzędzia i Platformy", "skills": ["Supabase", "Google Cloud", "Docker", "Git", "CI/CD (GitHub Actions)"] }
     ],
     "languages": [
       { "name": "Rosyjski", "level": "Język ojczysty" },
@@ -152,13 +155,13 @@
       { "name": "Portugalski", "level": "B1" }
     ],
     "experience": [
-      { "title": "Full Stack Web Developer", "company": "Basesystem", "period": "Luty 2024 - Obecnie", "responsibilities": [ "We współpracy z zespołem produktowym, projektowanie i wdrażanie 3 głównych funkcji dla platformy e-commerce, co zaowocowało <strong>15% wzrostem</strong> zaangażowania klientów.", "Optymalizacja backendu (<strong>Laravel, MySQL</strong>) w celu skrócenia średniego czasu odpowiedzi API o <strong>30%</strong>, co poprawiło doświadczenie na frontendzie <strong>React</strong>.", "Integracja API płatności <strong>Stripe</strong>, zabezpieczająca przepływ transakcji i zwiększająca współczynnik konwersji o <strong>5%</strong>." ] },
-      { "title": "Full Stack Web Developer (Freelance)", "company": "", "period": "Styczeń 2024 - Obecnie", "responsibilities": [ "Zarządzanie projektami i rozwój od A do Z dla 4 aplikacji internetowych, w <strong>bezpośredniej komunikacji z klientami</strong> w celu zdefiniowania potrzeb i dostarczenia niestandardowych rozwiązań.", "Wdrażanie solidnych architektur backendowych z <strong>Node.js</strong> i <strong>Nest.js</strong>, zgodnie z zasadami czystej architektury." ] }
+      { "title": "Full Stack Web Developer", "company": "Basesystem", "period": "Luty 2024 - Obecnie", "responsibilities": [ "Projektowanie i wdrażanie 3 głównych funkcji dla platformy e-commerce, co zaowocowało <strong>15% wzrostem</strong> zaangażowania klientów.", "Optymalizacja backendu (<strong>Laravel, MySQL</strong>) w celu skrócenia średniego czasu odpowiedzi API o <strong>30%</strong>, co poprawiło doświadczenie na frontendzie <strong>React</strong>.", "Integracja API płatności <strong>Stripe</strong>, zabezpieczająca przepływ transakcji i zwiększająca współczynnik konwersji o <strong>5%</strong>." ] },
+      { "title": "Full Stack Web Developer (Freelance)", "company": "", "period": "Styczeń 2024 - Obecnie", "responsibilities": [ "Zarządzanie projektami i rozwój od A do Z dla 4 aplikacji internetowych w <strong>bezpośredniej komunikacji z klientami</strong>.", "Wdrażanie solidnych architektur backendowych z <strong>Node.js</strong> i <strong>Nest.js</strong>, zgodnie z zasadami czystej architektury.", "Wykorzystanie <strong>procesów deweloperskich opartych na AI</strong> w celu przyspieszenia realizacji projektów i podniesienia jakości kodu." ] }
     ],
     "projects": [
-      { "name": "Lexity: AI Language Learning PWA", "url": "https://lexity.app", "description": "Stworzenie PWA mającego na celu <strong>skrócenie czasu nauki o 30%</strong> poprzez wymuszanie aktywnej praktyki za pomocą informacji zwrotnej od AI.", "stack_title": "Stos technologiczny", "stack": "<strong>Next.js, TypeScript, Supabase (PostgreSQL), Tailwind CSS, Architektura multi-AI (Google, Groq, Cerebras).</strong>" },
-      { "name": "Interly: AI Interview Prep Platform", "url": "https://interly.app", "description": "Rozwój platformy mającej na celu <strong>zwiększenie pewności siebie kandydatów</strong> i ich wyników na rozmowach kwalifikacyjnych dzięki symulacjom AI.", "stack_title": "Stos technologiczny", "stack": "<strong>Next.js, TypeScript, Supabase (PostgreSQL), Tailwind CSS, Architektura multi-AI (Google, Groq, Cerebras).</strong>" },
-      { "name": "ZIRO.FIT: Fitness Trainer Platform", "url": "https://ziro.fit", "description": "Platforma umożliwiająca trenerom fitness <strong>tworzenie spersonalizowanych stron</strong> w celu prezentacji swojej pracy i zarządzania działalnością.", "stack_title": "Stos technologiczny", "stack": "<strong>Laravel, Livewire, Alpine.js, Tailwind CSS, PostgreSQL, AWS.</strong>" }
+      { "name": "Lexity: AI Language Learning PWA", "url": "https://lexity.app", "description": "Stworzenie PWA mającego na celu <strong>skrócenie czasu nauki o 30%</strong>. <strong>Opracowana przy użyciu przepływu pracy wspomaganego przez AI</strong>, co umożliwiło szybkie prototypowanie i wdrażanie funkcji.", "stack_title": "Stos technologiczny", "stack": "<strong>Next.js, TypeScript, Supabase (PostgreSQL), Tailwind CSS, Architektura multi-AI (Google, Groq, Cerebras).</strong>" },
+      { "name": "Interly: AI Interview Prep Platform", "url": "https://interly.app", "description": "Rozwój platformy mającej na celu <strong>zwiększenie pewności siebie kandydatów</strong> na rozmowach. <strong>Zbudowana w procesie silnie wspomaganym przez AI</strong>, co pokazuje efektywną realizację od koncepcji do wdrożenia.", "stack_title": "Stos technologiczny", "stack": "<strong>Next.js, TypeScript, Supabase (PostgreSQL), Tailwind CSS, Architektura multi-AI (Google, Groq, Cerebras).</strong>" },
+      { "name": "ZIRO.FIT: AI Fitness Trainer Platform", "url": "https://ziro.fit", "description": "Rozwój platformy dla trenerów fitness, wyposażonej w <strong>asystenta AI do automatycznego generowania spersonalizowanych planów ćwiczeń</strong>, usprawniającego tworzenie i zarządzanie treningami.", "stack_title": "Stos technologiczny", "stack": "<strong>Laravel, Livewire, Alpine.js, Tailwind CSS, PostgreSQL, AWS.</strong>" }
     ],
     "education": [
       { "degree": "Dyplom Technika Radioelektroniki (odpowiednik licencjatu)", "institution": "Mińskie Państwowe Wyższe Kolegium Radiotechniczne", "period": "2015 - 2019" }
@@ -177,9 +180,9 @@
     },
     "personalInfo": {
       "name": "MIKITA KAVALIOU",
-      "title": "Full-Stack-Entwickler | Spezialist für TypeScript, React & Node.js",
+      "title": "Full-Stack-Entwickler | KI-Spezialist, TypeScript & Node.js",
       "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-      "professionalObjective": "Full-Stack-Entwickler mit 2 Jahren Erfahrung in der Konzeption von leistungsstarken Webanwendungen. Ich möchte einem dynamischen Team beitreten, um innovative Produkte zu entwickeln. Ich bin bestrebt, meine Fähigkeiten in einem französischsprachigen Umfeld einzusetzen, und begeistere mich für die Lösung komplexer Probleme und die Schaffung hochwertiger Benutzererfahrungen.",
+      "professionalObjective": "Full-Stack-Entwickler mit 2 Jahren Erfahrung, Experte in der Nutzung von KI für schnelle Entwicklung und Integration fortschrittlicher KI-Modelle, um intelligente, benutzerzentrierte Produkte zu schaffen. Ich möchte einem dynamischen Team beitreten, um innovative Produkte zu entwickeln, und dabei meine Leidenschaft für die Lösung komplexer Probleme und die Schaffung hochwertiger Benutzererfahrungen einsetzen.",
       "status": "Berechtigt für ein Arbeitsvisum in Frankreich."
     },
     "contact": [
@@ -191,11 +194,12 @@
       { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
     ],
     "skills": [
+      { "title": "KI & Entwicklung", "skills": ["LLM-Integration (Google, Groq)", "KI-gesteuerte Workflow-Automatisierung", "Prompt Engineering", "KI-gestützte Entwicklung"] },
       { "title": "Sprachen", "skills": ["TypeScript", "JavaScript (ES6+)", "PHP", "SQL"] },
-      { "title": "Frontend", "skills": ["React", "Next.js", "Svelte", "Tailwind CSS", "Bootstrap"] },
-      { "title": "Backend", "skills": ["Node.js", "Nest.js", "Express", "Laravel", "Symfony"] },
+      { "title": "Frontend", "skills": ["React", "Next.js", "Svelte", "Tailwind CSS"] },
+      { "title": "Backend", "skills": ["Node.js", "Nest.js", "Express", "Laravel"] },
       { "title": "Datenbanken", "skills": ["PostgreSQL", "MySQL", "MongoDB"] },
-      { "title": "Cloud & DevOps", "skills": ["Supabase", "Google Cloud", "Docker", "Git", "CI/CD (GitHub Actions)"] }
+      { "title": "Tools & Plattformen", "skills": ["Supabase", "Google Cloud", "Docker", "Git", "CI/CD (GitHub Actions)"] }
     ],
     "languages": [
       { "name": "Russisch", "level": "Muttersprache" },
@@ -207,13 +211,13 @@
       { "name": "Portugiesisch", "level": "B1" }
     ],
     "experience": [
-      { "title": "Full-Stack-Webentwickler", "company": "Basesystem", "period": "Februar 2024 - Heute", "responsibilities": [ "In Zusammenarbeit mit dem Produktteam Konzeption und Bereitstellung von 3 Hauptfunktionen für eine E-Commerce-Plattform, was zu einer <strong>15%igen Steigerung</strong> des Kundenengagements führte.", "Optimierung des Backends (<strong>Laravel, MySQL</strong>), um die durchschnittliche API-Antwortzeit um <strong>30%</strong> zu reduzieren und so das Frontend-Erlebnis mit <strong>React</strong> zu verbessern.", "Integration der <strong>Stripe</strong>-Zahlungs-API, um den Transaktionsfluss zu sichern und die Konversionsrate um <strong>5%</strong> zu erhöhen." ] },
-      { "title": "Full-Stack-Webentwickler (Freiberufler)", "company": "", "period": "Januar 2024 - Heute", "responsibilities": [ "End-to-End-Projektmanagement und -Entwicklung für 4 Webanwendungen in <strong>direkter Kommunikation mit Kunden</strong>, um Bedürfnisse zu definieren und maßgeschneiderte Lösungen zu liefern.", "Implementierung robuster Backend-Architekturen mit <strong>Node.js</strong> und <strong>Nest.js</strong> nach den Prinzipien der Clean Architecture." ] }
+      { "title": "Full-Stack-Webentwickler", "company": "Basesystem", "period": "Februar 2024 - Heute", "responsibilities": [ "Konzeption und Bereitstellung von 3 Hauptfunktionen für eine E-Commerce-Plattform, was zu einer <strong>15%igen Steigerung</strong> des Kundenengagements führte.", "Optimierung des Backends (<strong>Laravel, MySQL</strong>), um die durchschnittliche API-Antwortzeit um <strong>30%</strong> zu reduzieren, was das Frontend-Erlebnis mit <strong>React</strong> verbesserte.", "Integration der <strong>Stripe</strong>-Zahlungs-API, um den Transaktionsfluss zu sichern und die Konversionsrate um <strong>5%</strong> zu erhöhen." ] },
+      { "title": "Full-Stack-Webentwickler (Freiberufler)", "company": "", "period": "Januar 2024 - Heute", "responsibilities": [ "End-to-End-Projektmanagement und -Entwicklung für 4 Webanwendungen in <strong>direkter Kommunikation mit Kunden</strong>.", "Implementierung robuster Backend-Architekturen mit <strong>Node.js</strong> und <strong>Nest.js</strong> nach den Prinzipien der Clean Architecture.", "Einsatz von <strong>KI-gesteuerten Entwicklungsworkflows</strong> zur Beschleunigung der Projektabwicklung und Verbesserung der Codequalität." ] }
     ],
     "projects": [
-      { "name": "Lexity: AI Language Learning PWA", "url": "https://lexity.app", "description": "Erstellung einer PWA mit dem Ziel, die <strong>Lernzeit um 30% zu reduzieren</strong>, indem aktives Üben durch KI-Feedback erzwungen wird.", "stack_title": "Technologie-Stack", "stack": "<strong>Next.js, TypeScript, Supabase (PostgreSQL), Tailwind CSS, Multi-KI-Architektur (Google, Groq, Cerebras).</strong>" },
-      { "name": "Interly: AI Interview Prep Platform", "url": "https://interly.app", "description": "Entwicklung einer Plattform zur <strong>Steigerung des Selbstvertrauens von Bewerbern</strong> und ihrer Leistung in Vorstellungsgesprächen durch KI-Simulationen.", "stack_title": "Technologie-Stack", "stack": "<strong>Next.js, TypeScript, Supabase (PostgreSQL), Tailwind CSS, Multi-KI-Architektur (Google, Groq, Cerebras).</strong>" },
-      { "name": "ZIRO.FIT: Fitness Trainer Platform", "url": "https://ziro.fit", "description": "Eine Plattform, die es Fitnesstrainern ermöglicht, <strong>personalisierte Seiten zu erstellen</strong>, um ihre Arbeit zu präsentieren und ihr Geschäft zu verwalten.", "stack_title": "Technologie-Stack", "stack": "<strong>Laravel, Livewire, Alpine.js, Tailwind CSS, PostgreSQL, AWS.</strong>" }
+      { "name": "Lexity: AI Language Learning PWA", "url": "https://lexity.app", "description": "Erstellung einer PWA mit dem Ziel, die <strong>Lernzeit um 30% zu reduzieren</strong>. <strong>Entwickelt mit einem KI-erweiterten Workflow</strong>, der schnelles Prototyping und die Implementierung von Funktionen ermöglicht.", "stack_title": "Technologie-Stack", "stack": "<strong>Next.js, TypeScript, Supabase (PostgreSQL), Tailwind CSS, Multi-KI-Architektur (Google, Groq, Cerebras).</strong>" },
+      { "name": "Interly: AI Interview Prep Platform", "url": "https://interly.app", "description": "Entwicklung einer Plattform zur <strong>Steigerung des Selbstvertrauens von Bewerbern</strong>. <strong>Erstellt mit einem stark KI-gestützten Prozess</strong>, der eine effiziente Umsetzung vom Konzept bis zur Bereitstellung demonstriert.", "stack_title": "Technologie-Stack", "stack": "<strong>Next.js, TypeScript, Supabase (PostgreSQL), Tailwind CSS, Multi-KI-Architektur (Google, Groq, Cerebras).</strong>" },
+      { "name": "ZIRO.FIT: AI Fitness Trainer Platform", "url": "https://ziro.fit", "description": "Entwicklung einer Plattform für Fitnesstrainer mit einem <strong>KI-gestützten Assistenten zur automatischen Erstellung personalisierter Trainingspläne</strong>, der die Erstellung und Verwaltung von Workouts optimiert.", "stack_title": "Technologie-Stack", "stack": "<strong>Laravel, Livewire, Alpine.js, Tailwind CSS, PostgreSQL, AWS.</strong>" }
     ],
     "education": [
       { "degree": "Diplom als Techniker für Radioelektronik (entspricht Bachelor-Abschluss)", "institution": "Staatliches Höheres Kolleg für Radiotechnik Minsk", "period": "2015 - 2019" }

@@ -36,8 +36,30 @@
 .corporate-template .skills-grid-corporate { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.5rem 1rem; }
 .corporate-template .skill-title-corporate { margin-bottom: 0; font-size: 0.85rem;}
 
+@media screen and (max-width: 768px) {
+  .corporate-template .cv-container-corporate {
+    padding: 1rem;
+  }
+
+  .corporate-template .contact-corporate {
+    gap: 0.5rem 1rem;
+  }
+  
+  .corporate-template .job-header-corporate {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  
+  .corporate-template .skills-grid-corporate {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}
+
 @media print {
   .corporate-template .cv-container-corporate {
     padding: 1rem;
   }
 }
+      

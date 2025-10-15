@@ -100,8 +100,20 @@
   line-height: 1.3;
 }
 
+@media screen and (max-width: 768px) {
+  .classic-template .cv-container {
+    flex-direction: column;
+  }
+  
+  .classic-template .left-column, .classic-template .right-column {
+    width: 100%;
+    border-right: none;
+  }
+}
+
 @media print {
   .classic-template .left-column, .classic-template .right-column {
     padding: 1rem;
   }
 }
+      

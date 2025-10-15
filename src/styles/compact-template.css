@@ -40,8 +40,20 @@
 .compact-template .right-column-compact ul li { margin-bottom: 0.2rem; }
 .compact-template .job { margin-bottom: 0.6rem; }
 
+@media screen and (max-width: 768px) {
+  .compact-template .cv-container-compact {
+    flex-direction: column;
+  }
+
+  .compact-template .left-column-compact, .compact-template .right-column-compact {
+    width: 100%;
+    border-right: none;
+  }
+}
+
 @media print {
   .compact-template .left-column-compact, .compact-template .right-column-compact {
     padding: 1rem;
   }
 }
+      

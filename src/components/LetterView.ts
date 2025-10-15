@@ -101,7 +101,7 @@ export const renderLetterView = (lang: LanguageCode, allCvData: CVDatabase, curr
 
     <div id="letter-output-container">
         <button class="print-button" id="print-letter-btn" style="display: none;">
-            <svg xmlns="http://www.w.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
             ${t.printLetter}
         </button>
         <button class="print-button" id="combine-print-btn" style="display: none;">
@@ -183,7 +183,44 @@ export const renderLetterView = (lang: LanguageCode, allCvData: CVDatabase, curr
     }
   };
 
+  const originalTitle = document.title;
+  const langNameMap: Record<LanguageCode, string> = {
+      fr: "Français",
+      en: "English",
+      pl: "Polski",
+      de: "Deutsch"
+  };
+  const docNameMap: Record<LanguageCode, { cv: string, letter: string }> = {
+      fr: { cv: 'CV', letter: 'Lettre de Motivation' },
+      en: { cv: 'CV', letter: 'Cover Letter' },
+      pl: { cv: 'CV', letter: 'List Motywacyjny' },
+      de: { cv: 'Lebenslauf', letter: 'Anschreiben' }
+  };
+
+  const setPrintTitle = (docType: 'letter' | 'combined') => {
+    const currentProfile = allCvData.find(p => p.id === currentCvId);
+    if (!currentProfile) return;
+
+    const cvDataForLang = currentProfile.data[lang];
+    const { name, title } = cvDataForLang.personalInfo;
+    
+    let docName = '';
+    if (docType === 'letter') {
+        docName = docNameMap[lang].letter;
+    } else {
+        docName = `${docNameMap[lang].cv} & ${docNameMap[lang].letter}`;
+    }
+    
+    document.title = `${name} - ${langNameMap[lang]} - ${title} - ${docName}`;
+
+    window.addEventListener('afterprint', () => {
+        document.title = originalTitle;
+    }, { once: true });
+  };
+
   const handleCombinePrint = () => {
+    setPrintTitle('combined');
+
     const printableArea = document.createElement('div');
     printableArea.id = 'printable-area';
     
@@ -229,8 +266,14 @@ export const renderLetterView = (lang: LanguageCode, allCvData: CVDatabase, curr
   };
 
   generateBtn.addEventListener('click', handleGenerate);
-  printLetterBtn.addEventListener('click', () => window.print());
+  
+  printLetterBtn.addEventListener('click', () => {
+    setPrintTitle('letter');
+    window.print();
+  });
+
   combinePrintBtn.addEventListener('click', handleCombinePrint);
 
   return element;
 };
+      

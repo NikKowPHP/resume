@@ -109,7 +109,25 @@ export const renderCvView = (data: CVData, lang: LanguageCode, onUpdate: (newCvD
   };
 
   const attachListeners = () => {
-    element.querySelector('#print-cv-btn')?.addEventListener('click', () => window.print());
+    const originalTitle = document.title;
+    const langNameMap: Record<LanguageCode, string> = {
+        fr: "Français",
+        en: "English",
+        pl: "Polski",
+        de: "Deutsch"
+    };
+
+    element.querySelector('#print-cv-btn')?.addEventListener('click', () => {
+        const newTitle = `${data.personalInfo.name} - ${langNameMap[lang]} - ${data.personalInfo.title} - CV`;
+        document.title = newTitle;
+        
+        window.addEventListener('afterprint', () => {
+            document.title = originalTitle;
+        }, { once: true });
+        
+        window.print();
+    });
+
     element.querySelector('#review-cv-btn')?.addEventListener('click', handleReview);
 
     // Modal listeners
@@ -137,3 +155,4 @@ export const renderCvView = (data: CVData, lang: LanguageCode, onUpdate: (newCvD
   render();
   return element;
 };
+      

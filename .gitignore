@@ -7,3 +7,4 @@ package-lock.json
 dist
 TASKS.md
 .vercel
+.env*.local

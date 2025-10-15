@@ -1,7 +1,7 @@
 import { generateCoverLetter, getCVDataAsText } from '../services/GeminiService';
 import { blobToBase64 } from '../helpers';
 import { templates } from './cv-templates';
-import { LanguageCode, MultilingualCVData } from '../types';
+import { LanguageCode, CVDatabase } from '../types';
 
 const translations = {
   fr: {
@@ -71,7 +71,7 @@ const translations = {
 };
 
 
-export const renderLetterView = (lang: LanguageCode, allCvData: MultilingualCVData): HTMLElement => {
+export const renderLetterView = (lang: LanguageCode, allCvData: CVDatabase, currentCvId: string): HTMLElement => {
   const element = document.createElement('div');
   element.id = 'letter-view';
   const t = translations[lang];
@@ -101,7 +101,7 @@ export const renderLetterView = (lang: LanguageCode, allCvData: MultilingualCVDa
 
     <div id="letter-output-container">
         <button class="print-button" id="print-letter-btn" style="display: none;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+            <svg xmlns="http://www.w.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
             ${t.printLetter}
         </button>
         <button class="print-button" id="combine-print-btn" style="display: none;">
@@ -151,7 +151,11 @@ export const renderLetterView = (lang: LanguageCode, allCvData: MultilingualCVDa
     combinePrintBtn.style.display = 'none';
 
     try {
-      const cvDataForLang = allCvData[lang];
+      const currentProfile = allCvData.find(p => p.id === currentCvId);
+      if (!currentProfile) {
+        throw new Error("Current CV profile not found");
+      }
+      const cvDataForLang = currentProfile.data[lang];
       const cvDataString = getCVDataAsText(cvDataForLang);
       
       let imagePart = null;
@@ -183,9 +187,15 @@ export const renderLetterView = (lang: LanguageCode, allCvData: MultilingualCVDa
     const printableArea = document.createElement('div');
     printableArea.id = 'printable-area';
     
+    const currentProfile = allCvData.find(p => p.id === currentCvId);
+    if (!currentProfile) {
+      console.error("Current CV profile not found for printing");
+      return;
+    }
+    const cvDataForLang = currentProfile.data[lang];
+
     // 1. Get CV content for the current language and selected template
     const selectedTemplateId = (localStorage.getItem('selectedCvTemplate') || 'classic') as keyof typeof templates;
-    const cvDataForLang = allCvData[lang];
     const templateRenderer = templates[selectedTemplateId].render;
     const cvHtmlString = templateRenderer(cvDataForLang, lang);
     

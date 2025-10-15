@@ -1,257 +1,175 @@
+```xml
 <response>
   <reasoning>
-    I've analyzed the error logs you provided. It seems there are two distinct issues that I need to address:
+    The user is reporting a "Maximum call stack size exceeded" error. The error log indicates an infinite recursion between the `handleNavigation` and `setCv` methods in `src/App.ts`.
 
-    1.  **CSS MIME Type Error:** The browser is trying to load `/src/styles.css` but is receiving an HTML file instead. This happened because during the CSS refactoring, I correctly moved the style imports into `main.ts` but forgot to remove the old `<link>` tag from `index.html`. The Vite dev server, not finding the old file, served `index.html` as a fallback, causing the MIME type mismatch.
+    This happens when `currentCvId` is invalid. The `handleNavigation` method detects that no profile is found and tries to reset to the default CV profile. However, it incorrectly tries to access `this.cvData.id`. Since `this.cvData` is an array of profiles (`CVDatabase`), `this.cvData.id` is `undefined`. This `undefined` value is passed to `setCv`, which in turn calls `handleNavigation` again, creating an infinite loop.
 
-    2.  **Gemini API Response Error:** The logs show "Empty or invalid response from Gemini API". This indicates that my `callGeminiAPI` function is not robust enough. It expects a perfect response structure (`candidates[0].content.parts[0].text`) and fails if the AI's response is blocked for safety reasons or if the structure is slightly different (e.g., an empty `parts` array).
+    The fix is to access the ID of the first profile in the array correctly: `this.cvData[0].id`. This correction needs to be applied in two places:
+    1.  In the constructor, when setting the initial `currentCvId`.
+    2.  In `handleNavigation`, within the logic that resets to the default profile.
 
-    My plan is to fix both issues:
-    1.  I will remove the incorrect stylesheet link from `index.html`.
-    2.  I will refactor the `callGeminiAPI` function in `src/services/GeminiService.ts` to be more defensive. It will now check if a valid candidate was returned and inspect its `finishReason` to handle cases where content generation was stopped by the API for reasons other than completion (like safety). This will provide better error handling and prevent the application from crashing.
+    Additionally, I will create a `TASKS.md` file to track this fix.
   </reasoning>
   <modifications>
-    <file path="index.html">
+    <file path="src/App.ts">
       <![CDATA[
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV & Lettre de Motivation - Mikita Kavaliou</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-</head>
-<body>
+import { renderCvView } from './components/CvView';
+import { renderLetterView } from './components/LetterView';
+import cvDataJson from './data/cv-data.json';
+import { CVData, LanguageCode, CVDatabase } from './types';
 
-  <nav class="app-nav">
-    <div class="nav-links">
-      <a href="#cv" id="nav-cv" class="nav-link">CV</a>
-      <a href="#letter" id="nav-letter" class="nav-link">Lettre de Motivation</a>
-    </div>
-    <div class="lang-switcher">
-      <button class="lang-switch active" data-lang="fr">FR</button>
-      <button class="lang-switch" data-lang="en">EN</button>
-      <button class="lang-switch" data-lang="pl">PL</button>
-      <button class="lang-switch" data-lang="de">DE</button>
-    </div>
-  </nav>
+const uiTranslations = {
+  fr: { cv: 'CV', letter: 'Lettre de Motivation' },
+  en: { cv: 'CV', letter: 'Cover Letter' },
+  pl: { cv: 'CV', letter: 'List Motywacyjny' },
+  de: { cv: 'Lebenslauf', letter: 'Anschreiben' },
+};
+
+export class App {
+  private container: HTMLElement;
+  private navCV: HTMLElement | null;
+  private navLetter: HTMLElement | null;
+  private cvData: CVDatabase;
+  private currentLanguage: LanguageCode = 'fr';
+  private currentCvId: string;
+
+  constructor(container: HTMLElement) {
+    this.container = container;
+    this.navCV = document.getElementById('nav-cv');
+    this.navLetter = document.getElementById('nav-letter');
+    
+    this.cvData = this.loadCvData();
+    this.currentCvId = localStorage.getItem('selectedCvId') || (this.cvData.length > 0 ? this.cvData[0].id : '');
+
+    this.initRouter();
+    this.initLanguageSwitcher();
+    this.initCvSwitcher();
+    this.handleNavigation(); // Initial render
+  }
+
+  private loadCvData(): CVDatabase {
+    const storedData = localStorage.getItem('cvDatabase');
+    if (storedData) {
+      try {
+        return JSON.parse(storedData) as CVDatabase;
+      } catch (e) {
+        console.error("Failed to parse CV data from localStorage, falling back to default.", e);
+        localStorage.removeItem('cvDatabase');
+      }
+    }
+    // If no stored data or parsing failed, load from JSON and store it.
+    const initialData = cvDataJson as CVDatabase;
+    localStorage.setItem('cvDatabase', JSON.stringify(initialData));
+    return initialData;
+  }
+
+  private initRouter() {
+    window.addEventListener('hashchange', this.handleNavigation.bind(this));
+    this.navCV?.addEventListener('click', () => window.location.hash = 'cv');
+    this.navLetter?.addEventListener('click', () => window.location.hash = 'letter');
+  }
   
-  <main id="app-container"></main>
-  
-  <script type="module" src="/src/main.ts"></script>
-</body>
-</html>
-]]>
-    </file>
-    <file path="src/services/GeminiService.ts">
-      <![CDATA[
-import axios from 'axios';
-import { CVData, LanguageCode } from '../types';
+  private initLanguageSwitcher() {
+    const switcher = document.querySelector('.lang-switcher');
+    switcher?.addEventListener('click', (e) => {
+      const target = e.target as HTMLElement;
+      if (target.matches('.lang-switch')) {
+        const lang = target.dataset.lang as LanguageCode;
+        if (lang) {
+          this.setLanguage(lang);
+        }
+      }
+    });
+  }
 
-const API_KEY = process.env.GEMINI_API_KEY;
+  private initCvSwitcher() {
+    const switcher = document.getElementById('cv-switcher') as HTMLSelectElement;
+    if (!switcher) return;
 
-if (!API_KEY) {
-  throw new Error("GEMINI_API_KEY is not set in environment variables.");
+    switcher.innerHTML = ''; // Clear existing options
+
+    this.cvData.forEach(profile => {
+      const option = document.createElement('option');
+      option.value = profile.id;
+      option.textContent = profile.name;
+      option.selected = profile.id === this.currentCvId;
+      switcher.appendChild(option);
+    });
+
+    switcher.addEventListener('change', (e) => {
+      const newCvId = (e.target as HTMLSelectElement).value;
+      this.setCv(newCvId);
+    });
+  }
+
+  private setLanguage(lang: LanguageCode) {
+    this.currentLanguage = lang;
+    
+    document.querySelectorAll('.lang-switch').forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+    });
+    
+    this.handleNavigation();
+  }
+
+  private setCv(cvId: string) {
+    this.currentCvId = cvId;
+    localStorage.setItem('selectedCvId', cvId);
+    this.handleNavigation(); // Re-render the view with the new CV data
+  }
+
+  private updateNavText() {
+    if (this.navCV) this.navCV.textContent = uiTranslations[this.currentLanguage].cv;
+    if (this.navLetter) this.navLetter.textContent = uiTranslations[this.currentLanguage].letter;
+  }
+
+  private updateCvData = (newCvData: CVData) => {
+    const profileToUpdate = this.cvData.find(p => p.id === this.currentCvId);
+    if (profileToUpdate) {
+      profileToUpdate.data[this.currentLanguage] = newCvData;
+      localStorage.setItem('cvDatabase', JSON.stringify(this.cvData)); // Persist changes
+      this.handleNavigation(); // Re-render with the new data
+    } else {
+      console.error('Failed to find CV profile to update:', this.currentCvId);
+    }
+  }
+
+  private handleNavigation() {
+    const hash = window.location.hash || '#cv';
+    this.container.innerHTML = ''; 
+    this.updateNavText();
+    this.initCvSwitcher(); // Keep switcher in sync
+
+    const currentProfile = this.cvData.find(p => p.id === this.currentCvId);
+    if (!currentProfile) {
+      // If currentCvId from localStorage is invalid, reset to the first one.
+      console.error('Current CV profile not found! Resetting to default.');
+      if (this.cvData.length > 0) {
+        this.setCv(this.cvData[0].id);
+      }
+      return; // setCv will trigger handleNavigation again.
+    }
+    const currentCvData = currentProfile.data[this.currentLanguage];
+
+    if (hash === '#cv') {
+      this.container.appendChild(renderCvView(currentCvData, this.currentLanguage, this.updateCvData));
+      this.navCV?.classList.add('active');
+      this.navLetter?.classList.remove('active');
+    } else if (hash === '#letter') {
+      this.container.appendChild(renderLetterView(this.currentLanguage, this.cvData, this.currentCvId));
+      this.navLetter?.classList.add('active');
+      this.navCV?.classList.remove('active');
+    }
+  }
 }
-
-const MODEL_NAME = "gemini-flash-latest";
-const API_URL = `/api/v1beta/models/${MODEL_NAME}:generateContent?key=${API_KEY}`;
-
-type HarmCategory =
-  | "HARM_CATEGORY_HARASSMENT"
-  | "HARM_CATEGORY_HATE_SPEECH"
-  | "HARM_CATEGORY_SEXUALLY_EXPLICIT"
-  | "HARM_CATEGORY_DANGEROUS_CONTENT";
-
-type HarmBlockThreshold = "BLOCK_MEDIUM_AND_ABOVE";
-
-const safetySettings: { category: HarmCategory; threshold: HarmBlockThreshold }[] = [
-  { category: "HARM_CATEGORY_HARASSMENT", threshold: "BLOCK_MEDIUM_AND_ABOVE" },
-  { category: "HARM_CATEGORY_HATE_SPEECH", threshold: "BLOCK_MEDIUM_AND_ABOVE" },
-  { category: "HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold: "BLOCK_MEDIUM_AND_ABOVE" },
-  { category: "HARM_CATEGORY_DANGEROUS_CONTENT", threshold: "BLOCK_MEDIUM_AND_ABOVE" },
-];
-
-const generationConfig = {
-  temperature: 0.9,
-  topK: 1,
-  topP: 1,
-  maxOutputTokens: 2048,
-};
-
-const callGeminiAPI = async (payload: any): Promise<string> => {
-    try {
-        const response = await axios.post(API_URL, payload, {
-            headers: { 'Content-Type': 'application/json' }
-        });
-
-        const candidate = response.data?.candidates?.[0];
-
-        if (!candidate) {
-            console.error("Invalid response: No candidates found.", response.data);
-            throw new Error("API returned no candidates. The prompt may have been blocked.");
-        }
-
-        if (candidate.finishReason && candidate.finishReason !== "STOP") {
-            console.error(`API response finished with reason: ${candidate.finishReason}`, candidate);
-            throw new Error(`Content generation stopped unexpectedly. Reason: ${candidate.finishReason}. This often happens due to safety settings.`);
-        }
-
-        const text = candidate.content?.parts?.[0]?.text;
-
-        if (!text) {
-            console.error("Invalid response structure from Gemini API:", response.data);
-            throw new Error("Empty or invalid response from Gemini API");
-        }
-        return text.trim();
-    } catch (error) {
-        if (axios.isAxiosError(error)) {
-            const errorData = error.response?.data?.error;
-            console.error("Axios error calling Gemini API:", errorData || error.message);
-            const errorMessage = errorData ? `${errorData.message} (Code: ${errorData.code})` : error.message;
-            throw new Error(`API call failed: ${errorMessage}`);
-        }
-        // Re-throw errors from the try block or other unknown errors
-        console.error("Unknown error calling Gemini API:", error);
-        throw error;
-    }
-};
-
-export const getCVDataAsText = (data: CVData): string => {
-    let cvText = "";
-    const stripHtml = (html: string) => html.replace(/<[^>]*>?/gm, '');
-    cvText += `Name: ${data.personalInfo.name}\n`;
-    cvText += `Title: ${data.personalInfo.title}\n\n`;
-    cvText += `## ${data.sections.objective}\n${data.personalInfo.professionalObjective}\n\n`;
-    cvText += `## ${data.sections.experience}\n`;
-    data.experience.forEach(job => {
-        cvText += `${job.title}\n`;
-        if (job.company) cvText += `${job.company} | `;
-        cvText += `${job.period}\n`;
-        job.responsibilities.forEach(res => { cvText += `- ${stripHtml(res)}\n`; });
-        cvText += '\n';
-    });
-    cvText += `## ${data.sections.projects}\n`;
-    data.projects.forEach(project => {
-        cvText += `${project.name} (${project.url})\n`;
-        cvText += `${stripHtml(project.description)}\n`;
-        cvText += `${project.stack_title} : ${stripHtml(project.stack)}\n\n`;
-    });
-    cvText += `## ${data.sections.skills}\n`;
-    data.skills.forEach(category => { cvText += `${category.title}: ${category.skills.join(', ')}\n`; });
-    cvText += '\n';
-    cvText += `## ${data.sections.education}\n`;
-    data.education.forEach(edu => { cvText += `${edu.degree}\n`; cvText += `${edu.institution} | ${edu.period}\n\n`; });
-    cvText += `## ${data.sections.languages}\n`;
-    data.languages.forEach(lang => { cvText += `${lang.name}: ${lang.level}\n`; });
-    cvText += '\n';
-    cvText += `## ${data.sections.contact}\n`;
-    data.contact.forEach(c => { cvText += `${c.text}${c.url ? ` (${c.url})` : ''}\n`; });
-    cvText += '\n';
-    return cvText.trim();
-};
-
-const languageMap: Record<LanguageCode, string> = {
-    fr: "French", en: "English", pl: "Polish", de: "German"
-};
-
-export const generateCoverLetter = async (cvData: string, jobInfo: string, imagePart: any | null, lang: LanguageCode): Promise<string> => {
-    const targetLanguage = languageMap[lang];
-    const prompt = `
-You are an expert career coach. Your mission is to write an outstanding, ready-to-use cover letter in **${targetLanguage} only**.
-
-**Candidate Information (from CV):**
----
-${cvData}
----
-
-**Job/Company Information:**
----
-${jobInfo || "Please analyze the attached image for the job description and company information."}
----
-
-**Writing Instructions:**
-
-You must write a complete and professional cover letter following these rules precisely.
-
-1.  **Sender's Header:** Directly integrate the candidate's contact information (Name, Title, Phone, Email, etc.) clearly and professionally at the top left. Do not use placeholders like "[Your Contact Info]".
-2.  **Recipient:** If a contact person or company name is available, address the letter to them. Otherwise, use a generic salutation appropriate for the target language (e.g., "À l'attention du Service Recrutement" for French). Include the city if possible.
-3.  **Location:** Add only the candidate's city of residence (e.g., "Krakow,"). **DO NOT include the date.**
-4.  **Subject:** Create a clear and concise subject line. For example, in French: "Objet : Candidature au poste de [Job Title]".
-5.  **Body of the letter:**
-    *   Write a compelling introduction that mentions the targeted position.
-    *   Develop 2-3 paragraphs that highlight the match between the candidate's skills and experience (from the CV) and the job requirements. Use concrete examples from the CV.
-    *   Show sincere interest in the company.
-    *   Conclude with a clear call to action, proposing an interview.
-6.  **Closing and Signature:** End with a professional closing appropriate for the language (e.g., for French: "Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.") followed by the candidate's full name.
-
-**Tone and Style:**
-*   The tone must be professional, confident, and enthusiastic.
-*   The letter must be concise, impactful, and free of errors.
-*   Use line breaks to create space and clearly separate paragraphs.
-*   **FORMATTING:** The output must be **plain text only**. Do NOT use any Markdown formatting (no **, *, #, lists, etc.).
-
-Generate only the full, raw text of the letter, starting with the candidate's name.
-`;
-    const parts: any[] = [{ text: prompt }];
-    if (imagePart) parts.push(imagePart);
-    const payload = { contents: [{ role: "user", parts }], generationConfig, safetySettings };
-    return callGeminiAPI(payload);
-};
-
-export const reviewCv = async (cvData: CVData): Promise<string> => {
-    const prompt = `
-You are a professional career coach and CV expert for the tech industry.
-Review the following CV data, provided in JSON format.
-Provide a concise list of actionable suggestions for improvement. Focus on making the descriptions more impactful, quantifying achievements, and optimizing for keywords relevant to a Full Stack Developer role.
-Format your response as a Markdown bulleted list.
-
-CV Data:
-\`\`\`json
-${JSON.stringify(cvData, null, 2)}
-\`\`\`
-`;
-    const payload = { contents: [{ role: "user", parts: [{ text: prompt }] }], generationConfig, safetySettings };
-    return callGeminiAPI(payload);
-};
-
-export const improveCv = async (cvData: CVData, suggestions: string): Promise<CVData> => {
-    const prompt = `
-You are an AI assistant that updates JSON data.
-Below is a CV data object in JSON format and a list of suggestions for improvement.
-Your task is to apply these suggestions to the JSON object.
-Rewrite the JSON to incorporate the suggested changes, focusing on making the 'professionalObjective', 'responsibilities', and 'description' fields more impactful and quantitative.
-You MUST return the **complete, updated JSON object and nothing else**.
-Ensure the returned JSON is valid and maintains the exact same structure as the original.
-Do not add any explanatory text, markdown, or code block fences before or after the JSON.
-
-Original CV JSON:
-\`\`\`json
-${JSON.stringify(cvData, null, 2)}
-\`\`\`
-
-Suggestions for improvement:
----
-${suggestions}
----
-
-Return ONLY the updated and valid JSON object.
-`;
-    const payload = { contents: [{ role: "user", parts: [{ text: prompt }] }], generationConfig, safetySettings };
-    const responseText = await callGeminiAPI(payload);
-
-    try {
-        // The API might still wrap the JSON in markdown, so we need to clean it.
-        const cleanedText = responseText.replace(/^```json\n/, '').replace(/\n```$/, '');
-        return JSON.parse(cleanedText) as CVData;
-    } catch (error) {
-        console.error("Failed to parse JSON response from AI:", responseText);
-        throw new Error("AI returned invalid JSON data.");
-    }
-};
-]]>
+      ]]>
+    </file>
+    <file path="TASKS.md">
+      <![CDATA[
+- [x] Fix "Maximum call stack size exceeded" error on app load.
+      ]]>
     </file>
   </modifications>
 </response>
+```

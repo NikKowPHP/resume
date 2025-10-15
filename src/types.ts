@@ -66,3 +66,11 @@ export interface CVData {
 }
 
 export type MultilingualCVData = Record<LanguageCode, CVData>;
+
+export interface CVProfile {
+  id: string;
+  name: string;
+  data: MultilingualCVData;
+}
+
+export type CVDatabase = CVProfile[];

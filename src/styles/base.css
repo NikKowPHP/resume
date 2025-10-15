@@ -57,6 +57,24 @@ body {
 .nav-link:hover { color: var(--heading-color); }
 .nav-link.active { color: var(--link-color); border-bottom-color: var(--link-color); }
 
+.cv-switcher-container {
+  position: absolute;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.cv-switch {
+  background: none;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
 .lang-switcher {
   position: absolute;
   right: 2rem;

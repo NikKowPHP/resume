@@ -1,3 +1,4 @@
+
 [
   {
     "id": "fullstack_ai_specialist",
@@ -54,7 +55,7 @@
           {
             "name": "ZIRO.FIT : Plateforme pour Coachs Sportifs",
             "url": "https://ziro.fit",
-            "description": "Une plateforme pour coachs sportifs conçue comme une solution full-stack. J'ai développé à la fois le backend avec Laravel et le frontend interactif avec Livewire/Alpine.js. Un point clé a été l'intégration d'un assistant IA pour générer des plans d'entraînement personnalisés.",
+            "description": "Plateforme full-stack pour coachs sportifs avec un assistant IA pour la génération de plans d'entraînement. Développement du backend Laravel et du frontend interactif Livewire/Alpine.js.",
             "stack_title": "Stack Technique",
             "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js, IA (pour la génération de plans).</strong>"
           },
@@ -117,7 +118,7 @@
           {
             "name": "ZIRO.FIT: Fitness Trainer Platform",
             "url": "https://ziro.fit",
-            "description": "A full-stack platform for fitness trainers. I developed both the backend using Laravel and the interactive frontend with Livewire/Alpine.js. A key feature was integrating an AI assistant to generate personalized workout plans, showcasing end-to-end AI application expertise.",
+            "description": "A full-stack platform for fitness trainers featuring an AI assistant for workout generation. Developed the Laravel backend and the interactive Livewire/Alpine.js frontend.",
             "stack_title": "Tech Stack",
             "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js, AI (for plan generation).</strong>"
           },
@@ -180,7 +181,7 @@
           {
             "name": "ZIRO.FIT: Platforma dla Trenerów Fitness",
             "url": "https://ziro.fit",
-            "description": "Platforma full-stack dla trenerów fitness. Rozwijałem zarówno backend w Laravelu, jak i interaktywny frontend za pomocą Livewire/Alpine.js. Kluczową funkcją była integracja asystenta AI do generowania spersonalizowanych planów treningowych, co pokazuje kompleksowe doświadczenie w aplikacjach AI.",
+            "description": "Platforma full-stack dla trenerów fitness z asystentem AI do generowania planów treningowych. Opracowałem backend w Laravelu i interaktywny frontend w Livewire/Alpine.js.",
             "stack_title": "Stos technologiczny",
             "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js, AI (do generowania planów).</strong>"
           },
@@ -243,7 +244,7 @@
           {
             "name": "ZIRO.FIT: Plattform für Fitnesstrainer",
             "url": "https://ziro.fit",
-            "description": "Eine Full-Stack-Plattform für Fitnesstrainer. Ich habe sowohl das Backend mit Laravel als auch das interaktive Frontend mit Livewire/Alpine.js entwickelt. Ein Hauptmerkmal war die Integration eines KI-Assistenten zur Erstellung personalisierter Trainingspläne, was meine Expertise in End-to-End-KI-Anwendungen unterstreicht.",
+            "description": "Full-Stack-Plattform für Fitnesstrainer mit einem KI-Assistenten zur Trainingsplanerstellung. Entwicklung des Laravel-Backends und des interaktiven Livewire/Alpine.js-Frontends.",
             "stack_title": "Technologie-Stack",
             "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js, KI (für Plangenerierung).</strong>"
           },
@@ -310,7 +311,7 @@
           {
             "name": "ZIRO.FIT : Plateforme pour Coachs Sportifs",
             "url": "https://ziro.fit",
-            "description": "Une plateforme pour coachs sportifs où j'ai dirigé le développement de l'interface utilisateur. J'ai utilisé <strong>Livewire</strong> et <strong>Alpine.js</strong> pour créer une expérience dynamique et réactive, incluant des fonctionnalités d'engagement client et la présentation de programmes d'entraînement générés par l'IA.",
+            "description": "Développement frontend d'une plateforme pour coachs sportifs. Création d'une UX dynamique avec Livewire & Alpine.js pour l'engagement client et l'affichage des plans d'entraînement IA.",
             "stack_title": "Stack Technique Frontend",
             "stack": "<strong>Livewire, Alpine.js, Tailwind CSS, Laravel (pour le backend).</strong>"
           },
@@ -371,7 +372,7 @@
           {
             "name": "ZIRO.FIT: Fitness Trainer Platform",
             "url": "https://ziro.fit",
-            "description": "A platform for fitness trainers where I led frontend development. I used <strong>Livewire</strong> and <strong>Alpine.js</strong> to create a dynamic and responsive user experience, including client engagement features and displaying AI-generated workout plans. The focus was on a seamless and intuitive UX/UI.",
+            "description": "Led frontend development for a fitness trainer platform, creating a dynamic UX with Livewire & Alpine.js for client engagement and displaying AI-generated workout plans.",
             "stack_title": "Frontend Stack",
             "stack": "<strong>Livewire, Alpine.js, Tailwind CSS, Laravel (as backend).</strong>"
           },
@@ -432,7 +433,7 @@
           {
             "name": "ZIRO.FIT: Platforma dla Trenerów Fitness",
             "url": "https://ziro.fit",
-            "description": "Platforma dla trenerów fitness, gdzie prowadziłem rozwój frontendu. Użyłem <strong>Livewire</strong> i <strong>Alpine.js</strong>, aby stworzyć dynamiczne i responsywne doświadczenie użytkownika, w tym funkcje angażujące klientów i wyświetlanie planów treningowych generowanych przez AI.",
+            "description": "Rozwój frontendu platformy dla trenerów fitness. Stworzenie dynamicznego UX za pomocą Livewire i Alpine.js do angażowania klientów i wyświetlania planów treningowych generowanych przez AI.",
             "stack_title": "Stos Technologiczny Frontend",
             "stack": "<strong>Livewire, Alpine.js, Tailwind CSS, Laravel (jako backend).</strong>"
           },
@@ -493,7 +494,7 @@
           {
             "name": "ZIRO.FIT: Plattform für Fitnesstrainer",
             "url": "https://ziro.fit",
-            "description": "Eine Plattform für Fitnesstrainer, bei der ich die Frontend-Entwicklung leitete. Ich habe <strong>Livewire</strong> und <strong>Alpine.js</strong> verwendet, um eine dynamische und reaktionsschnelle Benutzererfahrung zu schaffen, einschließlich Funktionen zur Kundenbindung und zur Anzeige von KI-generierten Trainingsplänen.",
+            "description": "Frontend-Entwicklung für eine Fitnesstrainer-Plattform. Erstellung einer dynamischen UX mit Livewire & Alpine.js für Kundenbindung und Anzeige von KI-generierten Trainingsplänen.",
             "stack_title": "Frontend Technologie-Stack",
             "stack": "<strong>Livewire, Alpine.js, Tailwind CSS, Laravel (als Backend).</strong>"
           },
@@ -556,7 +557,7 @@
           { "title": "Développeur Web Backend", "company": "Basesystem", "period": "Février 2024 - Présent", "responsibilities": [ "Conception et maintenance d'applications web complexes avec <strong>Laravel</strong> et <strong>Symfony</strong>, tout en gérant avec succès des bases de code héritées en <strong>PHP natif (versions 7 à 8+).</strong>", "Optimisation des performances de la base de données (<strong>MySQL</strong>) par la refactorisation de requêtes complexes et des stratégies d'indexation, entraînant une <strong>réduction de 25%</strong> des temps de chargement.", "Développement d'API RESTful robustes pour soutenir les applications frontend construites avec <strong>jQuery</strong> et <strong>React</strong>, garantissant un flux de données fluide." ] }
         ],
         "projects": [
-          { "name": "ZIRO.FIT : Plateforme pour Coachs Sportifs", "url": "https://ziro.fit", "description": "Une carte de visite numérique et une plateforme d'engagement client pour les coachs sportifs. J'ai développé l'ensemble du backend avec Laravel, y compris un schéma de base de données complexe, la logique métier et un assistant IA pour la génération de programmes d'entraînement.", "stack_title": "Stack Technique", "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>" },
+          { "name": "ZIRO.FIT : Plateforme pour Coachs Sportifs", "url": "https://ziro.fit", "description": "Développement de tout le backend Laravel pour une plateforme de coachs sportifs, incluant le schéma de BDD, la logique métier et un assistant IA pour la génération d'entraînements.", "stack_title": "Stack Technique", "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>" },
           { "name": "Bot Instagram Commentaire-vers-DM", "url": "https://github.com/NikKowPHP", "description": "Un système automatisé qui envoie des DM aux utilisateurs qui commentent avec des mots-clés spécifiques sur les publications Instagram, géré via un panneau web.", "stack_title": "Stack Technique", "stack": "<strong>Python, Docker, Supabase (PostgreSQL), Next.js.</strong>" },
           { "name": "Backend pour PWA Éducatives", "url": "https://lexity.app", "description": "Conception et implémentation de l'architecture backend et des API RESTful avec <strong>Supabase (PostgreSQL)</strong> et des fonctions serverless TypeScript pour alimenter plusieurs PWA <strong>Next.js</strong>, en se concentrant sur la modélisation des données et l'authentification.", "stack_title": "Stack Technique", "stack": "<strong>Supabase, PostgreSQL, TypeScript (Edge Functions).</strong>" }
         ],
@@ -609,7 +610,7 @@
           { "title": "Backend Web Developer", "company": "Basesystem", "period": "February 2024 - Present", "responsibilities": [ "Engineered and maintained complex web applications using <strong>Laravel</strong> and <strong>Symfony</strong>, successfully managing legacy codebases in <strong>native PHP (versions 7 to 8+).</strong>", "Optimized database performance (<strong>MySQL</strong>) by refactoring complex queries and indexing strategies, resulting in a <strong>25% reduction</strong> in page load times.", "Developed robust RESTful APIs to support frontend applications built with <strong>jQuery</strong> and <strong>React</strong>, ensuring seamless data flow and integration." ] }
         ],
         "projects": [
-          { "name": "ZIRO.FIT: Fitness Trainer Platform", "url": "https://ziro.fit", "description": "A digital business card and client engagement platform for fitness trainers. Developed the entire backend with Laravel, including a complex database schema, business logic, and an AI assistant for workout generation.", "stack_title": "Tech Stack", "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>" },
+          { "name": "ZIRO.FIT: Fitness Trainer Platform", "url": "https://ziro.fit", "description": "Developed the entire Laravel backend for a fitness trainer platform, including the database schema, business logic, and an AI assistant for workout generation.", "stack_title": "Tech Stack", "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>" },
           { "name": "Instagram Comment-to-DM Bot System", "url": "https://github.com/NikKowPHP", "description": "An automated system that sends DMs to users who comment on posts. Built the backend logic in Python and the management panel in Next.js, all containerized with Docker.", "stack_title": "Tech Stack", "stack": "<strong>Python, Docker, Supabase (PostgreSQL), Next.js.</strong>" },
           { "name": "Backend for Educational PWAs", "url": "https://lexity.app", "description": "Designed and implemented the backend architecture and RESTful APIs using Supabase (PostgreSQL) and serverless TypeScript functions to power multiple Next.js PWAs, focusing on scalable data modeling and authentication.", "stack_title": "Tech Stack", "stack": "<strong>Supabase, PostgreSQL, TypeScript (Edge Functions).</strong>" }
         ],
@@ -662,7 +663,7 @@
           { "title": "Backend Web Developer", "company": "Basesystem", "period": "Luty 2024 - Obecnie", "responsibilities": [ "Tworzenie i utrzymywanie złożonych aplikacji internetowych przy użyciu <strong>Laravel</strong> i <strong>Symfony</strong>, z powodzeniem zarządzając starszymi bazami kodu w <strong>natywnym PHP (wersje 7 do 8+).</strong>", "Optymalizacja wydajności bazy danych (<strong>MySQL</strong>) poprzez refaktoryzację złożonych zapytań i strategii indeksowania, co przyniosło <strong>25% redukcję</strong> czasu ładowania stron.", "Rozwój solidnych interfejsów API RESTful w celu wsparcia aplikacji frontendowych zbudowanych w <strong>jQuery</strong> i <strong>React</strong>, zapewniając płynny przepływ danych." ] }
         ],
         "projects": [
-          { "name": "ZIRO.FIT: Platforma dla Trenerów Fitness", "url": "https://ziro.fit", "description": "Cyfrowa wizytówka i platforma do angażowania klientów dla trenerów fitness. Opracowałem cały backend w Laravel, w tym złożony schemat bazy danych, logikę biznesową i asystenta AI do generowania planów treningowych.", "stack_title": "Stos Technologiczny", "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>" },
+          { "name": "ZIRO.FIT: Platforma dla Trenerów Fitness", "url": "https://ziro.fit", "description": "Opracowanie całego backendu w Laravelu dla platformy trenerów fitness, w tym schematu bazy danych, logiki biznesowej i asystenta AI do generowania treningów.", "stack_title": "Stos Technologiczny", "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>" },
           { "name": "Bot Instagram Komentarz-do-DM", "url": "https://github.com/NikKowPHP", "description": "Zautomatyzowany system, który wysyła wiadomości DM do użytkowników komentujących posty na Instagramie za pomocą określonych słów kluczowych, zarządzany przez panel internetowy.", "stack_title": "Stos Technologiczny", "stack": "<strong>Python, Docker, Supabase (PostgreSQL), Next.js.</strong>" },
           { "name": "Backend dla Edukacyjnych PWA", "url": "https://lexity.app", "description": "Zaprojektowanie i wdrożenie architektury backendu oraz API RESTful przy użyciu Supabase (PostgreSQL) i funkcji serverless w TypeScript do zasilania wielu PWA Next.js, koncentrując się na skalowalnym modelowaniu danych i uwierzytelnianiu.", "stack_title": "Stos Technologiczny", "stack": "<strong>Supabase, PostgreSQL, TypeScript (Edge Functions).</strong>" }
         ],
@@ -715,7 +716,7 @@
           { "title": "Backend-Webentwickler", "company": "Basesystem", "period": "Februar 2024 - Heute", "responsibilities": [ "Entwicklung und Wartung komplexer Webanwendungen mit <strong>Laravel</strong> und <strong>Symfony</strong> sowie erfolgreiche Verwaltung von Legacy-Codebasen in <strong>nativem PHP (Versionen 7 bis 8+).</strong>", "Optimierung der Datenbankleistung (<strong>MySQL</strong>) durch Refactoring komplexer Abfragen und Indexierungsstrategien, was zu einer <strong>Reduzierung der Ladezeiten um 25%</strong> führte.", "Entwicklung robuster RESTful-APIs zur Unterstützung von Frontend-Anwendungen, die mit <strong>jQuery</strong> und <strong>React</strong> erstellt wurden, um einen nahtlosen Datenfluss zu gewährleisten." ] }
         ],
         "projects": [
-          { "name": "ZIRO.FIT: Plattform für Fitnesstrainer", "url": "https://ziro.fit", "description": "Eine digitale Visitenkarte und Kundenbindungsplattform für Fitnesstrainer. Entwicklung des gesamten Backends mit Laravel, einschließlich eines komplexen Datenbankschemas, Geschäftslogik und eines KI-Assistenten zur Trainingsplanerstellung.", "stack_title": "Technologie-Stack", "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>" },
+          { "name": "ZIRO.FIT: Plattform für Fitnesstrainer", "url": "https://ziro.fit", "description": "Entwicklung des gesamten Laravel-Backends für eine Fitnesstrainer-Plattform, einschließlich Datenbankschema, Geschäftslogik und eines KI-Assistenten zur Trainingsplanerstellung.", "stack_title": "Technologie-Stack", "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>" },
           { "name": "Instagram Kommentar-zu-DM-Bot-System", "url": "https://github.com/NikKowPHP", "description": "Ein automatisiertes System, das DMs an Benutzer sendet, die mit bestimmten Schlüsselwörtern auf Instagram-Posts kommentieren, verwaltet über ein Web-Panel.", "stack_title": "Technologie-Stack", "stack": "<strong>Python, Docker, Supabase (PostgreSQL), Next.js.</strong>" },
           { "name": "Backend für Bildungs-PWAs", "url": "https://lexity.app", "description": "Entwurf und Implementierung der Backend-Architektur und RESTful-APIs mit Supabase (PostgreSQL) und serverlosen TypeScript-Funktionen, um mehrere Next.js-PWAs zu betreiben, mit Fokus auf skalierbarer Datenmodellierung und Authentifizierung.", "stack_title": "Technologie-Stack", "stack": "<strong>Supabase, PostgreSQL, TypeScript (Edge Functions).</strong>" }
         ],

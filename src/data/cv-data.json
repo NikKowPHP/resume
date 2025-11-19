@@ -1,4 +1,3 @@
-
 [
   {
     "id": "fullstack_ai_specialist",
@@ -17,39 +16,242 @@
         },
         "personalInfo": {
           "name": "MIKITA KAVALIOU",
-          "title": "Développeur Full Stack | Spécialiste IA, TypeScript & Node.js",
+          "title": "Développeur Full Stack | Spécialiste IA, TypeScript & Node.js | AWS",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Développeur Full Stack avec 2 ans d'expérience, expert dans l'exploitation de l'IA pour le développement rapide et l'intégration de modèles d'IA avancés pour créer des produits intelligents et centrés sur l'utilisateur. Je cherche à rejoindre une équipe dynamique pour construire des produits innovants, en mettant à profit ma passion pour la résolution de problèmes complexes et la création d'expériences utilisateur de haute qualité.",
+          "professionalObjective": "Ingénieur logiciel senior avec plus de 7 ans d'expérience dans la création d'applications web et mobiles sécurisées et haute performance pour la fintech, l'e-commerce, l'immobilier, la santé et le SaaS. Développeur full stack avec 2 ans d'expérience dédiée à l'exploitation de l'IA pour accélérer le développement et intégrer des modèles IA avancés afin de livrer des produits intelligents centrés utilisateur. Maîtrise des frameworks JavaScript modernes, des backends robustes et des infrastructures cloud pour livrer des solutions évolutives et maintenables. Reconnu pour la collaboration transverse, la livraison orientée utilisateur et la résolution efficace et innovante de problèmes complexes. Je souhaite rejoindre une équipe dynamique pour créer des produits innovants et des expériences utilisateur d'exception à grande échelle.",
           "status": "Éligible à un visa de travail en France."
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Cracovie, Pologne", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" },
-          { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
+          {
+            "text": "+48 664 431 074",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Cracovie, Pologne",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "mikita-kavaliou.online",
+            "url": "https://mikita-kavaliou.online",
+            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          },
+          {
+            "text": "github.com/NikKowPHP",
+            "url": "https://github.com/NikKowPHP",
+            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+          }
         ],
         "skills": [
-          { "title": "IA & Développement", "skills": ["Intégration de LLM (Google, Groq)", "Automatisation des workflows IA", "Prompt Engineering", "Développement assisté par IA"] },
-          { "title": "Langages", "skills": ["TypeScript", "JavaScript (ES6+)", "PHP", "SQL"] },
-          { "title": "Frontend", "skills": ["React", "Next.js", "Svelte", "Tailwind CSS"] },
-          { "title": "Backend", "skills": ["Node.js", "Nest.js", "Express", "Laravel"] },
-          { "title": "Bases de Données", "skills": ["PostgreSQL", "MySQL", "MongoDB"] },
-          { "title": "Outils & Plateformes", "skills": ["Supabase", "Google Cloud", "Docker", "Git", "CI/CD (GitHub Actions)"] }
+          {
+            "title": "IA & Développement",
+            "skills": [
+              "Intégration de LLM (Google, Groq)",
+              "Automatisation des workflows pilotés par l'IA",
+              "Prompt Engineering",
+              "Développement assisté par IA"
+            ]
+          },
+          {
+            "title": "Langages",
+            "skills": [
+              "JavaScript (ES6+)",
+              "TypeScript",
+              "Python",
+              "Java",
+              "PHP",
+              "Ruby",
+              "Go",
+              "C#",
+              "SQL"
+            ]
+          },
+          {
+            "title": "Frontend",
+            "skills": [
+              "React",
+              "Next.js",
+              "Angular",
+              "Vue.js",
+              "React Native",
+              "Remix",
+              "Redux",
+              "Context API",
+              "React Query",
+              "MobX",
+              "Zustand",
+              "Jotai",
+              "Recoil",
+              "Vuex",
+              "NgRx",
+              "Flux",
+              "HTML",
+              "CSS",
+              "Tailwind CSS",
+              "Material-UI",
+              "Bootstrap",
+              "Styled Components",
+              "Storybook",
+              "Chart.js",
+              "D3.js",
+              "Three.js",
+              "Mapbox",
+              "Framer",
+              "ARIA",
+              "Figma"
+            ]
+          },
+          {
+            "title": "Backend",
+            "skills": [
+              "Node.js",
+              "Express.js",
+              "Nest.js",
+              "Python (Django, Flask)",
+              "Java (Spring Boot, Spring MVC)",
+              "PHP (Laravel)",
+              "Ruby on Rails",
+              "Go (Gin)",
+              "C# (ASP.NET Core, ASP.NET MVC)",
+              "API REST",
+              "GraphQL",
+              "WebSockets",
+              "RabbitMQ",
+              "Redis",
+              "OAuth 2.0",
+              "JWT"
+            ]
+          },
+          {
+            "title": "Bases de données",
+            "skills": [
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Oracle"
+            ]
+          },
+          {
+            "title": "DevOps & Cloud",
+            "skills": [
+              "AWS (S3, EC2, Lambda)",
+              "Google Cloud Platform (GCP)",
+              "Azure",
+              "Docker",
+              "Kubernetes",
+              "Terraform",
+              "Jenkins",
+              "GitHub Actions",
+              "CircleCI",
+              "GitLab CI",
+              "Bitbucket Pipelines",
+              "Feature Flags",
+              "Splunk",
+              "Datadog",
+              "Grafana"
+            ]
+          },
+          {
+            "title": "Tests & QA",
+            "skills": [
+              "Jest",
+              "Cypress",
+              "Selenium",
+              "Mocha",
+              "Vitest",
+              "JUnit",
+              "xUnit",
+              "RSpec",
+              "Mockito",
+              "Enzyme",
+              "Storybook"
+            ]
+          }
         ],
         "languages": [
-          { "name": "Russe", "level": "Langue maternelle" },
-          { "name": "Anglais", "level": "C1 (Courant professionnel)" },
-          { "name": "Polonais", "level": "C1" },
-          { "name": "Espagnol", "level": "B2" },
-          { "name": "Français", "level": "B1 (Intermédiaire, en progression active)" },
-          { "name": "Allemand", "level": "B1" },
-          { "name": "Portugais", "level": "B1" }
+          {
+            "name": "Russe",
+            "level": "Langue maternelle"
+          },
+          {
+            "name": "Anglais",
+            "level": "C1 (Courant professionnel)"
+          },
+          {
+            "name": "Polonais",
+            "level": "C1"
+          },
+          {
+            "name": "Espagnol",
+            "level": "B2"
+          },
+          {
+            "name": "Français",
+            "level": "B1 (Intermédiaire, en progression active)"
+          },
+          {
+            "name": "Allemand",
+            "level": "B1"
+          },
+          {
+            "name": "Portugais",
+            "level": "B1"
+          }
         ],
         "experience": [
-          { "title": "Développeur Web Full Stack", "company": "Basesystem", "period": "Février 2024 - Présent", "responsibilities": [ "Conception et déploiement de 3 fonctionnalités majeures pour une plateforme e-commerce, résultant en une <strong>augmentation de 15%</strong> de l'engagement client.", "Optimisation du backend (<strong>Laravel, MySQL</strong>) pour réduire le temps de réponse moyen des API de <strong>30%</strong>, améliorant ainsi l'expérience sur le frontend <strong>React</strong>.", "Intégration de l'API de paiement <strong>Stripe</strong>, sécurisant le flux de transactions et augmentant le taux de conversion de <strong>5%</strong>." ] },
-          { "title": "Développeur Web Full Stack (Freelance)", "company": "", "period": "Janvier 2024 - Présent", "responsibilities": [ "Gestion de projet et développement de A à Z pour 4 applications web, en <strong>communication directe avec les clients</strong>.", "Mise en place d'architectures backend robustes avec <strong>Node.js</strong> et <strong>Nest.js</strong>, en suivant les principes de clean architecture.", "Mise en œuvre de <strong>workflows de développement pilotés par l'IA</strong> pour accélérer la livraison des projets et améliorer la qualité du code." ] }
+          {
+            "title": "Développeur Web Full Stack",
+            "company": "BaseSystem | Remote",
+            "period": "Février 2024 - Présent",
+            "responsibilities": [
+              "Conception et déploiement de 3 fonctionnalités majeures pour une plateforme e-commerce, générant une augmentation de <strong>15%</strong> de l'engagement client.",
+              "Optimisation du backend (<strong>Laravel, MySQL</strong>) pour réduire de <strong>30%</strong> le temps de réponse moyen des API et améliorer l'expérience front <strong>React</strong>.",
+              "Intégration de l'API de paiement <strong>Stripe</strong>, sécurisant les transactions et augmentant le taux de conversion de <strong>5%</strong>."
+            ]
+          },
+          {
+            "title": "Développeur Web Full Stack",
+            "company": "Upwork | Freelance",
+            "period": "Janvier 2024 - Présent",
+            "responsibilities": [
+              "Gestion bout-en-bout de projets pour quatre applications web en collaboration directe avec des clients répartis sur plusieurs fuseaux horaires.",
+              "Mise en place d'architectures backend robustes avec <strong>Node.js</strong> et <strong>Nest.js</strong> en appliquant les principes de clean architecture.",
+              "Exploitation de <strong>workflows de développement pilotés par l'IA</strong> pour accélérer les livraisons et améliorer la qualité du code."
+            ]
+          },
+          {
+            "title": "Ingénieur Logiciel Senior",
+            "company": "Healthmine | Remote",
+            "period": "Janvier 2022 - Janvier 2024",
+            "responsibilities": [
+              "Développement de l'application web et mobile Personal Health Assistant (PHA) avec React, React Native, TypeScript, Node.js, PostgreSQL, GraphQL, Kotlin et AWS pour offrir une gestion de santé personnalisée.",
+              "Conception d'une architecture frontend évolutive et responsive avec React, Zustand et Material-UI, améliorant l'expérience multi-terminaux et les taux de complétion des enquêtes santé.",
+              "Création de visualisations de données interactives pour l'engagement et le suivi bien-être à l'aide de D3.js et React, fournissant des insights en temps réel.",
+              "Conception et développement d'une architecture microservices hautement scalable avec Node.js et d'API GraphQL performantes via Apollo Server pour améliorer les performances et la maintenabilité.",
+              "Amélioration des performances grâce au lazy loading et au code splitting, réduisant les temps de chargement tout en documentant les composants UI dans Storybook.",
+              "Mise en place de pipelines de tests automatisés avec Jest (unitaires) et Cypress (end-to-end) afin de garantir la qualité sous forte charge.",
+              "Implémentation de pipelines CI/CD avec Jenkins et Docker pour automatiser les déploiements et réduire de <strong>40%</strong> le temps de mise en production sur les environnements de staging et production.",
+              "Provisionnement et gestion d'une infrastructure AWS sécurisée et scalable (Lambda, S3, EC2) assurant haute disponibilité, fiabilité et performance."
+            ]
+          },
+          {
+            "title": "Ingénieur Logiciel",
+            "company": "BigCommerce | Austin, TX",
+            "period": "Janvier 2018 - Décembre 2020",
+            "responsibilities": [
+              "Développement d'une plateforme e-commerce résiliente avec Azure, MongoDB et React afin d'améliorer la scalabilité, la performance et l'engagement sur de larges catalogues produits.",
+              "Construction de frontends modulaires et responsives avec React pour le web ainsi que d'applications mobiles natives iOS/Android afin d'offrir une expérience d'achat homogène.",
+              "Mise en œuvre d'authentification et d'autorisation sécurisées via OAuth et JWT pour les parcours clients et administrateurs."
+            ]
+          }
         ],
         "projects": [
           {
@@ -59,12 +261,34 @@
             "stack_title": "Stack Technique",
             "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js, IA (pour la génération de plans).</strong>"
           },
-          { "name": "Lexity : PWA d'Apprentissage Linguistique par l'IA", "url": "https://lexity.app", "description": "Une PWA qui révolutionne l'apprentissage des langues en passant de la consommation passive à la création active, avec des retours basés sur l'IA et des exercices de répétition des erreurs.", "stack_title": "Stack Technique", "stack": "<strong>Next.js, Supabase, PostgreSQL, Stripe, IA Multi-Fournisseur (Gemini, Groq), Tailwind CSS, Zustand.</strong>" },
-          { "name": "Interly : Plateforme de Préparation aux Entretiens IA", "url": "https://interly.app", "description": "Une PWA pilotée par l'IA pour aider les utilisateurs à se préparer aux entretiens techniques grâce à une pratique vocale, des retours en temps réel et un processus systématique basé sur les données.", "stack_title": "Stack Technique", "stack": "<strong>Next.js, Supabase, PostgreSQL, Google Gemini, Tailwind CSS, Zustand, Zod.</strong>" },
-          { "name": "Bot Instagram Commentaire-vers-DM", "url": "https://github.com/NikKowPHP", "description": "Un système automatisé qui envoie des DM aux utilisateurs qui commentent avec des mots-clés spécifiques sur les publications Instagram, géré via un panneau web.", "stack_title": "Stack Technique", "stack": "<strong>Python, Next.js, Docker, Supabase, PostgreSQL.</strong>" }
+          {
+            "name": "Lexity : PWA d'Apprentissage Linguistique par l'IA",
+            "url": "https://lexity.app",
+            "description": "Une PWA qui révolutionne l'apprentissage des langues en passant de la consommation passive à la création active, avec des retours basés sur l'IA et des exercices de répétition des erreurs.",
+            "stack_title": "Stack Technique",
+            "stack": "<strong>Next.js, Supabase, PostgreSQL, Stripe, IA Multi-Fournisseur (Gemini, Groq), Tailwind CSS, Zustand.</strong>"
+          },
+          {
+            "name": "Interly : Plateforme de Préparation aux Entretiens IA",
+            "url": "https://interly.app",
+            "description": "Une PWA pilotée par l'IA pour aider les utilisateurs à se préparer aux entretiens techniques grâce à une pratique vocale, des retours en temps réel et un processus systématique basé sur les données.",
+            "stack_title": "Stack Technique",
+            "stack": "<strong>Next.js, Supabase, PostgreSQL, Google Gemini, Tailwind CSS, Zustand, Zod.</strong>"
+          },
+          {
+            "name": "Bot Instagram Commentaire-vers-DM",
+            "url": "https://github.com/NikKowPHP",
+            "description": "Un système automatisé qui envoie des DM aux utilisateurs qui commentent avec des mots-clés spécifiques sur les publications Instagram, géré via un panneau web.",
+            "stack_title": "Stack Technique",
+            "stack": "<strong>Python, Next.js, Docker, Supabase, PostgreSQL.</strong>"
+          }
         ],
         "education": [
-          { "degree": "Diplôme de Technicien en Radio-électronique (équivalent Bac+4)", "institution": "Collège d'État Supérieur de Radiotechnique de Minsk", "period": "2015 - 2019" }
+          {
+            "degree": "Diplôme de Technicien en Radio-électronique (équivalent Bac+4)",
+            "institution": "Collège d'État Supérieur de Radiotechnique de Minsk",
+            "period": "2015 - 2019"
+          }
         ]
       },
       "en": {
@@ -80,39 +304,242 @@
         },
         "personalInfo": {
           "name": "MIKITA KAVALIOU",
-          "title": "Full Stack Developer | AI Specialist, TypeScript & Node.js",
+          "title": "Full Stack Developer | AI Specialist, TypeScript & Node.js | AWS",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Full Stack Developer with 2 years of experience, expert in leveraging AI for rapid development and integrating advanced AI models to create intelligent, user-centric products. I am looking to join a dynamic team to build innovative products, leveraging a passion for solving complex problems and creating high-quality user experiences.",
+          "professionalObjective": "Senior Software Engineer with 7+ years building secure, high-performance web and mobile applications across Fintech, eCommerce, Real Estate, Healthcare, and SaaS. Full Stack Developer with 2 years of focused experience leveraging AI for rapid development and integrating advanced AI models to deliver intelligent, user-centric products. Skilled in modern JavaScript frameworks, robust backend systems, and cloud infrastructure to ship scalable, maintainable solutions. Recognized for cross-functional collaboration, user-focused delivery, and consistently solving complex problems with efficiency and innovation. Seeking a dynamic team to build innovative products and exceptional user experiences at scale.",
           "status": "Eligible for a work visa in the EU."
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Krakow, Poland", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" },
-          { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
+          {
+            "text": "+48 664 431 074",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Krakow, Poland",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "mikita-kavaliou.online",
+            "url": "https://mikita-kavaliou.online",
+            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          },
+          {
+            "text": "github.com/NikKowPHP",
+            "url": "https://github.com/NikKowPHP",
+            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+          }
         ],
         "skills": [
-          { "title": "AI & Development", "skills": ["LLM Integration (Google, Groq)", "AI-driven Workflow Automation", "Prompt Engineering", "AI-assisted Development"] },
-          { "title": "Languages", "skills": ["TypeScript", "JavaScript (ES6+)", "PHP", "SQL"] },
-          { "title": "Frontend", "skills": ["React", "Next.js", "Svelte", "Tailwind CSS"] },
-          { "title": "Backend", "skills": ["Node.js", "Nest.js", "Express", "Laravel"] },
-          { "title": "Databases", "skills": ["PostgreSQL", "MySQL", "MongoDB"] },
-          { "title": "Tools & Platforms", "skills": ["Supabase", "Google Cloud", "Docker", "Git", "CI/CD (GitHub Actions)"] }
+          {
+            "title": "AI & Development",
+            "skills": [
+              "LLM Integration (Google, Groq)",
+              "AI-driven Workflow Automation",
+              "Prompt Engineering",
+              "AI-assisted Development"
+            ]
+          },
+          {
+            "title": "Languages",
+            "skills": [
+              "JavaScript (ES6+)",
+              "TypeScript",
+              "Python",
+              "Java",
+              "PHP",
+              "Ruby",
+              "Go",
+              "C#",
+              "SQL"
+            ]
+          },
+          {
+            "title": "Frontend",
+            "skills": [
+              "React",
+              "Next.js",
+              "Angular",
+              "Vue.js",
+              "React Native",
+              "Remix",
+              "Redux",
+              "Context API",
+              "React Query",
+              "MobX",
+              "Zustand",
+              "Jotai",
+              "Recoil",
+              "Vuex",
+              "NgRx",
+              "Flux",
+              "HTML",
+              "CSS",
+              "Tailwind CSS",
+              "Material-UI",
+              "Bootstrap",
+              "Styled Components",
+              "Storybook",
+              "Chart.js",
+              "D3.js",
+              "Three.js",
+              "Mapbox",
+              "Framer",
+              "ARIA",
+              "Figma"
+            ]
+          },
+          {
+            "title": "Backend",
+            "skills": [
+              "Node.js",
+              "Express.js",
+              "Nest.js",
+              "Python (Django, Flask)",
+              "Java (Spring Boot, Spring MVC)",
+              "PHP (Laravel)",
+              "Ruby on Rails",
+              "Go (Gin)",
+              "C# (ASP.NET Core, ASP.NET MVC)",
+              "REST APIs",
+              "GraphQL",
+              "WebSockets",
+              "RabbitMQ",
+              "Redis",
+              "OAuth 2.0",
+              "JWT"
+            ]
+          },
+          {
+            "title": "Databases",
+            "skills": [
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Oracle"
+            ]
+          },
+          {
+            "title": "DevOps & Cloud",
+            "skills": [
+              "AWS (S3, EC2, Lambda)",
+              "Google Cloud Platform (GCP)",
+              "Azure",
+              "Docker",
+              "Kubernetes",
+              "Terraform",
+              "Jenkins",
+              "GitHub Actions",
+              "CircleCI",
+              "GitLab CI",
+              "Bitbucket Pipelines",
+              "Feature Flags",
+              "Splunk",
+              "Datadog",
+              "Grafana"
+            ]
+          },
+          {
+            "title": "Testing",
+            "skills": [
+              "Jest",
+              "Cypress",
+              "Selenium",
+              "Mocha",
+              "Vitest",
+              "JUnit",
+              "xUnit",
+              "RSpec",
+              "Mockito",
+              "Enzyme",
+              "Storybook"
+            ]
+          }
         ],
         "languages": [
-          { "name": "Russian", "level": "Native" },
-          { "name": "English", "level": "C1 (Professional proficiency)" },
-          { "name": "Polish", "level": "C1" },
-          { "name": "Spanish", "level": "B2" },
-          { "name": "French", "level": "B1 (Intermediate, actively improving)" },
-          { "name": "German", "level": "B1" },
-          { "name": "Portuguese", "level": "B1" }
+          {
+            "name": "Russian",
+            "level": "Native"
+          },
+          {
+            "name": "English",
+            "level": "C1 (Professional proficiency)"
+          },
+          {
+            "name": "Polish",
+            "level": "C1"
+          },
+          {
+            "name": "Spanish",
+            "level": "B2"
+          },
+          {
+            "name": "French",
+            "level": "B1 (Intermediate, actively improving)"
+          },
+          {
+            "name": "German",
+            "level": "B1"
+          },
+          {
+            "name": "Portuguese",
+            "level": "B1"
+          }
         ],
         "experience": [
-          { "title": "Full Stack Web Developer", "company": "Basesystem", "period": "February 2024 - Present", "responsibilities": [ "Designed and deployed 3 major features for an e-commerce platform, resulting in a <strong>15% increase</strong> in customer engagement.", "Optimized the backend (<strong>Laravel, MySQL</strong>) to reduce average API response time by <strong>30%</strong>, improving the frontend <strong>React</strong> experience.", "Integrated the <strong>Stripe</strong> payment API, securing the transaction flow and increasing the conversion rate by <strong>5%</strong>." ] },
-          { "title": "Full Stack Web Developer (Freelance)", "company": "", "period": "January 2024 - Present", "responsibilities": [ "End-to-end project management and development for 4 web applications in <strong>direct communication with clients</strong>.", "Implemented robust backend architectures with <strong>Node.js</strong> and <strong>Nest.js</strong>, following clean architecture principles.", "Leveraged <strong>AI-driven development workflows</strong> to accelerate project delivery and enhance code quality." ] }
+          {
+            "title": "Full Stack Web Developer",
+            "company": "BaseSystem | Remote",
+            "period": "February 2024 - Present",
+            "responsibilities": [
+              "Designed and deployed 3 major features for an e-commerce platform, resulting in a <strong>15%</strong> increase in customer engagement.",
+              "Optimized the backend (<strong>Laravel, MySQL</strong>) to reduce average API response time by <strong>30%</strong>, improving the frontend <strong>React</strong> experience.",
+              "Integrated the <strong>Stripe</strong> payment API, securing the transaction flow and increasing the conversion rate by <strong>5%</strong>."
+            ]
+          },
+          {
+            "title": "Full Stack Web Developer",
+            "company": "Upwork | Freelance",
+            "period": "January 2024 - Present",
+            "responsibilities": [
+              "Managed projects end-to-end for four web applications while collaborating directly with clients across time zones.",
+              "Implemented robust backend architectures with <strong>Node.js</strong> and <strong>Nest.js</strong>, following clean architecture principles.",
+              "Leveraged <strong>AI-driven development workflows</strong> to accelerate delivery timelines and boost code quality."
+            ]
+          },
+          {
+            "title": "Senior Software Engineer",
+            "company": "Healthmine | Remote",
+            "period": "January 2022 - January 2024",
+            "responsibilities": [
+              "Developed the Personal Health Assistant (PHA) web and mobile app with React, React Native, TypeScript, Node.js, PostgreSQL, GraphQL, Kotlin, and AWS to enable personalized health management.",
+              "Designed and implemented a scalable, responsive frontend architecture with React, Zustand, and Material-UI, improving cross-device UX and increasing health survey completion rates.",
+              "Built interactive data visualizations for member engagement and wellness tracking using D3.js and React to deliver real-time insights.",
+              "Designed and developed a highly scalable microservices architecture with Node.js and implemented efficient GraphQL endpoints via Apollo Server to enhance performance and maintainability.",
+              "Improved performance through lazy loading and code splitting, reducing page load times across devices while documenting UI components in Storybook.",
+              "Established automated testing pipelines using Jest for unit tests and Cypress for end-to-end coverage to protect quality under heavy load.",
+              "Implemented CI/CD pipelines with Jenkins and Docker to automate releases and cut deployment time by <strong>40%</strong> across staging and production.",
+              "Provisioned and managed secure, scalable AWS infrastructure (Lambda, S3, EC2) to guarantee high availability, reliability, and performance."
+            ]
+          },
+          {
+            "title": "Software Engineer",
+            "company": "BigCommerce | Austin, TX",
+            "period": "January 2018 - December 2020",
+            "responsibilities": [
+              "Developed a resilient eCommerce platform using Azure, MongoDB, and React to improve scalability, performance, and engagement across product catalogs.",
+              "Built responsive modular frontends with React for web and native mobile apps for iOS and Android to keep the shopping experience consistent.",
+              "Implemented OAuth and JWT for secure authentication and authorization across shopper and admin experiences."
+            ]
+          }
         ],
         "projects": [
           {
@@ -122,12 +549,34 @@
             "stack_title": "Tech Stack",
             "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js, AI (for plan generation).</strong>"
           },
-          { "name": "Lexity: AI Language Learning PWA", "url": "https://lexity.app", "description": "A PWA that revolutionizes language learning by shifting from passive consumption to active creation, with AI-driven feedback and mistake-drilling exercises.", "stack_title": "Tech Stack", "stack": "<strong>Next.js, Supabase, PostgreSQL, Stripe, Multi-Provider AI (Gemini, Groq), Tailwind CSS, Zustand.</strong>" },
-          { "name": "Interly: AI Interview Prep Platform", "url": "https://interly.app", "description": "An AI-driven PWA to help users prepare for technical interviews using voice-based practice, real-time feedback, and a systematic, data-driven process.", "stack_title": "Tech Stack", "stack": "<strong>Next.js, Supabase, PostgreSQL, Google Gemini, Tailwind CSS, Zustand, Zod.</strong>" },
-          { "name": "Instagram Comment-to-DM Bot System", "url": "https://github.com/NikKowPHP", "description": "An automated system that sends DMs to users who comment with specific keywords on Instagram posts, managed via a web panel.", "stack_title": "Tech Stack", "stack": "<strong>Python, Next.js, Docker, Supabase, PostgreSQL.</strong>" }
+          {
+            "name": "Lexity: AI Language Learning PWA",
+            "url": "https://lexity.app",
+            "description": "A PWA that revolutionizes language learning by shifting from passive consumption to active creation, with AI-driven feedback and mistake-drilling exercises.",
+            "stack_title": "Tech Stack",
+            "stack": "<strong>Next.js, Supabase, PostgreSQL, Stripe, Multi-Provider AI (Gemini, Groq), Tailwind CSS, Zustand.</strong>"
+          },
+          {
+            "name": "Interly: AI Interview Prep Platform",
+            "url": "https://interly.app",
+            "description": "An AI-driven PWA to help users prepare for technical interviews using voice-based practice, real-time feedback, and a systematic, data-driven process.",
+            "stack_title": "Tech Stack",
+            "stack": "<strong>Next.js, Supabase, PostgreSQL, Google Gemini, Tailwind CSS, Zustand, Zod.</strong>"
+          },
+          {
+            "name": "Instagram Comment-to-DM Bot System",
+            "url": "https://github.com/NikKowPHP",
+            "description": "An automated system that sends DMs to users who comment with specific keywords on Instagram posts, managed via a web panel.",
+            "stack_title": "Tech Stack",
+            "stack": "<strong>Python, Next.js, Docker, Supabase, PostgreSQL.</strong>"
+          }
         ],
         "education": [
-          { "degree": "Diploma of Technician in Radio-electronics (equivalent to Bachelor's degree)", "institution": "Minsk State Higher College of Radiotechnics", "period": "2015 - 2019" }
+          {
+            "degree": "Diploma of Technician in Radio-electronics (equivalent to Bachelor's degree)",
+            "institution": "Minsk State Higher College of Radiotechnics",
+            "period": "2015 - 2019"
+          }
         ]
       },
       "pl": {
@@ -143,39 +592,242 @@
         },
         "personalInfo": {
           "name": "MIKITA KAVALIOU",
-          "title": "Full Stack Developer | Specjalista AI, TypeScript i Node.js",
+          "title": "Full Stack Developer | Specjalista AI, TypeScript i Node.js | AWS",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Full Stack Developer z 2-letnim doświadczeniem, ekspert w wykorzystaniu AI do szybkiego rozwoju i integracji zaawansowanych modeli AI w celu tworzenia inteligentnych produktów zorientowanych na użytkownika. Chcę dołączyć do dynamicznego zespołu, aby budować innowacyjne produkty, wykorzystując pasję do rozwiązywania złożonych problemów i tworzenia wysokiej jakości doświadczeń użytkownika.",
+          "professionalObjective": "Starszy inżynier oprogramowania z ponad 7-letnim doświadczeniem w tworzeniu bezpiecznych, wydajnych aplikacji webowych i mobilnych dla fintechu, e-commerce, nieruchomości, ochrony zdrowia i SaaS. Full Stack Developer z 2-letnim, ukierunkowanym doświadczeniem w wykorzystywaniu AI do szybkiego wytwarzania oprogramowania oraz integrowania zaawansowanych modeli AI, aby dostarczać inteligentne, zorientowane na użytkownika produkty. Biegły w nowoczesnych frameworkach JavaScript, solidnych backendach i infrastrukturze chmurowej, dostarczając skalowalne i łatwe w utrzymaniu rozwiązania. Doceniany za współpracę międzydziałową, koncentrację na potrzebach użytkownika oraz skuteczne rozwiązywanie złożonych problemów z wykorzystaniem innowacji. Szukam dynamicznego zespołu, w którym będę współtworzyć innowacyjne produkty i wyjątkowe doświadczenia użytkownika na dużą skalę.",
           "status": "Posiadam kartę pobytu czasowego w Polsce."
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Kraków, Polska", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" },
-          { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
+          {
+            "text": "+48 664 431 074",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Kraków, Polska",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "mikita-kavaliou.online",
+            "url": "https://mikita-kavaliou.online",
+            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          },
+          {
+            "text": "github.com/NikKowPHP",
+            "url": "https://github.com/NikKowPHP",
+            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+          }
         ],
         "skills": [
-          { "title": "AI i Rozwój Oprogramowania", "skills": ["Integracja LLM (Google, Groq)", "Automatyzacja przepływu pracy AI", "Prompt Engineering", "Rozwój wspomagany przez AI"] },
-          { "title": "Języki programowania", "skills": ["TypeScript", "JavaScript (ES6+)", "PHP", "SQL"] },
-          { "title": "Frontend", "skills": ["React", "Next.js", "Svelte", "Tailwind CSS"] },
-          { "title": "Backend", "skills": ["Node.js", "Nest.js", "Express", "Laravel"] },
-          { "title": "Bazy danych", "skills": ["PostgreSQL", "MySQL", "MongoDB"] },
-          { "title": "Narzędzia i Platformy", "skills": ["Supabase", "Google Cloud", "Docker", "Git", "CI/CD (GitHub Actions)"] }
+          {
+            "title": "AI i Rozwój",
+            "skills": [
+              "Integracja LLM (Google, Groq)",
+              "Automatyzacja przepływów pracy AI",
+              "Prompt Engineering",
+              "Rozwój wspierany przez AI"
+            ]
+          },
+          {
+            "title": "Języki programowania",
+            "skills": [
+              "JavaScript (ES6+)",
+              "TypeScript",
+              "Python",
+              "Java",
+              "PHP",
+              "Ruby",
+              "Go",
+              "C#",
+              "SQL"
+            ]
+          },
+          {
+            "title": "Frontend",
+            "skills": [
+              "React",
+              "Next.js",
+              "Angular",
+              "Vue.js",
+              "React Native",
+              "Remix",
+              "Redux",
+              "Context API",
+              "React Query",
+              "MobX",
+              "Zustand",
+              "Jotai",
+              "Recoil",
+              "Vuex",
+              "NgRx",
+              "Flux",
+              "HTML",
+              "CSS",
+              "Tailwind CSS",
+              "Material-UI",
+              "Bootstrap",
+              "Styled Components",
+              "Storybook",
+              "Chart.js",
+              "D3.js",
+              "Three.js",
+              "Mapbox",
+              "Framer",
+              "ARIA",
+              "Figma"
+            ]
+          },
+          {
+            "title": "Backend",
+            "skills": [
+              "Node.js",
+              "Express.js",
+              "Nest.js",
+              "Python (Django, Flask)",
+              "Java (Spring Boot, Spring MVC)",
+              "PHP (Laravel)",
+              "Ruby on Rails",
+              "Go (Gin)",
+              "C# (ASP.NET Core, ASP.NET MVC)",
+              "REST API",
+              "GraphQL",
+              "WebSockets",
+              "RabbitMQ",
+              "Redis",
+              "OAuth 2.0",
+              "JWT"
+            ]
+          },
+          {
+            "title": "Bazy danych",
+            "skills": [
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Oracle"
+            ]
+          },
+          {
+            "title": "DevOps i Chmura",
+            "skills": [
+              "AWS (S3, EC2, Lambda)",
+              "Google Cloud Platform (GCP)",
+              "Azure",
+              "Docker",
+              "Kubernetes",
+              "Terraform",
+              "Jenkins",
+              "GitHub Actions",
+              "CircleCI",
+              "GitLab CI",
+              "Bitbucket Pipelines",
+              "Feature Flags",
+              "Splunk",
+              "Datadog",
+              "Grafana"
+            ]
+          },
+          {
+            "title": "Testowanie",
+            "skills": [
+              "Jest",
+              "Cypress",
+              "Selenium",
+              "Mocha",
+              "Vitest",
+              "JUnit",
+              "xUnit",
+              "RSpec",
+              "Mockito",
+              "Enzyme",
+              "Storybook"
+            ]
+          }
         ],
         "languages": [
-          { "name": "Rosyjski", "level": "Język ojczysty" },
-          { "name": "Angielski", "level": "C1 (Biegłość zawodowa)" },
-          { "name": "Polski", "level": "C1" },
-          { "name": "Hiszpański", "level": "B2" },
-          { "name": "Francuski", "level": "B1 (Średnio zaawansowany, w trakcie nauki)" },
-          { "name": "Niemiecki", "level": "B1" },
-          { "name": "Portugalski", "level": "B1" }
+          {
+            "name": "Rosyjski",
+            "level": "Język ojczysty"
+          },
+          {
+            "name": "Angielski",
+            "level": "C1 (Biegłość zawodowa)"
+          },
+          {
+            "name": "Polski",
+            "level": "C1"
+          },
+          {
+            "name": "Hiszpański",
+            "level": "B2"
+          },
+          {
+            "name": "Francuski",
+            "level": "B1 (Średnio zaawansowany, w trakcie nauki)"
+          },
+          {
+            "name": "Niemiecki",
+            "level": "B1"
+          },
+          {
+            "name": "Portugalski",
+            "level": "B1"
+          }
         ],
         "experience": [
-          { "title": "Full Stack Web Developer", "company": "Basesystem", "period": "Luty 2024 - Obecnie", "responsibilities": [ "Projektowanie i wdrażanie 3 głównych funkcji dla platformy e-commerce, co zaowocowało <strong>15% wzrostem</strong> zaangażowania klientów.", "Optymalizacja backendu (<strong>Laravel, MySQL</strong>) w celu skrócenia średniego czasu odpowiedzi API o <strong>30%</strong>, co poprawiło doświadczenie na frontendzie <strong>React</strong>.", "Integracja API płatności <strong>Stripe</strong>, zabezpieczająca przepływ transakcji i zwiększająca współczynnik konwersji o <strong>5%</strong>." ] },
-          { "title": "Full Stack Web Developer (Freelance)", "company": "", "period": "Styczeń 2024 - Obecnie", "responsibilities": [ "Zarządzanie projektami i rozwój od A do Z dla 4 aplikacji internetowych w <strong>bezpośredniej komunikacji z klientami</strong>.", "Wdrażanie solidnych architektur backendowych z <strong>Node.js</strong> i <strong>Nest.js</strong>, zgodnie z zasadami czystej architektury.", "Wykorzystanie <strong>procesów deweloperskich opartych na AI</strong> w celu przyspieszenia realizacji projektów i podniesienia jakości kodu." ] }
+          {
+            "title": "Full Stack Web Developer",
+            "company": "BaseSystem | Remote",
+            "period": "Luty 2024 - Obecnie",
+            "responsibilities": [
+              "Zaprojektowałem i wdrożyłem 3 kluczowe funkcje platformy e-commerce, co przełożyło się na <strong>15%</strong> wzrost zaangażowania klientów.",
+              "Zoptymalizowałem backend (<strong>Laravel, MySQL</strong>), skracając średni czas odpowiedzi API o <strong>30%</strong> i poprawiając doświadczenie użytkownika w <strong>React</strong>.",
+              "Zintegrowałem płatności <strong>Stripe</strong>, zabezpieczając przepływ transakcji i zwiększając konwersję o <strong>5%</strong>."
+            ]
+          },
+          {
+            "title": "Full Stack Web Developer",
+            "company": "Upwork | Freelance",
+            "period": "Styczeń 2024 - Obecnie",
+            "responsibilities": [
+              "Prowadziłem projekty end-to-end dla czterech aplikacji webowych, współpracując bezpośrednio z klientami w różnych strefach czasowych.",
+              "Budowałem solidne architektury backendowe w <strong>Node.js</strong> i <strong>Nest.js</strong>, przestrzegając zasad clean architecture.",
+              "Wykorzystywałem <strong>procesy deweloperskie napędzane AI</strong>, aby przyspieszać dostawy i podnosić jakość kodu."
+            ]
+          },
+          {
+            "title": "Senior Software Engineer",
+            "company": "Healthmine | Remote",
+            "period": "Styczeń 2022 - Styczeń 2024",
+            "responsibilities": [
+              "Stworzyłem webową i mobilną aplikację Personal Health Assistant (PHA) w React, React Native, TypeScript, Node.js, PostgreSQL, GraphQL, Kotlinie i AWS, zapewniając spersonalizowane zarządzanie zdrowiem.",
+              "Zaprojektowałem i wdrożyłem skalowalną, responsywną architekturę frontendu z React, Zustand i Material-UI, poprawiając doświadczenie na wszystkich urządzeniach oraz wskaźniki wypełniania ankiet zdrowotnych.",
+              "Zbudowałem interaktywne wizualizacje danych dla zaangażowania użytkowników i śledzenia wellness z użyciem D3.js i React, dostarczając insighty w czasie rzeczywistym.",
+              "Zaprojektowałem i rozwinąłem wysoce skalowalną architekturę mikroserwisową w Node.js oraz wydajne endpointy GraphQL z Apollo Server, zwiększając wydajność i łatwość utrzymania.",
+              "Poprawiłem wydajność poprzez lazy loading i dzielenie kodu, skracając czasy ładowania i dokumentując komponenty UI w Storybook.",
+              "Zbudowałem automatyczne pipeline'y testów z Jest (unit) i Cypress (E2E), aby zabezpieczyć jakość przy dużym obciążeniu.",
+              "Wdrożyłem pipeline'y CI/CD z Jenkins i Dockerem, automatyzując wdrożenia i skracając czas publikacji o <strong>40%</strong> na środowiskach staging i produkcyjnym.",
+              "Zaprojektowałem i zarządzałem bezpieczną, skalowalną infrastrukturą AWS (Lambda, S3, EC2), zapewniając wysoką dostępność, niezawodność i wydajność."
+            ]
+          },
+          {
+            "title": "Software Engineer",
+            "company": "BigCommerce | Austin, TX",
+            "period": "Styczeń 2018 - Grudzień 2020",
+            "responsibilities": [
+              "Rozwijałem odporną platformę eCommerce w Azure, MongoDB i React, poprawiając skalowalność, wydajność i zaangażowanie przy szerokich katalogach produktów.",
+              "Budowałem responsywne, modułowe frontendy w React na web oraz natywne aplikacje mobilne iOS/Android, utrzymując spójne doświadczenie zakupowe.",
+              "Wdrożyłem OAuth i JWT dla bezpiecznej autoryzacji oraz uwierzytelniania kupujących i administratorów."
+            ]
+          }
         ],
         "projects": [
           {
@@ -185,12 +837,34 @@
             "stack_title": "Stos technologiczny",
             "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js, AI (do generowania planów).</strong>"
           },
-          { "name": "Lexity: PWA do Nauki Języków z AI", "url": "https://lexity.app", "description": "PWA, która rewolucjonizuje naukę języków, przechodząc od pasywnej konsumpcji do aktywnego tworzenia, z informacjami zwrotnymi opartymi na AI i ćwiczeniami utrwalającymi błędy.", "stack_title": "Stos technologiczny", "stack": "<strong>Next.js, Supabase, PostgreSQL, Stripe, Multi-Provider AI (Gemini, Groq), Tailwind CSS, Zustand.</strong>" },
-          { "name": "Interly: Platforma AI do Przygotowania do Rozmów Kwalifikacyjnych", "url": "https://interly.app", "description": "PWA napędzana przez AI, aby pomóc użytkownikom przygotować się do rozmów technicznych za pomocą ćwiczeń głosowych, informacji zwrotnych w czasie rzeczywistym i systematycznego procesu opartego na danych.", "stack_title": "Stos technologiczny", "stack": "<strong>Next.js, Supabase, PostgreSQL, Google Gemini, Tailwind CSS, Zustand, Zod.</strong>" },
-          { "name": "Bot Instagram Komentarz-do-DM", "url": "https://github.com/NikKowPHP", "description": "Zautomatyzowany system, który wysyła wiadomości DM do użytkowników komentujących posty na Instagramie za pomocą określonych słów kluczowych, zarządzany przez panel internetowy.", "stack_title": "Stos technologiczny", "stack": "<strong>Python, Next.js, Docker, Supabase, PostgreSQL.</strong>" }
+          {
+            "name": "Lexity: PWA do Nauki Języków z AI",
+            "url": "https://lexity.app",
+            "description": "PWA, która rewolucjonizuje naukę języków, przechodząc od pasywnej konsumpcji do aktywnego tworzenia, z informacjami zwrotnymi opartymi na AI i ćwiczeniami utrwalającymi błędy.",
+            "stack_title": "Stos technologiczny",
+            "stack": "<strong>Next.js, Supabase, PostgreSQL, Stripe, Multi-Provider AI (Gemini, Groq), Tailwind CSS, Zustand.</strong>"
+          },
+          {
+            "name": "Interly: Platforma AI do Przygotowania do Rozmów Kwalifikacyjnych",
+            "url": "https://interly.app",
+            "description": "PWA napędzana przez AI, aby pomóc użytkownikom przygotować się do rozmów technicznych za pomocą ćwiczeń głosowych, informacji zwrotnych w czasie rzeczywistym i systematycznego procesu opartego na danych.",
+            "stack_title": "Stos technologiczny",
+            "stack": "<strong>Next.js, Supabase, PostgreSQL, Google Gemini, Tailwind CSS, Zustand, Zod.</strong>"
+          },
+          {
+            "name": "Bot Instagram Komentarz-do-DM",
+            "url": "https://github.com/NikKowPHP",
+            "description": "Zautomatyzowany system, który wysyła wiadomości DM do użytkowników komentujących posty na Instagramie za pomocą określonych słów kluczowych, zarządzany przez panel internetowy.",
+            "stack_title": "Stos technologiczny",
+            "stack": "<strong>Python, Next.js, Docker, Supabase, PostgreSQL.</strong>"
+          }
         ],
         "education": [
-          { "degree": "Dyplom Technika Radioelektroniki (odpowiednik licencjatu)", "institution": "Mińskie Państwowe Wyższe Kolegium Radiotechniczne", "period": "2015 - 2019" }
+          {
+            "degree": "Dyplom Technika Radioelektroniki (odpowiednik licencjatu)",
+            "institution": "Mińskie Państwowe Wyższe Kolegium Radiotechniczne",
+            "period": "2015 - 2019"
+          }
         ]
       },
       "de": {
@@ -206,39 +880,242 @@
         },
         "personalInfo": {
           "name": "MIKITA KAVALIOU",
-          "title": "Full-Stack-Entwickler | KI-Spezialist, TypeScript & Node.js",
+          "title": "Full-Stack-Entwickler | KI-Spezialist, TypeScript & Node.js | AWS",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Full-Stack-Entwickler mit 2 Jahren Erfahrung, Experte in der Nutzung von KI für schnelle Entwicklung und Integration fortschrittlicher KI-Modelle, um intelligente, benutzerzentrierte Produkte zu schaffen. Ich möchte einem dynamischen Team beitreten, um innovative Produkte zu entwickeln, und dabei meine Leidenschaft für die Lösung komplexer Probleme und die Schaffung hochwertiger Benutzererfahrungen einsetzen.",
+          "professionalObjective": "Senior Software Engineer mit über 7 Jahren Erfahrung in der Entwicklung sicherer, hochperformanter Web- und Mobile-Anwendungen in den Bereichen Fintech, E-Commerce, Immobilien, Healthcare und SaaS. Full-Stack-Entwickler mit 2 Jahren fokussierter Erfahrung in der Nutzung von KI für schnelle Entwicklung und der Integration fortschrittlicher KI-Modelle, um intelligente, nutzerzentrierte Produkte zu liefern. Versiert in modernen JavaScript-Frameworks, robusten Backends und Cloud-Infrastrukturen, um skalierbare und wartbare Lösungen bereitzustellen. Anerkannt für funktionsübergreifende Zusammenarbeit, nutzerorientierte Lieferung und die effiziente, innovative Lösung komplexer Probleme. Suche ein dynamisches Team, um innovative Produkte und außergewöhnliche Nutzererlebnisse im großen Maßstab zu schaffen.",
           "status": "Berechtigt für ein Arbeitsvisum in Deutschland."
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Krakau, Polen", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" },
-          { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
+          {
+            "text": "+48 664 431 074",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Krakau, Polen",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "mikita-kavaliou.online",
+            "url": "https://mikita-kavaliou.online",
+            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          },
+          {
+            "text": "github.com/NikKowPHP",
+            "url": "https://github.com/NikKowPHP",
+            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+          }
         ],
         "skills": [
-          { "title": "KI & Entwicklung", "skills": ["LLM-Integration (Google, Groq)", "KI-gesteuerte Workflow-Automatisierung", "Prompt Engineering", "KI-gestützte Entwicklung"] },
-          { "title": "Sprachen", "skills": ["TypeScript", "JavaScript (ES6+)", "PHP", "SQL"] },
-          { "title": "Frontend", "skills": ["React", "Next.js", "Svelte", "Tailwind CSS"] },
-          { "title": "Backend", "skills": ["Node.js", "Nest.js", "Express", "Laravel"] },
-          { "title": "Datenbanken", "skills": ["PostgreSQL", "MySQL", "MongoDB"] },
-          { "title": "Tools & Plattformen", "skills": ["Supabase", "Google Cloud", "Docker", "Git", "CI/CD (GitHub Actions)"] }
+          {
+            "title": "KI & Entwicklung",
+            "skills": [
+              "LLM-Integration (Google, Groq)",
+              "KI-gesteuerte Workflow-Automatisierung",
+              "Prompt Engineering",
+              "KI-gestützte Entwicklung"
+            ]
+          },
+          {
+            "title": "Programmiersprachen",
+            "skills": [
+              "JavaScript (ES6+)",
+              "TypeScript",
+              "Python",
+              "Java",
+              "PHP",
+              "Ruby",
+              "Go",
+              "C#",
+              "SQL"
+            ]
+          },
+          {
+            "title": "Frontend",
+            "skills": [
+              "React",
+              "Next.js",
+              "Angular",
+              "Vue.js",
+              "React Native",
+              "Remix",
+              "Redux",
+              "Context API",
+              "React Query",
+              "MobX",
+              "Zustand",
+              "Jotai",
+              "Recoil",
+              "Vuex",
+              "NgRx",
+              "Flux",
+              "HTML",
+              "CSS",
+              "Tailwind CSS",
+              "Material-UI",
+              "Bootstrap",
+              "Styled Components",
+              "Storybook",
+              "Chart.js",
+              "D3.js",
+              "Three.js",
+              "Mapbox",
+              "Framer",
+              "ARIA",
+              "Figma"
+            ]
+          },
+          {
+            "title": "Backend",
+            "skills": [
+              "Node.js",
+              "Express.js",
+              "Nest.js",
+              "Python (Django, Flask)",
+              "Java (Spring Boot, Spring MVC)",
+              "PHP (Laravel)",
+              "Ruby on Rails",
+              "Go (Gin)",
+              "C# (ASP.NET Core, ASP.NET MVC)",
+              "REST-APIs",
+              "GraphQL",
+              "WebSockets",
+              "RabbitMQ",
+              "Redis",
+              "OAuth 2.0",
+              "JWT"
+            ]
+          },
+          {
+            "title": "Datenbanken",
+            "skills": [
+              "PostgreSQL",
+              "MySQL",
+              "MongoDB",
+              "Oracle"
+            ]
+          },
+          {
+            "title": "DevOps & Cloud",
+            "skills": [
+              "AWS (S3, EC2, Lambda)",
+              "Google Cloud Platform (GCP)",
+              "Azure",
+              "Docker",
+              "Kubernetes",
+              "Terraform",
+              "Jenkins",
+              "GitHub Actions",
+              "CircleCI",
+              "GitLab CI",
+              "Bitbucket Pipelines",
+              "Feature Flags",
+              "Splunk",
+              "Datadog",
+              "Grafana"
+            ]
+          },
+          {
+            "title": "Tests & QA",
+            "skills": [
+              "Jest",
+              "Cypress",
+              "Selenium",
+              "Mocha",
+              "Vitest",
+              "JUnit",
+              "xUnit",
+              "RSpec",
+              "Mockito",
+              "Enzyme",
+              "Storybook"
+            ]
+          }
         ],
         "languages": [
-          { "name": "Russisch", "level": "Muttersprache" },
-          { "name": "Englisch", "level": "C1 (Verhandlungssicher)" },
-          { "name": "Polnisch", "level": "C1" },
-          { "name": "Spanisch", "level": "B2" },
-          { "name": "Französisch", "level": "B1 (Mittelstufe, aktiv lernend)" },
-          { "name": "Deutsch", "level": "B1" },
-          { "name": "Portugiesisch", "level": "B1" }
+          {
+            "name": "Russisch",
+            "level": "Muttersprache"
+          },
+          {
+            "name": "Englisch",
+            "level": "C1 (Verhandlungssicher)"
+          },
+          {
+            "name": "Polnisch",
+            "level": "C1"
+          },
+          {
+            "name": "Spanisch",
+            "level": "B2"
+          },
+          {
+            "name": "Französisch",
+            "level": "B1 (Mittelstufe, aktiv lernend)"
+          },
+          {
+            "name": "Deutsch",
+            "level": "B1"
+          },
+          {
+            "name": "Portugiesisch",
+            "level": "B1"
+          }
         ],
         "experience": [
-          { "title": "Full-Stack-Webentwickler", "company": "Basesystem", "period": "Februar 2024 - Heute", "responsibilities": [ "Konzeption und Bereitstellung von 3 Hauptfunktionen für eine E-Commerce-Plattform, was zu einer <strong>15%igen Steigerung</strong> des Kundenengagements führte.", "Optimierung des Backends (<strong>Laravel, MySQL</strong>), um die durchschnittliche API-Antwortzeit um <strong>30%</strong> zu reduzieren, was das Frontend-Erlebnis mit <strong>React</strong> verbesserte.", "Integration der <strong>Stripe</strong>-Zahlungs-API, um den Transaktionsfluss zu sichern und die Konversionsrate um <strong>5%</strong> zu erhöhen." ] },
-          { "title": "Full-Stack-Webentwickler (Freiberufler)", "company": "", "period": "Januar 2024 - Heute", "responsibilities": [ "End-to-End-Projektmanagement und -Entwicklung für 4 Webanwendungen in <strong>direkter Kommunikation mit Kunden</strong>.", "Implementierung robuster Backend-Architekturen mit <strong>Node.js</strong> und <strong>Nest.js</strong> nach den Prinzipien der Clean Architecture.", "Einsatz von <strong>KI-gesteuerten Entwicklungsworkflows</strong> zur Beschleunigung der Projektabwicklung und Verbesserung der Codequalität." ] }
+          {
+            "title": "Full-Stack-Webentwickler",
+            "company": "BaseSystem | Remote",
+            "period": "Februar 2024 - Heute",
+            "responsibilities": [
+              "Konzeption und Bereitstellung von 3 Kernfunktionen für eine E-Commerce-Plattform, was zu einer <strong>15%igen</strong> Steigerung des Kundenengagements führte.",
+              "Optimierung des Backends (<strong>Laravel, MySQL</strong>), um die durchschnittliche API-Antwortzeit um <strong>30%</strong> zu verringern und das <strong>React</strong>-Frontend zu beschleunigen.",
+              "Integration der <strong>Stripe</strong>-Zahlungs-API, um den Transaktionsfluss zu sichern und die Conversion-Rate um <strong>5%</strong> zu erhöhen."
+            ]
+          },
+          {
+            "title": "Full-Stack-Webentwickler",
+            "company": "Upwork | Freelance",
+            "period": "Januar 2024 - Heute",
+            "responsibilities": [
+              "End-to-End-Projektleitung für vier Webanwendungen in direkter Zusammenarbeit mit Kunden über mehrere Zeitzonen hinweg.",
+              "Aufbau robuster Backend-Architekturen mit <strong>Node.js</strong> und <strong>Nest.js</strong> gemäß Clean-Architecture-Prinzipien.",
+              "Einsatz von <strong>KI-gesteuerten Entwicklungsworkflows</strong>, um Lieferzeiten zu verkürzen und die Codequalität zu steigern."
+            ]
+          },
+          {
+            "title": "Senior Software Engineer",
+            "company": "Healthmine | Remote",
+            "period": "Januar 2022 - Januar 2024",
+            "responsibilities": [
+              "Entwicklung der Personal Health Assistant (PHA) Web- und Mobile-App mit React, React Native, TypeScript, Node.js, PostgreSQL, GraphQL, Kotlin und AWS für personalisiertes Gesundheitsmanagement.",
+              "Design und Implementierung einer skalierbaren, responsiven Frontend-Architektur mit React, Zustand und Material-UI zur Verbesserung der geräteübergreifenden UX und der Abschlussraten von Gesundheitsumfragen.",
+              "Aufbau interaktiver Datenvisualisierungen für Nutzerbindung und Wellness-Tracking mit D3.js und React, um Echtzeit-Einblicke zu liefern.",
+              "Entwurf und Aufbau einer hochskalierbaren Microservices-Architektur mit Node.js sowie performanter GraphQL-Endpunkte über Apollo Server zur Steigerung von Performance und Wartbarkeit.",
+              "Leistungsoptimierung durch Lazy Loading und Code-Splitting, wodurch Ladezeiten reduziert und UI-Komponenten in Storybook dokumentiert wurden.",
+              "Etablierung automatisierter Test-Pipelines mit Jest (Unit) und Cypress (End-to-End), um Qualität auch unter hoher Last sicherzustellen.",
+              "Implementierung von CI/CD-Pipelines mit Jenkins und Docker, um Releases zu automatisieren und die Deployment-Zeit über Staging und Produktion um <strong>40%</strong> zu verkürzen.",
+              "Aufbau und Betrieb einer sicheren, skalierbaren AWS-Infrastruktur (Lambda, S3, EC2), die hohe Verfügbarkeit, Zuverlässigkeit und Performance gewährleistet."
+            ]
+          },
+          {
+            "title": "Software Engineer",
+            "company": "BigCommerce | Austin, TX",
+            "period": "Januar 2018 - Dezember 2020",
+            "responsibilities": [
+              "Entwicklung einer robusten E-Commerce-Plattform mit Azure, MongoDB und React, um Skalierbarkeit, Performance und Engagement über umfangreiche Produktkataloge zu verbessern.",
+              "Aufbau responsiver, modularer Frontends mit React für Web sowie nativer iOS- und Android-Apps, um ein konsistentes Einkaufserlebnis zu sichern.",
+              "Implementierung von OAuth und JWT für sichere Authentifizierung und Autorisierung für Käufer- und Admin-Workflows."
+            ]
+          }
         ],
         "projects": [
           {
@@ -248,12 +1125,34 @@
             "stack_title": "Technologie-Stack",
             "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js, KI (für Plangenerierung).</strong>"
           },
-          { "name": "Lexity: KI-Sprachlern-PWA", "url": "https://lexity.app", "description": "Eine PWA, die das Sprachenlernen revolutioniert, indem sie von passivem Konsum zu aktivem Schaffen übergeht, mit KI-gestütztem Feedback und Übungen zum Einprägen von Fehlern.", "stack_title": "Technologie-Stack", "stack": "<strong>Next.js, Supabase, PostgreSQL, Stripe, Multi-Provider AI (Gemini, Groq), Tailwind CSS, Zustand.</strong>" },
-          { "name": "Interly: KI-Plattform zur Vorbereitung auf Vorstellungsgespräche", "url": "https://interly.app", "description": "Eine KI-gesteuerte PWA, die Benutzern hilft, sich auf technische Vorstellungsgespräche vorzubereiten, indem sie sprachbasiertes Üben, Echtzeit-Feedback und einen systematischen, datengesteuerten Prozess verwendet.", "stack_title": "Technologie-Stack", "stack": "<strong>Next.js, Supabase, PostgreSQL, Google Gemini, Tailwind CSS, Zustand, Zod.</strong>" },
-          { "name": "Instagram Kommentar-zu-DM-Bot-System", "url": "https://github.com/NikKowPHP", "description": "Ein automatisiertes System, das DMs an Benutzer sendet, die mit bestimmten Schlüsselwörtern auf Instagram-Posts kommentieren, verwaltet über ein Web-Panel.", "stack_title": "Technologie-Stack", "stack": "<strong>Python, Next.js, Docker, Supabase, PostgreSQL.</strong>" }
+          {
+            "name": "Lexity: KI-Sprachlern-PWA",
+            "url": "https://lexity.app",
+            "description": "Eine PWA, die das Sprachenlernen revolutioniert, indem sie von passivem Konsum zu aktivem Schaffen übergeht, mit KI-gestütztem Feedback und Übungen zum Einprägen von Fehlern.",
+            "stack_title": "Technologie-Stack",
+            "stack": "<strong>Next.js, Supabase, PostgreSQL, Stripe, Multi-Provider AI (Gemini, Groq), Tailwind CSS, Zustand.</strong>"
+          },
+          {
+            "name": "Interly: KI-Plattform zur Vorbereitung auf Vorstellungsgespräche",
+            "url": "https://interly.app",
+            "description": "Eine KI-gesteuerte PWA, die Benutzern hilft, sich auf technische Vorstellungsgespräche vorzubereiten, indem sie sprachbasiertes Üben, Echtzeit-Feedback und einen systematischen, datengesteuerten Prozess verwendet.",
+            "stack_title": "Technologie-Stack",
+            "stack": "<strong>Next.js, Supabase, PostgreSQL, Google Gemini, Tailwind CSS, Zustand, Zod.</strong>"
+          },
+          {
+            "name": "Instagram Kommentar-zu-DM-Bot-System",
+            "url": "https://github.com/NikKowPHP",
+            "description": "Ein automatisiertes System, das DMs an Benutzer sendet, die mit bestimmten Schlüsselwörtern auf Instagram-Posts kommentieren, verwaltet über ein Web-Panel.",
+            "stack_title": "Technologie-Stack",
+            "stack": "<strong>Python, Next.js, Docker, Supabase, PostgreSQL.</strong>"
+          }
         ],
         "education": [
-          { "degree": "Diplom als Techniker für Radioelektronik (entspricht Bachelor-Abschluss)", "institution": "Staatliches Höheres Kolleg für Radiotechnik Minsk", "period": "2015 - 2019" }
+          {
+            "degree": "Diplom als Techniker für Radioelektronik (entspricht Bachelor-Abschluss)",
+            "institution": "Staatliches Höheres Kolleg für Radiotechnik Minsk",
+            "period": "2015 - 2019"
+          }
         ]
       }
     }
@@ -281,31 +1180,126 @@
           "status": "Éligible à un visa de travail en France."
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Cracovie, Pologne", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" },
-          { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
+          {
+            "text": "+48 664 431 074",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Cracovie, Pologne",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "mikita-kavaliou.online",
+            "url": "https://mikita-kavaliou.online",
+            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          },
+          {
+            "text": "github.com/NikKowPHP",
+            "url": "https://github.com/NikKowPHP",
+            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+          }
         ],
         "skills": [
-          { "title": "Frontend", "skills": ["React", "Next.js", "TypeScript", "Svelte", "Tailwind CSS", "State Management (Redux, Zustand)"] },
-          { "title": "Langages", "skills": ["TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3/SASS"] },
-          { "title": "Backend", "skills": ["Node.js", "Express", "Nest.js (Notions)"] },
-          { "title": "Outils & Plateformes", "skills": ["Vite", "Webpack", "Figma", "Git", "CI/CD (GitHub Actions)", "Supabase"] }
+          {
+            "title": "Frontend",
+            "skills": [
+              "React",
+              "Next.js",
+              "TypeScript",
+              "Svelte",
+              "Tailwind CSS",
+              "State Management (Redux, Zustand)"
+            ]
+          },
+          {
+            "title": "Langages",
+            "skills": [
+              "TypeScript",
+              "JavaScript (ES6+)",
+              "HTML5",
+              "CSS3/SASS"
+            ]
+          },
+          {
+            "title": "Backend",
+            "skills": [
+              "Node.js",
+              "Express",
+              "Nest.js (Notions)"
+            ]
+          },
+          {
+            "title": "Outils & Plateformes",
+            "skills": [
+              "Vite",
+              "Webpack",
+              "Figma",
+              "Git",
+              "CI/CD (GitHub Actions)",
+              "Supabase"
+            ]
+          }
         ],
         "languages": [
-          { "name": "Russe", "level": "Langue maternelle" },
-          { "name": "Anglais", "level": "C1 (Courant professionnel)" },
-          { "name": "Polonais", "level": "C1" },
-          { "name": "Espagnol", "level": "B2" },
-          { "name": "Français", "level": "B1 (Intermédiaire, en progression active)" },
-          { "name": "Allemand", "level": "B1" },
-          { "name": "Portugais", "level": "B1" }
+          {
+            "name": "Russe",
+            "level": "Langue maternelle"
+          },
+          {
+            "name": "Anglais",
+            "level": "C1 (Courant professionnel)"
+          },
+          {
+            "name": "Polonais",
+            "level": "C1"
+          },
+          {
+            "name": "Espagnol",
+            "level": "B2"
+          },
+          {
+            "name": "Français",
+            "level": "B1 (Intermédiaire, en progression active)"
+          },
+          {
+            "name": "Allemand",
+            "level": "B1"
+          },
+          {
+            "name": "Portugais",
+            "level": "B1"
+          }
         ],
         "experience": [
-          { "title": "Développeur Web Full Stack", "company": "Basesystem", "period": "Février 2024 - Présent", "responsibilities": [ "Conception et déploiement de 3 fonctionnalités majeures pour une plateforme e-commerce, résultant en une <strong>augmentation de 15%</strong> de l'engagement client.", "Optimisation du backend (<strong>Laravel, MySQL</strong>) pour réduire le temps de réponse moyen des API de <strong>30%</strong>, améliorant ainsi l'expérience sur le frontend <strong>React</strong>.", "Intégration de l'API de paiement <strong>Stripe</strong>, sécurisant le flux de transactions et augmentant le taux de conversion de <strong>5%</strong>." ] },
-          { "title": "Développeur Web Full Stack (Freelance)", "company": "", "period": "Janvier 2024 - Présent", "responsibilities": [ "Gestion de projet et développement de A à Z pour 4 applications web, en <strong>communication directe avec les clients</strong>.", "Mise en place d'architectures backend robustes avec <strong>Node.js</strong> et <strong>Nest.js</strong>, en suivant les principes de clean architecture.", "Mise en œuvre de <strong>workflows de développement pilotés par l'IA</strong> pour accélérer la livraison des projets et améliorer la qualité du code." ] }
+          {
+            "title": "Développeur Web Full Stack",
+            "company": "Basesystem",
+            "period": "Février 2024 - Présent",
+            "responsibilities": [
+              "Conception et déploiement de 3 fonctionnalités majeures pour une plateforme e-commerce, résultant en une <strong>augmentation de 15%</strong> de l'engagement client.",
+              "Optimisation du backend (<strong>Laravel, MySQL</strong>) pour réduire le temps de réponse moyen des API de <strong>30%</strong>, améliorant ainsi l'expérience sur le frontend <strong>React</strong>.",
+              "Intégration de l'API de paiement <strong>Stripe</strong>, sécurisant le flux de transactions et augmentant le taux de conversion de <strong>5%</strong>."
+            ]
+          },
+          {
+            "title": "Développeur Web Full Stack (Freelance)",
+            "company": "",
+            "period": "Janvier 2024 - Présent",
+            "responsibilities": [
+              "Gestion de projet et développement de A à Z pour 4 applications web, en <strong>communication directe avec les clients</strong>.",
+              "Mise en place d'architectures backend robustes avec <strong>Node.js</strong> et <strong>Nest.js</strong>, en suivant les principes de clean architecture.",
+              "Mise en œuvre de <strong>workflows de développement pilotés par l'IA</strong> pour accélérer la livraison des projets et améliorer la qualité du code."
+            ]
+          }
         ],
         "projects": [
           {
@@ -315,12 +1309,34 @@
             "stack_title": "Stack Technique Frontend",
             "stack": "<strong>Livewire, Alpine.js, Tailwind CSS, Laravel (pour le backend).</strong>"
           },
-          { "name": "Lexity : PWA d'Apprentissage Linguistique par l'IA", "url": "https://lexity.app", "description": "Une PWA qui révolutionne l'apprentissage des langues en passant de la consommation passive à la création active, avec des retours basés sur l'IA et des exercices de répétition des erreurs.", "stack_title": "Stack Technique", "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Tiptap, Zustand, React Query.</strong>" },
-          { "name": "Interly : Plateforme de Préparation aux Entretiens IA", "url": "https://interly.app", "description": "Une PWA pilotée par l'IA pour aider les utilisateurs à se préparer aux entretiens techniques grâce à une pratique vocale, des retours en temps réel et un processus systématique basé sur les données.", "stack_title": "Stack Technique", "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Zustand, Zod.</strong>" },
-          { "name": "Site Portfolio Personnel", "url": "https://mikita-kavaliou.online", "description": "Un site de portfolio personnel conçu pour expérimenter avec SvelteKit, démontrant un développement rapide et des principes de design modernes.", "stack_title": "Stack Technique", "stack": "<strong>SvelteKit, Svelte, TypeScript, Tailwind CSS.</strong>" }
+          {
+            "name": "Lexity : PWA d'Apprentissage Linguistique par l'IA",
+            "url": "https://lexity.app",
+            "description": "Une PWA qui révolutionne l'apprentissage des langues en passant de la consommation passive à la création active, avec des retours basés sur l'IA et des exercices de répétition des erreurs.",
+            "stack_title": "Stack Technique",
+            "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Tiptap, Zustand, React Query.</strong>"
+          },
+          {
+            "name": "Interly : Plateforme de Préparation aux Entretiens IA",
+            "url": "https://interly.app",
+            "description": "Une PWA pilotée par l'IA pour aider les utilisateurs à se préparer aux entretiens techniques grâce à une pratique vocale, des retours en temps réel et un processus systématique basé sur les données.",
+            "stack_title": "Stack Technique",
+            "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Zustand, Zod.</strong>"
+          },
+          {
+            "name": "Site Portfolio Personnel",
+            "url": "https://mikita-kavaliou.online",
+            "description": "Un site de portfolio personnel conçu pour expérimenter avec SvelteKit, démontrant un développement rapide et des principes de design modernes.",
+            "stack_title": "Stack Technique",
+            "stack": "<strong>SvelteKit, Svelte, TypeScript, Tailwind CSS.</strong>"
+          }
         ],
         "education": [
-          { "degree": "Diplôme de Technicien en Radio-électronique (équivalent Bac+4)", "institution": "Collège d'État Supérieur de Radiotechnique de Minsk", "period": "2015 - 2019" }
+          {
+            "degree": "Diplôme de Technicien en Radio-électronique (équivalent Bac+4)",
+            "institution": "Collège d'État Supérieur de Radiotechnique de Minsk",
+            "period": "2015 - 2019"
+          }
         ]
       },
       "en": {
@@ -342,31 +1358,126 @@
           "status": "Eligible for a work visa in the EU."
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Krakow, Poland", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" },
-          { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
+          {
+            "text": "+48 664 431 074",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Krakow, Poland",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "mikita-kavaliou.online",
+            "url": "https://mikita-kavaliou.online",
+            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          },
+          {
+            "text": "github.com/NikKowPHP",
+            "url": "https://github.com/NikKowPHP",
+            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+          }
         ],
         "skills": [
-          { "title": "Frontend", "skills": ["React", "Next.js", "TypeScript", "Svelte", "Tailwind CSS", "State Management (Redux, Zustand)"] },
-          { "title": "Languages", "skills": ["TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3/SASS"] },
-          { "title": "Backend", "skills": ["Node.js", "Express", "Nest.js (Basics)"] },
-          { "title": "Tools & Platforms", "skills": ["Vite", "Webpack", "Figma", "Git", "CI/CD (GitHub Actions)", "Supabase"] }
+          {
+            "title": "Frontend",
+            "skills": [
+              "React",
+              "Next.js",
+              "TypeScript",
+              "Svelte",
+              "Tailwind CSS",
+              "State Management (Redux, Zustand)"
+            ]
+          },
+          {
+            "title": "Languages",
+            "skills": [
+              "TypeScript",
+              "JavaScript (ES6+)",
+              "HTML5",
+              "CSS3/SASS"
+            ]
+          },
+          {
+            "title": "Backend",
+            "skills": [
+              "Node.js",
+              "Express",
+              "Nest.js (Basics)"
+            ]
+          },
+          {
+            "title": "Tools & Platforms",
+            "skills": [
+              "Vite",
+              "Webpack",
+              "Figma",
+              "Git",
+              "CI/CD (GitHub Actions)",
+              "Supabase"
+            ]
+          }
         ],
         "languages": [
-          { "name": "Russian", "level": "Native" },
-          { "name": "English", "level": "C1 (Professional proficiency)" },
-          { "name": "Polish", "level": "C1" },
-          { "name": "Spanish", "level": "B2" },
-          { "name": "French", "level": "B1 (Intermediate, actively improving)" },
-          { "name": "German", "level": "B1" },
-          { "name": "Portuguese", "level": "B1" }
+          {
+            "name": "Russian",
+            "level": "Native"
+          },
+          {
+            "name": "English",
+            "level": "C1 (Professional proficiency)"
+          },
+          {
+            "name": "Polish",
+            "level": "C1"
+          },
+          {
+            "name": "Spanish",
+            "level": "B2"
+          },
+          {
+            "name": "French",
+            "level": "B1 (Intermediate, actively improving)"
+          },
+          {
+            "name": "German",
+            "level": "B1"
+          },
+          {
+            "name": "Portuguese",
+            "level": "B1"
+          }
         ],
         "experience": [
-          { "title": "Full Stack Web Developer", "company": "Basesystem", "period": "February 2024 - Present", "responsibilities": [ "Designed and deployed 3 major features for an e-commerce platform, resulting in a <strong>15% increase</strong> in customer engagement.", "Optimized the backend (<strong>Laravel, MySQL</strong>) to reduce average API response time by <strong>30%</strong>, improving the frontend <strong>React</strong> experience.", "Integrated the <strong>Stripe</strong> payment API, securing the transaction flow and increasing the conversion rate by <strong>5%</strong>." ] },
-          { "title": "Full Stack Web Developer (Freelance)", "company": "", "period": "January 2024 - Present", "responsibilities": [ "End-to-end project management and development for 4 web applications in <strong>direct communication with clients</strong>.", "Implemented robust backend architectures with <strong>Node.js</strong> and <strong>Nest.js</strong>, following clean architecture principles.", "Leveraged <strong>AI-driven development workflows</strong> to accelerate project delivery and enhance code quality." ] }
+          {
+            "title": "Full Stack Web Developer",
+            "company": "Basesystem",
+            "period": "February 2024 - Present",
+            "responsibilities": [
+              "Designed and deployed 3 major features for an e-commerce platform, resulting in a <strong>15% increase</strong> in customer engagement.",
+              "Optimized the backend (<strong>Laravel, MySQL</strong>) to reduce average API response time by <strong>30%</strong>, improving the frontend <strong>React</strong> experience.",
+              "Integrated the <strong>Stripe</strong> payment API, securing the transaction flow and increasing the conversion rate by <strong>5%</strong>."
+            ]
+          },
+          {
+            "title": "Full Stack Web Developer (Freelance)",
+            "company": "",
+            "period": "January 2024 - Present",
+            "responsibilities": [
+              "End-to-end project management and development for 4 web applications in <strong>direct communication with clients</strong>.",
+              "Implemented robust backend architectures with <strong>Node.js</strong> and <strong>Nest.js</strong>, following clean architecture principles.",
+              "Leveraged <strong>AI-driven development workflows</strong> to accelerate project delivery and enhance code quality."
+            ]
+          }
         ],
         "projects": [
           {
@@ -376,12 +1487,34 @@
             "stack_title": "Frontend Stack",
             "stack": "<strong>Livewire, Alpine.js, Tailwind CSS, Laravel (as backend).</strong>"
           },
-          { "name": "Lexity: AI Language Learning PWA", "url": "https://lexity.app", "description": "A PWA that revolutionizes language learning by shifting from passive consumption to active creation, with AI-driven feedback and mistake-drilling exercises.", "stack_title": "Tech Stack", "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Tiptap, Zustand, React Query.</strong>" },
-          { "name": "Interly: AI Interview Prep Platform", "url": "https://interly.app", "description": "An AI-driven PWA to help users prepare for technical interviews using voice-based practice, real-time feedback, and a systematic, data-driven process.", "stack_title": "Tech Stack", "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Zustand, Zod.</strong>" },
-          { "name": "Personal Portfolio Website", "url": "https://mikita-kavaliou.online", "description": "A personal portfolio site built to experiment with SvelteKit, demonstrating rapid development and modern design principles.", "stack_title": "Tech Stack", "stack": "<strong>SvelteKit, Svelte, TypeScript, Tailwind CSS.</strong>" }
+          {
+            "name": "Lexity: AI Language Learning PWA",
+            "url": "https://lexity.app",
+            "description": "A PWA that revolutionizes language learning by shifting from passive consumption to active creation, with AI-driven feedback and mistake-drilling exercises.",
+            "stack_title": "Tech Stack",
+            "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Tiptap, Zustand, React Query.</strong>"
+          },
+          {
+            "name": "Interly: AI Interview Prep Platform",
+            "url": "https://interly.app",
+            "description": "An AI-driven PWA to help users prepare for technical interviews using voice-based practice, real-time feedback, and a systematic, data-driven process.",
+            "stack_title": "Tech Stack",
+            "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Zustand, Zod.</strong>"
+          },
+          {
+            "name": "Personal Portfolio Website",
+            "url": "https://mikita-kavaliou.online",
+            "description": "A personal portfolio site built to experiment with SvelteKit, demonstrating rapid development and modern design principles.",
+            "stack_title": "Tech Stack",
+            "stack": "<strong>SvelteKit, Svelte, TypeScript, Tailwind CSS.</strong>"
+          }
         ],
         "education": [
-          { "degree": "Diploma of Technician in Radio-electronics (equivalent to Bachelor's degree)", "institution": "Minsk State Higher College of Radiotechnics", "period": "2015 - 2019" }
+          {
+            "degree": "Diploma of Technician in Radio-electronics (equivalent to Bachelor's degree)",
+            "institution": "Minsk State Higher College of Radiotechnics",
+            "period": "2015 - 2019"
+          }
         ]
       },
       "pl": {
@@ -403,31 +1536,126 @@
           "status": "Posiadam kartę pobytu czasowego w Polsce."
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Kraków, Polska", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" },
-          { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
+          {
+            "text": "+48 664 431 074",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Kraków, Polska",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "mikita-kavaliou.online",
+            "url": "https://mikita-kavaliou.online",
+            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          },
+          {
+            "text": "github.com/NikKowPHP",
+            "url": "https://github.com/NikKowPHP",
+            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+          }
         ],
         "skills": [
-          { "title": "Frontend", "skills": ["React", "Next.js", "TypeScript", "Svelte", "Tailwind CSS", "Zarządzanie stanem (Redux, Zustand)"] },
-          { "title": "Języki programowania", "skills": ["TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3/SASS"] },
-          { "title": "Backend", "skills": ["Node.js", "Express", "Nest.js (Podstawy)"] },
-          { "title": "Narzędzia i Platformy", "skills": ["Vite", "Webpack", "Figma", "Git", "CI/CD (GitHub Actions)", "Supabase"] }
+          {
+            "title": "Frontend",
+            "skills": [
+              "React",
+              "Next.js",
+              "TypeScript",
+              "Svelte",
+              "Tailwind CSS",
+              "Zarządzanie stanem (Redux, Zustand)"
+            ]
+          },
+          {
+            "title": "Języki programowania",
+            "skills": [
+              "TypeScript",
+              "JavaScript (ES6+)",
+              "HTML5",
+              "CSS3/SASS"
+            ]
+          },
+          {
+            "title": "Backend",
+            "skills": [
+              "Node.js",
+              "Express",
+              "Nest.js (Podstawy)"
+            ]
+          },
+          {
+            "title": "Narzędzia i Platformy",
+            "skills": [
+              "Vite",
+              "Webpack",
+              "Figma",
+              "Git",
+              "CI/CD (GitHub Actions)",
+              "Supabase"
+            ]
+          }
         ],
         "languages": [
-          { "name": "Rosyjski", "level": "Język ojczysty" },
-          { "name": "Angielski", "level": "C1 (Biegłość zawodowa)" },
-          { "name": "Polski", "level": "C1" },
-          { "name": "Hiszpański", "level": "B2" },
-          { "name": "Francuski", "level": "B1 (Średnio zaawansowany, w trakcie nauki)" },
-          { "name": "Niemiecki", "level": "B1" },
-          { "name": "Portugalski", "level": "B1" }
+          {
+            "name": "Rosyjski",
+            "level": "Język ojczysty"
+          },
+          {
+            "name": "Angielski",
+            "level": "C1 (Biegłość zawodowa)"
+          },
+          {
+            "name": "Polski",
+            "level": "C1"
+          },
+          {
+            "name": "Hiszpański",
+            "level": "B2"
+          },
+          {
+            "name": "Francuski",
+            "level": "B1 (Średnio zaawansowany, w trakcie nauki)"
+          },
+          {
+            "name": "Niemiecki",
+            "level": "B1"
+          },
+          {
+            "name": "Portugalski",
+            "level": "B1"
+          }
         ],
         "experience": [
-          { "title": "Full Stack Web Developer", "company": "Basesystem", "period": "Luty 2024 - Obecnie", "responsibilities": [ "Projektowanie i wdrażanie 3 głównych funkcji dla platformy e-commerce, co zaowocowało <strong>15% wzrostem</strong> zaangażowania klientów.", "Optymalizacja backendu (<strong>Laravel, MySQL</strong>) w celu skrócenia średniego czasu odpowiedzi API o <strong>30%</strong>, co poprawiło doświadczenie na frontendzie <strong>React</strong>.", "Integracja API płatności <strong>Stripe</strong>, zabezpieczająca przepływ transakcji i zwiększająca współczynnik konwersji o <strong>5%</strong>." ] },
-          { "title": "Full Stack Web Developer (Freelance)", "company": "", "period": "Styczeń 2024 - Obecnie", "responsibilities": [ "Zarządzanie projektami i rozwój od A do Z dla 4 aplikacji internetowych w <strong>bezpośredniej komunikacji z klientami</strong>.", "Wdrażanie solidnych architektur backendowych z <strong>Node.js</strong> i <strong>Nest.js</strong>, zgodnie z zasadami czystej architektury.", "Wykorzystanie <strong>procesów deweloperskich opartych na AI</strong> w celu przyspieszenia realizacji projektów i podniesienia jakości kodu." ] }
+          {
+            "title": "Full Stack Web Developer",
+            "company": "Basesystem",
+            "period": "Luty 2024 - Obecnie",
+            "responsibilities": [
+              "Projektowanie i wdrażanie 3 głównych funkcji dla platformy e-commerce, co zaowocowało <strong>15% wzrostem</strong> zaangażowania klientów.",
+              "Optymalizacja backendu (<strong>Laravel, MySQL</strong>) w celu skrócenia średniego czasu odpowiedzi API o <strong>30%</strong>, co poprawiło doświadczenie na frontendzie <strong>React</strong>.",
+              "Integracja API płatności <strong>Stripe</strong>, zabezpieczająca przepływ transakcji i zwiększająca współczynnik konwersji o <strong>5%</strong>."
+            ]
+          },
+          {
+            "title": "Full Stack Web Developer (Freelance)",
+            "company": "",
+            "period": "Styczeń 2024 - Obecnie",
+            "responsibilities": [
+              "Zarządzanie projektami i rozwój od A do Z dla 4 aplikacji internetowych w <strong>bezpośredniej komunikacji z klientami</strong>.",
+              "Wdrażanie solidnych architektur backendowych z <strong>Node.js</strong> i <strong>Nest.js</strong>, zgodnie z zasadami czystej architektury.",
+              "Wykorzystanie <strong>procesów deweloperskich opartych na AI</strong> w celu przyspieszenia realizacji projektów i podniesienia jakości kodu."
+            ]
+          }
         ],
         "projects": [
           {
@@ -437,12 +1665,34 @@
             "stack_title": "Stos Technologiczny Frontend",
             "stack": "<strong>Livewire, Alpine.js, Tailwind CSS, Laravel (jako backend).</strong>"
           },
-          { "name": "Lexity: PWA do Nauki Języków z AI", "url": "https://lexity.app", "description": "PWA, która rewolucjonizuje naukę języków, przechodząc od pasywnej konsumpcji do aktywnego tworzenia, z informacjami zwrotnymi opartymi na AI i ćwiczeniami utrwalającymi błędy.", "stack_title": "Stos technologiczny", "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Tiptap, Zustand, React Query.</strong>" },
-          { "name": "Interly: Platforma AI do Przygotowania do Rozmów Kwalifikacyjnych", "url": "https://interly.app", "description": "PWA napędzana przez AI, aby pomóc użytkownikom przygotować się do rozmów technicznych za pomocą ćwiczeń głosowych, informacji zwrotnych w czasie rzeczywistym i systematycznego procesu opartego na danych.", "stack_title": "Stos technologiczny", "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Zustand, Zod.</strong>" },
-          { "name": "Osobista Strona Portfolio", "url": "https://mikita-kavaliou.online", "description": "Osobista strona portfolio stworzona w celu eksperymentowania z SvelteKit, demonstrująca szybki rozwój i nowoczesne zasady projektowania.", "stack_title": "Stos technologiczny", "stack": "<strong>SvelteKit, Svelte, TypeScript, Tailwind CSS.</strong>" }
+          {
+            "name": "Lexity: PWA do Nauki Języków z AI",
+            "url": "https://lexity.app",
+            "description": "PWA, która rewolucjonizuje naukę języków, przechodząc od pasywnej konsumpcji do aktywnego tworzenia, z informacjami zwrotnymi opartymi na AI i ćwiczeniami utrwalającymi błędy.",
+            "stack_title": "Stos technologiczny",
+            "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Tiptap, Zustand, React Query.</strong>"
+          },
+          {
+            "name": "Interly: Platforma AI do Przygotowania do Rozmów Kwalifikacyjnych",
+            "url": "https://interly.app",
+            "description": "PWA napędzana przez AI, aby pomóc użytkownikom przygotować się do rozmów technicznych za pomocą ćwiczeń głosowych, informacji zwrotnych w czasie rzeczywistym i systematycznego procesu opartego na danych.",
+            "stack_title": "Stos technologiczny",
+            "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Zustand, Zod.</strong>"
+          },
+          {
+            "name": "Osobista Strona Portfolio",
+            "url": "https://mikita-kavaliou.online",
+            "description": "Osobista strona portfolio stworzona w celu eksperymentowania z SvelteKit, demonstrująca szybki rozwój i nowoczesne zasady projektowania.",
+            "stack_title": "Stos technologiczny",
+            "stack": "<strong>SvelteKit, Svelte, TypeScript, Tailwind CSS.</strong>"
+          }
         ],
         "education": [
-          { "degree": "Dyplom Technika Radioelektroniki (odpowiednik licencjatu)", "institution": "Mińskie Państwowe Wyższe Kolegium Radiotechniczne", "period": "2015 - 2019" }
+          {
+            "degree": "Dyplom Technika Radioelektroniki (odpowiednik licencjatu)",
+            "institution": "Mińskie Państwowe Wyższe Kolegium Radiotechniczne",
+            "period": "2015 - 2019"
+          }
         ]
       },
       "de": {
@@ -464,31 +1714,126 @@
           "status": "Berechtigt für ein Arbeitsvisum in Deutschland."
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Krakau, Polen", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" },
-          { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
+          {
+            "text": "+48 664 431 074",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Krakau, Polen",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "mikita-kavaliou.online",
+            "url": "https://mikita-kavaliou.online",
+            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          },
+          {
+            "text": "github.com/NikKowPHP",
+            "url": "https://github.com/NikKowPHP",
+            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+          }
         ],
         "skills": [
-          { "title": "Frontend", "skills": ["React", "Next.js", "TypeScript", "Svelte", "Tailwind CSS", "State Management (Redux, Zustand)"] },
-          { "title": "Sprachen", "skills": ["TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3/SASS"] },
-          { "title": "Backend", "skills": ["Node.js", "Express", "Nest.js (Grundlagen)"] },
-          { "title": "Tools & Plattformen", "skills": ["Vite", "Webpack", "Figma", "Git", "CI/CD (GitHub Actions)", "Supabase"] }
+          {
+            "title": "Frontend",
+            "skills": [
+              "React",
+              "Next.js",
+              "TypeScript",
+              "Svelte",
+              "Tailwind CSS",
+              "State Management (Redux, Zustand)"
+            ]
+          },
+          {
+            "title": "Sprachen",
+            "skills": [
+              "TypeScript",
+              "JavaScript (ES6+)",
+              "HTML5",
+              "CSS3/SASS"
+            ]
+          },
+          {
+            "title": "Backend",
+            "skills": [
+              "Node.js",
+              "Express",
+              "Nest.js (Grundlagen)"
+            ]
+          },
+          {
+            "title": "Tools & Plattformen",
+            "skills": [
+              "Vite",
+              "Webpack",
+              "Figma",
+              "Git",
+              "CI/CD (GitHub Actions)",
+              "Supabase"
+            ]
+          }
         ],
         "languages": [
-          { "name": "Russisch", "level": "Muttersprache" },
-          { "name": "Englisch", "level": "C1 (Verhandlungssicher)" },
-          { "name": "Polnisch", "level": "C1" },
-          { "name": "Spanisch", "level": "B2" },
-          { "name": "Französisch", "level": "B1 (Mittelstufe, aktiv lernend)" },
-          { "name": "Deutsch", "level": "B1" },
-          { "name": "Portugiesisch", "level": "B1" }
+          {
+            "name": "Russisch",
+            "level": "Muttersprache"
+          },
+          {
+            "name": "Englisch",
+            "level": "C1 (Verhandlungssicher)"
+          },
+          {
+            "name": "Polnisch",
+            "level": "C1"
+          },
+          {
+            "name": "Spanisch",
+            "level": "B2"
+          },
+          {
+            "name": "Französisch",
+            "level": "B1 (Mittelstufe, aktiv lernend)"
+          },
+          {
+            "name": "Deutsch",
+            "level": "B1"
+          },
+          {
+            "name": "Portugiesisch",
+            "level": "B1"
+          }
         ],
         "experience": [
-          { "title": "Full-Stack-Webentwickler", "company": "Basesystem", "period": "Februar 2024 - Heute", "responsibilities": [ "Konzeption und Bereitstellung von 3 Hauptfunktionen für eine E-Commerce-Plattform, was zu einer <strong>15%igen Steigerung</strong> des Kundenengagements führte.", "Optimierung des Backends (<strong>Laravel, MySQL</strong>), um die durchschnittliche API-Antwortzeit um <strong>30%</strong> zu reduzieren, was das Frontend-Erlebnis mit <strong>React</strong> verbesserte.", "Integration der <strong>Stripe</strong>-Zahlungs-API, um den Transaktionsfluss zu sichern und die Konversionsrate um <strong>5%</strong> zu erhöhen." ] },
-          { "title": "Full-Stack-Webentwickler (Freiberufler)", "company": "", "period": "Januar 2024 - Heute", "responsibilities": [ "End-to-End-Projektmanagement und -Entwicklung für 4 Webanwendungen in <strong>direkter Kommunikation mit Kunden</strong>.", "Implementierung robuster Backend-Architekturen mit <strong>Node.js</strong> und <strong>Nest.js</strong> nach den Prinzipien der Clean Architecture.", "Einsatz von <strong>KI-gesteuerten Entwicklungsworkflows</strong> zur Beschleunigung der Projektabwicklung und Verbesserung der Codequalität." ] }
+          {
+            "title": "Full-Stack-Webentwickler",
+            "company": "Basesystem",
+            "period": "Februar 2024 - Heute",
+            "responsibilities": [
+              "Konzeption und Bereitstellung von 3 Hauptfunktionen für eine E-Commerce-Plattform, was zu einer <strong>15%igen Steigerung</strong> des Kundenengagements führte.",
+              "Optimierung des Backends (<strong>Laravel, MySQL</strong>), um die durchschnittliche API-Antwortzeit um <strong>30%</strong> zu reduzieren, was das Frontend-Erlebnis mit <strong>React</strong> verbesserte.",
+              "Integration der <strong>Stripe</strong>-Zahlungs-API, um den Transaktionsfluss zu sichern und die Konversionsrate um <strong>5%</strong> zu erhöhen."
+            ]
+          },
+          {
+            "title": "Full-Stack-Webentwickler (Freiberufler)",
+            "company": "",
+            "period": "Januar 2024 - Heute",
+            "responsibilities": [
+              "End-to-End-Projektmanagement und -Entwicklung für 4 Webanwendungen in <strong>direkter Kommunikation mit Kunden</strong>.",
+              "Implementierung robuster Backend-Architekturen mit <strong>Node.js</strong> und <strong>Nest.js</strong> nach den Prinzipien der Clean Architecture.",
+              "Einsatz von <strong>KI-gesteuerten Entwicklungsworkflows</strong> zur Beschleunigung der Projektabwicklung und Verbesserung der Codequalität."
+            ]
+          }
         ],
         "projects": [
           {
@@ -498,12 +1843,34 @@
             "stack_title": "Frontend Technologie-Stack",
             "stack": "<strong>Livewire, Alpine.js, Tailwind CSS, Laravel (als Backend).</strong>"
           },
-          { "name": "Lexity: KI-Sprachlern-PWA", "url": "https://lexity.app", "description": "Eine PWA, die das Sprachenlernen revolutioniert, indem sie von passivem Konsum zu aktivem Schaffen übergeht, mit KI-gestütztem Feedback und Übungen zum Einprägen von Fehlern.", "stack_title": "Technologie-Stack", "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Tiptap, Zustand, React Query.</strong>" },
-          { "name": "Interly: KI-Plattform zur Vorbereitung auf Vorstellungsgespräche", "url": "https://interly.app", "description": "Eine KI-gesteuerte PWA, die Benutzern hilft, sich auf technische Vorstellungsgespräche vorzubereiten, indem sie sprachbasiertes Üben, Echtzeit-Feedback und einen systematischen, datengesteuerten Prozess verwendet.", "stack_title": "Technologie-Stack", "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Zustand, Zod.</strong>" },
-          { "name": "Persönliche Portfolio-Website", "url": "https://mikita-kavaliou.online", "description": "Eine persönliche Portfolio-Website, die zum Experimentieren mit SvelteKit erstellt wurde und schnelle Entwicklung sowie moderne Designprinzipien demonstriert.", "stack_title": "Technologie-Stack", "stack": "<strong>SvelteKit, Svelte, TypeScript, Tailwind CSS.</strong>" }
+          {
+            "name": "Lexity: KI-Sprachlern-PWA",
+            "url": "https://lexity.app",
+            "description": "Eine PWA, die das Sprachenlernen revolutioniert, indem sie von passivem Konsum zu aktivem Schaffen übergeht, mit KI-gestütztem Feedback und Übungen zum Einprägen von Fehlern.",
+            "stack_title": "Technologie-Stack",
+            "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Tiptap, Zustand, React Query.</strong>"
+          },
+          {
+            "name": "Interly: KI-Plattform zur Vorbereitung auf Vorstellungsgespräche",
+            "url": "https://interly.app",
+            "description": "Eine KI-gesteuerte PWA, die Benutzern hilft, sich auf technische Vorstellungsgespräche vorzubereiten, indem sie sprachbasiertes Üben, Echtzeit-Feedback und einen systematischen, datengesteuerten Prozess verwendet.",
+            "stack_title": "Technologie-Stack",
+            "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Zustand, Zod.</strong>"
+          },
+          {
+            "name": "Persönliche Portfolio-Website",
+            "url": "https://mikita-kavaliou.online",
+            "description": "Eine persönliche Portfolio-Website, die zum Experimentieren mit SvelteKit erstellt wurde und schnelle Entwicklung sowie moderne Designprinzipien demonstriert.",
+            "stack_title": "Technologie-Stack",
+            "stack": "<strong>SvelteKit, Svelte, TypeScript, Tailwind CSS.</strong>"
+          }
         ],
         "education": [
-          { "degree": "Diplom als Techniker für Radioelektronik (entspricht Bachelor-Abschluss)", "institution": "Staatliches Höheres Kolleg für Radiotechnik Minsk", "period": "2015 - 2019" }
+          {
+            "degree": "Diplom als Techniker für Radioelektronik (entspricht Bachelor-Abschluss)",
+            "institution": "Staatliches Höheres Kolleg für Radiotechnik Minsk",
+            "period": "2015 - 2019"
+          }
         ]
       }
     }
@@ -531,38 +1898,146 @@
           "status": "Éligible à un visa de travail en France."
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Cracovie, Pologne", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" },
-          { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
+          {
+            "text": "+48 664 431 074",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Cracovie, Pologne",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "mikita-kavaliou.online",
+            "url": "https://mikita-kavaliou.online",
+            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          },
+          {
+            "text": "github.com/NikKowPHP",
+            "url": "https://github.com/NikKowPHP",
+            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+          }
         ],
         "skills": [
-          { "title": "Backend (Écosystème PHP)", "skills": ["PHP (8+)", "Laravel", "Symfony", "Doctrine", "PHPUnit", "Composer"] },
-          { "title": "Bases de Données", "skills": ["PostgreSQL", "MySQL", "Conception & Optimisation de BDD"] },
-          { "title": "Frontend (Connaissances)", "skills": ["JavaScript", "jQuery", "React", "HTML5", "CSS3"] },
-          { "title": "Outils & Plateformes", "skills": ["Docker", "Git", "CI/CD (GitHub Actions)", "API RESTful", "Supabase"] }
+          {
+            "title": "Backend (Écosystème PHP)",
+            "skills": [
+              "PHP (8+)",
+              "Laravel",
+              "Symfony",
+              "Doctrine",
+              "PHPUnit",
+              "Composer"
+            ]
+          },
+          {
+            "title": "Bases de Données",
+            "skills": [
+              "PostgreSQL",
+              "MySQL",
+              "Conception & Optimisation de BDD"
+            ]
+          },
+          {
+            "title": "Frontend (Connaissances)",
+            "skills": [
+              "JavaScript",
+              "jQuery",
+              "React",
+              "HTML5",
+              "CSS3"
+            ]
+          },
+          {
+            "title": "Outils & Plateformes",
+            "skills": [
+              "Docker",
+              "Git",
+              "CI/CD (GitHub Actions)",
+              "API RESTful",
+              "Supabase"
+            ]
+          }
         ],
         "languages": [
-          { "name": "Russe", "level": "Langue maternelle" },
-          { "name": "Anglais", "level": "C1 (Courant professionnel)" },
-          { "name": "Polonais", "level": "C1" },
-          { "name": "Espagnol", "level": "B2" },
-          { "name": "Français", "level": "B1 (Intermédiaire, en progression active)" },
-          { "name": "Allemand", "level": "B1" },
-          { "name": "Portugais", "level": "B1" }
+          {
+            "name": "Russe",
+            "level": "Langue maternelle"
+          },
+          {
+            "name": "Anglais",
+            "level": "C1 (Courant professionnel)"
+          },
+          {
+            "name": "Polonais",
+            "level": "C1"
+          },
+          {
+            "name": "Espagnol",
+            "level": "B2"
+          },
+          {
+            "name": "Français",
+            "level": "B1 (Intermédiaire, en progression active)"
+          },
+          {
+            "name": "Allemand",
+            "level": "B1"
+          },
+          {
+            "name": "Portugais",
+            "level": "B1"
+          }
         ],
         "experience": [
-          { "title": "Développeur Web Backend", "company": "Basesystem", "period": "Février 2024 - Présent", "responsibilities": [ "Conception et maintenance d'applications web complexes avec <strong>Laravel</strong> et <strong>Symfony</strong>, tout en gérant avec succès des bases de code héritées en <strong>PHP natif (versions 7 à 8+).</strong>", "Optimisation des performances de la base de données (<strong>MySQL</strong>) par la refactorisation de requêtes complexes et des stratégies d'indexation, entraînant une <strong>réduction de 25%</strong> des temps de chargement.", "Développement d'API RESTful robustes pour soutenir les applications frontend construites avec <strong>jQuery</strong> et <strong>React</strong>, garantissant un flux de données fluide." ] }
+          {
+            "title": "Développeur Web Backend",
+            "company": "Basesystem",
+            "period": "Février 2024 - Présent",
+            "responsibilities": [
+              "Conception et maintenance d'applications web complexes avec <strong>Laravel</strong> et <strong>Symfony</strong>, tout en gérant avec succès des bases de code héritées en <strong>PHP natif (versions 7 à 8+).</strong>",
+              "Optimisation des performances de la base de données (<strong>MySQL</strong>) par la refactorisation de requêtes complexes et des stratégies d'indexation, entraînant une <strong>réduction de 25%</strong> des temps de chargement.",
+              "Développement d'API RESTful robustes pour soutenir les applications frontend construites avec <strong>jQuery</strong> et <strong>React</strong>, garantissant un flux de données fluide."
+            ]
+          }
         ],
         "projects": [
-          { "name": "ZIRO.FIT : Plateforme pour Coachs Sportifs", "url": "https://ziro.fit", "description": "Développement de tout le backend Laravel pour une plateforme de coachs sportifs, incluant le schéma de BDD, la logique métier et un assistant IA pour la génération d'entraînements.", "stack_title": "Stack Technique", "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>" },
-          { "name": "Bot Instagram Commentaire-vers-DM", "url": "https://github.com/NikKowPHP", "description": "Un système automatisé qui envoie des DM aux utilisateurs qui commentent avec des mots-clés spécifiques sur les publications Instagram, géré via un panneau web.", "stack_title": "Stack Technique", "stack": "<strong>Python, Docker, Supabase (PostgreSQL), Next.js.</strong>" },
-          { "name": "Backend pour PWA Éducatives", "url": "https://lexity.app", "description": "Conception et implémentation de l'architecture backend et des API RESTful avec <strong>Supabase (PostgreSQL)</strong> et des fonctions serverless TypeScript pour alimenter plusieurs PWA <strong>Next.js</strong>, en se concentrant sur la modélisation des données et l'authentification.", "stack_title": "Stack Technique", "stack": "<strong>Supabase, PostgreSQL, TypeScript (Edge Functions).</strong>" }
+          {
+            "name": "ZIRO.FIT : Plateforme pour Coachs Sportifs",
+            "url": "https://ziro.fit",
+            "description": "Développement de tout le backend Laravel pour une plateforme de coachs sportifs, incluant le schéma de BDD, la logique métier et un assistant IA pour la génération d'entraînements.",
+            "stack_title": "Stack Technique",
+            "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>"
+          },
+          {
+            "name": "Bot Instagram Commentaire-vers-DM",
+            "url": "https://github.com/NikKowPHP",
+            "description": "Un système automatisé qui envoie des DM aux utilisateurs qui commentent avec des mots-clés spécifiques sur les publications Instagram, géré via un panneau web.",
+            "stack_title": "Stack Technique",
+            "stack": "<strong>Python, Docker, Supabase (PostgreSQL), Next.js.</strong>"
+          },
+          {
+            "name": "Backend pour PWA Éducatives",
+            "url": "https://lexity.app",
+            "description": "Conception et implémentation de l'architecture backend et des API RESTful avec <strong>Supabase (PostgreSQL)</strong> et des fonctions serverless TypeScript pour alimenter plusieurs PWA <strong>Next.js</strong>, en se concentrant sur la modélisation des données et l'authentification.",
+            "stack_title": "Stack Technique",
+            "stack": "<strong>Supabase, PostgreSQL, TypeScript (Edge Functions).</strong>"
+          }
         ],
         "education": [
-          { "degree": "Diplôme de Technicien en Radio-électronique (équivalent Bac+4)", "institution": "Collège d'État Supérieur de Radiotechnique de Minsk", "period": "2015 - 2019" }
+          {
+            "degree": "Diplôme de Technicien en Radio-électronique (équivalent Bac+4)",
+            "institution": "Collège d'État Supérieur de Radiotechnique de Minsk",
+            "period": "2015 - 2019"
+          }
         ]
       },
       "en": {
@@ -584,38 +2059,146 @@
           "status": "Eligible for a work visa in the EU."
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Krakow, Poland", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" },
-          { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
+          {
+            "text": "+48 664 431 074",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Krakow, Poland",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "mikita-kavaliou.online",
+            "url": "https://mikita-kavaliou.online",
+            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          },
+          {
+            "text": "github.com/NikKowPHP",
+            "url": "https://github.com/NikKowPHP",
+            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+          }
         ],
         "skills": [
-          { "title": "Backend (PHP Ecosystem)", "skills": ["PHP (8+)", "Laravel", "Symfony", "Doctrine", "PHPUnit", "Composer"] },
-          { "title": "Databases", "skills": ["PostgreSQL", "MySQL", "Database Design & Optimization"] },
-          { "title": "Frontend (Working Knowledge)", "skills": ["JavaScript", "jQuery", "React", "HTML5", "CSS3"] },
-          { "title": "Tools & Platforms", "skills": ["Docker", "Git", "CI/CD (GitHub Actions)", "RESTful APIs", "Supabase"] }
+          {
+            "title": "Backend (PHP Ecosystem)",
+            "skills": [
+              "PHP (8+)",
+              "Laravel",
+              "Symfony",
+              "Doctrine",
+              "PHPUnit",
+              "Composer"
+            ]
+          },
+          {
+            "title": "Databases",
+            "skills": [
+              "PostgreSQL",
+              "MySQL",
+              "Database Design & Optimization"
+            ]
+          },
+          {
+            "title": "Frontend (Working Knowledge)",
+            "skills": [
+              "JavaScript",
+              "jQuery",
+              "React",
+              "HTML5",
+              "CSS3"
+            ]
+          },
+          {
+            "title": "Tools & Platforms",
+            "skills": [
+              "Docker",
+              "Git",
+              "CI/CD (GitHub Actions)",
+              "RESTful APIs",
+              "Supabase"
+            ]
+          }
         ],
         "languages": [
-          { "name": "Russian", "level": "Native" },
-          { "name": "English", "level": "C1 (Professional proficiency)" },
-          { "name": "Polish", "level": "C1" },
-          { "name": "Spanish", "level": "B2" },
-          { "name": "French", "level": "B1 (Intermediate, actively improving)" },
-          { "name": "German", "level": "B1" },
-          { "name": "Portuguese", "level": "B1" }
+          {
+            "name": "Russian",
+            "level": "Native"
+          },
+          {
+            "name": "English",
+            "level": "C1 (Professional proficiency)"
+          },
+          {
+            "name": "Polish",
+            "level": "C1"
+          },
+          {
+            "name": "Spanish",
+            "level": "B2"
+          },
+          {
+            "name": "French",
+            "level": "B1 (Intermediate, actively improving)"
+          },
+          {
+            "name": "German",
+            "level": "B1"
+          },
+          {
+            "name": "Portuguese",
+            "level": "B1"
+          }
         ],
         "experience": [
-          { "title": "Backend Web Developer", "company": "Basesystem", "period": "February 2024 - Present", "responsibilities": [ "Engineered and maintained complex web applications using <strong>Laravel</strong> and <strong>Symfony</strong>, successfully managing legacy codebases in <strong>native PHP (versions 7 to 8+).</strong>", "Optimized database performance (<strong>MySQL</strong>) by refactoring complex queries and indexing strategies, resulting in a <strong>25% reduction</strong> in page load times.", "Developed robust RESTful APIs to support frontend applications built with <strong>jQuery</strong> and <strong>React</strong>, ensuring seamless data flow and integration." ] }
+          {
+            "title": "Backend Web Developer",
+            "company": "Basesystem",
+            "period": "February 2024 - Present",
+            "responsibilities": [
+              "Engineered and maintained complex web applications using <strong>Laravel</strong> and <strong>Symfony</strong>, successfully managing legacy codebases in <strong>native PHP (versions 7 to 8+).</strong>",
+              "Optimized database performance (<strong>MySQL</strong>) by refactoring complex queries and indexing strategies, resulting in a <strong>25% reduction</strong> in page load times.",
+              "Developed robust RESTful APIs to support frontend applications built with <strong>jQuery</strong> and <strong>React</strong>, ensuring seamless data flow and integration."
+            ]
+          }
         ],
         "projects": [
-          { "name": "ZIRO.FIT: Fitness Trainer Platform", "url": "https://ziro.fit", "description": "Developed the entire Laravel backend for a fitness trainer platform, including the database schema, business logic, and an AI assistant for workout generation.", "stack_title": "Tech Stack", "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>" },
-          { "name": "Instagram Comment-to-DM Bot System", "url": "https://github.com/NikKowPHP", "description": "An automated system that sends DMs to users who comment on posts. Built the backend logic in Python and the management panel in Next.js, all containerized with Docker.", "stack_title": "Tech Stack", "stack": "<strong>Python, Docker, Supabase (PostgreSQL), Next.js.</strong>" },
-          { "name": "Backend for Educational PWAs", "url": "https://lexity.app", "description": "Designed and implemented the backend architecture and RESTful APIs using Supabase (PostgreSQL) and serverless TypeScript functions to power multiple Next.js PWAs, focusing on scalable data modeling and authentication.", "stack_title": "Tech Stack", "stack": "<strong>Supabase, PostgreSQL, TypeScript (Edge Functions).</strong>" }
+          {
+            "name": "ZIRO.FIT: Fitness Trainer Platform",
+            "url": "https://ziro.fit",
+            "description": "Developed the entire Laravel backend for a fitness trainer platform, including the database schema, business logic, and an AI assistant for workout generation.",
+            "stack_title": "Tech Stack",
+            "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>"
+          },
+          {
+            "name": "Instagram Comment-to-DM Bot System",
+            "url": "https://github.com/NikKowPHP",
+            "description": "An automated system that sends DMs to users who comment on posts. Built the backend logic in Python and the management panel in Next.js, all containerized with Docker.",
+            "stack_title": "Tech Stack",
+            "stack": "<strong>Python, Docker, Supabase (PostgreSQL), Next.js.</strong>"
+          },
+          {
+            "name": "Backend for Educational PWAs",
+            "url": "https://lexity.app",
+            "description": "Designed and implemented the backend architecture and RESTful APIs using Supabase (PostgreSQL) and serverless TypeScript functions to power multiple Next.js PWAs, focusing on scalable data modeling and authentication.",
+            "stack_title": "Tech Stack",
+            "stack": "<strong>Supabase, PostgreSQL, TypeScript (Edge Functions).</strong>"
+          }
         ],
         "education": [
-          { "degree": "Diploma of Technician in Radio-electronics (equivalent to Bachelor's degree)", "institution": "Minsk State Higher College of Radiotechnics", "period": "2015 - 2019" }
+          {
+            "degree": "Diploma of Technician in Radio-electronics (equivalent to Bachelor's degree)",
+            "institution": "Minsk State Higher College of Radiotechnics",
+            "period": "2015 - 2019"
+          }
         ]
       },
       "pl": {
@@ -637,38 +2220,146 @@
           "status": "Posiadam kartę pobytu czasowego w Polsce."
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Kraków, Polska", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" },
-          { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
+          {
+            "text": "+48 664 431 074",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Kraków, Polska",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "mikita-kavaliou.online",
+            "url": "https://mikita-kavaliou.online",
+            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          },
+          {
+            "text": "github.com/NikKowPHP",
+            "url": "https://github.com/NikKowPHP",
+            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+          }
         ],
         "skills": [
-          { "title": "Backend (Ekosystem PHP)", "skills": ["PHP (8+)", "Laravel", "Symfony", "Doctrine", "PHPUnit", "Composer"] },
-          { "title": "Bazy Danych", "skills": ["PostgreSQL", "MySQL", "Projektowanie i Optymalizacja Baz Danych"] },
-          { "title": "Frontend (Wiedza praktyczna)", "skills": ["JavaScript", "jQuery", "React", "HTML5", "CSS3"] },
-          { "title": "Narzędzia i Platformy", "skills": ["Docker", "Git", "CI/CD (GitHub Actions)", "RESTful APIs", "Supabase"] }
+          {
+            "title": "Backend (Ekosystem PHP)",
+            "skills": [
+              "PHP (8+)",
+              "Laravel",
+              "Symfony",
+              "Doctrine",
+              "PHPUnit",
+              "Composer"
+            ]
+          },
+          {
+            "title": "Bazy Danych",
+            "skills": [
+              "PostgreSQL",
+              "MySQL",
+              "Projektowanie i Optymalizacja Baz Danych"
+            ]
+          },
+          {
+            "title": "Frontend (Wiedza praktyczna)",
+            "skills": [
+              "JavaScript",
+              "jQuery",
+              "React",
+              "HTML5",
+              "CSS3"
+            ]
+          },
+          {
+            "title": "Narzędzia i Platformy",
+            "skills": [
+              "Docker",
+              "Git",
+              "CI/CD (GitHub Actions)",
+              "RESTful APIs",
+              "Supabase"
+            ]
+          }
         ],
         "languages": [
-          { "name": "Rosyjski", "level": "Język ojczysty" },
-          { "name": "Angielski", "level": "C1 (Biegłość zawodowa)" },
-          { "name": "Polski", "level": "C1" },
-          { "name": "Hiszpański", "level": "B2" },
-          { "name": "Francuski", "level": "B1 (Średnio zaawansowany, w trakcie nauki)" },
-          { "name": "Niemiecki", "level": "B1" },
-          { "name": "Portugalski", "level": "B1" }
+          {
+            "name": "Rosyjski",
+            "level": "Język ojczysty"
+          },
+          {
+            "name": "Angielski",
+            "level": "C1 (Biegłość zawodowa)"
+          },
+          {
+            "name": "Polski",
+            "level": "C1"
+          },
+          {
+            "name": "Hiszpański",
+            "level": "B2"
+          },
+          {
+            "name": "Francuski",
+            "level": "B1 (Średnio zaawansowany, w trakcie nauki)"
+          },
+          {
+            "name": "Niemiecki",
+            "level": "B1"
+          },
+          {
+            "name": "Portugalski",
+            "level": "B1"
+          }
         ],
         "experience": [
-          { "title": "Backend Web Developer", "company": "Basesystem", "period": "Luty 2024 - Obecnie", "responsibilities": [ "Tworzenie i utrzymywanie złożonych aplikacji internetowych przy użyciu <strong>Laravel</strong> i <strong>Symfony</strong>, z powodzeniem zarządzając starszymi bazami kodu w <strong>natywnym PHP (wersje 7 do 8+).</strong>", "Optymalizacja wydajności bazy danych (<strong>MySQL</strong>) poprzez refaktoryzację złożonych zapytań i strategii indeksowania, co przyniosło <strong>25% redukcję</strong> czasu ładowania stron.", "Rozwój solidnych interfejsów API RESTful w celu wsparcia aplikacji frontendowych zbudowanych w <strong>jQuery</strong> i <strong>React</strong>, zapewniając płynny przepływ danych." ] }
+          {
+            "title": "Backend Web Developer",
+            "company": "Basesystem",
+            "period": "Luty 2024 - Obecnie",
+            "responsibilities": [
+              "Tworzenie i utrzymywanie złożonych aplikacji internetowych przy użyciu <strong>Laravel</strong> i <strong>Symfony</strong>, z powodzeniem zarządzając starszymi bazami kodu w <strong>natywnym PHP (wersje 7 do 8+).</strong>",
+              "Optymalizacja wydajności bazy danych (<strong>MySQL</strong>) poprzez refaktoryzację złożonych zapytań i strategii indeksowania, co przyniosło <strong>25% redukcję</strong> czasu ładowania stron.",
+              "Rozwój solidnych interfejsów API RESTful w celu wsparcia aplikacji frontendowych zbudowanych w <strong>jQuery</strong> i <strong>React</strong>, zapewniając płynny przepływ danych."
+            ]
+          }
         ],
         "projects": [
-          { "name": "ZIRO.FIT: Platforma dla Trenerów Fitness", "url": "https://ziro.fit", "description": "Opracowanie całego backendu w Laravelu dla platformy trenerów fitness, w tym schematu bazy danych, logiki biznesowej i asystenta AI do generowania treningów.", "stack_title": "Stos Technologiczny", "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>" },
-          { "name": "Bot Instagram Komentarz-do-DM", "url": "https://github.com/NikKowPHP", "description": "Zautomatyzowany system, który wysyła wiadomości DM do użytkowników komentujących posty na Instagramie za pomocą określonych słów kluczowych, zarządzany przez panel internetowy.", "stack_title": "Stos Technologiczny", "stack": "<strong>Python, Docker, Supabase (PostgreSQL), Next.js.</strong>" },
-          { "name": "Backend dla Edukacyjnych PWA", "url": "https://lexity.app", "description": "Zaprojektowanie i wdrożenie architektury backendu oraz API RESTful przy użyciu Supabase (PostgreSQL) i funkcji serverless w TypeScript do zasilania wielu PWA Next.js, koncentrując się na skalowalnym modelowaniu danych i uwierzytelnianiu.", "stack_title": "Stos Technologiczny", "stack": "<strong>Supabase, PostgreSQL, TypeScript (Edge Functions).</strong>" }
+          {
+            "name": "ZIRO.FIT: Platforma dla Trenerów Fitness",
+            "url": "https://ziro.fit",
+            "description": "Opracowanie całego backendu w Laravelu dla platformy trenerów fitness, w tym schematu bazy danych, logiki biznesowej i asystenta AI do generowania treningów.",
+            "stack_title": "Stos Technologiczny",
+            "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>"
+          },
+          {
+            "name": "Bot Instagram Komentarz-do-DM",
+            "url": "https://github.com/NikKowPHP",
+            "description": "Zautomatyzowany system, który wysyła wiadomości DM do użytkowników komentujących posty na Instagramie za pomocą określonych słów kluczowych, zarządzany przez panel internetowy.",
+            "stack_title": "Stos Technologiczny",
+            "stack": "<strong>Python, Docker, Supabase (PostgreSQL), Next.js.</strong>"
+          },
+          {
+            "name": "Backend dla Edukacyjnych PWA",
+            "url": "https://lexity.app",
+            "description": "Zaprojektowanie i wdrożenie architektury backendu oraz API RESTful przy użyciu Supabase (PostgreSQL) i funkcji serverless w TypeScript do zasilania wielu PWA Next.js, koncentrując się na skalowalnym modelowaniu danych i uwierzytelnianiu.",
+            "stack_title": "Stos Technologiczny",
+            "stack": "<strong>Supabase, PostgreSQL, TypeScript (Edge Functions).</strong>"
+          }
         ],
         "education": [
-          { "degree": "Dyplom Technika Radioelektroniki (odpowiednik licencjatu)", "institution": "Mińskie Państwowe Wyższe Kolegium Radiotechniczne", "period": "2015 - 2019" }
+          {
+            "degree": "Dyplom Technika Radioelektroniki (odpowiednik licencjatu)",
+            "institution": "Mińskie Państwowe Wyższe Kolegium Radiotechniczne",
+            "period": "2015 - 2019"
+          }
         ]
       },
       "de": {
@@ -690,38 +2381,146 @@
           "status": "Berechtigt für ein Arbeitsvisum in Deutschland."
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Krakau, Polen", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" },
-          { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
+          {
+            "text": "+48 664 431 074",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Krakau, Polen",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "mikita-kavaliou.online",
+            "url": "https://mikita-kavaliou.online",
+            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          },
+          {
+            "text": "github.com/NikKowPHP",
+            "url": "https://github.com/NikKowPHP",
+            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+          }
         ],
         "skills": [
-          { "title": "Backend (PHP-Ökosystem)", "skills": ["PHP (8+)", "Laravel", "Symfony", "Doctrine", "PHPUnit", "Composer"] },
-          { "title": "Datenbanken", "skills": ["PostgreSQL", "MySQL", "Datenbankdesign & -optimierung"] },
-          { "title": "Frontend (Grundkenntnisse)", "skills": ["JavaScript", "jQuery", "React", "HTML5", "CSS3"] },
-          { "title": "Tools & Plattformen", "skills": ["Docker", "Git", "CI/CD (GitHub Actions)", "RESTful APIs", "Supabase"] }
+          {
+            "title": "Backend (PHP-Ökosystem)",
+            "skills": [
+              "PHP (8+)",
+              "Laravel",
+              "Symfony",
+              "Doctrine",
+              "PHPUnit",
+              "Composer"
+            ]
+          },
+          {
+            "title": "Datenbanken",
+            "skills": [
+              "PostgreSQL",
+              "MySQL",
+              "Datenbankdesign & -optimierung"
+            ]
+          },
+          {
+            "title": "Frontend (Grundkenntnisse)",
+            "skills": [
+              "JavaScript",
+              "jQuery",
+              "React",
+              "HTML5",
+              "CSS3"
+            ]
+          },
+          {
+            "title": "Tools & Plattformen",
+            "skills": [
+              "Docker",
+              "Git",
+              "CI/CD (GitHub Actions)",
+              "RESTful APIs",
+              "Supabase"
+            ]
+          }
         ],
         "languages": [
-          { "name": "Russisch", "level": "Muttersprache" },
-          { "name": "Englisch", "level": "C1 (Verhandlungssicher)" },
-          { "name": "Polnisch", "level": "C1" },
-          { "name": "Spanisch", "level": "B2" },
-          { "name": "Französisch", "level": "B1 (Mittelstufe, aktiv lernend)" },
-          { "name": "Deutsch", "level": "B1" },
-          { "name": "Portugiesisch", "level": "B1" }
+          {
+            "name": "Russisch",
+            "level": "Muttersprache"
+          },
+          {
+            "name": "Englisch",
+            "level": "C1 (Verhandlungssicher)"
+          },
+          {
+            "name": "Polnisch",
+            "level": "C1"
+          },
+          {
+            "name": "Spanisch",
+            "level": "B2"
+          },
+          {
+            "name": "Französisch",
+            "level": "B1 (Mittelstufe, aktiv lernend)"
+          },
+          {
+            "name": "Deutsch",
+            "level": "B1"
+          },
+          {
+            "name": "Portugiesisch",
+            "level": "B1"
+          }
         ],
         "experience": [
-          { "title": "Backend-Webentwickler", "company": "Basesystem", "period": "Februar 2024 - Heute", "responsibilities": [ "Entwicklung und Wartung komplexer Webanwendungen mit <strong>Laravel</strong> und <strong>Symfony</strong> sowie erfolgreiche Verwaltung von Legacy-Codebasen in <strong>nativem PHP (Versionen 7 bis 8+).</strong>", "Optimierung der Datenbankleistung (<strong>MySQL</strong>) durch Refactoring komplexer Abfragen und Indexierungsstrategien, was zu einer <strong>Reduzierung der Ladezeiten um 25%</strong> führte.", "Entwicklung robuster RESTful-APIs zur Unterstützung von Frontend-Anwendungen, die mit <strong>jQuery</strong> und <strong>React</strong> erstellt wurden, um einen nahtlosen Datenfluss zu gewährleisten." ] }
+          {
+            "title": "Backend-Webentwickler",
+            "company": "Basesystem",
+            "period": "Februar 2024 - Heute",
+            "responsibilities": [
+              "Entwicklung und Wartung komplexer Webanwendungen mit <strong>Laravel</strong> und <strong>Symfony</strong> sowie erfolgreiche Verwaltung von Legacy-Codebasen in <strong>nativem PHP (Versionen 7 bis 8+).</strong>",
+              "Optimierung der Datenbankleistung (<strong>MySQL</strong>) durch Refactoring komplexer Abfragen und Indexierungsstrategien, was zu einer <strong>Reduzierung der Ladezeiten um 25%</strong> führte.",
+              "Entwicklung robuster RESTful-APIs zur Unterstützung von Frontend-Anwendungen, die mit <strong>jQuery</strong> und <strong>React</strong> erstellt wurden, um einen nahtlosen Datenfluss zu gewährleisten."
+            ]
+          }
         ],
         "projects": [
-          { "name": "ZIRO.FIT: Plattform für Fitnesstrainer", "url": "https://ziro.fit", "description": "Entwicklung des gesamten Laravel-Backends für eine Fitnesstrainer-Plattform, einschließlich Datenbankschema, Geschäftslogik und eines KI-Assistenten zur Trainingsplanerstellung.", "stack_title": "Technologie-Stack", "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>" },
-          { "name": "Instagram Kommentar-zu-DM-Bot-System", "url": "https://github.com/NikKowPHP", "description": "Ein automatisiertes System, das DMs an Benutzer sendet, die mit bestimmten Schlüsselwörtern auf Instagram-Posts kommentieren, verwaltet über ein Web-Panel.", "stack_title": "Technologie-Stack", "stack": "<strong>Python, Docker, Supabase (PostgreSQL), Next.js.</strong>" },
-          { "name": "Backend für Bildungs-PWAs", "url": "https://lexity.app", "description": "Entwurf und Implementierung der Backend-Architektur und RESTful-APIs mit Supabase (PostgreSQL) und serverlosen TypeScript-Funktionen, um mehrere Next.js-PWAs zu betreiben, mit Fokus auf skalierbarer Datenmodellierung und Authentifizierung.", "stack_title": "Technologie-Stack", "stack": "<strong>Supabase, PostgreSQL, TypeScript (Edge Functions).</strong>" }
+          {
+            "name": "ZIRO.FIT: Plattform für Fitnesstrainer",
+            "url": "https://ziro.fit",
+            "description": "Entwicklung des gesamten Laravel-Backends für eine Fitnesstrainer-Plattform, einschließlich Datenbankschema, Geschäftslogik und eines KI-Assistenten zur Trainingsplanerstellung.",
+            "stack_title": "Technologie-Stack",
+            "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>"
+          },
+          {
+            "name": "Instagram Kommentar-zu-DM-Bot-System",
+            "url": "https://github.com/NikKowPHP",
+            "description": "Ein automatisiertes System, das DMs an Benutzer sendet, die mit bestimmten Schlüsselwörtern auf Instagram-Posts kommentieren, verwaltet über ein Web-Panel.",
+            "stack_title": "Technologie-Stack",
+            "stack": "<strong>Python, Docker, Supabase (PostgreSQL), Next.js.</strong>"
+          },
+          {
+            "name": "Backend für Bildungs-PWAs",
+            "url": "https://lexity.app",
+            "description": "Entwurf und Implementierung der Backend-Architektur und RESTful-APIs mit Supabase (PostgreSQL) und serverlosen TypeScript-Funktionen, um mehrere Next.js-PWAs zu betreiben, mit Fokus auf skalierbarer Datenmodellierung und Authentifizierung.",
+            "stack_title": "Technologie-Stack",
+            "stack": "<strong>Supabase, PostgreSQL, TypeScript (Edge Functions).</strong>"
+          }
         ],
         "education": [
-          { "degree": "Diplom als Techniker für Radioelektronik (entspricht Bachelor-Abschluss)", "institution": "Staatliches Höheres Kolleg für Radiotechnik Minsk", "period": "2015 - 2019" }
+          {
+            "degree": "Diplom als Techniker für Radioelektronik (entspricht Bachelor-Abschluss)",
+            "institution": "Staatliches Höheres Kolleg für Radiotechnik Minsk",
+            "period": "2015 - 2019"
+          }
         ]
       }
     }

@@ -7,7 +7,7 @@ if (!API_KEY) {
   throw new Error("GEMINI_API_KEY is not set in environment variables.");
 }
 
-const MODEL_NAME = "gemini-flash-latest";
+const MODEL_NAME = "gemini-3-flash-preview";
 const API_URL = `/api/v1beta/models/${MODEL_NAME}:generateContent?key=${API_KEY}`;
 
 type HarmCategory =

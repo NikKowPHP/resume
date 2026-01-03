@@ -33,18 +33,18 @@ export class App {
   }
 
   private loadCvData(): CVDatabase {
-    const storedData = localStorage.getItem('cvDatabase');
+    const storedData = localStorage.getItem('cvDatabase_v2');
     if (storedData) {
       try {
         return JSON.parse(storedData) as CVDatabase;
       } catch (e) {
         console.error("Failed to parse CV data from localStorage, falling back to default.", e);
-        localStorage.removeItem('cvDatabase');
+        localStorage.removeItem('cvDatabase_v2');
       }
     }
     // If no stored data or parsing failed, load from JSON and store it.
     const initialData = cvDataJson as CVDatabase;
-    localStorage.setItem('cvDatabase', JSON.stringify(initialData));
+    localStorage.setItem('cvDatabase_v2', JSON.stringify(initialData));
     return initialData;
   }
 
@@ -112,7 +112,7 @@ export class App {
     const profileToUpdate = this.cvData.find(p => p.id === this.currentCvId);
     if (profileToUpdate) {
       profileToUpdate.data[this.currentLanguage] = newCvData;
-      localStorage.setItem('cvDatabase', JSON.stringify(this.cvData)); // Persist changes
+      localStorage.setItem('cvDatabase_v2', JSON.stringify(this.cvData)); // Persist changes
       this.handleNavigation(); // Re-render with the new data
     } else {
       console.error('Failed to find CV profile to update:', this.currentCvId);

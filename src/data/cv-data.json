@@ -17,9 +17,9 @@
         },
         "personalInfo": {
           "name": "MIKITA KAVALIOU",
-          "title": "Développeur Full Stack | Spécialiste IA, TypeScript & Node.js",
+          "title": "Développeur Full‑Stack Laravel + Next.js (React/TypeScript)",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Développeur Full Stack (2 ans d'exp.), expert en intégration d'IA pour produits centrés utilisateur. Passionné par la résolution de problèmes complexes, je souhaite rejoindre une équipe dynamique pour concevoir des solutions innovantes.",
+          "professionalObjective": "2,5 ans d’expérience, livraison de features e‑commerce, optimisation d’API Laravel/MySQL (-30% temps de réponse), intégration Stripe, et création de PWAs Next.js.",
           "status": "Éligible à un visa de travail en France."
         },
         "contact": [
@@ -30,34 +30,32 @@
           { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" },
           { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
         ],
-        "skills": [
-          { "title": "IA & Développement", "skills": ["Intégration de LLM (Google, Groq)", "Automatisation des workflows IA", "Prompt Engineering", "Développement assisté par IA"] },
-          { "title": "Langages", "skills": ["TypeScript", "JavaScript (ES6+)", "PHP", "SQL"] },
-          { "title": "Frontend", "skills": ["React", "Next.js", "Svelte", "Tailwind CSS"] },
-          { "title": "Backend", "skills": ["Node.js", "Nest.js", "Express", "Laravel"] },
-          { "title": "Bases de Données", "skills": ["PostgreSQL", "MySQL", "MongoDB"] },
-          { "title": "Outils & Plateformes", "skills": ["Supabase", "Google Cloud", "Docker", "Git", "CI/CD (GitHub Actions)"] }
-        ],
+          "skills": [
+            { "title": "Stack Principal", "skills": ["Laravel", "Next.js", "React", "PostgreSQL", "Tailwind CSS"] },
+            { "title": "Backend", "skills": ["Laravel", "PHP 8+", "MySQL", "Node.js (Secondaire)", "Nest.js"] },
+            { "title": "Frontend", "skills": ["React", "Next.js", "TypeScript", "Redux/Zustand"] },
+            { "title": "DevOps & Outils", "skills": ["Docker", "CI/CD (GitHub Actions)", "Git", "Stripe API"] }
+          ],
         "languages": [
           { "name": "Russe", "level": "Langue maternelle" },
           { "name": "Anglais", "level": "C1 (Courant professionnel)" },
           { "name": "Polonais", "level": "C1" },
           { "name": "Espagnol", "level": "B2" },
-          { "name": "Français", "level": "B1 (Intermédiaire, en progression active)" },
+          { "name": "Français", "level": "B2" },
           { "name": "Allemand", "level": "B1" },
           { "name": "Portugais", "level": "B1" }
         ],
         "experience": [
-          { "title": "Développeur Web Full Stack", "company": "Basesystem", "period": "Février 2024 - Présent", "responsibilities": [ "Déploiement de 3 fonctionnalités e-commerce majeures (<strong>+15% engagement</strong>).", "Optimisation backend (<strong>Laravel, MySQL</strong>) : <strong>-30% temps de réponse API</strong>, améliorant l'UX <strong>React</strong>.", "Intégration d'API de paiement <strong>Stripe</strong> et sécurisation des transactions (<strong>+5% conversion</strong>)." ] },
+          { "title": "Développeur Web Full Stack", "company": "Basesystem", "period": "Février 2024 - Présent", "responsibilities": [ "<strong>Backend Laravel</strong> : Optimisation API et requêtes MySQL (<strong>-30% temps de réponse</strong>), Auth, Paiements (Stripe).", "<strong>Frontend React/Next.js</strong> : Développement d'interfaces UX/UI performantes, gestion d'état et formulaires complexes.", "<strong>Livraison</strong> : Mise en place de Docker et CI/CD (GitHub Actions) pour déploiements automatisés et monitoring." ] },
           { "title": "Développeur Web Full Stack (Freelance)", "company": "", "period": "Janvier 2024 - Présent", "responsibilities": [ "Développement complet de 4 applications web, en <strong>lien direct avec les clients</strong>.", "Architecture backend robuste (<strong>Node.js, Nest.js</strong>), Clean Architecture.", "Utilisation de <strong>workflows IA</strong> pour accélérer la livraison et la qualité du code." ] }
         ],
         "projects": [
           {
             "name": "ZIRO.FIT : Plateforme pour Coachs Sportifs",
             "url": "https://ziro.fit",
-            "description": "Plateforme pour coachs avec assistant IA. Backend Laravel, frontend Livewire/Alpine.js.",
+            "description": "Next.js (frontend) + Laravel (API) + PostgreSQL + Stripe + Docker + CI/CD.",
             "stack_title": "Stack Technique",
-            "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js, IA (pour la génération de plans).</strong>"
+            "stack": "<strong>Next.js, Laravel, PostgreSQL, Stripe, Docker, CI/CD.</strong>"
           },
           { "name": "Lexity : PWA d'Apprentissage Linguistique par l'IA", "url": "https://lexity.app", "description": "PWA d'apprentissage de langues (création active) avec retours IA et exercices correctifs.", "stack_title": "Stack Technique", "stack": "<strong>Next.js, Supabase, PostgreSQL, Stripe, IA Multi-Fournisseur (Gemini, Groq), Tailwind CSS, Zustand.</strong>" },
           { "name": "Interly : Plateforme de Préparation aux Entretiens IA", "url": "https://interly.app", "description": "PWA de préparation aux entretiens : pratique vocale et feedback IA en temps réel.", "stack_title": "Stack Technique", "stack": "<strong>Next.js, Supabase, PostgreSQL, Google Gemini, Tailwind CSS, Zustand, Zod.</strong>" },
@@ -80,9 +78,9 @@
         },
         "personalInfo": {
           "name": "MIKITA KAVALIOU",
-          "title": "Full Stack Developer | AI Specialist, TypeScript & Node.js",
+          "title": "Full-Stack Developer Laravel + Next.js (React/TypeScript)",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Full Stack Developer with 2 years of experience, expert in leveraging AI for rapid development and integrating advanced AI models to create intelligent, user-centric products. I am looking to join a dynamic team to build innovative products, leveraging a passion for solving complex problems and creating high-quality user experiences.",
+          "professionalObjective": "2.5 years of experience, e-commerce feature delivery, Laravel/MySQL API optimization (-30% response time), Stripe integration, and creation of Next.js PWAs.",
           "status": "Eligible for a work visa in the EU."
         },
         "contact": [
@@ -94,37 +92,35 @@
           { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
         ],
         "skills": [
-          { "title": "AI & Development", "skills": ["LLM Integration (Google, Groq)", "AI-driven Workflow Automation", "Prompt Engineering", "AI-assisted Development"] },
-          { "title": "Languages", "skills": ["TypeScript", "JavaScript (ES6+)", "PHP", "SQL"] },
-          { "title": "Frontend", "skills": ["React", "Next.js", "Svelte", "Tailwind CSS"] },
-          { "title": "Backend", "skills": ["Node.js", "Nest.js", "Express", "Laravel"] },
-          { "title": "Databases", "skills": ["PostgreSQL", "MySQL", "MongoDB"] },
-          { "title": "Tools & Platforms", "skills": ["Supabase", "Google Cloud", "Docker", "Git", "CI/CD (GitHub Actions)"] }
+          { "title": "Main Stack", "skills": ["Laravel", "Next.js", "React", "PostgreSQL", "Tailwind CSS"] },
+          { "title": "Backend", "skills": ["Laravel", "PHP 8+", "MySQL", "Node.js (Secondary)", "Nest.js"] },
+          { "title": "Frontend", "skills": ["React", "Next.js", "TypeScript", "Redux/Zustand"] },
+          { "title": "DevOps & Tools", "skills": ["Docker", "CI/CD (GitHub Actions)", "Git", "Stripe API"] }
         ],
         "languages": [
           { "name": "Russian", "level": "Native" },
           { "name": "English", "level": "C1 (Professional proficiency)" },
           { "name": "Polish", "level": "C1" },
           { "name": "Spanish", "level": "B2" },
-          { "name": "French", "level": "B1 (Intermediate, actively improving)" },
+          { "name": "French", "level": "B2" },
           { "name": "German", "level": "B1" },
           { "name": "Portuguese", "level": "B1" }
         ],
         "experience": [
-          { "title": "Full Stack Web Developer", "company": "Basesystem", "period": "February 2024 - Present", "responsibilities": [ "Designed and deployed 3 major features for an e-commerce platform, resulting in a <strong>15% increase</strong> in customer engagement.", "Optimized the backend (<strong>Laravel, MySQL</strong>) to reduce average API response time by <strong>30%</strong>, improving the frontend <strong>React</strong> experience.", "Integrated the <strong>Stripe</strong> payment API, securing the transaction flow and increasing the conversion rate by <strong>5%</strong>." ] },
-          { "title": "Full Stack Web Developer (Freelance)", "company": "", "period": "January 2024 - Present", "responsibilities": [ "End-to-end project management and development for 4 web applications in <strong>direct communication with clients</strong>.", "Implemented robust backend architectures with <strong>Node.js</strong> and <strong>Nest.js</strong>, following clean architecture principles.", "Leveraged <strong>AI-driven development workflows</strong> to accelerate project delivery and enhance code quality." ] }
+          { "title": "Full Stack Web Developer", "company": "Basesystem", "period": "February 2024 - Present", "responsibilities": [ "<strong>Laravel Backend</strong>: API and MySQL query optimization (<strong>-30% response time</strong>), Auth, Payments (Stripe).", "<strong>React/Next.js Frontend</strong>: Development of high-performance UX/UI interfaces, state management, and complex forms.", "<strong>Delivery</strong>: Implementation of Docker and CI/CD (GitHub Actions) for automated deployments and monitoring." ] },
+          { "title": "Full Stack Web Developer (Freelance)", "company": "", "period": "January 2024 - Present", "responsibilities": [ "End-to-end development of 4 web applications, in <strong>direct contact with clients</strong>.", "Robust backend architecture (<strong>Node.js, Nest.js</strong>), Clean Architecture.", "Use of <strong>AI workflows</strong> to accelerate delivery and code quality." ] }
         ],
         "projects": [
           {
             "name": "ZIRO.FIT: Fitness Trainer Platform",
             "url": "https://ziro.fit",
-            "description": "A full-stack platform for fitness trainers featuring an AI assistant for workout generation. Developed the Laravel backend and the interactive Livewire/Alpine.js frontend.",
+            "description": "Next.js (frontend) + Laravel (API) + PostgreSQL + Stripe + Docker + CI/CD.",
             "stack_title": "Tech Stack",
-            "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js, AI (for plan generation).</strong>"
+            "stack": "<strong>Next.js, Laravel, PostgreSQL, Stripe, Docker, CI/CD.</strong>"
           },
-          { "name": "Lexity: AI Language Learning PWA", "url": "https://lexity.app", "description": "A PWA that revolutionizes language learning by shifting from passive consumption to active creation, with AI-driven feedback and mistake-drilling exercises.", "stack_title": "Tech Stack", "stack": "<strong>Next.js, Supabase, PostgreSQL, Stripe, Multi-Provider AI (Gemini, Groq), Tailwind CSS, Zustand.</strong>" },
-          { "name": "Interly: AI Interview Prep Platform", "url": "https://interly.app", "description": "An AI-driven PWA to help users prepare for technical interviews using voice-based practice, real-time feedback, and a systematic, data-driven process.", "stack_title": "Tech Stack", "stack": "<strong>Next.js, Supabase, PostgreSQL, Google Gemini, Tailwind CSS, Zustand, Zod.</strong>" },
-          { "name": "Instagram Comment-to-DM Bot System", "url": "https://github.com/NikKowPHP", "description": "An automated system that sends DMs to users who comment with specific keywords on Instagram posts, managed via a web panel.", "stack_title": "Tech Stack", "stack": "<strong>Python, Next.js, Docker, Supabase, PostgreSQL.</strong>" }
+          { "name": "Lexity: AI Language Learning PWA", "url": "https://lexity.app", "description": "Language learning PWA (active creation) with AI feedback and corrective exercises.", "stack_title": "Tech Stack", "stack": "<strong>Next.js, Supabase, PostgreSQL, Stripe, Multi-Provider AI (Gemini, Groq), Tailwind CSS, Zustand.</strong>" },
+          { "name": "Interly: AI Interview Prep Platform", "url": "https://interly.app", "description": "Interview preparation PWA: voice practice and real-time AI feedback.", "stack_title": "Tech Stack", "stack": "<strong>Next.js, Supabase, PostgreSQL, Google Gemini, Tailwind CSS, Zustand, Zod.</strong>" },
+          { "name": "Instagram Comment-to-DM Bot", "url": "https://github.com/NikKowPHP", "description": "System for auto-sending Instagram DMs by keywords, with web management panel.", "stack_title": "Tech Stack", "stack": "<strong>Python, Next.js, Docker, Supabase, PostgreSQL.</strong>" }
         ],
         "education": [
           { "degree": "Diploma of Technician in Radio-electronics (equivalent to Bachelor's degree)", "institution": "Minsk State Higher College of Radiotechnics", "period": "2015 - 2019" }
@@ -169,7 +165,7 @@
           { "name": "Angielski", "level": "C1 (Biegłość zawodowa)" },
           { "name": "Polski", "level": "C1" },
           { "name": "Hiszpański", "level": "B2" },
-          { "name": "Francuski", "level": "B1 (Średnio zaawansowany, w trakcie nauki)" },
+          { "name": "Francuski", "level": "B2" },
           { "name": "Niemiecki", "level": "B1" },
           { "name": "Portugalski", "level": "B1" }
         ],
@@ -232,7 +228,7 @@
           { "name": "Englisch", "level": "C1 (Verhandlungssicher)" },
           { "name": "Polnisch", "level": "C1" },
           { "name": "Spanisch", "level": "B2" },
-          { "name": "Französisch", "level": "B1 (Mittelstufe, aktiv lernend)" },
+          { "name": "Französisch", "level": "B2" },
           { "name": "Deutsch", "level": "B1" },
           { "name": "Portugiesisch", "level": "B1" }
         ],
@@ -299,7 +295,7 @@
           { "name": "Anglais", "level": "C1 (Courant professionnel)" },
           { "name": "Polonais", "level": "C1" },
           { "name": "Espagnol", "level": "B2" },
-          { "name": "Français", "level": "B1 (Intermédiaire, en progression active)" },
+          { "name": "Français", "level": "B2" },
           { "name": "Allemand", "level": "B1" },
           { "name": "Portugais", "level": "B1" }
         ],
@@ -360,7 +356,7 @@
           { "name": "English", "level": "C1 (Professional proficiency)" },
           { "name": "Polish", "level": "C1" },
           { "name": "Spanish", "level": "B2" },
-          { "name": "French", "level": "B1 (Intermediate, actively improving)" },
+          { "name": "French", "level": "B2" },
           { "name": "German", "level": "B1" },
           { "name": "Portuguese", "level": "B1" }
         ],
@@ -421,7 +417,7 @@
           { "name": "Angielski", "level": "C1 (Biegłość zawodowa)" },
           { "name": "Polski", "level": "C1" },
           { "name": "Hiszpański", "level": "B2" },
-          { "name": "Francuski", "level": "B1 (Średnio zaawansowany, w trakcie nauki)" },
+          { "name": "Francuski", "level": "B2" },
           { "name": "Niemiecki", "level": "B1" },
           { "name": "Portugalski", "level": "B1" }
         ],
@@ -482,7 +478,7 @@
           { "name": "Englisch", "level": "C1 (Verhandlungssicher)" },
           { "name": "Polnisch", "level": "C1" },
           { "name": "Spanisch", "level": "B2" },
-          { "name": "Französisch", "level": "B1 (Mittelstufe, aktiv lernend)" },
+          { "name": "Französisch", "level": "B2" },
           { "name": "Deutsch", "level": "B1" },
           { "name": "Portugiesisch", "level": "B1" }
         ],
@@ -549,7 +545,7 @@
           { "name": "Anglais", "level": "C1 (Courant professionnel)" },
           { "name": "Polonais", "level": "C1" },
           { "name": "Espagnol", "level": "B2" },
-          { "name": "Français", "level": "B1 (Intermédiaire, en progression active)" },
+          { "name": "Français", "level": "B2" },
           { "name": "Allemand", "level": "B1" },
           { "name": "Portugais", "level": "B1" }
         ],
@@ -602,7 +598,7 @@
           { "name": "English", "level": "C1 (Professional proficiency)" },
           { "name": "Polish", "level": "C1" },
           { "name": "Spanish", "level": "B2" },
-          { "name": "French", "level": "B1 (Intermediate, actively improving)" },
+          { "name": "French", "level": "B2" },
           { "name": "German", "level": "B1" },
           { "name": "Portuguese", "level": "B1" }
         ],
@@ -655,7 +651,7 @@
           { "name": "Angielski", "level": "C1 (Biegłość zawodowa)" },
           { "name": "Polski", "level": "C1" },
           { "name": "Hiszpański", "level": "B2" },
-          { "name": "Francuski", "level": "B1 (Średnio zaawansowany, w trakcie nauki)" },
+          { "name": "Francuski", "level": "B2" },
           { "name": "Niemiecki", "level": "B1" },
           { "name": "Portugalski", "level": "B1" }
         ],
@@ -708,7 +704,7 @@
           { "name": "Englisch", "level": "C1 (Verhandlungssicher)" },
           { "name": "Polnisch", "level": "C1" },
           { "name": "Spanisch", "level": "B2" },
-          { "name": "Französisch", "level": "B1 (Mittelstufe, aktiv lernend)" },
+          { "name": "Französisch", "level": "B2" },
           { "name": "Deutsch", "level": "B1" },
           { "name": "Portugiesisch", "level": "B1" }
         ],
@@ -866,7 +862,7 @@
           { "name": "Angielski", "level": "C1 (Biegłość zawodowa)" },
           { "name": "Polski", "level": "C1" },
           { "name": "Hiszpański", "level": "B2" },
-          { "name": "Francuski", "level": "B1 (Średnio zaawansowany)" },
+          { "name": "Francuski", "level": "B2" },
           { "name": "Niemiecki", "level": "B1" },
           { "name": "Portugalski", "level": "B1" }
         ],
@@ -916,7 +912,7 @@
           { "name": "Englisch", "level": "C1 (Verhandlungssicher)" },
           { "name": "Polnisch", "level": "C1" },
           { "name": "Spanisch", "level": "B2" },
-          { "name": "Französisch", "level": "B1 (Mittelstufe)" },
+          { "name": "Französisch", "level": "B2" },
           { "name": "Deutsch", "level": "B1" },
           { "name": "Portugiesisch", "level": "B1" }
         ],

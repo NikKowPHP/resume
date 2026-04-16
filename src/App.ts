@@ -23,8 +23,10 @@ export class App {
     this.navCV = document.getElementById('nav-cv');
     this.navLetter = document.getElementById('nav-letter');
     
-    this.cvData = this.loadCvData();
-    this.currentCvId = localStorage.getItem('selectedCvId') || (this.cvData.length > 0 ? this.cvData[0].id : '');
+    // Always load directly from JSON
+    this.cvData = cvDataJson as CVDatabase;
+    // Default to the first profile in the JSON
+    this.currentCvId = this.cvData.length > 0 ? this.cvData[0].id : '';
 
     this.initRouter();
     this.initLanguageSwitcher();
@@ -32,21 +34,7 @@ export class App {
     this.handleNavigation(); // Initial render
   }
 
-  private loadCvData(): CVDatabase {
-    const storedData = localStorage.getItem('cvDatabase_v2');
-    if (storedData) {
-      try {
-        return JSON.parse(storedData) as CVDatabase;
-      } catch (e) {
-        console.error("Failed to parse CV data from localStorage, falling back to default.", e);
-        localStorage.removeItem('cvDatabase_v2');
-      }
-    }
-    // If no stored data or parsing failed, load from JSON and store it.
-    const initialData = cvDataJson as CVDatabase;
-    localStorage.setItem('cvDatabase_v2', JSON.stringify(initialData));
-    return initialData;
-  }
+
 
   private initRouter() {
     window.addEventListener('hashchange', this.handleNavigation.bind(this));
@@ -99,7 +87,6 @@ export class App {
 
   private setCv(cvId: string) {
     this.currentCvId = cvId;
-    localStorage.setItem('selectedCvId', cvId);
     this.handleNavigation(); // Re-render the view with the new CV data
   }
 
@@ -111,8 +98,8 @@ export class App {
   private updateCvData = (newCvData: CVData) => {
     const profileToUpdate = this.cvData.find(p => p.id === this.currentCvId);
     if (profileToUpdate) {
+      // Update the in-memory object so the UI reflects changes immediately
       profileToUpdate.data[this.currentLanguage] = newCvData;
-      localStorage.setItem('cvDatabase_v2', JSON.stringify(this.cvData)); // Persist changes
       this.handleNavigation(); // Re-render with the new data
     } else {
       console.error('Failed to find CV profile to update:', this.currentCvId);
@@ -127,8 +114,6 @@ export class App {
 
     const currentProfile = this.cvData.find(p => p.id === this.currentCvId);
     if (!currentProfile) {
-      // If currentCvId from localStorage is invalid, reset to the first one.
-      console.error('Current CV profile not found! Resetting to default.');
       if (this.cvData.length > 0) {
         this.setCv(this.cvData[0].id);
       }

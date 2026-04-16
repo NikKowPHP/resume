@@ -1,0 +1,50 @@
+{
+  "sections": { "contact": "CONTACT", "skills": "COMPÉTENCES TECHNIQUES", "languages": "LANGUES", "status": "STATUT", "objective": "RÉSUMÉ PROFESSIONNEL", "experience": "EXPÉRIENCE PROFESSIONNELLE", "projects": "PROJETS SAAS EN VEDETTE", "education": "FORMATION" },
+  "personalInfo": {
+    "name": "MIKITA KAVALIOU",
+    "title": "Ingénieur Full-Stack Senior | Next.js, Node.js & PHP",
+    "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
+    "professionalObjective": "Ingénieur Full-Stack orienté résultats avec plus de 3 ans d'expérience dans l'architecture de plateformes SaaS B2B/B2C évolutives. Expert en écosystèmes React modernes (Next.js 15), optimisation PostgreSQL et intégration de flux de travail IA générative complexes. Demonstrations prouvées de réduction de la latence système de 60% et livraison d'applications à haute disponibilité suivant les principes de Clean Architecture et SOLID.",
+    "status": "Basé à Grenoble, France. Accès libre au marché du travail européen."
+  },
+  "contact":[
+    { "text": "+48 786 959 63", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
+    { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
+    { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" }
+  ],
+  "skills":[
+    { "title": "Développement Front End", "skills":[ "React 19", "Next.js 15 (App Router)", "TypeScript", "Tailwind CSS", "Zustand", "Framer Motion", "TanStack Query" ] },
+    { "title": "Backend & Bases de données", "skills":[ "Node.js", "PHP (Laravel/Symfony)", "PostgreSQL", "Prisma ORM", "Redis", "Supabase", "Optimisation SQL" ] },
+    { "title": "Cloud, APIs & Tests", "skills":[ "Docker", "CI/CD (GitHub Actions)", "Stripe Connect", "Google Gemini / Groq API", "Playwright (E2E)", "Jest" ] }
+  ],
+  "languages":[ { "name": "Anglais", "level": "C1 (Professionnel)" }, { "name": "Français", "level": "B2" }, { "name": "Polonais", "level": "C1" }, { "name": "Russe", "level": "Maternel" } ],
+  "experience":[
+    {
+      "title": "Ingénieur Logiciel Full Stack",
+      "company": "Prestataire Indépendant / Startups SaaS",
+      "period": "Janvier 2023 - Présent",
+      "responsibilities":[
+        "<strong>Architecture de Lexity</strong>: Construit un écosystème IA multimodal utilisant Next.js 15 et une couche IA Composite (Gemini, Groq) avec logique de basculement automatique pour maintenir une latence sub-seconde.",
+        "<strong>Ingénierie de ZIRO.FIT</strong>: Développé un SaaS B2B2C utilisant Prisma et Stripe Connect; optimisé la récupération des données backend via agrégations SQL brutes pour <strong>réduire les temps de chargement du tableau de bord de 60%</strong>.",
+        "<strong>Développement d'Interly</strong>: Lancé une plateforme d'entretien alimentée par l'IA avec transcription audio Web en temps réel, disponibilité IA de 99,9% via rotation de clés, et un système personnalisé de répétition espacée (SRS)."
+      ]
+    },
+    {
+      "title": "Développeur Web Full Stack",
+      "company": "Basesystem",
+      "period": "Février 2024 - Présent",
+      "responsibilities":[
+        "<strong>Optimisation des Performances</strong>: Refactorisé les requêtes MySQL héritées et implémenté la mise en cache Redis sur les backends Laravel, <strong>réduisant les temps de réponse API de 30%</strong>.",
+        "<strong>Intégrations Fintech</strong>: Intégré des flux de facturation Stripe sécurisés incluant les abonnements et webhooks, contribuant à une augmentation de 5% des taux de conversion globaux.",
+        "<strong>Modernisation Frontend</strong>: Construit des interfaces utilisateur Next.js évolutives et accessibles utilisant TypeScript, appliquant une gestion d'état stricte et la réutilisabilité des composants."
+      ]
+    }
+  ],
+  "projects":[
+    { "name": "Lexity: Écosystème Linguistique IA", "url": "https://lexity.app", "description": "Développé une PWA haute performance utilisant les algorithmes de répétition espacée SM-2, le chiffrement AES-256-GCM pour les données utilisateur, et Redis pour la mise en cache.", "stack_title": "Mots-clés", "stack": "Next.js 15, React 19, TypeScript, Prisma, IA Composite" },
+    { "name": "ZIRO.FIT: SaaS Fitness B2B2C", "url": "https://ziro.fit", "description": "Ingénierie d'une marketplace à deux faces avec analytique en temps réel, abonnements multi-niveaux complexes, et recherche d'événements géospatiale via Leaflet.", "stack_title": "Mots-clés", "stack": "Laravel, Node.js, PostgreSQL, Stripe Connect, Redis" }
+  ],
+  "education":[
+    { "degree": "Diplôme de Technicien en Radio-électronique (équivalent licence)", "institution": "Minsk State Higher College of Radiotechnics", "period": "2015 - 2019" }
+  ]
+}

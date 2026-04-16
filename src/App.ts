@@ -1,6 +1,6 @@
 import { renderCvView } from './components/CvView';
 import { renderLetterView } from './components/LetterView';
-import cvDataJson from './data/cv-data.json';
+import { cvDatabase } from './data';
 import { CVData, LanguageCode, CVDatabase } from './types';
 
 const uiTranslations = {
@@ -23,8 +23,8 @@ export class App {
     this.navCV = document.getElementById('nav-cv');
     this.navLetter = document.getElementById('nav-letter');
     
-    // Always load directly from JSON
-    this.cvData = cvDataJson as CVDatabase;
+    // Always load directly from our combined index
+    this.cvData = cvDatabase;
     // Default to the first profile in the JSON
     this.currentCvId = this.cvData.length > 0 ? this.cvData[0].id : '';
 
@@ -119,7 +119,13 @@ export class App {
       }
       return; // setCv will trigger handleNavigation again.
     }
-    const currentCvData = currentProfile.data[this.currentLanguage];
+    
+    // SAFEGUARD: Fallback to 'en' or the first available language if the selected language is missing
+    const currentCvData = currentProfile.data[this.currentLanguage] 
+                          || currentProfile.data['en'] 
+                          || Object.values(currentProfile.data)[0];
+
+    if (!currentCvData) return;
 
     if (hash === '#cv') {
       this.container.appendChild(renderCvView(currentCvData, this.currentLanguage, this.updateCvData));

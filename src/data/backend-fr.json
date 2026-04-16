@@ -1,0 +1,49 @@
+{
+  "sections": { "contact": "CONTACT", "skills": "COMPÉTENCES TECHNIQUES", "languages": "LANGUES", "status": "STATUT", "objective": "RÉSUMÉ PROFESSIONNEL", "experience": "EXPÉRIENCE PROFESSIONNELLE", "projects": "PROJETS SAAS EN VEDETTE", "education": "FORMATION" },
+  "personalInfo": {
+    "name": "MIKITA KAVALIOU",
+    "title": "Ingénieur Back End Senior | Node.js, Next.js API & PHP",
+    "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
+    "professionalObjective": "Spécialiste back end orienté sur la conception d'API, l'optimisation de bases de données et les systèmes à haute disponibilité. Expérience étendue avec Node.js, Routes API Next.js, PHP (Laravel) et PostgreSQL. Capacité prouvée à architecter des environnements SaaS multi-tenant sécurisés, implémenter des intégrations fintech complexes (Stripe Connect) et orchestrer des systèmes de basculement IA Composite pour une inférence sub-seconde.",
+    "status": "Basé à Grenoble, France. Accès libre au marché du travail européen."
+  },
+  "contact":[
+    { "text": "+48 786 959 63", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
+    { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" }
+  ],
+  "skills":[
+    { "title": "Ingénierie Back End", "skills":[ "Node.js", "Routes API Next.js", "PHP 8+", "Laravel / Symfony", "Conception API REST", "GraphQL" ] },
+    { "title": "Bases de données & Cache", "skills":[ "PostgreSQL", "Prisma ORM", "Redis (Upstash / Vercel KV)", "Optimisation SQL brute", "Conception relationnelle" ] },
+    { "title": "DevOps, Sécurité & IA", "skills":[ "Stripe Connect", "Supabase Auth", "Chiffrement AES-256-GCM", "Docker", "Sentry", "Architecture de Basculement IA" ] }
+  ],
+  "languages":[ { "name": "Anglais", "level": "C1 (Professionnel)" }, { "name": "Français", "level": "B2" }, { "name": "Polonais", "level": "C1" }, { "name": "Russe", "level": "Maternel" } ],
+  "experience":[
+    {
+      "title": "Ingénieur Logiciel Back End",
+      "company": "Prestataire Indépendant / Startups SaaS",
+      "period": "Janvier 2023 - Présent",
+      "responsibilities":[
+        "<strong>Optimisation de Base de Données</strong>: Architecté une couche API à haut débit pour ZIRO.FIT, optimisant la récupération de données complexes via PostgreSQL `json_build_object` et `LATERAL JOINs`, <strong>réduisant le volume de requêtes de base de données de 80%</strong>.",
+        "<strong>Infrastructure IA</strong>: Ingénierie d'une Couche de Service IA Composite orchestrant Gemini, Groq et Cerebras avec backoff exponentiel et basculement automatique, garantissant une disponibilité de 99,9%.",
+        "<strong>Sécurité & Fintech</strong>: Conçu une architecture multi-tenant sécurisée Featuring un chiffrement AES-256-GCM au niveau application et implémenté un modèle d'abonnement multi-niveaux via Stripe Connect.",
+        "<strong>Conception d'Algorithmes</strong>: Développé des algorithmes propriétaires de planification et prévision, incluant un système de répétition espacée (SRS) SM-2 amélioré utilisant Prisma."
+      ]
+    },
+    {
+      "title": "Développeur Back End Web",
+      "company": "Basesystem",
+      "period": "Février 2024 - Présent",
+      "responsibilities":[
+        "<strong>Performance API</strong>: Optimisé les services backend Laravel en implémentant des couches de mise en cache Redis stratégiques, diminuant la charge serveur et la latence API de 30%.",
+        "<strong>Systèmes de Paiement</strong>: Construit et maintenu des gestionnaires webhooks Stripe complexes assurant une synchronisation robuste des abonnements utilisateur et des états de compte."
+      ]
+    }
+  ],
+  "projects":[
+    { "name": "Lexity: Backend IA Composite", "url": "https://lexity.app", "description": "Ingénéié le backend central Featuring des basculements automatisés entre 3 fournisseurs LLM et le chiffrement côté serveur pour toutes les données de journalisation utilisateur.", "stack_title": "Mots-clés", "stack": "Node.js, Prisma, PostgreSQL, Redis, AES-256, Sentry" },
+    { "name": "Interly: Moteur d'État Adaptatif", "url": "https://interly.app", "description": "Construit une API logique de répétition espacée personnalisées gérée des milliers de permutations de planification, alimentée par le traitement vocal en temps réel.", "stack_title": "Mots-clés", "stack": "APIs Next.js, Supabase, Google Cloud Speech-to-Text, Webhooks" }
+  ],
+  "education":[
+    { "degree": "Diplôme de Technicien en Radio-électronique", "institution": "Minsk State Higher College of Radiotechnics", "period": "2015 - 2019" }
+  ]
+}

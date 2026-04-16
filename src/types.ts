@@ -65,7 +65,8 @@ export interface CVData {
   education: Education[];
 }
 
-export type MultilingualCVData = Record<LanguageCode, CVData>;
+// CHANGED: Added Partial<> to support gradual translation rollouts
+export type MultilingualCVData = Partial<Record<LanguageCode, CVData>>;
 
 export interface CVProfile {
   id: string;

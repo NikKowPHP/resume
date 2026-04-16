@@ -155,7 +155,9 @@ export const renderLetterView = (lang: LanguageCode, allCvData: CVDatabase, curr
       if (!currentProfile) {
         throw new Error("Current CV profile not found");
       }
-      const cvDataForLang = currentProfile.data[lang];
+      // SAFEGUARD: Fallback to 'en' or the first available language if the selected language is missing
+      const cvDataForLang = currentProfile.data[lang] || currentProfile.data['en'] || Object.values(currentProfile.data)[0];
+      if (!cvDataForLang) throw new Error("No language data available");
       const cvDataString = getCVDataAsText(cvDataForLang);
       
       let imagePart = null;
@@ -201,7 +203,9 @@ export const renderLetterView = (lang: LanguageCode, allCvData: CVDatabase, curr
     const currentProfile = allCvData.find(p => p.id === currentCvId);
     if (!currentProfile) return;
 
-    const cvDataForLang = currentProfile.data[lang];
+    // SAFEGUARD: Fallback to 'en' or the first available language
+    const cvDataForLang = currentProfile.data[lang] || currentProfile.data['en'] || Object.values(currentProfile.data)[0];
+    if (!cvDataForLang) return;
     const { name, title } = cvDataForLang.personalInfo;
     
     let docName = '';
@@ -229,7 +233,12 @@ export const renderLetterView = (lang: LanguageCode, allCvData: CVDatabase, curr
       console.error("Current CV profile not found for printing");
       return;
     }
-    const cvDataForLang = currentProfile.data[lang];
+    // SAFEGUARD: Fallback to 'en' or the first available language
+    const cvDataForLang = currentProfile.data[lang] || currentProfile.data['en'] || Object.values(currentProfile.data)[0];
+    if (!cvDataForLang) {
+      console.error("No language data available for printing");
+      return;
+    }
 
     // 1. Get CV content for the current language and selected template
     const selectedTemplateId = (localStorage.getItem('selectedCvTemplate') || 'classic') as keyof typeof templates;

@@ -18,36 +18,129 @@
           "name": "MIKITA KAVALIOU",
           "title": "Développeur Full‑Stack Laravel + Next.js (React/TypeScript)",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "2,5 ans d’expérience, livraison de features e‑commerce, optimisation d’API Laravel/MySQL (-30% temps de réponse), intégration Stripe, et création de PWAs Next.js.",
-          "status": "Éligible à un visa de travail en France."
-          
+         "professionalObjective": "3 ans d'expérience, livraison de features e-commerce, optimisation d'API Laravel/MySQL (-30% temps de réponse), intégration Stripe, et création de PWAs Next.js. Basé à Grenoble, France.",
+         "status": "Basé à Grenoble, France. Titulaire d'un VLS-TS 'vie privée et familiale' avec accès libre au marché du travail, sans démarches administratives supplémentaires."
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Cracovie, Pologne (Mobile France)", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" },
-          { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
+          {
+            "text": "+48 786 959 63",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Grenoble, France",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "mikita-kavaliou.online",
+            "url": "https://mikita-kavaliou.online",
+            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          },
+          {
+            "text": "github.com/NikKowPHP",
+            "url": "https://github.com/NikKowPHP",
+            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+          }
         ],
-          "skills": [
-            { "title": "Stack Principal", "skills": ["Laravel", "Next.js", "React", "PostgreSQL", "Tailwind CSS"] },
-            { "title": "Backend", "skills": ["Laravel", "PHP 8+", "MySQL", "Node.js (Secondaire)", "Nest.js"] },
-            { "title": "Frontend", "skills": ["React", "Next.js", "TypeScript", "Redux/Zustand"] },
-            { "title": "DevOps & Outils", "skills": ["Docker", "CI/CD (GitHub Actions)", "Git", "Stripe API"] }
-          ],
+        "skills": [
+          {
+            "title": "Stack Principal",
+            "skills": [
+              "Laravel",
+              "Next.js",
+              "React",
+              "PostgreSQL",
+              "Tailwind CSS"
+            ]
+          },
+          {
+            "title": "Backend",
+            "skills": [
+              "Laravel",
+              "PHP 8+",
+              "MySQL",
+              "Node.js (Secondaire)",
+              "Nest.js"
+            ]
+          },
+          {
+            "title": "Frontend",
+            "skills": [
+              "React",
+              "Next.js",
+              "TypeScript",
+              "Redux/Zustand"
+            ]
+          },
+          {
+            "title": "DevOps & Outils",
+            "skills": [
+              "Docker",
+              "CI/CD (GitHub Actions)",
+              "Git",
+              "Stripe API"
+            ]
+          }
+        ],
         "languages": [
-          { "name": "Russe", "level": "Langue maternelle" },
-          { "name": "Anglais", "level": "C1 (Courant professionnel)" },
-          { "name": "Polonais", "level": "C1" },
-          { "name": "Espagnol", "level": "B2" },
-          { "name": "Français", "level": "B2" },
-          { "name": "Allemand", "level": "B1" },
-          { "name": "Portugais", "level": "B1" }
+          {
+            "name": "Russe",
+            "level": "Langue maternelle"
+          },
+          {
+            "name": "Anglais",
+            "level": "C1 (Courant professionnel)"
+          },
+          {
+            "name": "Polonais",
+            "level": "C1"
+          },
+          {
+            "name": "Espagnol",
+            "level": "B2"
+          },
+          {
+            "name": "Français",
+            "level": "B2"
+          },
+          {
+            "name": "Allemand",
+            "level": "B1"
+          },
+          {
+            "name": "Portugais",
+            "level": "B1"
+          }
         ],
         "experience": [
-          { "title": "Développeur Web Full Stack", "company": "Basesystem", "period": "Février 2024 - Présent", "responsibilities": [ "<strong>Backend Laravel</strong> : Optimisation API et requêtes MySQL (<strong>-30% temps de réponse</strong>), Auth, Paiements (Stripe).", "<strong>Frontend React/Next.js</strong> : Développement d'interfaces UX/UI performantes, gestion d'état et formulaires complexes.", "<strong>Livraison</strong> : Mise en place de Docker et CI/CD (GitHub Actions) pour déploiements automatisés et monitoring." ] },
-          { "title": "Développeur Web Full Stack (Freelance)", "company": "", "period": "Janvier 2024 - Présent", "responsibilities": [ "Développement complet de 4 applications web, en <strong>lien direct avec les clients</strong>.", "Architecture backend robuste (<strong>Node.js, Nest.js</strong>), Clean Architecture.", "Utilisation de <strong>workflows IA</strong> pour accélérer la livraison et la qualité du code." ] }
+          {
+            "title": "Développeur Web Full Stack",
+            "company": "Basesystem",
+            "period": "Février 2024 - Présent",
+            "responsibilities": [
+              "<strong>Backend Laravel</strong> : Optimisation API et requêtes MySQL (<strong>-30% temps de réponse</strong>), Auth, Paiements (Stripe).",
+              "<strong>Frontend React/Next.js</strong> : Développement d'interfaces UX/UI performantes, gestion d'état et formulaires complexes.",
+              "<strong>Livraison</strong> : Mise en place de Docker et CI/CD (GitHub Actions) pour déploiements automatisés et monitoring."
+            ]
+          },
+          {
+            "title": "Développeur Web Full Stack (Freelance)",
+            "company": "",
+            "period": "Janvier 2024 - Présent",
+            "responsibilities": [
+              "Développement complet de 4 applications web, en <strong>lien direct avec les clients</strong>.",
+              "Architecture backend robuste (<strong>Node.js, Nest.js</strong>), Clean Architecture.",
+              "Utilisation de <strong>workflows IA</strong> pour accélérer la livraison et la qualité du code."
+            ]
+          }
         ],
         "projects": [
           {
@@ -57,9 +150,27 @@
             "stack_title": "Stack Technique",
             "stack": "<strong>Next.js, Laravel, PostgreSQL, Stripe, Docker, CI/CD.</strong>"
           },
-          { "name": "Lexity : PWA d'Apprentissage Linguistique par l'IA", "url": "https://lexity.app", "description": "PWA d'apprentissage de langues (création active) avec retours IA et exercices correctifs.", "stack_title": "Stack Technique", "stack": "<strong>Next.js, Supabase, PostgreSQL, Stripe, IA Multi-Fournisseur (Gemini, Groq), Tailwind CSS, Zustand.</strong>" },
-          { "name": "Interly : Plateforme de Préparation aux Entretiens IA", "url": "https://interly.app", "description": "PWA de préparation aux entretiens : pratique vocale et feedback IA en temps réel.", "stack_title": "Stack Technique", "stack": "<strong>Next.js, Supabase, PostgreSQL, Google Gemini, Tailwind CSS, Zustand, Zod.</strong>" },
-          { "name": "Bot Instagram Commentaire-vers-DM", "url": "https://github.com/NikKowPHP", "description": "Système d'envoi auto de DM Instagram par mots-clés, avec panneau de gestion web.", "stack_title": "Stack Technique", "stack": "<strong>Python, Next.js, Docker, Supabase, PostgreSQL.</strong>" }
+          {
+            "name": "Lexity : PWA d'Apprentissage Linguistique par l'IA",
+            "url": "https://lexity.app",
+            "description": "PWA d'apprentissage de langues (création active) avec retours IA et exercices correctifs.",
+            "stack_title": "Stack Technique",
+            "stack": "<strong>Next.js, Supabase, PostgreSQL, Stripe, IA Multi-Fournisseur (Gemini, Groq), Tailwind CSS, Zustand.</strong>"
+          },
+          {
+            "name": "Interly : Plateforme de Préparation aux Entretiens IA",
+            "url": "https://interly.app",
+            "description": "PWA de préparation aux entretiens : pratique vocale et feedback IA en temps réel.",
+            "stack_title": "Stack Technique",
+            "stack": "<strong>Next.js, Supabase, PostgreSQL, Google Gemini, Tailwind CSS, Zustand, Zod.</strong>"
+          },
+          {
+            "name": "Bot Instagram Commentaire-vers-DM",
+            "url": "https://github.com/NikKowPHP",
+            "description": "Système d'envoi auto de DM Instagram par mots-clés, avec panneau de gestion web.",
+            "stack_title": "Stack Technique",
+            "stack": "<strong>Python, Next.js, Docker, Supabase, PostgreSQL.</strong>"
+          }
         ],
         "education": [
           {
@@ -84,12 +195,12 @@
           "name": "MIKITA KAVALIOU",
           "title": "Full-Stack Developer Laravel + Next.js (React/TypeScript)",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "2.5 years of experience, e-commerce feature delivery, Laravel/MySQL API optimization (-30% response time), Stripe integration, and creation of Next.js PWAs.",
-          "status": "Eligible for a work visa in the EU."
+         "professionalObjective": "3 years of experience delivering e-commerce features, optimizing Laravel/MySQL APIs (-30% response time), integrating Stripe payments, and building Next.js PWAs. Based in Grenoble, France.",
+         "status": "Based in Grenoble, France. Holder of a VLS-TS 'vie privée et familiale' with free access to the job market, no additional administrative procedures required."
         },
         "contact": [
           {
-            "text": "+48 664 431 074",
+            "text": "+48 786 959 63",
             "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
           },
           {
@@ -97,7 +208,7 @@
             "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
           },
           {
-            "text": "Krakow, Poland",
+            "text": "Grenoble, France",
             "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
           },
           {
@@ -117,23 +228,96 @@
           }
         ],
         "skills": [
-          { "title": "Main Stack", "skills": ["Laravel", "Next.js", "React", "PostgreSQL", "Tailwind CSS"] },
-          { "title": "Backend", "skills": ["Laravel", "PHP 8+", "MySQL", "Node.js (Secondary)", "Nest.js"] },
-          { "title": "Frontend", "skills": ["React", "Next.js", "TypeScript", "Redux/Zustand"] },
-          { "title": "DevOps & Tools", "skills": ["Docker", "CI/CD (GitHub Actions)", "Git", "Stripe API"] }
+          {
+            "title": "Main Stack",
+            "skills": [
+              "Laravel",
+              "Next.js",
+              "React",
+              "PostgreSQL",
+              "Tailwind CSS"
+            ]
+          },
+          {
+            "title": "Backend",
+            "skills": [
+              "Laravel",
+              "PHP 8+",
+              "MySQL",
+              "Node.js (Secondary)",
+              "Nest.js"
+            ]
+          },
+          {
+            "title": "Frontend",
+            "skills": [
+              "React",
+              "Next.js",
+              "TypeScript",
+              "Redux/Zustand"
+            ]
+          },
+          {
+            "title": "DevOps & Tools",
+            "skills": [
+              "Docker",
+              "CI/CD (GitHub Actions)",
+              "Git",
+              "Stripe API"
+            ]
+          }
         ],
         "languages": [
-          { "name": "Russian", "level": "Native" },
-          { "name": "English", "level": "C1 (Professional proficiency)" },
-          { "name": "Polish", "level": "C1" },
-          { "name": "Spanish", "level": "B2" },
-          { "name": "French", "level": "B2" },
-          { "name": "German", "level": "B1" },
-          { "name": "Portuguese", "level": "B1" }
+          {
+            "name": "Russian",
+            "level": "Native"
+          },
+          {
+            "name": "English",
+            "level": "C1 (Professional proficiency)"
+          },
+          {
+            "name": "Polish",
+            "level": "C1"
+          },
+          {
+            "name": "Spanish",
+            "level": "B2"
+          },
+          {
+            "name": "French",
+            "level": "B2"
+          },
+          {
+            "name": "German",
+            "level": "B1"
+          },
+          {
+            "name": "Portuguese",
+            "level": "B1"
+          }
         ],
         "experience": [
-          { "title": "Full Stack Web Developer", "company": "Basesystem", "period": "February 2024 - Present", "responsibilities": [ "<strong>Laravel Backend</strong>: API and MySQL query optimization (<strong>-30% response time</strong>), Auth, Payments (Stripe).", "<strong>React/Next.js Frontend</strong>: Development of high-performance UX/UI interfaces, state management, and complex forms.", "<strong>Delivery</strong>: Implementation of Docker and CI/CD (GitHub Actions) for automated deployments and monitoring." ] },
-          { "title": "Full Stack Web Developer (Freelance)", "company": "", "period": "January 2024 - Present", "responsibilities": [ "End-to-end development of 4 web applications, in <strong>direct contact with clients</strong>.", "Robust backend architecture (<strong>Node.js, Nest.js</strong>), Clean Architecture.", "Use of <strong>AI workflows</strong> to accelerate delivery and code quality." ] }
+          {
+            "title": "Full Stack Web Developer",
+            "company": "Basesystem",
+            "period": "February 2024 - Present",
+            "responsibilities": [
+              "<strong>Laravel Backend</strong>: API and MySQL query optimization (<strong>-30% response time</strong>), Auth, Payments (Stripe).",
+              "<strong>React/Next.js Frontend</strong>: Development of high-performance UX/UI interfaces, state management, and complex forms.",
+              "<strong>Delivery</strong>: Implementation of Docker and CI/CD (GitHub Actions) for automated deployments and monitoring."
+            ]
+          },
+          {
+            "title": "Full Stack Web Developer (Freelance)",
+            "company": "",
+            "period": "January 2024 - Present",
+            "responsibilities": [
+              "End-to-end development of 4 web applications, in <strong>direct contact with clients</strong>.",
+              "Robust backend architecture (<strong>Node.js, Nest.js</strong>), Clean Architecture.",
+              "Use of <strong>AI workflows</strong> to accelerate delivery and code quality."
+            ]
+          }
         ],
         "projects": [
           {
@@ -143,548 +327,32 @@
             "stack_title": "Tech Stack",
             "stack": "<strong>Next.js, Laravel, PostgreSQL, Stripe, Docker, CI/CD.</strong>"
           },
-          { "name": "Lexity: AI Language Learning PWA", "url": "https://lexity.app", "description": "Language learning PWA (active creation) with AI feedback and corrective exercises.", "stack_title": "Tech Stack", "stack": "<strong>Next.js, Supabase, PostgreSQL, Stripe, Multi-Provider AI (Gemini, Groq), Tailwind CSS, Zustand.</strong>" },
-          { "name": "Interly: AI Interview Prep Platform", "url": "https://interly.app", "description": "Interview preparation PWA: voice practice and real-time AI feedback.", "stack_title": "Tech Stack", "stack": "<strong>Next.js, Supabase, PostgreSQL, Google Gemini, Tailwind CSS, Zustand, Zod.</strong>" },
-          { "name": "Instagram Comment-to-DM Bot", "url": "https://github.com/NikKowPHP", "description": "System for auto-sending Instagram DMs by keywords, with web management panel.", "stack_title": "Tech Stack", "stack": "<strong>Python, Next.js, Docker, Supabase, PostgreSQL.</strong>" }
+          {
+            "name": "Lexity: AI Language Learning PWA",
+            "url": "https://lexity.app",
+            "description": "Language learning PWA (active creation) with AI feedback and corrective exercises.",
+            "stack_title": "Tech Stack",
+            "stack": "<strong>Next.js, Supabase, PostgreSQL, Stripe, Multi-Provider AI (Gemini, Groq), Tailwind CSS, Zustand.</strong>"
+          },
+          {
+            "name": "Interly: AI Interview Prep Platform",
+            "url": "https://interly.app",
+            "description": "Interview preparation PWA: voice practice and real-time AI feedback.",
+            "stack_title": "Tech Stack",
+            "stack": "<strong>Next.js, Supabase, PostgreSQL, Google Gemini, Tailwind CSS, Zustand, Zod.</strong>"
+          },
+          {
+            "name": "Instagram Comment-to-DM Bot",
+            "url": "https://github.com/NikKowPHP",
+            "description": "System for auto-sending Instagram DMs by keywords, with web management panel.",
+            "stack_title": "Tech Stack",
+            "stack": "<strong>Python, Next.js, Docker, Supabase, PostgreSQL.</strong>"
+          }
         ],
         "education": [
           {
             "degree": "Diploma of Technician in Radio-electronics (equivalent to Bachelor's degree)",
             "institution": "Minsk State Higher College of Radiotechnics",
-            "period": "2015 - 2019"
-          }
-        ]
-      },
-      "pl": {
-        "sections": {
-          "contact": "KONTAKT",
-          "skills": "UMIEJĘTNOŚCI TECHNICZNE",
-          "languages": "JĘZYKI",
-          "status": "STATUS",
-          "objective": "CEL ZAWODOWY",
-          "experience": "DOŚWIADCZENIE ZAWODOWE",
-          "projects": "WAŻNIEJSZE PROJEKTY",
-          "education": "EDUKACJA"
-        },
-        "personalInfo": {
-          "name": "MIKITA KAVALIOU",
-          "title": "Full Stack Developer | Specjalista AI, TypeScript i Node.js | AWS",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Starszy inżynier oprogramowania z ponad 7-letnim doświadczeniem w tworzeniu bezpiecznych, wydajnych aplikacji webowych i mobilnych dla fintechu, e-commerce, nieruchomości, ochrony zdrowia i SaaS. Full Stack Developer z 2-letnim, ukierunkowanym doświadczeniem w wykorzystywaniu AI do szybkiego wytwarzania oprogramowania oraz integrowania zaawansowanych modeli AI, aby dostarczać inteligentne, zorientowane na użytkownika produkty. Biegły w nowoczesnych frameworkach JavaScript, solidnych backendach i infrastrukturze chmurowej, dostarczając skalowalne i łatwe w utrzymaniu rozwiązania. Doceniany za współpracę międzydziałową, koncentrację na potrzebach użytkownika oraz skuteczne rozwiązywanie złożonych problemów z wykorzystaniem innowacji. Szukam dynamicznego zespołu, w którym będę współtworzyć innowacyjne produkty i wyjątkowe doświadczenia użytkownika na dużą skalę.",
-          "status": "Posiadam kartę pobytu czasowego w Polsce."
-        },
-        "contact": [
-          {
-            "text": "+48 664 431 074",
-            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
-          },
-          {
-            "text": "mikitatrash@gmail.com",
-            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
-          },
-          {
-            "text": "Kraków, Polska",
-            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
-          },
-          {
-            "text": "mikita-kavaliou.online",
-            "url": "https://mikita-kavaliou.online",
-            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
-          },
-          {
-            "text": "linkedin.com/in/mikita-kavaliou",
-            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
-            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
-          },
-          {
-            "text": "github.com/NikKowPHP",
-            "url": "https://github.com/NikKowPHP",
-            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
-          }
-        ],
-        "skills": [
-          {
-            "title": "AI i Rozwój",
-            "skills": [
-              "Integracja LLM (Google, Groq)",
-              "Automatyzacja przepływów pracy AI",
-              "Prompt Engineering",
-              "Rozwój wspierany przez AI"
-            ]
-          },
-          {
-            "title": "Języki programowania",
-            "skills": [
-              "JavaScript (ES6+)",
-              "TypeScript",
-              "Python",
-              "Java",
-              "PHP",
-              "Ruby",
-              "Go",
-              "C#",
-              "SQL"
-            ]
-          },
-          {
-            "title": "Frontend",
-            "skills": [
-              "React",
-              "Next.js",
-              "Angular",
-              "Vue.js",
-              "React Native",
-              "Remix",
-              "Redux",
-              "Context API",
-              "React Query",
-              "MobX",
-              "Zustand",
-              "Jotai",
-              "Recoil",
-              "Vuex",
-              "NgRx",
-              "Flux",
-              "HTML",
-              "CSS",
-              "Tailwind CSS",
-              "Material-UI",
-              "Bootstrap",
-              "Styled Components",
-              "Storybook",
-              "Chart.js",
-              "D3.js",
-              "Three.js",
-              "Mapbox",
-              "Framer",
-              "ARIA",
-              "Figma"
-            ]
-          },
-          {
-            "title": "Backend",
-            "skills": [
-              "Node.js",
-              "Express.js",
-              "Nest.js",
-              "Python (Django, Flask)",
-              "Java (Spring Boot, Spring MVC)",
-              "PHP (Laravel)",
-              "Ruby on Rails",
-              "Go (Gin)",
-              "C# (ASP.NET Core, ASP.NET MVC)",
-              "REST API",
-              "GraphQL",
-              "WebSockets",
-              "RabbitMQ",
-              "Redis",
-              "OAuth 2.0",
-              "JWT"
-            ]
-          },
-          {
-            "title": "Bazy danych",
-            "skills": [
-              "PostgreSQL",
-              "MySQL",
-              "MongoDB",
-              "Oracle"
-            ]
-          },
-          {
-            "title": "DevOps i Chmura",
-            "skills": [
-              "AWS (S3, EC2, Lambda)",
-              "Google Cloud Platform (GCP)",
-              "Azure",
-              "Docker",
-              "Kubernetes",
-              "Terraform",
-              "Jenkins",
-              "GitHub Actions",
-              "CircleCI",
-              "GitLab CI",
-              "Bitbucket Pipelines",
-              "Feature Flags",
-              "Splunk",
-              "Datadog",
-              "Grafana"
-            ]
-          },
-          {
-            "title": "Testowanie",
-            "skills": [
-              "Jest",
-              "Cypress",
-              "Selenium",
-              "Mocha",
-              "Vitest",
-              "JUnit",
-              "xUnit",
-              "RSpec",
-              "Mockito",
-              "Enzyme",
-              "Storybook"
-            ]
-          }
-        ],
-        "languages": [
-          { "name": "Rosyjski", "level": "Język ojczysty" },
-          { "name": "Angielski", "level": "C1 (Biegłość zawodowa)" },
-          { "name": "Polski", "level": "C1" },
-          { "name": "Hiszpański", "level": "B2" },
-          { "name": "Francuski", "level": "B2" },
-          { "name": "Niemiecki", "level": "B1" },
-          { "name": "Portugalski", "level": "B1" }
-        ],
-        "experience": [
-          {
-            "title": "Full Stack Web Developer",
-            "company": "BaseSystem | Remote",
-            "period": "Luty 2024 - Obecnie",
-            "responsibilities": [
-              "Zaprojektowałem i wdrożyłem 3 kluczowe funkcje platformy e-commerce, co przełożyło się na <strong>15%</strong> wzrost zaangażowania klientów.",
-              "Zoptymalizowałem backend (<strong>Laravel, MySQL</strong>), skracając średni czas odpowiedzi API o <strong>30%</strong> i poprawiając doświadczenie użytkownika w <strong>React</strong>.",
-              "Zintegrowałem płatności <strong>Stripe</strong>, zabezpieczając przepływ transakcji i zwiększając konwersję o <strong>5%</strong>."
-            ]
-          },
-          {
-            "title": "Full Stack Web Developer",
-            "company": "Upwork | Freelance",
-            "period": "Styczeń 2024 - Obecnie",
-            "responsibilities": [
-              "Prowadziłem projekty end-to-end dla czterech aplikacji webowych, współpracując bezpośrednio z klientami w różnych strefach czasowych.",
-              "Budowałem solidne architektury backendowe w <strong>Node.js</strong> i <strong>Nest.js</strong>, przestrzegając zasad clean architecture.",
-              "Wykorzystywałem <strong>procesy deweloperskie napędzane AI</strong>, aby przyspieszać dostawy i podnosić jakość kodu."
-            ]
-          },
-          {
-            "title": "Senior Software Engineer",
-            "company": "Healthmine | Remote",
-            "period": "Styczeń 2022 - Styczeń 2024",
-            "responsibilities": [
-              "Stworzyłem webową i mobilną aplikację Personal Health Assistant (PHA) w React, React Native, TypeScript, Node.js, PostgreSQL, GraphQL, Kotlinie i AWS, zapewniając spersonalizowane zarządzanie zdrowiem.",
-              "Zaprojektowałem i wdrożyłem skalowalną, responsywną architekturę frontendu z React, Zustand i Material-UI, poprawiając doświadczenie na wszystkich urządzeniach oraz wskaźniki wypełniania ankiet zdrowotnych.",
-              "Zbudowałem interaktywne wizualizacje danych dla zaangażowania użytkowników i śledzenia wellness z użyciem D3.js i React, dostarczając insighty w czasie rzeczywistym.",
-              "Zaprojektowałem i rozwinąłem wysoce skalowalną architekturę mikroserwisową w Node.js oraz wydajne endpointy GraphQL z Apollo Server, zwiększając wydajność i łatwość utrzymania.",
-              "Poprawiłem wydajność poprzez lazy loading i dzielenie kodu, skracając czasy ładowania i dokumentując komponenty UI w Storybook.",
-              "Zbudowałem automatyczne pipeline'y testów z Jest (unit) i Cypress (E2E), aby zabezpieczyć jakość przy dużym obciążeniu.",
-              "Wdrożyłem pipeline'y CI/CD z Jenkins i Dockerem, automatyzując wdrożenia i skracając czas publikacji o <strong>40%</strong> na środowiskach staging i produkcyjnym.",
-              "Zaprojektowałem i zarządzałem bezpieczną, skalowalną infrastrukturą AWS (Lambda, S3, EC2), zapewniając wysoką dostępność, niezawodność i wydajność."
-            ]
-          },
-          {
-            "title": "Software Engineer",
-            "company": "BigCommerce | Austin, TX",
-            "period": "Styczeń 2018 - Grudzień 2020",
-            "responsibilities": [
-              "Rozwijałem odporną platformę eCommerce w Azure, MongoDB i React, poprawiając skalowalność, wydajność i zaangażowanie przy szerokich katalogach produktów.",
-              "Budowałem responsywne, modułowe frontendy w React na web oraz natywne aplikacje mobilne iOS/Android, utrzymując spójne doświadczenie zakupowe.",
-              "Wdrożyłem OAuth i JWT dla bezpiecznej autoryzacji oraz uwierzytelniania kupujących i administratorów."
-            ]
-          }
-        ],
-        "projects": [
-          {
-            "name": "ZIRO.FIT: Platforma dla Trenerów Fitness",
-            "url": "https://ziro.fit",
-            "description": "Platforma full-stack dla trenerów fitness z asystentem AI do generowania planów treningowych. Opracowałem backend w Laravelu i interaktywny frontend w Livewire/Alpine.js.",
-            "stack_title": "Stos technologiczny",
-            "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js, AI (do generowania planów).</strong>"
-          },
-          {
-            "name": "Lexity: PWA do Nauki Języków z AI",
-            "url": "https://lexity.app",
-            "description": "PWA, która rewolucjonizuje naukę języków, przechodząc od pasywnej konsumpcji do aktywnego tworzenia, z informacjami zwrotnymi opartymi na AI i ćwiczeniami utrwalającymi błędy.",
-            "stack_title": "Stos technologiczny",
-            "stack": "<strong>Next.js, Supabase, PostgreSQL, Stripe, Multi-Provider AI (Gemini, Groq), Tailwind CSS, Zustand.</strong>"
-          },
-          {
-            "name": "Interly: Platforma AI do Przygotowania do Rozmów Kwalifikacyjnych",
-            "url": "https://interly.app",
-            "description": "PWA napędzana przez AI, aby pomóc użytkownikom przygotować się do rozmów technicznych za pomocą ćwiczeń głosowych, informacji zwrotnych w czasie rzeczywistym i systematycznego procesu opartego na danych.",
-            "stack_title": "Stos technologiczny",
-            "stack": "<strong>Next.js, Supabase, PostgreSQL, Google Gemini, Tailwind CSS, Zustand, Zod.</strong>"
-          },
-          {
-            "name": "Bot Instagram Komentarz-do-DM",
-            "url": "https://github.com/NikKowPHP",
-            "description": "Zautomatyzowany system, który wysyła wiadomości DM do użytkowników komentujących posty na Instagramie za pomocą określonych słów kluczowych, zarządzany przez panel internetowy.",
-            "stack_title": "Stos technologiczny",
-            "stack": "<strong>Python, Next.js, Docker, Supabase, PostgreSQL.</strong>"
-          }
-        ],
-        "education": [
-          {
-            "degree": "Dyplom Technika Radioelektroniki (odpowiednik licencjatu)",
-            "institution": "Mińskie Państwowe Wyższe Kolegium Radiotechniczne",
-            "period": "2015 - 2019"
-          }
-        ]
-      },
-      "de": {
-        "sections": {
-          "contact": "KONTAKT",
-          "skills": "TECHNISCHE FÄHIGKEITEN",
-          "languages": "SPRACHEN",
-          "status": "STATUS",
-          "objective": "BERUFLICHES ZIEL",
-          "experience": "BERUFSERFAHRUNG",
-          "projects": "WICHTIGE PROJEKTE",
-          "education": "AUSBILDUNG"
-        },
-        "personalInfo": {
-          "name": "MIKITA KAVALIOU",
-          "title": "Full-Stack-Entwickler | KI-Spezialist, TypeScript & Node.js | AWS",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Senior Software Engineer mit über 7 Jahren Erfahrung in der Entwicklung sicherer, hochperformanter Web- und Mobile-Anwendungen in den Bereichen Fintech, E-Commerce, Immobilien, Healthcare und SaaS. Full-Stack-Entwickler mit 2 Jahren fokussierter Erfahrung in der Nutzung von KI für schnelle Entwicklung und der Integration fortschrittlicher KI-Modelle, um intelligente, nutzerzentrierte Produkte zu liefern. Versiert in modernen JavaScript-Frameworks, robusten Backends und Cloud-Infrastrukturen, um skalierbare und wartbare Lösungen bereitzustellen. Anerkannt für funktionsübergreifende Zusammenarbeit, nutzerorientierte Lieferung und die effiziente, innovative Lösung komplexer Probleme. Suche ein dynamisches Team, um innovative Produkte und außergewöhnliche Nutzererlebnisse im großen Maßstab zu schaffen.",
-          "status": "Berechtigt für ein Arbeitsvisum in Deutschland."
-        },
-        "contact": [
-          {
-            "text": "+48 664 431 074",
-            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
-          },
-          {
-            "text": "mikitatrash@gmail.com",
-            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
-          },
-          {
-            "text": "Krakau, Polen",
-            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
-          },
-          {
-            "text": "mikita-kavaliou.online",
-            "url": "https://mikita-kavaliou.online",
-            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
-          },
-          {
-            "text": "linkedin.com/in/mikita-kavaliou",
-            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
-            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
-          },
-          {
-            "text": "github.com/NikKowPHP",
-            "url": "https://github.com/NikKowPHP",
-            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
-          }
-        ],
-        "skills": [
-          {
-            "title": "KI & Entwicklung",
-            "skills": [
-              "LLM-Integration (Google, Groq)",
-              "KI-gesteuerte Workflow-Automatisierung",
-              "Prompt Engineering",
-              "KI-gestützte Entwicklung"
-            ]
-          },
-          {
-            "title": "Programmiersprachen",
-            "skills": [
-              "JavaScript (ES6+)",
-              "TypeScript",
-              "Python",
-              "Java",
-              "PHP",
-              "Ruby",
-              "Go",
-              "C#",
-              "SQL"
-            ]
-          },
-          {
-            "title": "Frontend",
-            "skills": [
-              "React",
-              "Next.js",
-              "Angular",
-              "Vue.js",
-              "React Native",
-              "Remix",
-              "Redux",
-              "Context API",
-              "React Query",
-              "MobX",
-              "Zustand",
-              "Jotai",
-              "Recoil",
-              "Vuex",
-              "NgRx",
-              "Flux",
-              "HTML",
-              "CSS",
-              "Tailwind CSS",
-              "Material-UI",
-              "Bootstrap",
-              "Styled Components",
-              "Storybook",
-              "Chart.js",
-              "D3.js",
-              "Three.js",
-              "Mapbox",
-              "Framer",
-              "ARIA",
-              "Figma"
-            ]
-          },
-          {
-            "title": "Backend",
-            "skills": [
-              "Node.js",
-              "Express.js",
-              "Nest.js",
-              "Python (Django, Flask)",
-              "Java (Spring Boot, Spring MVC)",
-              "PHP (Laravel)",
-              "Ruby on Rails",
-              "Go (Gin)",
-              "C# (ASP.NET Core, ASP.NET MVC)",
-              "REST-APIs",
-              "GraphQL",
-              "WebSockets",
-              "RabbitMQ",
-              "Redis",
-              "OAuth 2.0",
-              "JWT"
-            ]
-          },
-          {
-            "title": "Datenbanken",
-            "skills": [
-              "PostgreSQL",
-              "MySQL",
-              "MongoDB",
-              "Oracle"
-            ]
-          },
-          {
-            "title": "DevOps & Cloud",
-            "skills": [
-              "AWS (S3, EC2, Lambda)",
-              "Google Cloud Platform (GCP)",
-              "Azure",
-              "Docker",
-              "Kubernetes",
-              "Terraform",
-              "Jenkins",
-              "GitHub Actions",
-              "CircleCI",
-              "GitLab CI",
-              "Bitbucket Pipelines",
-              "Feature Flags",
-              "Splunk",
-              "Datadog",
-              "Grafana"
-            ]
-          },
-          {
-            "title": "Tests & QA",
-            "skills": [
-              "Jest",
-              "Cypress",
-              "Selenium",
-              "Mocha",
-              "Vitest",
-              "JUnit",
-              "xUnit",
-              "RSpec",
-              "Mockito",
-              "Enzyme",
-              "Storybook"
-            ]
-          }
-        ],
-        "languages": [
-          { "name": "Russisch", "level": "Muttersprache" },
-          { "name": "Englisch", "level": "C1 (Verhandlungssicher)" },
-          { "name": "Polnisch", "level": "C1" },
-          { "name": "Spanisch", "level": "B2" },
-          { "name": "Französisch", "level": "B2" },
-          { "name": "Deutsch", "level": "B1" },
-          { "name": "Portugiesisch", "level": "B1" }
-        ],
-        "experience": [
-          {
-            "title": "Full-Stack-Webentwickler",
-            "company": "BaseSystem | Remote",
-            "period": "Februar 2024 - Heute",
-            "responsibilities": [
-              "Konzeption und Bereitstellung von 3 Kernfunktionen für eine E-Commerce-Plattform, was zu einer <strong>15%igen</strong> Steigerung des Kundenengagements führte.",
-              "Optimierung des Backends (<strong>Laravel, MySQL</strong>), um die durchschnittliche API-Antwortzeit um <strong>30%</strong> zu verringern und das <strong>React</strong>-Frontend zu beschleunigen.",
-              "Integration der <strong>Stripe</strong>-Zahlungs-API, um den Transaktionsfluss zu sichern und die Conversion-Rate um <strong>5%</strong> zu erhöhen."
-            ]
-          },
-          {
-            "title": "Full-Stack-Webentwickler",
-            "company": "Upwork | Freelance",
-            "period": "Januar 2024 - Heute",
-            "responsibilities": [
-              "End-to-End-Projektleitung für vier Webanwendungen in direkter Zusammenarbeit mit Kunden über mehrere Zeitzonen hinweg.",
-              "Aufbau robuster Backend-Architekturen mit <strong>Node.js</strong> und <strong>Nest.js</strong> gemäß Clean-Architecture-Prinzipien.",
-              "Einsatz von <strong>KI-gesteuerten Entwicklungsworkflows</strong>, um Lieferzeiten zu verkürzen und die Codequalität zu steigern."
-            ]
-          },
-          {
-            "title": "Senior Software Engineer",
-            "company": "Healthmine | Remote",
-            "period": "Januar 2022 - Januar 2024",
-            "responsibilities": [
-              "Entwicklung der Personal Health Assistant (PHA) Web- und Mobile-App mit React, React Native, TypeScript, Node.js, PostgreSQL, GraphQL, Kotlin und AWS für personalisiertes Gesundheitsmanagement.",
-              "Design und Implementierung einer skalierbaren, responsiven Frontend-Architektur mit React, Zustand und Material-UI zur Verbesserung der geräteübergreifenden UX und der Abschlussraten von Gesundheitsumfragen.",
-              "Aufbau interaktiver Datenvisualisierungen für Nutzerbindung und Wellness-Tracking mit D3.js und React, um Echtzeit-Einblicke zu liefern.",
-              "Entwurf und Aufbau einer hochskalierbaren Microservices-Architektur mit Node.js sowie performanter GraphQL-Endpunkte über Apollo Server zur Steigerung von Performance und Wartbarkeit.",
-              "Leistungsoptimierung durch Lazy Loading und Code-Splitting, wodurch Ladezeiten reduziert und UI-Komponenten in Storybook dokumentiert wurden.",
-              "Etablierung automatisierter Test-Pipelines mit Jest (Unit) und Cypress (End-to-End), um Qualität auch unter hoher Last sicherzustellen.",
-              "Implementierung von CI/CD-Pipelines mit Jenkins und Docker, um Releases zu automatisieren und die Deployment-Zeit über Staging und Produktion um <strong>40%</strong> zu verkürzen.",
-              "Aufbau und Betrieb einer sicheren, skalierbaren AWS-Infrastruktur (Lambda, S3, EC2), die hohe Verfügbarkeit, Zuverlässigkeit und Performance gewährleistet."
-            ]
-          },
-          {
-            "title": "Software Engineer",
-            "company": "BigCommerce | Austin, TX",
-            "period": "Januar 2018 - Dezember 2020",
-            "responsibilities": [
-              "Entwicklung einer robusten E-Commerce-Plattform mit Azure, MongoDB und React, um Skalierbarkeit, Performance und Engagement über umfangreiche Produktkataloge zu verbessern.",
-              "Aufbau responsiver, modularer Frontends mit React für Web sowie nativer iOS- und Android-Apps, um ein konsistentes Einkaufserlebnis zu sichern.",
-              "Implementierung von OAuth und JWT für sichere Authentifizierung und Autorisierung für Käufer- und Admin-Workflows."
-            ]
-          }
-        ],
-        "projects": [
-          {
-            "name": "ZIRO.FIT: Plattform für Fitnesstrainer",
-            "url": "https://ziro.fit",
-            "description": "Full-Stack-Plattform für Fitnesstrainer mit einem KI-Assistenten zur Trainingsplanerstellung. Entwicklung des Laravel-Backends und des interaktiven Livewire/Alpine.js-Frontends.",
-            "stack_title": "Technologie-Stack",
-            "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js, KI (für Plangenerierung).</strong>"
-          },
-          {
-            "name": "Lexity: KI-Sprachlern-PWA",
-            "url": "https://lexity.app",
-            "description": "Eine PWA, die das Sprachenlernen revolutioniert, indem sie von passivem Konsum zu aktivem Schaffen übergeht, mit KI-gestütztem Feedback und Übungen zum Einprägen von Fehlern.",
-            "stack_title": "Technologie-Stack",
-            "stack": "<strong>Next.js, Supabase, PostgreSQL, Stripe, Multi-Provider AI (Gemini, Groq), Tailwind CSS, Zustand.</strong>"
-          },
-          {
-            "name": "Interly: KI-Plattform zur Vorbereitung auf Vorstellungsgespräche",
-            "url": "https://interly.app",
-            "description": "Eine KI-gesteuerte PWA, die Benutzern hilft, sich auf technische Vorstellungsgespräche vorzubereiten, indem sie sprachbasiertes Üben, Echtzeit-Feedback und einen systematischen, datengesteuerten Prozess verwendet.",
-            "stack_title": "Technologie-Stack",
-            "stack": "<strong>Next.js, Supabase, PostgreSQL, Google Gemini, Tailwind CSS, Zustand, Zod.</strong>"
-          },
-          {
-            "name": "Instagram Kommentar-zu-DM-Bot-System",
-            "url": "https://github.com/NikKowPHP",
-            "description": "Ein automatisiertes System, das DMs an Benutzer sendet, die mit bestimmten Schlüsselwörtern auf Instagram-Posts kommentieren, verwaltet über ein Web-Panel.",
-            "stack_title": "Technologie-Stack",
-            "stack": "<strong>Python, Next.js, Docker, Supabase, PostgreSQL.</strong>"
-          }
-        ],
-        "education": [
-          {
-            "degree": "Diplom als Techniker für Radioelektronik (entspricht Bachelor-Abschluss)",
-            "institution": "Staatliches Höheres Kolleg für Radiotechnik Minsk",
             "period": "2015 - 2019"
           }
         ]
@@ -710,16 +378,37 @@
           "name": "MIKITA KAVALIOU",
           "title": "Développeur Frontend | Spécialiste React & TypeScript",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Développeur Frontend passionné avec 2 ans d'expérience, spécialisé dans la création d'interfaces utilisateur réactives et performantes avec React et TypeScript. Je cherche à rejoindre une équipe innovante pour contribuer à des projets ambitieux, en utilisant mon expertise pour construire des expériences web intuitives et esthétiques.",
-          "status": "Éligible à un visa de travail en France."
+         "professionalObjective": "Développeur Frontend passionné avec 3 ans d'expérience, spécialisé dans la création d'interfaces utilisateur réactives et performantes avec React et TypeScript. Basé à Grenoble, France. Je cherche à rejoindre une équipe innovante pour contribuer à des projets ambitieux.",
+         "status": "Basé à Grenoble, France. Titulaire d'un VLS-TS 'vie privée et familiale' avec accès libre au marché du travail, sans démarches administratives supplémentaires."
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Cracovie, Pologne (Mobile France)", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" },
-          { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
+          {
+            "text": "+48 786 959 63",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Grenoble, France",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "mikita-kavaliou.online",
+            "url": "https://mikita-kavaliou.online",
+            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          },
+          {
+            "text": "github.com/NikKowPHP",
+            "url": "https://github.com/NikKowPHP",
+            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+          }
         ],
         "skills": [
           {
@@ -763,13 +452,34 @@
           }
         ],
         "languages": [
-          { "name": "Russe", "level": "Langue maternelle" },
-          { "name": "Anglais", "level": "C1 (Courant professionnel)" },
-          { "name": "Polonais", "level": "C1" },
-          { "name": "Espagnol", "level": "B2" },
-          { "name": "Français", "level": "B2" },
-          { "name": "Allemand", "level": "B1" },
-          { "name": "Portugais", "level": "B1" }
+          {
+            "name": "Russe",
+            "level": "Langue maternelle"
+          },
+          {
+            "name": "Anglais",
+            "level": "C1 (Courant professionnel)"
+          },
+          {
+            "name": "Polonais",
+            "level": "C1"
+          },
+          {
+            "name": "Espagnol",
+            "level": "B2"
+          },
+          {
+            "name": "Français",
+            "level": "B2"
+          },
+          {
+            "name": "Allemand",
+            "level": "B1"
+          },
+          {
+            "name": "Portugais",
+            "level": "B1"
+          }
         ],
         "experience": [
           {
@@ -846,12 +556,12 @@
           "name": "MIKITA KAVALIOU",
           "title": "Frontend Developer | React & TypeScript Specialist",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Passionate Frontend Developer with 2 years of experience, specializing in creating responsive and high-performance user interfaces with React and TypeScript. I am looking to join an innovative team to contribute to ambitious projects, using my expertise to build intuitive and beautiful web experiences.",
-          "status": "Eligible for a work visa in the EU."
+         "professionalObjective": "Passionate Frontend Developer with 3 years of experience, specializing in creating responsive and high-performance user interfaces with React and TypeScript. Based in Grenoble, France. Seeking to join an innovative team to contribute to ambitious projects.",
+         "status": "Based in Grenoble, France. Holder of a VLS-TS 'vie privée et familiale' with free access to the job market, no additional administrative procedures required."
         },
         "contact": [
           {
-            "text": "+48 664 431 074",
+            "text": "+48 786 959 63",
             "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
           },
           {
@@ -859,7 +569,7 @@
             "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
           },
           {
-            "text": "Krakow, Poland",
+            "text": "Grenoble, France",
             "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
           },
           {
@@ -920,13 +630,34 @@
           }
         ],
         "languages": [
-          { "name": "Russian", "level": "Native" },
-          { "name": "English", "level": "C1 (Professional proficiency)" },
-          { "name": "Polish", "level": "C1" },
-          { "name": "Spanish", "level": "B2" },
-          { "name": "French", "level": "B2" },
-          { "name": "German", "level": "B1" },
-          { "name": "Portuguese", "level": "B1" }
+          {
+            "name": "Russian",
+            "level": "Native"
+          },
+          {
+            "name": "English",
+            "level": "C1 (Professional proficiency)"
+          },
+          {
+            "name": "Polish",
+            "level": "C1"
+          },
+          {
+            "name": "Spanish",
+            "level": "B2"
+          },
+          {
+            "name": "French",
+            "level": "B2"
+          },
+          {
+            "name": "German",
+            "level": "B1"
+          },
+          {
+            "name": "Portuguese",
+            "level": "B1"
+          }
         ],
         "experience": [
           {
@@ -987,320 +718,6 @@
             "period": "2015 - 2019"
           }
         ]
-      },
-      "pl": {
-        "sections": {
-          "contact": "KONTAKT",
-          "skills": "UMIEJĘTNOŚCI TECHNICZNE",
-          "languages": "JĘZYKI",
-          "status": "STATUS",
-          "objective": "CEL ZAWODOWY",
-          "experience": "DOŚWIADCZENIE ZAWODOWE",
-          "projects": "WAŻNIEJSZE PROJEKTY",
-          "education": "EDUKACJA"
-        },
-        "personalInfo": {
-          "name": "MIKITA KAVALIOU",
-          "title": "Frontend Developer | Specjalista React i TypeScript",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Pasjonat Frontend Developer z 2-letnim doświadczeniem, specjalizujący się w tworzeniu responsywnych i wydajnych interfejsów użytkownika za pomocą React i TypeScript. Chcę dołączyć do innowacyjnego zespołu, aby wnosić wkład w ambitne projekty, wykorzystując swoją wiedzę do budowania intuicyjnych i pięknych doświadczeń internetowych.",
-          "status": "Posiadam kartę pobytu czasowego w Polsce."
-        },
-        "contact": [
-          {
-            "text": "+48 664 431 074",
-            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
-          },
-          {
-            "text": "mikitatrash@gmail.com",
-            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
-          },
-          {
-            "text": "Kraków, Polska",
-            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
-          },
-          {
-            "text": "mikita-kavaliou.online",
-            "url": "https://mikita-kavaliou.online",
-            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
-          },
-          {
-            "text": "linkedin.com/in/mikita-kavaliou",
-            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
-            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
-          },
-          {
-            "text": "github.com/NikKowPHP",
-            "url": "https://github.com/NikKowPHP",
-            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
-          }
-        ],
-        "skills": [
-          {
-            "title": "Frontend",
-            "skills": [
-              "React",
-              "Next.js",
-              "TypeScript",
-              "Svelte",
-              "Tailwind CSS",
-              "Zarządzanie stanem (Redux, Zustand)"
-            ]
-          },
-          {
-            "title": "Języki programowania",
-            "skills": [
-              "TypeScript",
-              "JavaScript (ES6+)",
-              "HTML5",
-              "CSS3/SASS"
-            ]
-          },
-          {
-            "title": "Backend",
-            "skills": [
-              "Node.js",
-              "Express",
-              "Nest.js (Podstawy)"
-            ]
-          },
-          {
-            "title": "Narzędzia i Platformy",
-            "skills": [
-              "Vite",
-              "Webpack",
-              "Figma",
-              "Git",
-              "CI/CD (GitHub Actions)",
-              "Supabase"
-            ]
-          }
-        ],
-        "languages": [
-          { "name": "Rosyjski", "level": "Język ojczysty" },
-          { "name": "Angielski", "level": "C1 (Biegłość zawodowa)" },
-          { "name": "Polski", "level": "C1" },
-          { "name": "Hiszpański", "level": "B2" },
-          { "name": "Francuski", "level": "B2" },
-          { "name": "Niemiecki", "level": "B1" },
-          { "name": "Portugalski", "level": "B1" }
-        ],
-        "experience": [
-          {
-            "title": "Full Stack Web Developer",
-            "company": "Basesystem",
-            "period": "Luty 2024 - Obecnie",
-            "responsibilities": [
-              "Projektowanie i wdrażanie 3 głównych funkcji dla platformy e-commerce, co zaowocowało <strong>15% wzrostem</strong> zaangażowania klientów.",
-              "Optymalizacja backendu (<strong>Laravel, MySQL</strong>) w celu skrócenia średniego czasu odpowiedzi API o <strong>30%</strong>, co poprawiło doświadczenie na frontendzie <strong>React</strong>.",
-              "Integracja API płatności <strong>Stripe</strong>, zabezpieczająca przepływ transakcji i zwiększająca współczynnik konwersji o <strong>5%</strong>."
-            ]
-          },
-          {
-            "title": "Full Stack Web Developer (Freelance)",
-            "company": "",
-            "period": "Styczeń 2024 - Obecnie",
-            "responsibilities": [
-              "Zarządzanie projektami i rozwój od A do Z dla 4 aplikacji internetowych w <strong>bezpośredniej komunikacji z klientami</strong>.",
-              "Wdrażanie solidnych architektur backendowych z <strong>Node.js</strong> i <strong>Nest.js</strong>, zgodnie z zasadami czystej architektury.",
-              "Wykorzystanie <strong>procesów deweloperskich opartych na AI</strong> w celu przyspieszenia realizacji projektów i podniesienia jakości kodu."
-            ]
-          }
-        ],
-        "projects": [
-          {
-            "name": "ZIRO.FIT: Platforma dla Trenerów Fitness",
-            "url": "https://ziro.fit",
-            "description": "Rozwój frontendu platformy dla trenerów fitness. Stworzenie dynamicznego UX za pomocą Livewire i Alpine.js do angażowania klientów i wyświetlania planów treningowych generowanych przez AI.",
-            "stack_title": "Stos Technologiczny Frontend",
-            "stack": "<strong>Livewire, Alpine.js, Tailwind CSS, Laravel (jako backend).</strong>"
-          },
-          {
-            "name": "Lexity: PWA do Nauki Języków z AI",
-            "url": "https://lexity.app",
-            "description": "PWA, która rewolucjonizuje naukę języków, przechodząc od pasywnej konsumpcji do aktywnego tworzenia, z informacjami zwrotnymi opartymi na AI i ćwiczeniami utrwalającymi błędy.",
-            "stack_title": "Stos technologiczny",
-            "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Tiptap, Zustand, React Query.</strong>"
-          },
-          {
-            "name": "Interly: Platforma AI do Przygotowania do Rozmów Kwalifikacyjnych",
-            "url": "https://interly.app",
-            "description": "PWA napędzana przez AI, aby pomóc użytkownikom przygotować się do rozmów technicznych za pomocą ćwiczeń głosowych, informacji zwrotnych w czasie rzeczywistym i systematycznego procesu opartego na danych.",
-            "stack_title": "Stos technologiczny",
-            "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Zustand, Zod.</strong>"
-          },
-          {
-            "name": "Osobista Strona Portfolio",
-            "url": "https://mikita-kavaliou.online",
-            "description": "Osobista strona portfolio stworzona w celu eksperymentowania z SvelteKit, demonstrująca szybki rozwój i nowoczesne zasady projektowania.",
-            "stack_title": "Stos technologiczny",
-            "stack": "<strong>SvelteKit, Svelte, TypeScript, Tailwind CSS.</strong>"
-          }
-        ],
-        "education": [
-          {
-            "degree": "Dyplom Technika Radioelektroniki (odpowiednik licencjatu)",
-            "institution": "Mińskie Państwowe Wyższe Kolegium Radiotechniczne",
-            "period": "2015 - 2019"
-          }
-        ]
-      },
-      "de": {
-        "sections": {
-          "contact": "KONTAKT",
-          "skills": "TECHNISCHE FÄHIGKEITEN",
-          "languages": "SPRACHEN",
-          "status": "STATUS",
-          "objective": "BERUFLICHES ZIEL",
-          "experience": "BERUFSERFAHRUNG",
-          "projects": "WICHTIGE PROJEKTE",
-          "education": "AUSBILDUNG"
-        },
-        "personalInfo": {
-          "name": "MIKITA KAVALIOU",
-          "title": "Frontend-Entwickler | React & TypeScript-Spezialist",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Leidenschaftlicher Frontend-Entwickler mit 2 Jahren Erfahrung, spezialisiert auf die Erstellung reaktionsschneller und leistungsstarker Benutzeroberflächen mit React und TypeScript. Ich möchte einem innovativen Team beitreten, um zu ehrgeizigen Projekten beizutragen und meine Expertise zum Aufbau intuitiver und schöner Weberlebnisse einzusetzen.",
-          "status": "Berechtigt für ein Arbeitsvisum in Deutschland."
-        },
-        "contact": [
-          {
-            "text": "+48 664 431 074",
-            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
-          },
-          {
-            "text": "mikitatrash@gmail.com",
-            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
-          },
-          {
-            "text": "Krakau, Polen",
-            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
-          },
-          {
-            "text": "mikita-kavaliou.online",
-            "url": "https://mikita-kavaliou.online",
-            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
-          },
-          {
-            "text": "linkedin.com/in/mikita-kavaliou",
-            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
-            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
-          },
-          {
-            "text": "github.com/NikKowPHP",
-            "url": "https://github.com/NikKowPHP",
-            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
-          }
-        ],
-        "skills": [
-          {
-            "title": "Frontend",
-            "skills": [
-              "React",
-              "Next.js",
-              "TypeScript",
-              "Svelte",
-              "Tailwind CSS",
-              "State Management (Redux, Zustand)"
-            ]
-          },
-          {
-            "title": "Sprachen",
-            "skills": [
-              "TypeScript",
-              "JavaScript (ES6+)",
-              "HTML5",
-              "CSS3/SASS"
-            ]
-          },
-          {
-            "title": "Backend",
-            "skills": [
-              "Node.js",
-              "Express",
-              "Nest.js (Grundlagen)"
-            ]
-          },
-          {
-            "title": "Tools & Plattformen",
-            "skills": [
-              "Vite",
-              "Webpack",
-              "Figma",
-              "Git",
-              "CI/CD (GitHub Actions)",
-              "Supabase"
-            ]
-          }
-        ],
-        "languages": [
-          { "name": "Russisch", "level": "Muttersprache" },
-          { "name": "Englisch", "level": "C1 (Verhandlungssicher)" },
-          { "name": "Polnisch", "level": "C1" },
-          { "name": "Spanisch", "level": "B2" },
-          { "name": "Französisch", "level": "B2" },
-          { "name": "Deutsch", "level": "B1" },
-          { "name": "Portugiesisch", "level": "B1" }
-        ],
-        "experience": [
-          {
-            "title": "Full-Stack-Webentwickler",
-            "company": "Basesystem",
-            "period": "Februar 2024 - Heute",
-            "responsibilities": [
-              "Konzeption und Bereitstellung von 3 Hauptfunktionen für eine E-Commerce-Plattform, was zu einer <strong>15%igen Steigerung</strong> des Kundenengagements führte.",
-              "Optimierung des Backends (<strong>Laravel, MySQL</strong>), um die durchschnittliche API-Antwortzeit um <strong>30%</strong> zu reduzieren, was das Frontend-Erlebnis mit <strong>React</strong> verbesserte.",
-              "Integration der <strong>Stripe</strong>-Zahlungs-API, um den Transaktionsfluss zu sichern und die Konversionsrate um <strong>5%</strong> zu erhöhen."
-            ]
-          },
-          {
-            "title": "Full-Stack-Webentwickler (Freiberufler)",
-            "company": "",
-            "period": "Januar 2024 - Heute",
-            "responsibilities": [
-              "End-to-End-Projektmanagement und -Entwicklung für 4 Webanwendungen in <strong>direkter Kommunikation mit Kunden</strong>.",
-              "Implementierung robuster Backend-Architekturen mit <strong>Node.js</strong> und <strong>Nest.js</strong> nach den Prinzipien der Clean Architecture.",
-              "Einsatz von <strong>KI-gesteuerten Entwicklungsworkflows</strong> zur Beschleunigung der Projektabwicklung und Verbesserung der Codequalität."
-            ]
-          }
-        ],
-        "projects": [
-          {
-            "name": "ZIRO.FIT: Plattform für Fitnesstrainer",
-            "url": "https://ziro.fit",
-            "description": "Frontend-Entwicklung für eine Fitnesstrainer-Plattform. Erstellung einer dynamischen UX mit Livewire & Alpine.js für Kundenbindung und Anzeige von KI-generierten Trainingsplänen.",
-            "stack_title": "Frontend Technologie-Stack",
-            "stack": "<strong>Livewire, Alpine.js, Tailwind CSS, Laravel (als Backend).</strong>"
-          },
-          {
-            "name": "Lexity: KI-Sprachlern-PWA",
-            "url": "https://lexity.app",
-            "description": "Eine PWA, die das Sprachenlernen revolutioniert, indem sie von passivem Konsum zu aktivem Schaffen übergeht, mit KI-gestütztem Feedback und Übungen zum Einprägen von Fehlern.",
-            "stack_title": "Technologie-Stack",
-            "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Tiptap, Zustand, React Query.</strong>"
-          },
-          {
-            "name": "Interly: KI-Plattform zur Vorbereitung auf Vorstellungsgespräche",
-            "url": "https://interly.app",
-            "description": "Eine KI-gesteuerte PWA, die Benutzern hilft, sich auf technische Vorstellungsgespräche vorzubereiten, indem sie sprachbasiertes Üben, Echtzeit-Feedback und einen systematischen, datengesteuerten Prozess verwendet.",
-            "stack_title": "Technologie-Stack",
-            "stack": "<strong>Next.js, TypeScript, Tailwind CSS, Zustand, Zod.</strong>"
-          },
-          {
-            "name": "Persönliche Portfolio-Website",
-            "url": "https://mikita-kavaliou.online",
-            "description": "Eine persönliche Portfolio-Website, die zum Experimentieren mit SvelteKit erstellt wurde und schnelle Entwicklung sowie moderne Designprinzipien demonstriert.",
-            "stack_title": "Technologie-Stack",
-            "stack": "<strong>SvelteKit, Svelte, TypeScript, Tailwind CSS.</strong>"
-          }
-        ],
-        "education": [
-          {
-            "degree": "Diplom als Techniker für Radioelektronik (entspricht Bachelor-Abschluss)",
-            "institution": "Staatliches Höheres Kolleg für Radiotechnik Minsk",
-            "period": "2015 - 2019"
-          }
-        ]
       }
     }
   },
@@ -1323,16 +740,37 @@
           "name": "MIKITA KAVALIOU",
           "title": "Développeur Backend PHP | Spécialiste Laravel & Symfony",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Développeur Backend PHP très motivé avec 2 ans d'expérience, spécialisé dans la création et la maintenance d'applications web scalables et performantes avec Laravel et Symfony. Passionné par le code propre, l'architecture robuste et l'optimisation des bases de données. Je cherche à mettre à profit mon expertise dans l'écosystème PHP pour contribuer à un projet stimulant au sein d'une équipe axée sur la croissance.",
-          "status": "Éligible à un visa de travail en France."
+         "professionalObjective": "Développeur Backend PHP très motivé avec 3 ans d'expérience, spécialisé dans la création et la maintenance d'applications web scalables et performantes avec Laravel et Symfony. Basé à Grenoble, France.",
+         "status": "Basé à Grenoble, France. Titulaire d'un VLS-TS 'vie privée et familiale' avec accès libre au marché du travail, sans démarches administratives supplémentaires."
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Cracovie, Pologne (Mobile France)", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" },
-          { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
+          {
+            "text": "+48 786 959 63",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Grenoble, France",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "mikita-kavaliou.online",
+            "url": "https://mikita-kavaliou.online",
+            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          },
+          {
+            "text": "github.com/NikKowPHP",
+            "url": "https://github.com/NikKowPHP",
+            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+          }
         ],
         "skills": [
           {
@@ -1376,13 +814,34 @@
           }
         ],
         "languages": [
-          { "name": "Russe", "level": "Langue maternelle" },
-          { "name": "Anglais", "level": "C1 (Courant professionnel)" },
-          { "name": "Polonais", "level": "C1" },
-          { "name": "Espagnol", "level": "B2" },
-          { "name": "Français", "level": "B2" },
-          { "name": "Allemand", "level": "B1" },
-          { "name": "Portugais", "level": "B1" }
+          {
+            "name": "Russe",
+            "level": "Langue maternelle"
+          },
+          {
+            "name": "Anglais",
+            "level": "C1 (Courant professionnel)"
+          },
+          {
+            "name": "Polonais",
+            "level": "C1"
+          },
+          {
+            "name": "Espagnol",
+            "level": "B2"
+          },
+          {
+            "name": "Français",
+            "level": "B2"
+          },
+          {
+            "name": "Allemand",
+            "level": "B1"
+          },
+          {
+            "name": "Portugais",
+            "level": "B1"
+          }
         ],
         "experience": [
           {
@@ -1442,12 +901,12 @@
           "name": "MIKITA KAVALIOU",
           "title": "Backend PHP Developer | Laravel & Symfony Specialist",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Highly motivated Backend PHP Developer with 2 years of experience specializing in building and maintaining scalable, high-performance web applications using Laravel and Symfony. Passionate about clean code, robust architecture, and database optimization. Seeking to leverage my expertise in the PHP ecosystem to contribute to a challenging project and a growth-oriented team.",
-          "status": "Eligible for a work visa in the EU."
+         "professionalObjective": "Highly motivated Backend PHP Developer with 3 years of experience specializing in building and maintaining scalable, high-performance web applications using Laravel and Symfony. Based in Grenoble, France.",
+         "status": "Based in Grenoble, France. Holder of a VLS-TS 'vie privée et familiale' with free access to the job market, no additional administrative procedures required."
         },
         "contact": [
           {
-            "text": "+48 664 431 074",
+            "text": "+48 786 959 63",
             "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
           },
           {
@@ -1455,7 +914,7 @@
             "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
           },
           {
-            "text": "Krakow, Poland",
+            "text": "Grenoble, France",
             "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
           },
           {
@@ -1516,13 +975,34 @@
           }
         ],
         "languages": [
-          { "name": "Russian", "level": "Native" },
-          { "name": "English", "level": "C1 (Professional proficiency)" },
-          { "name": "Polish", "level": "C1" },
-          { "name": "Spanish", "level": "B2" },
-          { "name": "French", "level": "B2" },
-          { "name": "German", "level": "B1" },
-          { "name": "Portuguese", "level": "B1" }
+          {
+            "name": "Russian",
+            "level": "Native"
+          },
+          {
+            "name": "English",
+            "level": "C1 (Professional proficiency)"
+          },
+          {
+            "name": "Polish",
+            "level": "C1"
+          },
+          {
+            "name": "Spanish",
+            "level": "B2"
+          },
+          {
+            "name": "French",
+            "level": "B2"
+          },
+          {
+            "name": "German",
+            "level": "B1"
+          },
+          {
+            "name": "Portuguese",
+            "level": "B1"
+          }
         ],
         "experience": [
           {
@@ -1566,286 +1046,6 @@
             "period": "2015 - 2019"
           }
         ]
-      },
-      "pl": {
-        "sections": {
-          "contact": "KONTAKT",
-          "skills": "UMIEJĘTNOŚCI TECHNICZNE",
-          "languages": "JĘZYKI",
-          "status": "STATUS",
-          "objective": "CEL ZAWODOWY",
-          "experience": "DOŚWIADCZENIE ZAWODOWE",
-          "projects": "WAŻNIEJSZE PROJEKTY",
-          "education": "EDUKACJA"
-        },
-        "personalInfo": {
-          "name": "MIKITA KAVALIOU",
-          "title": "Backend PHP Developer | Specjalista Laravel i Symfony",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Wysoce zmotywowany Backend PHP Developer z 2-letnim doświadczeniem, specjalizujący się w budowaniu i utrzymywaniu skalowalnych, wysokowydajnych aplikacji internetowych przy użyciu Laravel i Symfony. Pasjonat czystego kodu, solidnej architektury i optymalizacji baz danych. Chcę wykorzystać swoją wiedzę w ekosystemie PHP, aby wnieść wkład w ambitny projekt i zespół zorientowany na rozwój.",
-          "status": "Posiadam kartę pobytu czasowego w Polsce."
-        },
-        "contact": [
-          {
-            "text": "+48 664 431 074",
-            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
-          },
-          {
-            "text": "mikitatrash@gmail.com",
-            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
-          },
-          {
-            "text": "Kraków, Polska",
-            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
-          },
-          {
-            "text": "mikita-kavaliou.online",
-            "url": "https://mikita-kavaliou.online",
-            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
-          },
-          {
-            "text": "linkedin.com/in/mikita-kavaliou",
-            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
-            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
-          },
-          {
-            "text": "github.com/NikKowPHP",
-            "url": "https://github.com/NikKowPHP",
-            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
-          }
-        ],
-        "skills": [
-          {
-            "title": "Backend (Ekosystem PHP)",
-            "skills": [
-              "PHP (8+)",
-              "Laravel",
-              "Symfony",
-              "Doctrine",
-              "PHPUnit",
-              "Composer"
-            ]
-          },
-          {
-            "title": "Bazy Danych",
-            "skills": [
-              "PostgreSQL",
-              "MySQL",
-              "Projektowanie i Optymalizacja Baz Danych"
-            ]
-          },
-          {
-            "title": "Frontend (Wiedza praktyczna)",
-            "skills": [
-              "JavaScript",
-              "jQuery",
-              "React",
-              "HTML5",
-              "CSS3"
-            ]
-          },
-          {
-            "title": "Narzędzia i Platformy",
-            "skills": [
-              "Docker",
-              "Git",
-              "CI/CD (GitHub Actions)",
-              "RESTful APIs",
-              "Supabase"
-            ]
-          }
-        ],
-        "languages": [
-          { "name": "Rosyjski", "level": "Język ojczysty" },
-          { "name": "Angielski", "level": "C1 (Biegłość zawodowa)" },
-          { "name": "Polski", "level": "C1" },
-          { "name": "Hiszpański", "level": "B2" },
-          { "name": "Francuski", "level": "B2" },
-          { "name": "Niemiecki", "level": "B1" },
-          { "name": "Portugalski", "level": "B1" }
-        ],
-        "experience": [
-          {
-            "title": "Backend Web Developer",
-            "company": "Basesystem",
-            "period": "Luty 2024 - Obecnie",
-            "responsibilities": [
-              "Tworzenie i utrzymywanie złożonych aplikacji internetowych przy użyciu <strong>Laravel</strong> i <strong>Symfony</strong>, z powodzeniem zarządzając starszymi bazami kodu w <strong>natywnym PHP (wersje 7 do 8+).</strong>",
-              "Optymalizacja wydajności bazy danych (<strong>MySQL</strong>) poprzez refaktoryzację złożonych zapytań i strategii indeksowania, co przyniosło <strong>25% redukcję</strong> czasu ładowania stron.",
-              "Rozwój solidnych interfejsów API RESTful w celu wsparcia aplikacji frontendowych zbudowanych w <strong>jQuery</strong> i <strong>React</strong>, zapewniając płynny przepływ danych."
-            ]
-          }
-        ],
-        "projects": [
-          {
-            "name": "ZIRO.FIT: Platforma dla Trenerów Fitness",
-            "url": "https://ziro.fit",
-            "description": "Opracowanie całego backendu w Laravelu dla platformy trenerów fitness, w tym schematu bazy danych, logiki biznesowej i asystenta AI do generowania treningów.",
-            "stack_title": "Stos Technologiczny",
-            "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>"
-          },
-          {
-            "name": "Bot Instagram Komentarz-do-DM",
-            "url": "https://github.com/NikKowPHP",
-            "description": "Zautomatyzowany system, który wysyła wiadomości DM do użytkowników komentujących posty na Instagramie za pomocą określonych słów kluczowych, zarządzany przez panel internetowy.",
-            "stack_title": "Stos Technologiczny",
-            "stack": "<strong>Python, Docker, Supabase (PostgreSQL), Next.js.</strong>"
-          },
-          {
-            "name": "Backend dla Edukacyjnych PWA",
-            "url": "https://lexity.app",
-            "description": "Zaprojektowanie i wdrożenie architektury backendu oraz API RESTful przy użyciu Supabase (PostgreSQL) i funkcji serverless w TypeScript do zasilania wielu PWA Next.js, koncentrując się na skalowalnym modelowaniu danych i uwierzytelnianiu.",
-            "stack_title": "Stos Technologiczny",
-            "stack": "<strong>Supabase, PostgreSQL, TypeScript (Edge Functions).</strong>"
-          }
-        ],
-        "education": [
-          {
-            "degree": "Dyplom Technika Radioelektroniki (odpowiednik licencjatu)",
-            "institution": "Mińskie Państwowe Wyższe Kolegium Radiotechniczne",
-            "period": "2015 - 2019"
-          }
-        ]
-      },
-      "de": {
-        "sections": {
-          "contact": "KONTAKT",
-          "skills": "TECHNISCHE FÄHIGKEITEN",
-          "languages": "SPRACHEN",
-          "status": "STATUS",
-          "objective": "BERUFLICHES ZIEL",
-          "experience": "BERUFSERFAHRUNG",
-          "projects": "WICHTIGE PROJEKTE",
-          "education": "AUSBILDUNG"
-        },
-        "personalInfo": {
-          "name": "MIKITA KAVALIOU",
-          "title": "Backend-PHP-Entwickler | Laravel- & Symfony-Spezialist",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Hochmotivierter Backend-PHP-Entwickler mit 2 Jahren Erfahrung, spezialisiert auf die Erstellung und Wartung skalierbarer, hochleistungsfähiger Webanwendungen mit Laravel und Symfony. Leidenschaft für sauberen Code, robuste Architektur und Datenbankoptimierung. Ich möchte meine Expertise im PHP-Ökosystem nutzen, um zu einem herausfordernden Projekt und einem wachstumsorientierten Team beizutragen.",
-          "status": "Berechtigt für ein Arbeitsvisum in Deutschland."
-        },
-        "contact": [
-          {
-            "text": "+48 664 431 074",
-            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
-          },
-          {
-            "text": "mikitatrash@gmail.com",
-            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
-          },
-          {
-            "text": "Krakau, Polen",
-            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
-          },
-          {
-            "text": "mikita-kavaliou.online",
-            "url": "https://mikita-kavaliou.online",
-            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
-          },
-          {
-            "text": "linkedin.com/in/mikita-kavaliou",
-            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
-            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
-          },
-          {
-            "text": "github.com/NikKowPHP",
-            "url": "https://github.com/NikKowPHP",
-            "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
-          }
-        ],
-        "skills": [
-          {
-            "title": "Backend (PHP-Ökosystem)",
-            "skills": [
-              "PHP (8+)",
-              "Laravel",
-              "Symfony",
-              "Doctrine",
-              "PHPUnit",
-              "Composer"
-            ]
-          },
-          {
-            "title": "Datenbanken",
-            "skills": [
-              "PostgreSQL",
-              "MySQL",
-              "Datenbankdesign & -optimierung"
-            ]
-          },
-          {
-            "title": "Frontend (Grundkenntnisse)",
-            "skills": [
-              "JavaScript",
-              "jQuery",
-              "React",
-              "HTML5",
-              "CSS3"
-            ]
-          },
-          {
-            "title": "Tools & Plattformen",
-            "skills": [
-              "Docker",
-              "Git",
-              "CI/CD (GitHub Actions)",
-              "RESTful APIs",
-              "Supabase"
-            ]
-          }
-        ],
-        "languages": [
-          { "name": "Russisch", "level": "Muttersprache" },
-          { "name": "Englisch", "level": "C1 (Verhandlungssicher)" },
-          { "name": "Polnisch", "level": "C1" },
-          { "name": "Spanisch", "level": "B2" },
-          { "name": "Französisch", "level": "B1 (Mittelstufe, aktiv lernend)" },
-          { "name": "Deutsch", "level": "B1" },
-          { "name": "Portugiesisch", "level": "B1" }
-        ],
-        "experience": [
-          {
-            "title": "Backend-Webentwickler",
-            "company": "Basesystem",
-            "period": "Februar 2024 - Heute",
-            "responsibilities": [
-              "Entwicklung und Wartung komplexer Webanwendungen mit <strong>Laravel</strong> und <strong>Symfony</strong> sowie erfolgreiche Verwaltung von Legacy-Codebasen in <strong>nativem PHP (Versionen 7 bis 8+).</strong>",
-              "Optimierung der Datenbankleistung (<strong>MySQL</strong>) durch Refactoring komplexer Abfragen und Indexierungsstrategien, was zu einer <strong>Reduzierung der Ladezeiten um 25%</strong> führte.",
-              "Entwicklung robuster RESTful-APIs zur Unterstützung von Frontend-Anwendungen, die mit <strong>jQuery</strong> und <strong>React</strong> erstellt wurden, um einen nahtlosen Datenfluss zu gewährleisten."
-            ]
-          }
-        ],
-        "projects": [
-          {
-            "name": "ZIRO.FIT: Plattform für Fitnesstrainer",
-            "url": "https://ziro.fit",
-            "description": "Entwicklung des gesamten Laravel-Backends für eine Fitnesstrainer-Plattform, einschließlich Datenbankschema, Geschäftslogik und eines KI-Assistenten zur Trainingsplanerstellung.",
-            "stack_title": "Technologie-Stack",
-            "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>"
-          },
-          {
-            "name": "Instagram Kommentar-zu-DM-Bot-System",
-            "url": "https://github.com/NikKowPHP",
-            "description": "Ein automatisiertes System, das DMs an Benutzer sendet, die mit bestimmten Schlüsselwörtern auf Instagram-Posts kommentieren, verwaltet über ein Web-Panel.",
-            "stack_title": "Technologie-Stack",
-            "stack": "<strong>Python, Docker, Supabase (PostgreSQL), Next.js.</strong>"
-          },
-          {
-            "name": "Backend für Bildungs-PWAs",
-            "url": "https://lexity.app",
-            "description": "Entwurf und Implementierung der Backend-Architektur und RESTful-APIs mit Supabase (PostgreSQL) und serverlosen TypeScript-Funktionen, um mehrere Next.js-PWAs zu betreiben, mit Fokus auf skalierbarer Datenmodellierung und Authentifizierung.",
-            "stack_title": "Technologie-Stack",
-            "stack": "<strong>Supabase, PostgreSQL, TypeScript (Edge Functions).</strong>"
-          }
-        ],
-        "education": [
-          {
-            "degree": "Diplom als Techniker für Radioelektronik (entspricht Bachelor-Abschluss)",
-            "institution": "Staatliches Höheres Kolleg für Radiotechnik Minsk",
-            "period": "2015 - 2019"
-          }
-        ]
       }
     }
   },
@@ -1866,41 +1066,133 @@
         },
         "personalInfo": {
           "name": "MIKITA KAVALIOU",
-          "title": "Certified Forklift Operator",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Dedicated and safety-conscious Certified Forklift Operator with over a year of hands-on experience in high-volume manufacturing environments. Proven expertise in operating various forklift types, managing inventory with WMS, and maintaining a zero-accident record. Multilingual professional eligible for a work visa in France, ready to contribute to operational efficiency in a dynamic logistics team.",
-          "status": "Eligible for a work visa in France."
+           "title": "Certified Forklift Operator",
+           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
+           "professionalObjective": "Dedicated and safety-conscious Certified Forklift Operator with over a year of hands-on experience in high-volume manufacturing environments. Proven expertise in operating various forklift types, managing inventory with WMS, and maintaining a zero-accident record. Multilingual professional eligible for a work visa in France, ready to contribute to operational efficiency in a dynamic logistics team. Based in Grenoble, France.",
+           "status": "Based in Grenoble, France. Holder of a VLS-TS 'vie privée et familiale' with free access to the job market, no additional administrative procedures required."
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Krakow, Poland", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" }
+          {
+            "text": "+48 786 959 63",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Grenoble, France",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "mikita-kavaliou.online",
+            "url": "https://mikita-kavaliou.online",
+            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          }
         ],
         "skills": [
-          { "title": "Machinery & Equipment", "skills": ["Counterbalance Forklift", "Reach Truck", "Electric Pallet Jack", "RF Scanners"] },
-          { "title": "Warehousing Operations", "skills": ["Loading/Unloading Trucks", "Inventory Management (WMS)", "FIFO/LIFO Procedures", "Order Picking & Packing", "Stock Organization"] },
-          { "title": "Safety & Compliance", "skills": ["Equipment Inspection", "Hazard Assessment", "EU Safety Standards", "Zero-Accident Record"] },
-          { "title": "Soft Skills", "skills": ["Team Collaboration", "Problem Solving", "Shift Flexibility", "Physical Stamina", "Attention to Detail"] }
+          {
+            "title": "Machinery & Equipment",
+            "skills": [
+              "Counterbalance Forklift",
+              "Reach Truck",
+              "Electric Pallet Jack",
+              "RF Scanners"
+            ]
+          },
+          {
+            "title": "Warehousing Operations",
+            "skills": [
+              "Loading/Unloading Trucks",
+              "Inventory Management (WMS)",
+              "FIFO/LIFO Procedures",
+              "Order Picking & Packing",
+              "Stock Organization"
+            ]
+          },
+          {
+            "title": "Safety & Compliance",
+            "skills": [
+              "Equipment Inspection",
+              "Hazard Assessment",
+              "EU Safety Standards",
+              "Zero-Accident Record"
+            ]
+          },
+          {
+            "title": "Soft Skills",
+            "skills": [
+              "Team Collaboration",
+              "Problem Solving",
+              "Shift Flexibility",
+              "Physical Stamina",
+              "Attention to Detail"
+            ]
+          }
         ],
         "languages": [
-          { "name": "Russian", "level": "Native" },
-          { "name": "English", "level": "C1 (Professional proficiency)" },
-          { "name": "Polish", "level": "C1" },
-          { "name": "Spanish", "level": "B2" },
-          { "name": "French", "level": "B2" },
-          { "name": "German", "level": "B1" },
-          { "name": "Portuguese", "level": "B1" }
+          {
+            "name": "Russian",
+            "level": "Native"
+          },
+          {
+            "name": "English",
+            "level": "C1 (Professional proficiency)"
+          },
+          {
+            "name": "Polish",
+            "level": "C1"
+          },
+          {
+            "name": "Spanish",
+            "level": "B2"
+          },
+          {
+            "name": "French",
+            "level": "B2"
+          },
+          {
+            "name": "German",
+            "level": "B1"
+          },
+          {
+            "name": "Portuguese",
+            "level": "B1"
+          }
         ],
         "experience": [
-          { "title": "Forklift Operator", "company": "Exlabesa", "period": "2023 - 2024", "responsibilities": [ "Operated <strong>Counterbalance and Reach Trucks</strong> to efficiently load and unload heavy aluminum profiles and raw materials, ensuring <strong>100% accuracy</strong> in shipments.", "Utilized <strong>RF scanners and WMS</strong> to track inventory movements, organize stock, and perform cycle counts.", "Maintained a <strong>zero-accident safety record</strong> by strictly adhering to safety protocols and conducting daily pre-shift equipment inspections.", "Collaborated with the production team to supply lines with materials on time, minimizing downtime and optimizing workflow efficiency." ] }
+          {
+            "title": "Forklift Operator",
+            "company": "Exlabesa",
+            "period": "2023 - 2024",
+            "responsibilities": [
+              "Operated <strong>Counterbalance and Reach Trucks</strong> to efficiently load and unload heavy aluminum profiles and raw materials, ensuring <strong>100% accuracy</strong> in shipments.",
+              "Utilized <strong>RF scanners and WMS</strong> to track inventory movements, organize stock, and perform cycle counts.",
+              "Maintained a <strong>zero-accident safety record</strong> by strictly adhering to safety protocols and conducting daily pre-shift equipment inspections.",
+              "Collaborated with the production team to supply lines with materials on time, minimizing downtime and optimizing workflow efficiency."
+            ]
+          }
         ],
         "projects": [
-           { "name": "Forklift Operator Certification (UDT)", "url": "", "description": "Comprehensive training and certification for operating powered industrial trucks.", "stack_title": "Location", "stack": "<strong>Poland (2023)</strong>" }
+          {
+            "name": "Forklift Operator Certification (UDT)",
+            "url": "",
+            "description": "Comprehensive training and certification for operating powered industrial trucks.",
+            "stack_title": "Location",
+            "stack": "<strong>Poland (2023)</strong>"
+          }
         ],
         "education": [
-          { "degree": "Diploma of Technician in Radio-electronics", "institution": "Minsk State Higher College of Radiotechnics", "period": "2015 - 2019" }
+          {
+            "degree": "Diploma of Technician in Radio-electronics",
+            "institution": "Minsk State Higher College of Radiotechnics",
+            "period": "2015 - 2019"
+          }
         ]
       },
       "fr": {
@@ -1916,365 +1208,131 @@
         },
         "personalInfo": {
           "name": "MIKITA KAVALIOU",
-          "title": "Magasinier Cariste | CACES 1, 3, 5 (Équivalent UDT)",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Magasinier Cariste expérimenté et polyvalent, habitué aux environnements logistiques exigeants et aux cadences soutenues. Maîtrise de la conduite de chariots (équivalent CACES 1/3/5) avec une forte culture sécurité. Disponible immédiatement pour des postes en horaires postés (3x8) ou de journée, avec la volonté de s'investir durablement.",
-          "status": "Éligible à un visa de travail en France."
+           "title": "Magasinier Cariste | CACES 1, 3, 5 (Équivalent UDT)",
+           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
+           "professionalObjective": "Magasinier Cariste expérimenté et polyvalent, habitué aux environnements logistiques exigeants et aux cadences soutenues. Maîtrise de la conduite de chariots (équivalent CACES 1/3/5) avec une forte culture sécurité. Disponible immédiatement pour des postes en horaires postés (3x8) ou de journée, avec la volonté de s'investir durablement.",
+           "status": "Basé à Grenoble, France. Titulaire d'un VLS-TS 'vie privée et familiale' avec accès libre au marché du travail, sans démarches administratives supplémentaires."
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Cracovie, Pologne (Mobile France)", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" }
+          {
+            "text": "+48 786 959 63",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Grenoble, France",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "mikita-kavaliou.online",
+            "url": "https://mikita-kavaliou.online",
+            "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          }
         ],
         "skills": [
-          { "title": "Conduite d'Engins", "skills": ["Chariot Frontal (CACES 3)", "Chariot à Mât Rétractable (CACES 5)", "Transpalette à conducteur porté (CACES 1)", "Gerbage grande hauteur"] },
-          { "title": "Opérations Logistiques", "skills": ["Chargement/Déchargement de camions", "Dépotage de conteneurs", "Utilisation de Scan / Pistolet RF", "Filmage et palettisation"] },
-          { "title": "Sécurité & Qualité", "skills": ["Respect des consignes de sécurité", "Zéro accident", "Contrôle qualité visuel", "Entretien de premier niveau"] },
-          { "title": "Savoir-être", "skills": ["Ponctualité et assiduité", "Respect des cadences", "Esprit d'équipe", "Polyvalence"] }
+          {
+            "title": "Conduite d'Engins",
+            "skills": [
+              "Chariot Frontal (CACES 3)",
+              "Chariot à Mât Rétractable (CACES 5)",
+              "Transpalette à conducteur porté (CACES 1)",
+              "Gerbage grande hauteur"
+            ]
+          },
+          {
+            "title": "Opérations Logistiques",
+            "skills": [
+              "Chargement/Déchargement de camions",
+              "Dépotage de conteneurs",
+              "Utilisation de Scan / Pistolet RF",
+              "Filmage et palettisation"
+            ]
+          },
+          {
+            "title": "Sécurité & Qualité",
+            "skills": [
+              "Respect des consignes de sécurité",
+              "Zéro accident",
+              "Contrôle qualité visuel",
+              "Entretien de premier niveau"
+            ]
+          },
+          {
+            "title": "Savoir-être",
+            "skills": [
+              "Ponctualité et assiduité",
+              "Respect des cadences",
+              "Esprit d'équipe",
+              "Polyvalence"
+            ]
+          }
         ],
         "languages": [
-          { "name": "Français", "level": "B2" },
-          { "name": "Anglais", "level": "C1 (Courant professionnel)" },
-          { "name": "Russe", "level": "Langue maternelle" },
-          { "name": "Polonais", "level": "C2" },
-          { "name": "Espagnol", "level": "B2" },
-          { "name": "Allemand", "level": "B1" },
-          { "name": "Portugais", "level": "B1" }
+          {
+            "name": "Français",
+            "level": "B2"
+          },
+          {
+            "name": "Anglais",
+            "level": "C1 (Courant professionnel)"
+          },
+          {
+            "name": "Russe",
+            "level": "Langue maternelle"
+          },
+          {
+            "name": "Polonais",
+            "level": "C2"
+          },
+          {
+            "name": "Espagnol",
+            "level": "B2"
+          },
+          {
+            "name": "Allemand",
+            "level": "B1"
+          },
+          {
+            "name": "Portugais",
+            "level": "B1"
+          }
         ],
         "experience": [
-          { "title": "Cariste Magasinier", "company": "Exlabesa", "period": "2023 - 2024", "responsibilities": [ "Conduite de <strong>chariots frontaux (CACES 3) et rétractables (CACES 5)</strong> pour l'approvisionnement des lignes de production et le stockage de profilés aluminium.", "Réalisation d'opérations de <strong>gerbage en sécurité à grande hauteur</strong> avec une précision de 100%.", "Gestion des flux de stocks via <strong>terminal radiofréquence (Gun)</strong> et participation aux <strong>inventaires tournants</strong>.", "Garant du respect des normes de sécurité et de la propreté de la zone de travail (5S)." ] }
+          {
+            "title": "Cariste Magasinier",
+            "company": "Exlabesa",
+            "period": "2023 - 2024",
+            "responsibilities": [
+              "Conduite de <strong>chariots frontaux (CACES 3) et rétractables (CACES 5)</strong> pour l'approvisionnement des lignes de production et le stockage de profilés aluminium.",
+              "Réalisation d'opérations de <strong>gerbage en sécurité à grande hauteur</strong> avec une précision de 100%.",
+              "Gestion des flux de stocks via <strong>terminal radiofréquence (Gun)</strong> et participation aux <strong>inventaires tournants</strong>.",
+              "Garant du respect des normes de sécurité et de la propreté de la zone de travail (5S)."
+            ]
+          }
         ],
         "projects": [
-           { "name": "Certificat UDT (Pologne)", "url": "", "description": "Certification officielle pour la conduite de chariots automoteurs - Équivalent technique aux CACES R489 Catégories 1, 3 et 5.", "stack_title": "Lieu", "stack": "<strong>Pologne (2023)</strong>" }
+          {
+            "name": "Certificat UDT (Pologne)",
+            "url": "",
+            "description": "Certification officielle pour la conduite de chariots automoteurs - Équivalent technique aux CACES R489 Catégories 1, 3 et 5.",
+            "stack_title": "Lieu",
+            "stack": "<strong>Pologne (2023)</strong>"
+          }
         ],
         "education": [
-          { "degree": "Diplôme de Technicien en Radio-électronique", "institution": "Collège d'État Supérieur de Radiotechnique de Minsk", "period": "2015 - 2019" }
-        ]
-      },
-      "pl": {
-        "sections": {
-          "contact": "KONTAKT",
-          "skills": "UMIEJĘTNOŚCI",
-          "languages": "JĘZYKI",
-          "status": "STATUS",
-          "objective": "CEL ZAWODOWY",
-          "experience": "DOŚWIADCZENIE ZAWODOWE",
-          "projects": "CERTYFIKATY",
-          "education": "EDUKACJA"
-        },
-        "personalInfo": {
-          "name": "MIKITA KAVALIOU",
-          "title": "Operator Wózka Widłowego",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Zaangażowany i dbający o bezpieczeństwo Certyfikowany Operator Wózka Widłowego z ponad rocznym doświadczeniem w dynamicznym środowisku produkcyjnym. Biegłość w obsłudze różnych typów wózków, zarządzaniu zapasami (WMS) i utrzymywaniu bezwypadkowej pracy. Wielojęzyczny profesjonalista, gotowy do podjęcia pracy we Francji i wsparcia zespołu logistycznego.",
-          "status": "Uprawniony do wizy pracowniczej we Francji."
-        },
-        "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Kraków, Polska", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" }
-        ],
-        "skills": [
-          { "title": "Maszyny i Sprzęt", "skills": ["Wózek Czołowy", "Wózek Wysokiego Składowania", "Wózek Paletowy Elektryczny", "Skanery RF"] },
-          { "title": "Operacje Magazynowe", "skills": ["Załadunek/Rozładunek", "Zarządzanie Zapasami (WMS)", "Procedury FIFO/LIFO", "Kompletacja Zamówień", "Organizacja Magazynu"] },
-          { "title": "Bezpieczeństwo", "skills": ["Kontrola Techniczna", "Ocena Ryzyka", "Normy Bezpieczeństwa UE", "Praca Bezwypadkowa"] },
-          { "title": "Umiejętności Miękkie", "skills": ["Praca Zespołowa", "Rozwiązywanie Problemów", "Dyspozycyjność", "Wytrzymałość Fizyczna", "Dokładność"] }
-        ],
-        "languages": [
-          { "name": "Rosyjski", "level": "Język ojczysty" },
-          { "name": "Angielski", "level": "C1 (Biegłość zawodowa)" },
-          { "name": "Polski", "level": "C1" },
-          { "name": "Hiszpański", "level": "B2" },
-          { "name": "Francuski", "level": "B2" },
-          { "name": "Niemiecki", "level": "B1" },
-          { "name": "Portugalski", "level": "B1" }
-        ],
-        "experience": [
-          { "title": "Operator Wózka Widłowego", "company": "Exlabesa", "period": "2023 - 2024", "responsibilities": [ "Obsługa <strong>wózków czołowych i wysokiego składowania</strong> przy załadunku i rozładunku profili aluminiowych, zapewniając <strong>100% dokładności</strong>.", "Wykorzystanie <strong>skanerów RF i systemu WMS</strong> do śledzenia ruchu towarów, inwentaryzacji i organizacji zapasów.", "Utrzymanie <strong>bezwypadkowego trybu pracy</strong> dzięki ścisłemu przestrzeganiu procedur BHP i codziennym kontrolom sprzętu.", "Współpraca z produkcją w celu terminowego dostarczania materiałów, minimalizując przestoje i optymalizując przepływ pracy." ] }
-        ],
-        "projects": [
-           { "name": "Certyfikat Operatora Wózka Widłowego (UDT)", "url": "", "description": "Kompleksowe szkolenie i uprawnienia do obsługi wózków jezdniowych.", "stack_title": "Lokalizacja", "stack": "<strong>Polska (2023)</strong>" }
-        ],
-        "education": [
-          { "degree": "Dyplom Technika Radioelektroniki", "institution": "Mińskie Państwowe Wyższe Kolegium Radiotechniczne", "period": "2015 - 2019" }
-        ]
-      },
-      "de": {
-        "sections": {
-          "contact": "KONTAKT",
-          "skills": "FÄHIGKEITEN",
-          "languages": "SPRACHEN",
-          "status": "STATUS",
-          "objective": "BERUFLICHES ZIEL",
-          "experience": "BERUFSERFAHRUNG",
-          "projects": "ZERTIFIZIERUNGEN",
-          "education": "AUSBILDUNG"
-        },
-        "personalInfo": {
-          "name": "MIKITA KAVALIOU",
-          "title": "Zertifizierter Gabelstaplerfahrer",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Engagierter und sicherheitsbewusster zertifizierter Gabelstaplerfahrer mit über einem Jahr praktischer Erfahrung in der Produktion. Expertise in der Bedienung verschiedener Staplertypen, Lagerverwaltung mit WMS und unfallfreier Arbeitsweise. Mehrsprachiger Profi mit Berechtigung für ein Arbeitsvisum in Frankreich, bereit, die Effizienz Ihres Logistikteams zu steigern.",
-          "status": "Berechtigt für ein Arbeitsvisum in Frankreich."
-        },
-        "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Krakau, Polen", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" },
-          { "text": "github.com/NikKowPHP", "url": "https://github.com/NikKowPHP", "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>" }
-        ],
-        "skills": [
-          { "title": "Backend (PHP-Ökosystem)", "skills": ["PHP (8+)", "Laravel", "Symfony", "Doctrine", "PHPUnit", "Composer"] },
-          { "title": "Datenbanken", "skills": ["PostgreSQL", "MySQL", "Datenbankdesign & -optimierung"] },
-          { "title": "Frontend (Grundkenntnisse)", "skills": ["JavaScript", "jQuery", "React", "HTML5", "CSS3"] },
-          { "title": "Tools & Plattformen", "skills": ["Docker", "Git", "CI/CD (GitHub Actions)", "RESTful APIs", "Supabase"] }
-        ],
-        "languages": [
-          { "name": "Russisch", "level": "Muttersprache" },
-          { "name": "Englisch", "level": "C1 (Verhandlungssicher)" },
-          { "name": "Polnisch", "level": "C1" },
-          { "name": "Spanisch", "level": "B2" },
-          { "name": "Französisch", "level": "B2" },
-          { "name": "Deutsch", "level": "B1" },
-          { "name": "Portugiesisch", "level": "B1" }
-        ],
-        "experience": [
-          { "title": "Backend-Webentwickler", "company": "Basesystem", "period": "Februar 2024 - Heute", "responsibilities": [ "Entwicklung und Wartung komplexer Webanwendungen mit <strong>Laravel</strong> und <strong>Symfony</strong> sowie erfolgreiche Verwaltung von Legacy-Codebasen in <strong>nativem PHP (Versionen 7 bis 8+).</strong>", "Optimierung der Datenbankleistung (<strong>MySQL</strong>) durch Refactoring komplexer Abfragen und Indexierungsstrategien, was zu einer <strong>Reduzierung der Ladezeiten um 25%</strong> führte.", "Entwicklung robuster RESTful-APIs zur Unterstützung von Frontend-Anwendungen, die mit <strong>jQuery</strong> und <strong>React</strong> erstellt wurden, um einen nahtlosen Datenfluss zu gewährleisten." ] }
-        ],
-        "projects": [
-          { "name": "ZIRO.FIT: Plattform für Fitnesstrainer", "url": "https://ziro.fit", "description": "Entwicklung des gesamten Laravel-Backends für eine Fitnesstrainer-Plattform, einschließlich Datenbankschema, Geschäftslogik und eines KI-Assistenten zur Trainingsplanerstellung.", "stack_title": "Technologie-Stack", "stack": "<strong>Laravel, Livewire, PostgreSQL, AWS, Alpine.js.</strong>" },
-          { "name": "Instagram Kommentar-zu-DM-Bot-System", "url": "https://github.com/NikKowPHP", "description": "Ein automatisiertes System, das DMs an Benutzer sendet, die mit bestimmten Schlüsselwörtern auf Instagram-Posts kommentieren, verwaltet über ein Web-Panel.", "stack_title": "Technologie-Stack", "stack": "<strong>Python, Docker, Supabase (PostgreSQL), Next.js.</strong>" },
-          { "name": "Backend für Bildungs-PWAs", "url": "https://lexity.app", "description": "Entwurf und Implementierung der Backend-Architektur und RESTful-APIs mit Supabase (PostgreSQL) und serverlosen TypeScript-Funktionen, um mehrere Next.js-PWAs zu betreiben, mit Fokus auf skalierbarer Datenmodellierung und Authentifizierung.", "stack_title": "Technologie-Stack", "stack": "<strong>Supabase, PostgreSQL, TypeScript (Edge Functions).</strong>" }
-        ],
-        "education": [
-          { "degree": "Diplom als Techniker für Radioelektronik (entspricht Bachelor-Abschluss)", "institution": "Staatliches Höheres Kolleg für Radiotechnik Minsk", "period": "2015 - 2019" }
-        ]
-      },
-      "en": {
-         "sections": { "contact": "CONTACT", "skills": "SKILLS", "languages": "LANGUAGES", "status": "STATUS", "objective": "OBJECTIVE", "experience": "EXPERIENCE", "projects": "PROJECTS", "education": "EDUCATION" },
-         "personalInfo": { "name": "MIKITA KAVALIOU", "title": "Junior Mechanic / Maintenance Technician", "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg", "professionalObjective": "Electronics technician seeking to apply skills to machinery maintenance.", "status": "Available" },
-         "contact": [], "skills": [], "languages": [], "experience": [], "projects": [], "education": []
-      },
-      "pl": {
-         "sections": { "contact": "KONTAKT", "skills": "UMIEJĘTNOŚCI", "languages": "JĘZYKI", "status": "STATUS", "objective": "CEL", "experience": "DOŚWIADCZENIE", "projects": "PROJEKTY", "education": "EDUKACJA" },
-         "personalInfo": { "name": "MIKITA KAVALIOU", "title": "Młodszy Mechanik / Technik Utrzymania Ruchu", "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg", "professionalObjective": "Technik elektronik chcący wykorzystać swoje umiejętności w konserwacji maszyn.", "status": "Dostępny" },
-         "contact": [], "skills": [], "languages": [], "experience": [], "projects": [], "education": []
-      },
-      "de": {
-         "sections": { "contact": "KONTAKT", "skills": "FÄHIGKEITEN", "languages": "SPRACHEN", "status": "STATUS", "objective": "ZIEL", "experience": "ERFAHRUNG", "projects": "PROJEKTE", "education": "AUSBILDUNG" },
-         "personalInfo": { "name": "MIKITA KAVALIOU", "title": "Jungmechaniker / Wartungstechniker", "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg", "professionalObjective": "Elektroniker, der seine Fähigkeiten in der Maschinenwartung einsetzen möchte.", "status": "Verfügbar" },
-         "contact": [], "skills": [], "languages": [], "experience": [], "projects": [], "education": []
-      }
-    }
-  },
-  {
-    "id": "forklift_operator",
-    "name": "Forklift Operator",
-    "data": {
-      "en": {
-        "sections": {
-          "contact": "CONTACT",
-          "skills": "SKILLS",
-          "languages": "LANGUAGES",
-          "status": "STATUS",
-          "objective": "PROFESSIONAL OBJECTIVE",
-          "experience": "PROFESSIONAL EXPERIENCE",
-          "projects": "CERTIFICATIONS",
-          "education": "EDUCATION"
-        },
-        "personalInfo": {
-          "name": "MIKITA KAVALIOU",
-          "title": "Certified Forklift Operator",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Dedicated and safety-conscious Certified Forklift Operator with over a year of hands-on experience in high-volume manufacturing environments. Proven expertise in operating various forklift types, managing inventory with WMS, and maintaining a zero-accident record. Multilingual professional eligible for a work visa in France, ready to contribute to operational efficiency in a dynamic logistics team.",
-          "status": "Eligible for a work visa in France."
-        },
-        "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Krakow, Poland", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" }
-        ],
-        "skills": [
-          { "title": "Machinery & Equipment", "skills": ["Counterbalance Forklift", "Reach Truck", "Electric Pallet Jack", "RF Scanners"] },
-          { "title": "Warehousing Operations", "skills": ["Loading/Unloading Trucks", "Inventory Management (WMS)", "FIFO/LIFO Procedures", "Order Picking & Packing", "Stock Organization"] },
-          { "title": "Safety & Compliance", "skills": ["Equipment Inspection", "Hazard Assessment", "EU Safety Standards", "Zero-Accident Record"] },
-          { "title": "Soft Skills", "skills": ["Team Collaboration", "Problem Solving", "Shift Flexibility", "Physical Stamina", "Attention to Detail"] }
-        ],
-        "languages": [
-          { "name": "Russian", "level": "Native" },
-          { "name": "English", "level": "C1 (Professional proficiency)" },
-          { "name": "Polish", "level": "C1" },
-          { "name": "Spanish", "level": "B2" },
-          { "name": "French", "level": "B2" },
-          { "name": "German", "level": "B1" },
-          { "name": "Portuguese", "level": "B1" }
-        ],
-        "experience": [
-          { "title": "Forklift Operator", "company": "Exlabesa", "period": "2023 - 2024", "responsibilities": [ "Operated <strong>Counterbalance and Reach Trucks</strong> to efficiently load and unload heavy aluminum profiles and raw materials, ensuring <strong>100% accuracy</strong> in shipments.", "Utilized <strong>RF scanners and WMS</strong> to track inventory movements, organize stock, and perform cycle counts.", "Maintained a <strong>zero-accident safety record</strong> by strictly adhering to safety protocols and conducting daily pre-shift equipment inspections.", "Collaborated with the production team to supply lines with materials on time, minimizing downtime and optimizing workflow efficiency." ] }
-        ],
-        "projects": [
-           { "name": "Forklift Operator Certification (UDT)", "url": "", "description": "Comprehensive training and certification for operating powered industrial trucks.", "stack_title": "Location", "stack": "<strong>Poland (2023)</strong>" }
-        ],
-        "education": [
-          { "degree": "Diploma of Technician in Radio-electronics", "institution": "Minsk State Higher College of Radiotechnics", "period": "2015 - 2019" }
-        ]
-      },
-      "fr": {
-        "sections": {
-          "contact": "CONTACT",
-          "skills": "COMPÉTENCES",
-          "languages": "LANGUES",
-          "status": "STATUT",
-          "objective": "OBJECTIF PROFESSIONNEL",
-          "experience": "EXPÉRIENCE PROFESSIONNELLE",
-          "projects": "CERTIFICATIONS",
-          "education": "FORMATION"
-        },
-        "personalInfo": {
-          "name": "MIKITA KAVALIOU",
-          "title": "Magasinier Cariste | CACES 1, 3, 5 (Équivalent UDT)",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Magasinier Cariste expérimenté et polyvalent, habitué aux environnements logistiques exigeants et aux cadences soutenues. Maîtrise de la conduite de chariots (équivalent CACES 1/3/5) avec une forte culture sécurité. Disponible immédiatement pour des postes en horaires postés (3x8) ou de journée, avec la volonté de s'investir durablement.",
-          "status": "Éligible à un visa de travail en France."
-        },
-        "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Cracovie, Pologne (Mobile France)", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" }
-        ],
-        "skills": [
-          { "title": "Conduite d'Engins", "skills": ["Chariot Frontal (CACES 3)", "Chariot à Mât Rétractable (CACES 5)", "Transpalette à conducteur porté (CACES 1)", "Gerbage grande hauteur"] },
-          { "title": "Opérations Logistiques", "skills": ["Chargement/Déchargement de camions", "Dépotage de conteneurs", "Utilisation de Scan / Pistolet RF", "Filmage et palettisation"] },
-          { "title": "Sécurité & Qualité", "skills": ["Respect des consignes de sécurité", "Zéro accident", "Contrôle qualité visuel", "Entretien de premier niveau"] },
-          { "title": "Savoir-être", "skills": ["Ponctualité et assiduité", "Respect des cadences", "Esprit d'équipe", "Polyvalence"] }
-        ],
-        "languages": [
-          { "name": "Français", "level": "B2" },
-          { "name": "Anglais", "level": "C1 (Courant professionnel)" },
-          { "name": "Russe", "level": "Langue maternelle" },
-          { "name": "Polonais", "level": "C2" },
-          { "name": "Espagnol", "level": "B2" },
-          { "name": "Allemand", "level": "B1" },
-          { "name": "Portugais", "level": "B1" }
-        ],
-        "experience": [
-          { "title": "Cariste Magasinier", "company": "Exlabesa", "period": "2023 - 2024", "responsibilities": [ "Conduite de <strong>chariots frontaux (CACES 3) et rétractables (CACES 5)</strong> pour l'approvisionnement des lignes de production et le stockage de profilés aluminium.", "Réalisation d'opérations de <strong>gerbage en sécurité à grande hauteur</strong> avec une précision de 100%.", "Gestion des flux de stocks via <strong>terminal radiofréquence (Gun)</strong> et participation aux <strong>inventaires tournants</strong>.", "Garant du respect des normes de sécurité et de la propreté de la zone de travail (5S)." ] }
-        ],
-        "projects": [
-           { "name": "Certificat UDT (Pologne)", "url": "", "description": "Certification officielle pour la conduite de chariots automoteurs - Équivalent technique aux CACES R489 Catégories 1, 3 et 5.", "stack_title": "Lieu", "stack": "<strong>Pologne (2023)</strong>" }
-        ],
-        "education": [
-          { "degree": "Diplôme de Technicien en Radio-électronique", "institution": "Collège d'État Supérieur de Radiotechnique de Minsk", "period": "2015 - 2019" }
-        ]
-      },
-      "pl": {
-        "sections": {
-          "contact": "KONTAKT",
-          "skills": "UMIEJĘTNOŚCI",
-          "languages": "JĘZYKI",
-          "status": "STATUS",
-          "objective": "CEL ZAWODOWY",
-          "experience": "DOŚWIADCZENIE ZAWODOWE",
-          "projects": "CERTYFIKATY",
-          "education": "EDUKACJA"
-        },
-        "personalInfo": {
-          "name": "MIKITA KAVALIOU",
-          "title": "Operator Wózka Widłowego",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Zaangażowany i dbający o bezpieczeństwo Certyfikowany Operator Wózka Widłowego z ponad rocznym doświadczeniem w dynamicznym środowisku produkcyjnym. Biegłość w obsłudze różnych typów wózków, zarządzaniu zapasami (WMS) i utrzymywaniu bezwypadkowej pracy. Wielojęzyczny profesjonalista, gotowy do podjęcia pracy we Francji i wsparcia zespołu logistycznego.",
-          "status": "Uprawniony do wizy pracowniczej we Francji."
-        },
-        "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Kraków, Polska", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" }
-        ],
-        "skills": [
-          { "title": "Maszyny i Sprzęt", "skills": ["Wózek Czołowy", "Wózek Wysokiego Składowania", "Wózek Paletowy Elektryczny", "Skanery RF"] },
-          { "title": "Operacje Magazynowe", "skills": ["Załadunek/Rozładunek", "Zarządzanie Zapasami (WMS)", "Procedury FIFO/LIFO", "Kompletacja Zamówień", "Organizacja Magazynu"] },
-          { "title": "Bezpieczeństwo", "skills": ["Kontrola Techniczna", "Ocena Ryzyka", "Normy Bezpieczeństwa UE", "Praca Bezwypadkowa"] },
-          { "title": "Umiejętności Miękkie", "skills": ["Praca Zespołowa", "Rozwiązywanie Problemów", "Dyspozycyjność", "Wytrzymałość Fizyczna", "Dokładność"] }
-        ],
-        "languages": [
-          { "name": "Rosyjski", "level": "Język ojczysty" },
-          { "name": "Angielski", "level": "C1 (Biegłość zawodowa)" },
-          { "name": "Polski", "level": "C1" },
-          { "name": "Hiszpański", "level": "B2" },
-          { "name": "Francuski", "level": "B2" },
-          { "name": "Niemiecki", "level": "B1" },
-          { "name": "Portugalski", "level": "B1" }
-        ],
-        "experience": [
-          { "title": "Operator Wózka Widłowego", "company": "Exlabesa", "period": "2023 - 2024", "responsibilities": [ "Obsługa <strong>wózków czołowych i wysokiego składowania</strong> przy załadunku i rozładunku profili aluminiowych, zapewniając <strong>100% dokładności</strong>.", "Wykorzystanie <strong>skanerów RF i systemu WMS</strong> do śledzenia ruchu towarów, inwentaryzacji i organizacji zapasów.", "Utrzymanie <strong>bezwypadkowego trybu pracy</strong> dzięki ścisłemu przestrzeganiu procedur BHP i codziennym kontrolom sprzętu.", "Współpraca z produkcją w celu terminowego dostarczania materiałów, minimalizując przestoje i optymalizując przepływ pracy." ] }
-        ],
-        "projects": [
-           { "name": "Certyfikat Operatora Wózka Widłowego (UDT)", "url": "", "description": "Kompleksowe szkolenie i uprawnienia do obsługi wózków jezdniowych.", "stack_title": "Lokalizacja", "stack": "<strong>Polska (2023)</strong>" }
-        ],
-        "education": [
-          { "degree": "Dyplom Technika Radioelektroniki", "institution": "Mińskie Państwowe Wyższe Kolegium Radiotechniczne", "period": "2015 - 2019" }
-        ]
-      },
-      "de": {
-        "sections": {
-          "contact": "KONTAKT",
-          "skills": "FÄHIGKEITEN",
-          "languages": "SPRACHEN",
-          "status": "STATUS",
-          "objective": "BERUFLICHES ZIEL",
-          "experience": "BERUFSERFAHRUNG",
-          "projects": "ZERTIFIZIERUNGEN",
-          "education": "AUSBILDUNG"
-        },
-        "personalInfo": {
-          "name": "MIKITA KAVALIOU",
-          "title": "Zertifizierter Gabelstaplerfahrer",
-          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Engagierter und sicherheitsbewusster zertifizierter Gabelstaplerfahrer mit über einem Jahr praktischer Erfahrung in der Produktion. Expertise in der Bedienung verschiedener Staplertypen, Lagerverwaltung mit WMS und unfallfreier Arbeitsweise. Mehrsprachiger Profi mit Berechtigung für ein Arbeitsvisum in Frankreich, bereit, die Effizienz Ihres Logistikteams zu steigern.",
-          "status": "Berechtigt für ein Arbeitsvisum in Frankreich."
-        },
-        "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Krakau, Polen", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "mikita-kavaliou.online", "url": "https://mikita-kavaliou.online", "svgPath": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.72\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.72-1.72\"></path>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" }
-        ],
-        "skills": [
-          { "title": "Maschinen & Ausrüstung", "skills": ["Gegengewichtsstapler", "Schubmaststapler", "Elektrischer Hubwagen", "RF-Scanner"] },
-          { "title": "Lagerbetrieb", "skills": ["Be- und Entladen", "Bestandsmanagement (WMS)", "FIFO/LIFO-Verfahren", "Kommissionierung", "Lagerorganisation"] },
-          { "title": "Sicherheit & Compliance", "skills": ["Geräteinspektion", "Gefährdungsbeurteilung", "EU-Sicherheitsstandards", "Unfallfreie Bilanz"] },
-          { "title": "Soft Skills", "skills": ["Teamarbeit", "Problemlösung", "Schichtflexibilität", "Körperliche Ausdauer", "Genauigkeit"] }
-        ],
-        "languages": [
-          { "name": "Russisch", "level": "Muttersprache" },
-          { "name": "Englisch", "level": "C1 (Verhandlungssicher)" },
-          { "name": "Polnisch", "level": "C1" },
-          { "name": "Spanisch", "level": "B2" },
-          { "name": "Französisch", "level": "B2" },
-          { "name": "Deutsch", "level": "B1" },
-          { "name": "Portugiesisch", "level": "B1" }
-        ],
-        "experience": [
-          { "title": "Gabelstaplerfahrer", "company": "Exlabesa", "period": "2023 - 2024", "responsibilities": [ "Bedienung von <strong>Gegengewichts- und Schubmaststaplern</strong> zum effizienten Be- und Entladen von Aluminiumprofilen und Rohstoffen mit <strong>100% Genauigkeit</strong>.", "Nutzung von <strong>RF-Scannern und WMS</strong> zur Verfolgung von Warenbewegungen, Lagerorganisation und Durchführung von Zykluszählungen.", "Aufrechterhaltung einer <strong>unfallfreien Sicherheitsbilanz</strong> durch strikte Einhaltung von Protokollen und tägliche Geräteinspektionen.", "Enge Zusammenarbeit mit der Produktion zur rechtzeitigen Materialversorgung, Minimierung von Ausfallzeiten und Optimierung des Arbeitsflusses." ] }
-        ],
-        "projects": [
-           { "name": "Gabelstaplerführerschein (UDT)", "url": "", "description": "Umfassende Ausbildung und Zertifizierung für die Bedienung von Flurförderzeugen.", "stack_title": "Ort", "stack": "<strong>Polen (2023)</strong>" }
-        ],
-        "education": [
-          { "degree": "Diplom als Techniker für Radioelektronik", "institution": "Staatliches Höheres Kolleg für Radiotechnik Minsk", "period": "2015 - 2019" }
+          {
+            "degree": "Diplôme de Technicien en Radio-électronique",
+            "institution": "Collège d'État Supérieur de Radiotechnique de Minsk",
+            "period": "2015 - 2019"
+          }
         ]
       }
     }
@@ -2299,51 +1357,139 @@
           "title": "Futur Conducteur de Transport en Commun (Permis B)",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
           "professionalObjective": "Titulaire du Permis B (+3 ans) et fort d'une expérience rigoureuse en logistique, je souhaite vivement rejoindre M TAG pour me former au métier de Conducteur de Bus. Habitué aux horaires postés (3x8) et aux règles de sécurité strictes (Zéro accident), je possède le sens du service public et la ponctualité nécessaire pour transporter les 235 000 voyageurs de la métropole dans les meilleures conditions.",
-          "status": "Éligible à la formation Titre Professionnel"
+          "status": "Basé à Grenoble, France. Éligible à la formation Titre Professionnel"
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Cracovie, Pologne (Mobile France)", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" }
+          {
+            "text": "+48 786 959 63",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Grenoble, France",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          }
         ],
         "skills": [
-          { "title": "Transport & Sécurité", "skills": ["Permis B (Validé)", "Conduite souple et rationnelle", "Respect absolu du Code de la Route", "Vigilance et anticipation des risques"] },
-          { "title": "Savoir-Être (Service Public)", "skills": ["Ponctualité irréprochable", "Sens de l'accueil et courtoisie", "Gestion du stress en milieu urbain", "Tenue professionnelle et rigueur"] },
-          { "title": "Expérience Transférable", "skills": ["Travail en horaires décalés (Matin/Soir/Nuit)", "Respect des procédures strictes", "Gestion de caisse (notions)", "Autonomie complète"] }
+          {
+            "title": "Transport & Sécurité",
+            "skills": [
+              "Permis B (Validé)",
+              "Conduite souple et rationnelle",
+              "Respect absolu du Code de la Route",
+              "Vigilance et anticipation des risques"
+            ]
+          },
+          {
+            "title": "Savoir-Être (Service Public)",
+            "skills": [
+              "Ponctualité irréprochable",
+              "Sens de l'accueil et courtoisie",
+              "Gestion du stress en milieu urbain",
+              "Tenue professionnelle et rigueur"
+            ]
+          },
+          {
+            "title": "Expérience Transférable",
+            "skills": [
+              "Travail en horaires décalés (Matin/Soir/Nuit)",
+              "Respect des procédures strictes",
+              "Gestion de caisse (notions)",
+              "Autonomie complète"
+            ]
+          }
         ],
         "languages": [
-          { "name": "Français", "level": "B2 (Opérationnel pour l'accueil client)" },
-          { "name": "Anglais", "level": "C1 (Courant - Atout touristique)" },
-          { "name": "Polonais", "level": "C2" },
-          { "name": "Russe", "level": "Langue maternelle" },
-          { "name": "Espagnol", "level": "B2" }
+          {
+            "name": "Français",
+            "level": "B2 (Opérationnel pour l'accueil client)"
+          },
+          {
+            "name": "Anglais",
+            "level": "C1 (Courant - Atout touristique)"
+          },
+          {
+            "name": "Polonais",
+            "level": "C2"
+          },
+          {
+            "name": "Russe",
+            "level": "Langue maternelle"
+          },
+          {
+            "name": "Espagnol",
+            "level": "B2"
+          }
         ],
         "experience": [
-          { "title": "Opérateur Logistique & Conduite d'Engins", "company": "Exlabesa (Industrie)", "period": "2023 - 2024", "responsibilities": [ "<strong>Respect strict des horaires et des cadences</strong> : Assurance de la continuité de service des lignes de production (similaire à la continuité de service public).", "<strong>Culture Sécurité (Zéro Accident)</strong> : Conduite d'engins lourds dans un environnement complexe avec piétons, nécessitant une attention constante de tous les instants.", "<strong>Responsabilité et Autonomie</strong> : Gestion fiable des marchandises et du matériel confié, reporting précis des incidents.", "<strong>Adaptabilité</strong> : Travail en équipes alternées (3x8), démontrant une grande flexibilité horaire compatible avec les services de transport." ] }
+          {
+            "title": "Opérateur Logistique & Conduite d'Engins",
+            "company": "Exlabesa (Industrie)",
+            "period": "2023 - 2024",
+            "responsibilities": [
+              "<strong>Respect strict des horaires et des cadences</strong> : Assurance de la continuité de service des lignes de production (similaire à la continuité de service public).",
+              "<strong>Culture Sécurité (Zéro Accident)</strong> : Conduite d'engins lourds dans un environnement complexe avec piétons, nécessitant une attention constante de tous les instants.",
+              "<strong>Responsabilité et Autonomie</strong> : Gestion fiable des marchandises et du matériel confié, reporting précis des incidents.",
+              "<strong>Adaptabilité</strong> : Travail en équipes alternées (3x8), démontrant une grande flexibilité horaire compatible avec les services de transport."
+            ]
+          }
         ],
         "projects": [
-           { "name": "Permis B", "url": "", "description": "Titulaire du Permis B, apte à la conduite.", "stack_title": "Statut", "stack": "<strong>Valide, avec points</strong>" },
-           { "name": "CACES R489 (Équivalent UDT)", "url": "", "description": "Certificats de conduite en sécurité, attestant d'une rigueur professionnelle dans le pilotage d'engins.", "stack_title": "Année", "stack": "<strong>2023</strong>" }
+          {
+            "name": "Permis B",
+            "url": "",
+            "description": "Titulaire du Permis B, apte à la conduite.",
+            "stack_title": "Statut",
+            "stack": "<strong>Valide, avec points</strong>"
+          },
+          {
+            "name": "CACES R489 (Équivalent UDT)",
+            "url": "",
+            "description": "Certificats de conduite en sécurité, attestant d'une rigueur professionnelle dans le pilotage d'engins.",
+            "stack_title": "Année",
+            "stack": "<strong>2023</strong>"
+          }
         ],
         "education": [
-          { "degree": "Diplôme Technique (Niveau Bac)", "institution": "Collège d'État Supérieur de Radiotechnique", "period": "2015 - 2019" }
+          {
+            "degree": "Diplôme Technique (Niveau Bac)",
+            "institution": "Collège d'État Supérieur de Radiotechnique",
+            "period": "2015 - 2019"
+          }
         ]
       },
       "en": {
-         "sections": { "contact": "CONTACT", "skills": "SKILLS", "languages": "LANGUAGES", "status": "STATUS", "objective": "OBJECTIVE", "experience": "EXPERIENCE", "projects": "CERTIFICATIONS", "education": "EDUCATION" },
-         "personalInfo": { "name": "MIKITA KAVALIOU", "title": "Bus Driver Trainee (Permis B)", "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg", "professionalObjective": "Holder of a driving license (Permis B) with extensive logistics experience. Seeking to join M TAG to train as a Bus Driver.", "status": "Eligible for training" },
-         "contact": [], "skills": [], "languages": [], "experience": [], "projects": [], "education": []
-      },
-      "pl": {
-         "sections": { "contact": "KONTAKT", "skills": "UMIEJĘTNOŚCI", "languages": "JĘZYKI", "status": "STATUS", "objective": "CEL", "experience": "DOŚWIADCZENIE", "projects": "CERTYFIKATY", "education": "EDUKACJA" },
-         "personalInfo": { "name": "MIKITA KAVALIOU", "title": "Kandydat na Kierowcę Autobusu", "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg", "professionalObjective": "Posiadacz prawa jazdy kat. B z doświadczeniem w logistyce. Chcę dołączyć do M TAG i szkolić się na kierowcę autobusu.", "status": "Gotowy do szkolenia" },
-         "contact": [], "skills": [], "languages": [], "experience": [], "projects": [], "education": []
-      },
-      "de": {
-         "sections": { "contact": "KONTAKT", "skills": "FÄHIGKEITEN", "languages": "SPRACHEN", "status": "STATUS", "objective": "ZIEL", "experience": "ERFAHRUNG", "projects": "ZERTIFIZIERUNGEN", "education": "AUSBILDUNG" },
-         "personalInfo": { "name": "MIKITA KAVALIOU", "title": "Busfahrer-Auszubildender", "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg", "professionalObjective": "Führerschein Klasse B vorhanden. Motiviert für die Ausbildung zum Busfahrer bei M TAG.", "status": "Bereit für Ausbildung" },
-         "contact": [], "skills": [], "languages": [], "experience": [], "projects": [], "education": []
+        "sections": {
+          "contact": "CONTACT",
+          "skills": "SKILLS",
+          "languages": "LANGUAGES",
+          "status": "STATUS",
+          "objective": "OBJECTIVE",
+          "experience": "EXPERIENCE",
+          "projects": "CERTIFICATIONS",
+          "education": "EDUCATION"
+        },
+        "personalInfo": {
+          "name": "MIKITA KAVALIOU",
+          "title": "Bus Driver Trainee (Permis B)",
+          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
+          "professionalObjective": "Holder of a driving license (Permis B) with extensive logistics experience. Seeking to join M TAG to train as a Bus Driver.",
+          "status": "Based in Grenoble, France. Eligible for training"
+        },
+        "contact": [],
+        "skills": [],
+        "languages": [],
+        "experience": [],
+        "projects": [],
+        "education": []
       }
     }
   },
@@ -2367,49 +1513,127 @@
           "title": "Aide Mécanicien / Technicien de Maintenance (Profil Électronique)",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
           "professionalObjective": "Passionné de mécanique et titulaire d'un diplôme technique en Radio-électronique, je souhaite mettre mes compétences en diagnostic électrique au service de l'entretien de votre parc matériel (TP/Transport). Autodidacte et rigoureux, je possède les bases de la mécanique générale (entretien courant) et une forte volonté d'apprendre au sein d'une équipe structurée comme BTP du Balcon Est.",
-          "status": "Disponible pour formation / Apprentissage"
+          "status": "Basé à Grenoble, France. Disponible pour formation / Apprentissage"
         },
         "contact": [
-          { "text": "+48 664 431 074", "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>" },
-          { "text": "kawaliou.mikita@gmail.com", "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>" },
-          { "text": "Cracovie, Pologne (Mobile France)", "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>" },
-          { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" }
+          {
+            "text": "+48 786 959 63",
+            "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+          },
+          {
+            "text": "kawaliou.mikita@gmail.com",
+            "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+          },
+          {
+            "text": "Grenoble, France",
+            "svgPath": "<path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle>"
+          },
+          {
+            "text": "linkedin.com/in/mikita-kavaliou",
+            "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+            "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+          }
         ],
         "skills": [
-          { "title": "Diagnostic & Électronique (Atout Majeur)", "skills": ["Lecture de schémas électriques", "Utilisation multimètre/oscilloscope", "Recherche de pannes électroniques", "Soudure et câblage"] },
-          { "title": "Mécanique & Entretien (Bases)", "skills": ["Vidanges et filtres", "Changement plaquettes/disques", "Contrôle des niveaux", "Montage/Démontage éléments simples"] },
-          { "title": "Environnement Industriel", "skills": ["Respect strict des normes sécurité", "Travail en atelier", "Maintenance préventive (engins de manutention)", "Esprit logique et méthodique"] }
+          {
+            "title": "Diagnostic & Électronique (Atout Majeur)",
+            "skills": [
+              "Lecture de schémas électriques",
+              "Utilisation multimètre/oscilloscope",
+              "Recherche de pannes électroniques",
+              "Soudure et câblage"
+            ]
+          },
+          {
+            "title": "Mécanique & Entretien (Bases)",
+            "skills": [
+              "Vidanges et filtres",
+              "Changement plaquettes/disques",
+              "Contrôle des niveaux",
+              "Montage/Démontage éléments simples"
+            ]
+          },
+          {
+            "title": "Environnement Industriel",
+            "skills": [
+              "Respect strict des normes sécurité",
+              "Travail en atelier",
+              "Maintenance préventive (engins de manutention)",
+              "Esprit logique et méthodique"
+            ]
+          }
         ],
         "languages": [
-          { "name": "Français", "level": "B2 (Opérationnel technique)" },
-          { "name": "Anglais", "level": "C1 (Lecture documentation technique)" },
-          { "name": "Polonais", "level": "C2" },
-          { "name": "Russe", "level": "Langue maternelle" }
+          {
+            "name": "Français",
+            "level": "B2 (Opérationnel technique)"
+          },
+          {
+            "name": "Anglais",
+            "level": "C1 (Lecture documentation technique)"
+          },
+          {
+            "name": "Polonais",
+            "level": "C2"
+          },
+          {
+            "name": "Russe",
+            "level": "Langue maternelle"
+          }
         ],
         "experience": [
-          { "title": "Opérateur Logistique (Environnement Industriel)", "company": "Exlabesa", "period": "2023 - 2024", "responsibilities": [ "<strong>Maintenance 1er niveau</strong> : Vérifications quotidiennes des engins de manutention (niveaux, fuites, état général) avant prise de poste.", "<strong>Signalement technique</strong> : Détection et remontée précise des anomalies mécaniques ou électroniques au service maintenance.", "<strong>Rigueur industrielle</strong> : Travail dans un environnement exigeant (Zéro accident), respect des procédures de sécurité applicables aux ateliers de réparation." ] }
+          {
+            "title": "Opérateur Logistique (Environnement Industriel)",
+            "company": "Exlabesa",
+            "period": "2023 - 2024",
+            "responsibilities": [
+              "<strong>Maintenance 1er niveau</strong> : Vérifications quotidiennes des engins de manutention (niveaux, fuites, état général) avant prise de poste.",
+              "<strong>Signalement technique</strong> : Détection et remontée précise des anomalies mécaniques ou électroniques au service maintenance.",
+              "<strong>Rigueur industrielle</strong> : Travail dans un environnement exigeant (Zéro accident), respect des procédures de sécurité applicables aux ateliers de réparation."
+            ]
+          }
         ],
         "projects": [
-           { "name": "Restauration Automobile (Projet Familial)", "url": "", "description": "Initiation à la mécanique : diagnostic, démontage, et réparations courantes sur véhicules personnels. Application pratique des connaissances en électronique embarquée.", "stack_title": "Compétence", "stack": "<strong>Autodidacte</strong>" }
+          {
+            "name": "Restauration Automobile (Projet Familial)",
+            "url": "",
+            "description": "Initiation à la mécanique : diagnostic, démontage, et réparations courantes sur véhicules personnels. Application pratique des connaissances en électronique embarquée.",
+            "stack_title": "Compétence",
+            "stack": "<strong>Autodidacte</strong>"
+          }
         ],
         "education": [
-          { "degree": "Diplôme de Technicien en Radio-électronique (Bac+4)", "institution": "Collège d'État Supérieur de Radiotechnique de Minsk", "period": "2015 - 2019" }
+          {
+            "degree": "Diplôme de Technicien en Radio-électronique (Bac+4)",
+            "institution": "Collège d'État Supérieur de Radiotechnique de Minsk",
+            "period": "2015 - 2019"
+          }
         ]
       },
       "en": {
-         "sections": { "contact": "CONTACT", "skills": "SKILLS", "languages": "LANGUAGES", "status": "STATUS", "objective": "OBJECTIVE", "experience": "EXPERIENCE", "projects": "PROJECTS", "education": "EDUCATION" },
-         "personalInfo": { "name": "MIKITA KAVALIOU", "title": "Junior Mechanic / Maintenance Technician", "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg", "professionalObjective": "Electronics technician seeking to apply skills to machinery maintenance.", "status": "Available" },
-         "contact": [], "skills": [], "languages": [], "experience": [], "projects": [], "education": []
-      },
-      "pl": {
-         "sections": { "contact": "KONTAKT", "skills": "UMIEJĘTNOŚCI", "languages": "JĘZYKI", "status": "STATUS", "objective": "CEL", "experience": "DOŚWIADCZENIE", "projects": "PROJEKTY", "education": "EDUKACJA" },
-         "personalInfo": { "name": "MIKITA KAVALIOU", "title": "Młodszy Mechanik / Technik Utrzymania Ruchu", "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg", "professionalObjective": "Technik elektronik chcący wykorzystać swoje umiejętności w konserwacji maszyn.", "status": "Dostępny" },
-         "contact": [], "skills": [], "languages": [], "experience": [], "projects": [], "education": []
-      },
-      "de": {
-         "sections": { "contact": "KONTAKT", "skills": "FÄHIGKEITEN", "languages": "SPRACHEN", "status": "STATUS", "objective": "ZIEL", "experience": "ERFAHRUNG", "projects": "PROJEKTE", "education": "AUSBILDUNG" },
-         "personalInfo": { "name": "MIKITA KAVALIOU", "title": "Jungmechaniker / Wartungstechniker", "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg", "professionalObjective": "Elektroniker, der seine Fähigkeiten in der Maschinenwartung einsetzen möchte.", "status": "Verfügbar" },
-         "contact": [], "skills": [], "languages": [], "experience": [], "projects": [], "education": []
+        "sections": {
+          "contact": "CONTACT",
+          "skills": "SKILLS",
+          "languages": "LANGUAGES",
+          "status": "STATUS",
+          "objective": "OBJECTIVE",
+          "experience": "EXPERIENCE",
+          "projects": "PROJECTS",
+          "education": "EDUCATION"
+        },
+        "personalInfo": {
+          "name": "MIKITA KAVALIOU",
+          "title": "Junior Mechanic / Maintenance Technician",
+          "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
+          "professionalObjective": "Electronics technician seeking to apply skills to machinery maintenance.",
+          "status": "Based in Grenoble, France. Available"
+        },
+        "contact": [],
+        "skills": [],
+        "languages": [],
+        "experience": [],
+        "projects": [],
+        "education": []
       }
     }
   }

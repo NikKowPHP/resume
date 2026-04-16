@@ -13,9 +13,9 @@
     { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" }
   ],
   "skills":[
-    { "title": "Frontend Development", "skills":[ "React 19", "Next.js 15 (App Router)", "TypeScript", "Tailwind CSS", "Zustand", "Framer Motion", "TanStack Query" ] },
-    { "title": "Backend & Databases", "skills":[ "Node.js", "PHP (Laravel/Symfony)", "PostgreSQL", "Prisma ORM", "Redis", "Supabase", "Raw SQL Optimization" ] },
-    { "title": "Cloud, APIs & Testing", "skills":[ "Docker", "CI/CD (GitHub Actions)", "Stripe Connect", "Google Gemini / Groq API", "Playwright (E2E)", "Jest" ] }
+    { "title": "Frontend Development", "skills":[ "React 19", "Next.js 15 (App Router)", "TypeScript", "Tailwind CSS", "Zustand", "TanStack Query" ] },
+    { "title": "Backend & Databases", "skills":[ "Node.js", "PHP (Laravel/Symfony)", "PostgreSQL", "Prisma ORM", "Redis", "Supabase", "Raw SQL" ] },
+    { "title": "Cloud, APIs & Testing", "skills":[ "Docker", "CI/CD", "Stripe Connect", "Google Gemini / Groq API", "Web Audio API", "Playwright (E2E)" ] }
   ],
   "languages":[ { "name": "English", "level": "C1 (Professional)" }, { "name": "French", "level": "B2" }, { "name": "Polish", "level": "C1" }, { "name": "Russian", "level": "Native" } ],
   "experience":[
@@ -34,15 +34,17 @@
       "company": "Basesystem",
       "period": "February 2024 - Present",
       "responsibilities":[
+        "<strong>Enterprise Development & Maintenance</strong>: Engineered and deployed production-ready applications from scratch utilizing Laravel, Symfony, and Next.js, while simultaneously maintaining and scaling complex legacy enterprise projects.",
         "<strong>Performance Optimization</strong>: Refactored legacy MySQL queries and implemented Redis caching on Laravel backends, <strong>reducing API response times by 30%</strong>.",
         "<strong>Fintech Integrations</strong>: Integrated secure Stripe billing flows including subscriptions and webhooks, contributing to a 5% increase in overall conversion rates.",
-        "<strong>Frontend Modernization</strong>: Built scalable, accessible Next.js user interfaces utilizing TypeScript, enforcing strict state management and component reusability."
+        "<strong>Frontend Architecture</strong>: Built scalable, accessible Next.js user interfaces utilizing TypeScript, enforcing strict state management and component reusability for new feature implementations."
       ]
     }
   ],
   "projects":[
-    { "name": "Lexity: AI-Native Language Ecosystem", "url": "https://lexity.app", "description": "Developed a high-performance PWA utilizing SM-2 Spaced Repetition algorithms, AES-256-GCM encryption for user data, and Redis for caching.", "stack_title": "Keywords", "stack": "Next.js 15, React 19, TypeScript, Prisma, Composite AI" },
-    { "name": "ZIRO.FIT: B2B2C Fitness SaaS", "url": "https://ziro.fit", "description": "Engineered a dual-sided marketplace featuring real-time analytics, complex multi-tier subscriptions, and geospatial event search using Leaflet.", "stack_title": "Keywords", "stack": "Laravel, Node.js, PostgreSQL, Stripe Connect, Redis" }
+    { "name": "Lexity: AI-Native Language Ecosystem", "url": "https://lexity.app", "description": "Developed a high-performance PWA utilizing SM-2 Spaced Repetition algorithms, AES-256-GCM encryption for user data, and Redis for caching.", "stack_title": "Full Stack", "stack": "Next.js 15, React 19, TypeScript, Prisma, Redis, Composite AI" },
+    { "name": "Interly: AI Interview Coaching Platform", "url": "https://interly.app", "description": "Built an interactive platform analyzing voice pacing and STAR method behavioral metrics via real-time audio capturing and LLM evaluation.", "stack_title": "Full Stack", "stack": "Next.js 15, Zustand, Web Audio API, Google Speech-to-Text, PostgreSQL" },
+    { "name": "ZIRO.FIT: B2B2C Fitness SaaS", "url": "https://ziro.fit", "description": "Engineered a dual-sided marketplace featuring real-time analytics, complex multi-tier subscriptions, and geospatial event search using Leaflet.", "stack_title": "Full Stack", "stack": "Laravel, Node.js, PostgreSQL, Stripe Connect, Vercel KV" }
   ],
   "education":[
     { "degree": "Diploma of Technician in Radio-electronics (equivalent to Bachelor's degree)", "institution": "Minsk State Higher College of Radiotechnics", "period": "2015 - 2019" }

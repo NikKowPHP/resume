@@ -12,9 +12,9 @@
     { "text": "linkedin.com/in/mikita-kavaliou", "url": "https://linkedin.com/in/mikita-kavaliou-390b62236", "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>" }
   ],
   "skills":[
-    { "title": "Backend Engineering", "skills":[ "Node.js", "Next.js API Routes", "PHP 8+", "Laravel / Symfony", "RESTful API Design", "GraphQL" ] },
+    { "title": "Backend Engineering", "skills":[ "Node.js", "Next.js API Routes (Serverless)", "PHP 8+", "Laravel / Symfony", "RESTful API Design", "Webhooks" ] },
     { "title": "Databases & Caching", "skills":[ "PostgreSQL", "Prisma ORM", "Redis (Upstash / Vercel KV)", "Raw SQL Optimization", "Relational Design" ] },
-    { "title": "DevOps, Security & AI", "skills":[ "Stripe Connect", "Supabase Auth", "AES-256-GCM Encryption", "Docker", "Sentry", "AI Fallback Architecture" ] }
+    { "title": "DevOps, Security & AI", "skills":[ "Stripe Connect", "Supabase Auth", "AES-256-GCM Encryption", "Docker", "Sentry", "AI Failover Architecture" ] }
   ],
   "languages":[ { "name": "English", "level": "C1 (Professional)" }, { "name": "French", "level": "B2" }, { "name": "Polish", "level": "C1" }, { "name": "Russian", "level": "Native" } ],
   "experience":[
@@ -24,9 +24,9 @@
       "period": "January 2023 - Present",
       "responsibilities":[
         "<strong>Database Optimization</strong>: Architected a high-throughput API layer for ZIRO.FIT, optimizing complex data retrieval via PostgreSQL `json_build_object` and `LATERAL JOINs`, <strong>reducing database query volume by 80%</strong>.",
-        "<strong>AI Infrastructure</strong>: Engineered a Composite AI Service Layer orchestrating Gemini, Groq, and Cerebras with exponential backoff and automated failover, guaranteeing 99.9% uptime.",
-        "<strong>Security & Fintech</strong>: Designed a secure multi-tenant architecture featuring application-layer AES-256-GCM encryption and implemented a multi-tier subscription model via Stripe Connect.",
-        "<strong>Algorithm Design</strong>: Developed proprietary scheduling and forecasting algorithms, including an enhanced SM-2 Spaced Repetition System (SRS) using Prisma."
+        "<strong>AI Infrastructure</strong>: Engineered a Composite AI Service Layer orchestrating Gemini, Groq, and Cerebras APIs with exponential backoff and automated failover, guaranteeing 99.9% uptime against rate limits.",
+        "<strong>Security & Fintech</strong>: Designed a secure multi-tenant architecture featuring application-layer AES-256-GCM encryption and implemented complex multi-tier billing and payouts via Stripe Connect.",
+        "<strong>Algorithm Design</strong>: Developed proprietary scheduling algorithms, including an enhanced SM-2 Spaced Repetition System (SRS) using Prisma transactions."
       ]
     },
     {
@@ -34,14 +34,17 @@
       "company": "Basesystem",
       "period": "February 2024 - Present",
       "responsibilities":[
-        "<strong>API Performance</strong>: Optimized Laravel backend services by implementing strategic Redis caching layers, decreasing server load and API latency by 30%.",
-        "<strong>Payment Systems</strong>: Built and maintained complex Stripe webhook handlers ensuring robust synchronization of user subscriptions and account states."
+        "<strong>Enterprise Architecture</strong>: Architected and launched production-ready backend systems utilizing Laravel and Symfony, while actively maintaining and extending complex legacy enterprise applications.",
+        "<strong>API Performance</strong>: Optimized Laravel backend services by implementing strategic Redis caching layers and refactoring legacy MySQL queries, decreasing server load and API latency by 30%.",
+        "<strong>Payment Systems</strong>: Built and maintained complex Stripe webhook handlers ensuring robust synchronization of user subscriptions and account states.",
+        "<strong>Feature Implementation</strong>: Designed and integrated scalable REST APIs and background processing jobs to support high-traffic business operations and new product rollouts."
       ]
     }
   ],
   "projects":[
-    { "name": "Lexity: Composite AI Backend", "url": "https://lexity.app", "description": "Engineered the core backend featuring automated failovers between 3 LLM providers and server-side encryption for all user journaling data.", "stack_title": "Keywords", "stack": "Node.js, Prisma, PostgreSQL, Redis, AES-256, Sentry" },
-    { "name": "Interly: Adaptive State Engine", "url": "https://interly.app", "description": "Built a custom Spaced Repetition logic API handling thousands of scheduling permutations, driven by real-time voice-to-text processing.", "stack_title": "Keywords", "stack": "Next.js APIs, Supabase, Google Cloud Speech-to-Text, Webhooks" }
+    { "name": "Lexity: Composite AI Backend", "url": "https://lexity.app", "description": "Engineered the core backend featuring automated failovers between 3 LLM providers, Redis caching, and server-side encryption (AES-256) for all user data.", "stack_title": "Back End Stack", "stack": "Node.js, Prisma, PostgreSQL, Redis, AES-256, Sentry" },
+    { "name": "ZIRO.FIT: Scalable Fintech & API Layer", "url": "https://ziro.fit", "description": "Architected a dual-sided marketplace routing complex Stripe Connect payouts, utilizing raw SQL optimization to collapse N+1 queries into single payloads.", "stack_title": "Back End Stack", "stack": "Next.js APIs, PostgreSQL, Prisma, Stripe Connect, Vercel KV" },
+    { "name": "Interly: Adaptive State Engine", "url": "https://interly.app", "description": "Built a custom Spaced Repetition logic API handling thousands of scheduling permutations, driven by server-side evaluation via Google Gemini.", "stack_title": "Back End Stack", "stack": "Next.js API Routes, Supabase Auth, Prisma, Serverless" }
   ],
   "education":[
     { "degree": "Diploma of Technician in Radio-electronics", "institution": "Minsk State Higher College of Radiotechnics", "period": "2015 - 2019" }

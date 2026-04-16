@@ -13,8 +13,8 @@
   ],
   "skills":[
     { "title": "Core Front End", "skills":[ "JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3 / SASS", "Web Audio API", "WebRTC" ] },
-    { "title": "Frameworks & Libraries", "skills":[ "React 19", "Next.js 15 (App Router)", "Tailwind CSS", "shadcn/ui", "Framer Motion", "Chart.js" ] },
-    { "title": "Architecture & Testing", "skills":[ "Zustand", "TanStack Query (Optimistic UI)", "Playwright (E2E Testing)", "Jest", "Core Web Vitals", "Git" ] }
+    { "title": "Frameworks & UI", "skills":[ "React 19", "Next.js 15 (App Router)", "Tailwind CSS", "shadcn/ui", "Framer Motion", "Chart.js", "Leaflet" ] },
+    { "title": "Architecture & Testing", "skills":[ "Zustand", "TanStack Query", "Playwright (E2E Testing)", "Jest", "Core Web Vitals", "PWA" ] }
   ],
   "languages":[ { "name": "English", "level": "C1 (Professional)" }, { "name": "French", "level": "B2" }, { "name": "Polish", "level": "C1" }, { "name": "Russian", "level": "Native" } ],
   "experience":[
@@ -23,9 +23,9 @@
       "company": "Independent Contractor / SaaS Startups",
       "period": "January 2023 - Present",
       "responsibilities":[
-        "<strong>Advanced UI/UX Architecture</strong>: Developed highly responsive, client-facing interfaces for Lexity and Interly using React 19 and Next.js 15, consistently achieving <strong>90+ Lighthouse performance scores</strong>.",
-        "<strong>Browser API Integration</strong>: Integrated the Web MediaRecorder API for real-time voice processing and applied custom interactive DOM transformations (ePub.js) for an immersive reading experience.",
-        "<strong>State & Performance</strong>: Engineered optimistic UI updates via TanStack Query and built complex, interactive data visualizations using Chart.js and Framer Motion.",
+        "<strong>Advanced UI Architecture</strong>: Developed highly responsive, client-facing interfaces using React 19 and Next.js 15, consistently achieving <strong>90+ Lighthouse performance scores</strong>.",
+        "<strong>Browser API Integration</strong>: Integrated the Web MediaRecorder API for real-time voice processing and applied custom interactive DOM transformations (ePub.js) for immersive reading.",
+        "<strong>State & Animations</strong>: Engineered optimistic UI updates via TanStack Query and built complex, interactive data visualizations using Chart.js and Framer Motion.",
         "<strong>Quality Assurance</strong>: Authored comprehensive E2E test suites using Playwright, including custom auth-bypass mechanisms to streamline CI/CD pipelines."
       ]
     },
@@ -34,14 +34,17 @@
       "company": "Basesystem",
       "period": "February 2024 - Present",
       "responsibilities":[
-        "<strong>System Migration</strong>: Spearheaded the migration of legacy views into modular, reusable Next.js components, establishing a scalable frontend architecture.",
-        "<strong>Conversion Optimization</strong>: Collaborated directly with UX/UI designers to implement responsive design patterns, significantly increasing mobile usability and engagement metrics."
+        "<strong>Enterprise UI Development</strong>: Built and deployed production-ready web applications from scratch using Next.js and React, while developing new interactive features for existing enterprise dashboards.",
+        "<strong>System Migration</strong>: Spearheaded the migration of legacy views into modular, reusable Next.js components, establishing a scalable and accessible frontend architecture.",
+        "<strong>State & Performance</strong>: Implemented strict state management (Zustand) and caching strategies, significantly reducing client-side rendering bottlenecks in large-scale applications.",
+        "<strong>Conversion Optimization</strong>: Collaborated directly with UX/UI designers to implement responsive design patterns, increasing mobile usability and engagement metrics."
       ]
     }
   ],
   "projects":[
-    { "name": "Interly: Real-Time Audio Dashboard", "url": "https://interly.app", "description": "Built an interactive coaching dashboard visualizing pacing and filler words using Chart.js and smooth Framer Motion animations.", "stack_title": "Keywords", "stack": "React 19, Next.js 15, Web Audio API, Tailwind, Zustand" },
-    { "name": "ZIRO.FIT: Geospatial Discovery UI", "url": "https://ziro.fit", "description": "Engineered a location-based discovery engine utilizing Leaflet.js, paired with a sophisticated trainer analytics dashboard.", "stack_title": "Keywords", "stack": "TypeScript, Next.js, Leaflet, shadcn/ui, Playwright" }
+    { "name": "Lexity: Interactive Language Ecosystem", "url": "https://lexity.app", "description": "Built a PWA featuring an interactive ePub.js book reader wrapping individual words in interactive spans, paired with seamless optimistic UI updates.", "stack_title": "Front End Stack", "stack": "React 19, Next.js 15, TanStack Query, shadcn/ui, ePub.js" },
+    { "name": "Interly: Real-Time Audio Dashboard", "url": "https://interly.app", "description": "Developed a real-time coaching dashboard visualizing WPM pacing and filler words using Chart.js, Framer Motion, and the Web Audio API.", "stack_title": "Front End Stack", "stack": "TypeScript, Zustand, Web Audio API, Chart.js, Framer Motion" },
+    { "name": "ZIRO.FIT: Geospatial Discovery UI", "url": "https://ziro.fit", "description": "Engineered a location-based discovery engine utilizing Leaflet.js, alongside a complex multi-view analytics dashboard for personal trainers.", "stack_title": "Front End Stack", "stack": "Next.js, Leaflet.js, Radix UI, Tailwind CSS, Playwright" }
   ],
   "education":[
     { "degree": "Diploma of Technician in Radio-electronics", "institution": "Minsk State Higher College of Radiotechnics", "period": "2015 - 2019" }

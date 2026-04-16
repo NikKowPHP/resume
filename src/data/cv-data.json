@@ -18,7 +18,7 @@
           "name": "MIKITA KAVALIOU",
           "title": "Développeur Full‑Stack PHP (Laravel/Symfony) & Next.js | Spécialiste IA",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Expert Full-Stack avec 3 ans d'expérience en ingénierie logicielle. Proficient en Laravel, Symfony et Next.js. Spécialisé dans l'architecture d'APIs complexes (Web & Mobile iOS) et l'intégration de workflows IA génératifs (RAG, Prompt Engineering). Adepte des principes SOLID et de la Clean Architecture pour garantir des solutions scalables et performantes.",
+          "professionalObjective": "Expert Full-Stack avec 3 ans d'expérience en ingénierie logicielle. Maîtrise de Laravel, Symfony et Next.js. Spécialisé dans l'architecture d'APIs complexes (Web & Mobile iOS) et l'intégration de workflows IA génératifs (RAG, Prompt Engineering). Expert en solutions scalables basées sur les principes SOLID et la Clean Architecture.",
           "status": "Basé à Grenoble, France. Titulaire d'un VLS-TS 'vie privée et familiale' avec accès libre au marché du travail, sans démarches administratives supplémentaires."
         },
         "contact": [
@@ -50,36 +50,39 @@
             "title": "Stack Principal",
             "skills": [
               "Laravel & Symfony",
-              "PHP 8+ (SOLID, DRY)",
+              "PHP 8+ (SOLID, Design Patterns)",
               "Next.js (React/TypeScript)",
-              "PostgreSQL / Redis",
+              "PostgreSQL / Redis / Supabase",
               "Tailwind CSS / Zustand"
             ]
           },
           {
-            "title": "Intelligence Artificielle",
+            "title": "Ingénierie IA",
             "skills": [
-              "Ingénierie de Prompt (Context Window)",
-              "RAG (Retrieval-Augmented Generation)",
+              "Prompt Engineering (RAG, Prompt Chaining)",
               "Orchestration LLM (Gemini, Groq, OpenAI)",
+              "Analyse de Données de Progression",
               "Flux de Données Génératives"
             ]
           },
           {
             "title": "Architecture & DevOps",
             "skills": [
-              "RESTful API Design (Web & iOS)",
-              "Docker & Orchestration",
+              "Conception d'APIs REST (Web & Mobile iOS)",
+              "Docker & Environnements Containerisés",
               "CI/CD (GitHub Actions)",
-              "Unit Testing (PHPUnit)"
+              "Tests Unitaires (PHPUnit)"
             ]
           }
         ],
         "languages": [
           { "name": "Russe", "level": "Maternel" },
           { "name": "Anglais", "level": "C1 (Professionnel)" },
+          { "name": "Polonais", "level": "C1" },
+          { "name": "Espagnol", "level": "B2" },
           { "name": "Français", "level": "B2 (Opérationnel)" },
-          { "name": "Polonais", "level": "C1" }
+          { "name": "Portugais", "level": "B1" },
+          { "name": "Allemand", "level": "A2" }
         ],
         "experience": [
           {
@@ -88,8 +91,8 @@
             "period": "Février 2024 - Présent",
             "responsibilities": [
               "<strong>Optimisation Performance</strong> : Refactorisation de requêtes MySQL et mise en cache Redis sur Laravel, <strong>réduisant le temps de réponse API de 30%</strong>.",
-              "<strong>E-commerce & Paiement</strong> : Implémentation de flux Stripe sécurisés et gestion des abonnements, augmentant le taux de conversion de 5%.",
-              "<strong>Frontend</strong> : Création de composants Next.js réutilisables avec TypeScript, assurant une maintenabilité et une scalabilité optimales du code."
+              "<strong>E-commerce</strong> : Intégration avancée de Stripe (abonnements, webhooks), augmentant le taux de conversion de 5%.",
+              "<strong>Frontend</strong> : Développement d'interfaces Next.js modulaires avec TypeScript, garantissant scalabilité et maintenabilité."
             ]
           },
           {
@@ -97,10 +100,10 @@
             "company": "Clients Internationaux / SaaS",
             "period": "Janvier 2023 - Présent",
             "responsibilities": [
-              "<strong>Architecture SaaS</strong> : Développement de 4 solutions web complètes, incluant la conception de bases de données relationnelles complexes et d'APIs robustes.",
-              "<strong>ZIRO.FIT</strong> : Développement du backend Laravel, incluant un <strong>entraîneur virtuel IA</strong> générant des programmes sportifs dynamiques, et création d'une <strong>API REST dédiée pour l'application mobile iOS</strong>.",
-              "<strong>Lexity & Interly</strong> : Mise en œuvre de pipelines IA haute précision pour la génération de leçons personnalisées et l'évaluation vocale en temps réel (Prompt Chaining).",
-              "<strong>Gestion de Projet</strong> : Communication directe avec les parties prenantes, gestion du backlog Agile et déploiements automatisés."
+              "<strong>Architecture SaaS</strong> : Développement complet de 4 applications commerciales basées sur la Clean Architecture.",
+              "<strong>ZIRO.FIT</strong> : Création d'un <strong>entraîneur virtuel IA</strong> générant des programmes sportifs dynamiques et développement d'une <strong>API REST dédiée pour l'application mobile iOS</strong>.",
+              "<strong>Lexity & Interly</strong> : Implémentation de pipelines IA haute précision pour l'apprentissage adaptatif et l'évaluation sémantique vocale.",
+              "<strong>Agile</strong> : Communication directe client, gestion du backlog et déploiements automatisés."
             ]
           }
         ],
@@ -108,23 +111,23 @@
           {
             "name": "ZIRO.FIT : Plateforme Fitness IA & Mobile",
             "url": "https://ziro.fit",
-            "description": "Plateforme SaaS B2B/B2C avec coach virtuel. Développement du moteur IA, du dashboard web et de l'API pour l'application iOS.",
+            "description": "SaaS avec coach virtuel génératif. Gestion du backend Laravel, du dashboard web et de l'API pour iOS.",
             "stack_title": "Stack",
             "stack": "<strong>Laravel, PostgreSQL, Stripe, IA Générative, API iOS.</strong>"
           },
           {
             "name": "Lexity : Apprentissage Linguistique IA",
             "url": "https://lexity.app",
-            "description": "PWA utilisant l'IA pour générer des parcours d'apprentissage basés sur les erreurs et la progression réelle de l'utilisateur.",
+            "description": "PWA générant des parcours sur mesure via la condensation des données de progression et prompt engineering.",
             "stack_title": "Stack",
             "stack": "<strong>Next.js, Supabase, LLMs (Gemini/Groq), TypeScript.</strong>"
           },
           {
-            "name": "Interly : Préparation aux Entretiens",
+            "name": "Interly : Préparation aux Entretiens IA",
             "url": "https://interly.app",
-            "description": "Outil de simulation d'entretien avec génération dynamique de questions par rôle et évaluation sémantique IA.",
+            "description": "Outil de simulation vocale avec évaluation IA en temps réel des réponses techniques.",
             "stack_title": "Stack",
-            "stack": "<strong>Next.js, Google Gemini API, Audio Process, Zustand.</strong>"
+            "stack": "<strong>Next.js, Google Gemini, Audio Process, Zustand.</strong>"
           }
         ],
         "education": [
@@ -150,7 +153,7 @@
           "name": "MIKITA KAVALIOU",
           "title": "Full-Stack PHP (Laravel/Symfony) & Next.js Developer | AI Specialist",
           "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-          "professionalObjective": "Senior-level Full-Stack Developer with 3 years of commercial experience. Proficient in Laravel, Symfony, and Next.js. Specialist in architecting complex APIs (Web & iOS Mobile) and integrating generative AI workflows (RAG, Prompt Engineering). Committed to SOLID principles and Clean Architecture to deliver scalable, high-performance solutions.",
+          "professionalObjective": "Full-Stack Engineer with 3 years of commercial experience. Proficient in Laravel, Symfony, and Next.js. Specialist in architecting complex APIs (Web & iOS Mobile) and integrating generative AI workflows (RAG, Prompt Engineering). Focused on SOLID principles and Clean Architecture for scalable solutions.",
           "status": "Based in Grenoble, France. Holder of a VLS-TS 'vie privée et familiale' with free access to the job market, no additional administrative procedures required."
         },
         "contact": [
@@ -184,23 +187,23 @@
               "Laravel & Symfony",
               "PHP 8+ (SOLID Principles)",
               "Next.js (React/TypeScript)",
-              "PostgreSQL / Redis",
+              "PostgreSQL / Redis / Supabase",
               "Tailwind CSS / Zustand"
             ]
           },
           {
             "title": "AI Engineering",
             "skills": [
-              "High-Precision Prompt Engineering",
-              "RAG (Retrieval-Augmented Generation)",
+              "Prompt Engineering (RAG, Chaining)",
               "LLM Orchestration (Gemini, Groq, OpenAI)",
+              "User Progress Data Analysis",
               "Generative Data Pipelines"
             ]
           },
           {
             "title": "Architecture & DevOps",
             "skills": [
-              "RESTful API Design (Web & iOS)",
+              "RESTful API Design (Web & iOS Mobile)",
               "Docker & Containerization",
               "CI/CD (GitHub Actions)",
               "Unit Testing (PHPUnit)"
@@ -210,8 +213,11 @@
         "languages": [
           { "name": "Russian", "level": "Native" },
           { "name": "English", "level": "C1 (Professional proficiency)" },
+          { "name": "Polish", "level": "C1" },
+          { "name": "Spanish", "level": "B2" },
           { "name": "French", "level": "B2 (Operational)" },
-          { "name": "Polish", "level": "C1" }
+          { "name": "Portuguese", "level": "B1" },
+          { "name": "German", "level": "A2" }
         ],
         "experience": [
           {
@@ -219,9 +225,9 @@
             "company": "Basesystem",
             "period": "February 2024 - Present",
             "responsibilities": [
-              "<strong>Performance Optimization</strong>: Refactored MySQL queries and implemented Redis caching on Laravel, <strong>reducing API response times by 30%</strong>.",
-              "<strong>E-commerce & Payments</strong>: Integrated secure Stripe payment flows and subscription management, increasing conversion rates by 5%.",
-              "<strong>Frontend Architecture</strong>: Built reusable Next.js components with TypeScript, ensuring long-term code maintainability and scalability."
+              "<strong>Performance Tuning</strong>: Refactored MySQL queries and Redis caching in Laravel, <strong>reducing API response times by 30%</strong>.",
+              "<strong>E-commerce</strong>: Integrated secure Stripe flows (subscriptions/webhooks), increasing overall conversion rates by 5%.",
+              "<strong>Frontend</strong>: Built modular Next.js components with TypeScript for high scalability and clean state management."
             ]
           },
           {
@@ -229,10 +235,10 @@
             "company": "International Clients / SaaS",
             "period": "January 2023 - Present",
             "responsibilities": [
-              "<strong>SaaS Architecture</strong>: Developed 4 complete web solutions, including complex relational database design and robust API structures.",
-              "<strong>ZIRO.FIT</strong>: Engineered a <strong>Virtual AI Trainer</strong> generating dynamic workout regimens, and built a <strong>dedicated RESTful API for iOS mobile app integration</strong>.",
-              "<strong>Lexity & Interly</strong>: Implemented high-precision AI pipelines for personalized lesson generation and real-time voice evaluation (Prompt Chaining).",
-              "<strong>Agile Delivery</strong>: Direct stakeholder communication, Agile backlog management, and automated deployments."
+              "<strong>SaaS Architecture</strong>: End-to-end development of 4 commercial applications following Clean Architecture principles.",
+              "<strong>ZIRO.FIT</strong>: Engineered a <strong>Virtual AI Trainer</strong> for dynamic workout generation and built a <strong>dedicated RESTful API for iOS mobile integration</strong>.",
+              "<strong>Lexity & Interly</strong>: Developed high-precision AI pipelines for adaptive learning and real-time voice semantic evaluation.",
+              "<strong>Agile</strong>: Stakeholder communication, backlog management, and automated production deployments."
             ]
           }
         ],
@@ -240,21 +246,21 @@
           {
             "name": "ZIRO.FIT: AI Fitness & Mobile Platform",
             "url": "https://ziro.fit",
-            "description": "B2B/B2C SaaS platform with an AI coach. Developed the AI engine, web dashboard, and dedicated iOS mobile API.",
+            "description": "B2B/B2C SaaS with a generative virtual coach. Developed the AI engine, web dashboard, and dedicated iOS mobile API.",
             "stack_title": "Stack",
             "stack": "<strong>Laravel, PostgreSQL, Stripe, Generative AI, iOS API.</strong>"
           },
           {
             "name": "Lexity: AI-Driven Language Learning",
             "url": "https://lexity.app",
-            "description": "PWA using AI to generate customized learning paths based on real-time user progress and mistakes.",
+            "description": "PWA using AI to generate customized paths based on user progress data and precision prompt engineering.",
             "stack_title": "Stack",
             "stack": "<strong>Next.js, Supabase, LLMs (Gemini/Groq), TypeScript.</strong>"
           },
           {
             "name": "Interly: AI Interview Preparation",
             "url": "https://interly.app",
-            "description": "Interview simulation tool with role-specific question generation and AI-based semantic evaluation.",
+            "description": "Simulation tool with role-specific question generation and real-time AI technical evaluation.",
             "stack_title": "Stack",
             "stack": "<strong>Next.js, Google Gemini API, Audio Processing, Zustand.</strong>"
           }

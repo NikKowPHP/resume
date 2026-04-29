@@ -7,7 +7,8 @@
     "objective": "PROFESSIONAL SUMMARY",
     "experience": "PROFESSIONAL EXPERIENCE",
     "projects": "FEATURED SAAS PROJECTS",
-    "education": "EDUCATION"
+    "education": "EDUCATION",
+    "softSkills": "SOFT SKILLS"
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
@@ -68,10 +69,34 @@
     }
   ],
   "languages": [
-    { "name": "English", "level": "C1 (Professional)" },
-    { "name": "French", "level": "B2" },
-    { "name": "Polish", "level": "C1" },
-    { "name": "Russian", "level": "Native" }
+    {
+      "name": "English",
+      "level": "C1 (Professional)"
+    },
+    {
+      "name": "French",
+      "level": "B2"
+    },
+    {
+      "name": "Polish",
+      "level": "C1"
+    },
+    {
+      "name": "Russian",
+      "level": "Native"
+    },
+    {
+      "name": "Spanish",
+      "level": "B2"
+    },
+    {
+      "name": "Portuguese",
+      "level": "B1"
+    },
+    {
+      "name": "German",
+      "level": "A2"
+    }
   ],
   "experience": [
     {
@@ -88,7 +113,7 @@
     {
       "title": "Front End Web Developer",
       "company": "Basesystem",
-      "period": "February 2024 - Present",
+      "period": "February 2024 - April 2026",
       "responsibilities": [
         "<strong>Enterprise UI Development</strong>: Built and deployed production-ready web applications from scratch using Next.js and React, while developing new interactive features for existing enterprise dashboards.",
         "<strong>System Migration</strong>: Spearheaded the migration of legacy views into modular, reusable Next.js components, establishing a scalable and accessible frontend architecture.",
@@ -126,5 +151,12 @@
       "institution": "Minsk State Higher College of Radiotechnics",
       "period": "2015 - 2019"
     }
+  ],
+  "softSkills": [
+    "Product Thinking",
+    "Agile / Scrum",
+    "Mentoring",
+    "Autonomy",
+    "Technical Communication"
   ]
 }

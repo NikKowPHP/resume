@@ -6,14 +6,14 @@
     "status": "STATUS",
     "objective": "PROFESSIONAL SUMMARY",
     "experience": "PROFESSIONAL EXPERIENCE",
-    "projects": "FEATURED SAAS PROJECTS",
-    "education": "EDUCATION"
+    "projects": "FEATURED BACKEND PROJECTS",
+    "education": "EDUCATION",
+    "softSkills": "SOFT SKILLS"
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Senior Back End Engineer | Node.js, Next.js API & PHP",
-    "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Backend specialist focused on API design, database optimization, and high-availability systems. Extensive experience with Node.js, Next.js API Routes, PHP (Laravel), and PostgreSQL. Proven ability to architect secure multi-tenant SaaS environments, implement complex fintech integrations (Stripe Connect), and orchestrate Composite AI failover systems for sub-second inference.",
+    "title": "Senior Back-End Engineer | Symfony 7 & Node.js Expert",
+    "professionalObjective": "Senior Backend Architect specialized in high-performance PHP (Symfony 7) and Node.js ecosystems. Expert in designing secure multi-tenant SaaS architectures, implementing Domain-Driven Design (DDD), and orchestrating complex fintech integrations (Stripe Connect). Proven track record in database optimization (PostgreSQL/Redis) and building resilient AI failover systems for mission-critical applications.",
     "status": "Based in Grenoble, France. Free access to the EU job market."
   },
   "contact": [
@@ -22,96 +22,130 @@
       "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
     },
     {
+      "text": "kawaliou.mikita@gmail.com",
+      "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+    },
+    {
       "text": "linkedin.com/in/mikita-kavaliou",
       "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
       "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+    },
+    {
+      "text": "github.com/NiKKowPHP",
+      "url": "https://github.com/NiKKowPHP",
+      "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
     }
   ],
   "skills": [
     {
-      "title": "Backend Engineering",
+      "title": "PHP Ecosystem (Expert)",
       "skills": [
-        "Node.js",
-        "Next.js API Routes (Serverless)",
-        "PHP 8+",
-        "Laravel / Symfony",
-        "RESTful API Design",
-        "Webhooks"
+        "Symfony 6/7 (Expert)",
+        "API Platform",
+        "Doctrine ORM / DDD",
+        "Symfony Messenger & Workflows",
+        "PHPUnit & Behat",
+        "Laravel 11"
       ]
     },
     {
-      "title": "Databases & Caching",
+      "title": "Node.js & Infrastructure",
       "skills": [
-        "PostgreSQL",
-        "Prisma ORM",
-        "Redis (Upstash / Vercel KV)",
-        "Raw SQL Optimization",
-        "Relational Design"
+        "TypeScript / NestJS",
+        "Next.js API Routes / Prisma",
+        "PostgreSQL (Query Optimization)",
+        "Redis (Distributed Caching)",
+        "Docker & AWS (EC2, RDS, S3)",
+        "CI/CD (GitHub Actions)"
       ]
     },
     {
-      "title": "DevOps, Security & AI",
+      "title": "Security & Architecture",
       "skills": [
-        "Stripe Connect",
-        "Supabase Auth",
+        "RESTful & GraphQL Design",
+        "Stripe Connect / Fintech",
         "AES-256-GCM Encryption",
-        "Docker",
-        "Sentry",
-        "AI Failover Architecture"
+        "AI Failover Strategies",
+        "Clean Architecture",
+        "Event-Driven Design"
       ]
     }
   ],
   "languages": [
-    { "name": "English", "level": "C1 (Professional)" },
-    { "name": "French", "level": "B2" },
-    { "name": "Polish", "level": "C1" },
-    { "name": "Russian", "level": "Native" }
+    {
+      "name": "English",
+      "level": "C1 (Professional)"
+    },
+    {
+      "name": "French",
+      "level": "B2"
+    },
+    {
+      "name": "Polish",
+      "level": "C1"
+    },
+    {
+      "name": "Russian",
+      "level": "Native"
+    },
+    {
+      "name": "Spanish",
+      "level": "B2"
+    },
+    {
+      "name": "Portuguese",
+      "level": "B1"
+    },
+    {
+      "name": "German",
+      "level": "A2"
+    }
   ],
   "experience": [
     {
-      "title": "Back End Software Engineer",
+      "title": "Senior Back End Engineer",
       "company": "Independent Contractor / SaaS Startups",
-      "period": "January 2023 - Present",
+      "period": "January 2023 - Present (Contract / Freelance)",
       "responsibilities": [
-        "<strong>Database Optimization</strong>: Architected a high-throughput API layer for ZIRO.FIT, optimizing complex data retrieval via PostgreSQL `json_build_object` and `LATERAL JOINs`, <strong>reducing database query volume by 80%</strong>.",
-        "<strong>AI Infrastructure</strong>: Engineered a Composite AI Service Layer orchestrating Gemini, Groq, and Cerebras APIs with exponential backoff and automated failover, guaranteeing 99.9% uptime against rate limits.",
-        "<strong>Security & Fintech</strong>: Designed a secure multi-tenant architecture featuring application-layer AES-256-GCM encryption and implemented complex multi-tier billing and payouts via Stripe Connect.",
-        "<strong>Algorithm Design</strong>: Developed proprietary scheduling algorithms, including an enhanced SM-2 Spaced Repetition System (SRS) using Prisma transactions."
+        "<strong>Symfony 7 Migration</strong>: Led the architectural redesign of a legacy backend to <strong>Symfony 7</strong>, implementing a modular monolith with event-driven synchronization.",
+        "<strong>AI Infrastructure</strong>: Engineered a Composite AI Service Layer in Node.js/TypeScript orchestrating Gemini, Groq, and Cerebras, maintaining <strong>99.9% uptime</strong> through custom failover logic.",
+        "<strong>Database Performance</strong>: Architected high-throughput data layers for ZIRO.FIT using `LATERAL JOINs` and materialized views, <strong>reducing DB load by 80%</strong>.",
+        "<strong>Security & Compliance</strong>: Designed secure multi-tenant architectures with field-level encryption (AES-256-GCM), managing sensitive financial data for <strong>thousands of users</strong>."
       ]
     },
     {
-      "title": "Back End Web Developer",
+      "title": "Lead Back End Developer",
       "company": "Basesystem",
-      "period": "February 2024 - Present",
+      "period": "February 2024 - April 2026 (Full-time / Permanent)",
       "responsibilities": [
-        "<strong>Enterprise Architecture</strong>: Architected and launched production-ready backend systems utilizing Laravel and Symfony, while actively maintaining and extending complex legacy enterprise applications.",
-        "<strong>API Performance</strong>: Optimized Laravel backend services by implementing strategic Redis caching layers and refactoring legacy MySQL queries, decreasing server load and API latency by 30%.",
-        "<strong>Payment Systems</strong>: Built and maintained complex Stripe webhook handlers ensuring robust synchronization of user subscriptions and account states.",
-        "<strong>Feature Implementation</strong>: Designed and integrated scalable REST APIs and background processing jobs to support high-traffic business operations and new product rollouts."
+        "<strong>Symfony Expert</strong>: Architected mission-critical APIs using <strong>Symfony 6/7</strong> and <strong>API Platform</strong>, enforcing <strong>Clean Architecture</strong> and SOLID principles across all backend services.",
+        "<strong>Asynchronous Processing</strong>: Implemented robust background job systems using <strong>Symfony Messenger</strong> and Redis, handling thousands of concurrent webhooks with zero message loss.",
+        "<strong>Fintech Integration</strong>: Developed advanced Stripe Connect workflows for multi-party payouts, including automated KYC verification and complex commission routing.",
+        "<strong>Performance Tuning</strong>: Optimized PHP FPM and PostgreSQL configurations, resulting in a <strong>30% reduction in API response times</strong> and significant infrastructure cost savings."
       ]
     }
   ],
   "projects": [
     {
-      "name": "Lexity: Composite AI Backend",
+      "name": "Core-API: Symfony 7 Multi-tenant Framework",
+      "url": "https://github.com/NiKKowPHP",
+      "description": "A high-performance boilerplate for multi-tenant SaaS applications built with Symfony 7, featuring JWT authentication, automated tenancy switching, and API Platform integration.",
+      "stack_title": "Back End Stack",
+      "stack": "Symfony 7, API Platform, PostgreSQL, Docker, Redis"
+    },
+    {
+      "name": "Lexity: AI Failover Backend",
       "url": "https://lexity.app",
-      "description": "Engineered the core backend featuring automated failovers between 3 LLM providers, Redis caching, and server-side encryption (AES-256) for all user data.",
+      "description": "Resilient backend featuring automated failovers between 3 LLM providers, Redis caching, and server-side encryption for user privacy.",
       "stack_title": "Back End Stack",
-      "stack": "Node.js, Prisma, PostgreSQL, Redis, AES-256, Sentry"
+      "stack": "Node.js, Prisma, PostgreSQL, Redis, AES-256"
     },
     {
-      "name": "ZIRO.FIT: Scalable Fintech & API Layer",
+      "name": "ZIRO.FIT: Fintech & Marketplace Engine",
       "url": "https://ziro.fit",
-      "description": "Architected a dual-sided marketplace routing complex Stripe Connect payouts, utilizing raw SQL optimization to collapse N+1 queries into single payloads.",
+      "description": "Architected a dual-sided marketplace routing complex Stripe Connect payouts, utilizing advanced SQL to collapse N+1 queries into single payloads.",
       "stack_title": "Back End Stack",
-      "stack": "Next.js APIs, PostgreSQL, Prisma, Stripe Connect, Vercel KV"
-    },
-    {
-      "name": "Interly: Adaptive State Engine",
-      "url": "https://interly.app",
-      "description": "Built a custom Spaced Repetition logic API handling thousands of scheduling permutations, driven by server-side evaluation via Google Gemini.",
-      "stack_title": "Back End Stack",
-      "stack": "Next.js API Routes, Supabase Auth, Prisma, Serverless"
+      "stack": "Next.js APIs, PostgreSQL, Prisma, Stripe Connect"
     }
   ],
   "education": [
@@ -120,5 +154,12 @@
       "institution": "Minsk State Higher College of Radiotechnics",
       "period": "2015 - 2019"
     }
+  ],
+  "softSkills": [
+    "Architecture Design",
+    "Technical Mentorship",
+    "Domain-Driven Design",
+    "Agile Leadership",
+    "API-First Strategy"
   ]
 }

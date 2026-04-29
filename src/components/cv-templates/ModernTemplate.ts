@@ -51,7 +51,7 @@ export const render = (data: CVData, lang: LanguageCode): string => {
   return `
     <div class="cv-container-modern">
       <header class="header-modern">
-        <img src="${data.personalInfo.image}" alt="${data.personalInfo.name}" class="profile-image-modern">
+        ${data.personalInfo.image ? `<img src="${data.personalInfo.image}" alt="${data.personalInfo.name}" class="profile-image-modern">` : ''}
         <div class="header-text-modern">
           <h1>${data.personalInfo.name}</h1>
           <h3>${data.personalInfo.title}</h3>
@@ -95,6 +95,11 @@ export const render = (data: CVData, lang: LanguageCode): string => {
           <div class="languages-modern">
             ${data.languages.map(createLanguageItem).join(' &bull; ')}
           </div>
+        </section>
+
+        <section>
+          <h2>${data.sections.softSkills}</h2>
+          <p>${data.softSkills.join(' &bull; ')}</p>
         </section>
 
         <section>

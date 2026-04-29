@@ -72,6 +72,11 @@ export const render = (data: CVData, lang: LanguageCode): string => {
         </section>
 
         <section>
+          <h2>${data.sections.softSkills}</h2>
+          <p>${data.softSkills.join(', ')}</p>
+        </section>
+
+        <section>
           <h2>${data.sections.status}</h2>
           <p>${data.personalInfo.status}</p>
         </section>

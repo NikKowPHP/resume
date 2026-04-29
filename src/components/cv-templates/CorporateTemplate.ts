@@ -86,6 +86,11 @@ export const render = (data: CVData, lang: LanguageCode): string => {
           <h2>${data.sections.languages}</h2>
           <p>${data.languages.map(lang => `${lang.name} (${lang.level})`).join(' / ')}</p>
         </section>
+
+        <section class="section-corporate">
+          <h2>${data.sections.softSkills}</h2>
+          <p>${data.softSkills.join(', ')}</p>
+        </section>
         
         <section class="section-corporate">
           <h2>${data.sections.status}</h2>

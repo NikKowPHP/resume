@@ -14,7 +14,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Ingénieur Full-Stack | Next.js, TypeScript & IA",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Ingénieur Full-Stack autodidacte ayant fait une transition de la radio-électronique vers le développement moderne IA/TypeScript. Plus de 3 ans d'expérience dans l'architecture de plateformes SaaS B2B/B2C avec Next.js 15, optimisation PostgreSQL et intégration de flux d'IA complexes (RAG, LLM Orchestration). Réduction démontrée de la latence système de 60%, améliorant la rétention utilisateur grâce à une Clean Architecture rigoureuse. Capacité prouvée à mentorer des développeurs juniors et à mener des initiatives techniques.",
+    "professionalObjective": "Ingénieur Full-Stack spécialisé en IA et TypeScript avec +3 ans d'expérience dans l'architecture de plateformes SaaS B2B/B2C. Expert en intégration de flux d'IA complexes (RAG, Orchestration LLM) et optimisation de bases de données PostgreSQL. Réduction démontrée de la latence système de 60 %, instaurant les standards Clean Architecture et pilotant des équipes de développeurs juniors.",
     "status": "Basé à Grenoble (38) | Disponible immédiatement"
   },
   "contact": [
@@ -78,9 +78,12 @@
         "SOLID",
         "Docker",
         "CI/CD",
+        "AWS (EC2, S3, Lambda)",
+        "Google Cloud Run",
         "Stripe Connect",
         "Web Audio API",
-        "Playwright (E2E)"
+        "Playwright (E2E)",
+        "Vitest"
       ]
     }
   ],
@@ -111,9 +114,9 @@
       "company": "Basesystem",
       "period": "Février 2024 - Avril 2026",
       "responsibilities": [
-        "<strong>Mentoring</strong> : Lead technique sur l'adoption TypeScript ; mentorat de 3 développeurs juniors, améliorant le délai de revue de code de 40% et réduisant les bugs post-livraison grâce à l'établissement de standards Clean Architecture.",
-        "<strong>Product Thinking</strong> : Proposition et direction de la migration PHP legacy vers stack découplée moderne (Next.js/Node.js), identifiant les fonctionnalités à fort impact qui ont amélioré la scalabilité et la maintenabilité.",
-        "<strong>Communication Technique</strong> : Présentation des décisions techniques aux parties prenantes, traduisant les améliorations complexes (30% plus rapide, +5% conversion) en langage valeur métier."
+        "Piloté la transition technique vers TypeScript etClean Architecture, réduisant les bugs post-déploiement et accélérant les délais de revue de code de 40 % via la formation technique de 3 développeurs juniors.",
+        "Architecturé et dirigé la migration d'un système PHP legacy vers une stack découplée (Next.js/Node.js), optimisant la scalabilité de la plateforme et garantissant une maintenabilité à long terme.",
+        "Présenté les décisions techniques aux parties prenantes, traduisant les améliorations complexes (accélération de 30 %, +5 % conversion) en langage valeur métier."
       ]
     },
     {
@@ -121,9 +124,11 @@
       "company": "Freelance / Startups SaaS",
       "period": "Janvier 2023 - Janvier 2024",
       "responsibilities": [
-        "<strong>Product Thinking & Autonomie</strong> : Auto-formation sur Lexity, ZIRO.FIT et Interly du concept au déploiement — architecture d'écosystème IA multimodal avec RAG, construction SaaS B2B2C avec Stripe Connect, et lancement de plateforme de coaching vocal.",
-        "<strong>Communication Technique</strong> : Définition de la roadmap produit et spécifications techniques pour clients internationaux, traduisant les capacités IA complexes en exigences claires accélérant le développement de 30%.",
-        "<strong>Optimisation Performance</strong> : Optimisation SQL brute réduisant les temps de chargement de <strong>60%</strong>, augmentant directement l'engagement utilisateur et le taux de conversion."
+        "Conçu et déployé de zéro l'écosystème IA multimodal de Lexity avec RAG, chiffrement AES-256 et algorithmes SM-2 pour l'apprentissage linguistique.",
+        "Construit la plateforme B2B2C ZIRO.FIT avec Stripe Connect, géolocalisation Leaflet et dashboard analytique temps réel pour la gestion d'abonnements fitness.",
+        "Lancé Interly — plateforme de coaching vocal IA via Web Audio API et Google Speech-to-Text, permettant l'évaluation STAR en temps réel pour la préparation aux entretiens.",
+        "Ré-écrit et optimisé les requêtes SQL complexes, réduisant la latence de chargement de 60 % et générant une hausse directe du taux de conversion et de l'engagement utilisateur.",
+        "Défini la roadmap produit et les spécifications techniques pour clients internationaux, traduisant les capacités IA complexes en exigences claires accélérant le développement de 30 %."
       ]
     },
     {
@@ -131,8 +136,8 @@
       "company": "Projets Personnels & Clients Internationaux",
       "period": "Janvier 2022 - Décembre 2022",
       "responsibilities": [
-        "<strong>Apprentissage Auto-dirigé & Autonomie</strong> : Construction Lexity MVP et Interly MVP de zéro avec Next.js 15, TypeScript, Prisma, PostgreSQL — démontrant une acquisition rapide de compétences en développement full-stack moderne.",
-        "<strong>Communication Technique</strong> : Gestion de communication directe avec clients pour contrats backend PHP/Laravel, traduisant les besoins métier en solutions techniques et optimisations SQL."
+        "Construis Lexity MVP et Interly MVP de zéro avec Next.js 15, TypeScript, Prisma et PostgreSQL — démontrant une acquisition rapide de compétences en développement full-stack moderne.",
+        "Géré la communication directe avec clients pour contrats backend PHP/Laravel, traduisant les besoins métier en solutions techniques et optimisations SQL."
       ]
     },
     {
@@ -140,8 +145,8 @@
       "company": "Itransition",
       "period": "Janvier 2021 - Décembre 2021",
       "responsibilities": [
-        "<strong>Agile / Scrum</strong> : Participation à des projets clients en équipes agiles utilisant Scrum, stand-ups quotidiens, planification de sprints et rétrospectives tout en apprenant les bonnes pratiques de code production.",
-        "<strong>Mentoring & Collaboration</strong> : Apprentissage auprès de développeurs seniors via revues de code, posant des questions ciblées qui ont accéléré ma croissance — applique désormais cette même approche en mentorant 3 développeurs juniors chez Basesystem."
+        "Participé à des projets clients en équipes agiles utilisant Scrum, stand-ups quotidiens, planification de sprints et rétrospectives tout en apprenant les bonnes pratiques de code production.",
+        "Appris auprès de développeurs seniors via revues de code structurées et questions ciblées, accélérant ma courbe d'apprentissage en développement full-stack moderne."
       ]
     }
   ],

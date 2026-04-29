@@ -1,6 +1,6 @@
 import { CVData, Contact, SkillCategory, Language, Experience, Project, Education, LanguageCode } from '../../types';
 
-const createContactItem = (item: Contact) => `<span>${item.text}</span>`;
+const createContactItem = (item: Contact) => item.url ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.text}</a>` : `<span>${item.text}</span>`;
 
 const createSkillCategory = (category: SkillCategory) => `
   <p style="margin-bottom: 1px;"><strong>${category.title}:</strong> ${category.skills.join(', ')}</p>

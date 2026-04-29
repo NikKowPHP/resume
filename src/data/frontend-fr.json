@@ -23,7 +23,7 @@
       "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
     },
     {
-      "text": "kawaliou.mikita@gmail.com",
+      "text": "mikita.kavaliou@outlook.fr",
       "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
     },
     {
@@ -106,7 +106,7 @@
     {
       "title": "Ingénieur Front-End Senior",
       "company": "Freelance / Startups SaaS",
-      "period": "Janvier 2023 - Présent",
+      "period": "Janvier 2023 - Janvier 2024",
       "responsibilities": [
         "<strong>Architecture UI Avancée</strong> : Développement d'interfaces client hautement réactives pour Lexity et Interly (React 19, Next.js 15), atteignant systématiquement des <strong>scores Lighthouse > 90</strong>.",
         "<strong>Intégration d'API Navigateur</strong> : Intégration de Web MediaRecorder pour le traitement vocal temps réel et application de transformations DOM interactives (ePub.js) pour la lecture immersive.",
@@ -115,14 +115,33 @@
       ]
     },
     {
+      "title": "Développeur Front-End Indépendant",
+      "company": "Projets Personnels & Clients Internationaux",
+      "period": "Janvier 2022 - Décembre 2022",
+      "responsibilities": [
+        "<strong>Lexity MVP Front-End</strong> : Développement de l'interface utilisateur React 19 avec lecture ePub.js interactive, optimise UI avec TanStack Query et animations fluides via Framer Motion.",
+        "<strong>Interly MVP Front-End</strong> : Création du dashboard temps réel avec Web Audio API, visualisations Chart.js pour les métriques WPM et filler words.",
+        "<strong>Missions Front-End</strong> : Développement d'interfaces pour clients internationaux, intégration de composants React et optimisations de performance."
+      ]
+    },
+    {
+      "title": "Développeur Web Front-End (Alternance)",
+      "company": "Itransition",
+      "period": "Janvier 2021 - Décembre 2021",
+      "responsibilities": [
+        "<strong>Développement Front-End</strong> : Participation au développement d'applications web en équipe agile, apprentissage des fondamentaux React et JavaScript moderne.",
+        "<strong>Intégration & Debug</strong> : Intégration de maquettes, débogage cross-browser et travail sur la responsivité des interfaces."
+      ]
+    },
+    {
       "title": "Développeur Web Front-End",
       "company": "Basesystem",
-      "period": "Février 2024 - Avril 2026",
+      "period": "February 2024 - Present",
       "responsibilities": [
         "<strong>Développement UI Enterprise</strong> : Création d'applications web de production (Next.js/React) et intégration de nouvelles fonctionnalités interactives complexes sur des tableaux de bord d'entreprise existants.",
         "<strong>Migration de Systèmes</strong> : Direction de la refonte de vues legacy vers des composants Next.js modulaires, établissant une architecture frontend accessible et scalable.",
         "<strong>États & Performances</strong> : Implémentation d'une gestion d'état stricte (Zustand) et de stratégies de cache, réduisant drastiquement les goulots d'étranglement de rendu côté client.",
-        "<strong>Optimisation des Conversions</strong> : Collaboration directe avec les designers UX/UI pour appliquer des modèles de conception responsives, augmentant l'engagement mobile."
+        "<strong>Mentorat & Standards</strong> : Mentorat de 3 développeurs juniors sur les bonnes pratiques React et la gestion d'état, réduisant les bugs UI post-déploiement de 30% et améliorant la vélocité de l'équipe."
       ]
     }
   ],
@@ -157,10 +176,10 @@
     }
   ],
   "softSkills": [
-    "Product Thinking",
-    "Agile / Scrum",
-    "Mentoring",
-    "Autonomie",
-    "Communication Technique"
+    "Leadership d'Équipes Transversales",
+    "Méthodologies Agile & Scrum",
+    "Architecture UI/UX",
+    "Optimisation de Performance",
+    "Code Review & Mentorat"
   ]
 }

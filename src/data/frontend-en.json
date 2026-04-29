@@ -102,12 +102,31 @@
     {
       "title": "Senior Front End Engineer",
       "company": "Independent Contractor / SaaS Startups",
-      "period": "January 2023 - Present",
+      "period": "January 2023 - January 2024",
       "responsibilities": [
         "<strong>Advanced UI Architecture</strong>: Developed highly responsive, client-facing interfaces using React 19 and Next.js 15, consistently achieving <strong>90+ Lighthouse performance scores</strong>.",
         "<strong>Browser API Integration</strong>: Integrated the Web MediaRecorder API for real-time voice processing and applied custom interactive DOM transformations (ePub.js) for immersive reading.",
         "<strong>State & Animations</strong>: Engineered optimistic UI updates via TanStack Query and built complex, interactive data visualizations using Chart.js and Framer Motion.",
         "<strong>Quality Assurance</strong>: Authored comprehensive E2E test suites using Playwright, including custom auth-bypass mechanisms to streamline CI/CD pipelines."
+      ]
+    },
+    {
+      "title": "Independent Front-End Developer",
+      "company": "Personal Projects & International Clients",
+      "period": "January 2022 - December 2022",
+      "responsibilities": [
+        "<strong>Lexity MVP Front-End</strong>: Built React 19 user interface with interactive ePub.js reader, optimistic UI via TanStack Query, and smooth animations with Framer Motion.",
+        "<strong>Interly MVP Front-End</strong>: Created real-time dashboard with Web Audio API, Chart.js visualizations for WPM and filler word metrics.",
+        "<strong>Front-End Contracts</strong>: Developed interfaces for international clients, React component integration and performance optimizations."
+      ]
+    },
+    {
+      "title": "Front End Web Developer (Apprenticeship)",
+      "company": "Itransition",
+      "period": "January 2021 - December 2021",
+      "responsibilities": [
+        "<strong>Front-End Development</strong>: Contributed to web application development in agile teams, learning React fundamentals and modern JavaScript.",
+        "<strong>Integration & Debug</strong>: Layout implementation, cross-browser debugging and responsive interface development."
       ]
     },
     {
@@ -152,11 +171,11 @@
       "period": "2015 - 2019"
     }
   ],
-  "softSkills": [
-    "Product Thinking",
-    "Agile / Scrum",
-    "Mentoring",
-    "Autonomy",
-    "Technical Communication"
-  ]
+   "softSkills": [
+      "Cross-functional Team Leadership",
+      "Agile & Scrum Methodologies",
+      "UI/UX Architecture",
+      "Performance Optimization",
+      "Code Review & Mentorship"
+    ]
 }

@@ -16,7 +16,7 @@ export const renderCvView = (data: CVData, lang: LanguageCode, onUpdate: (newCvD
   let currentSuggestions = '';
 
   let selectedTemplateId = (localStorage.getItem('selectedCvTemplate') || 
-                            (data.personalInfo.title.toLowerCase().includes('back-end') ? 'backend' : 'classic')) as keyof typeof templates;
+                            (data.personalInfo.title.toLowerCase().includes('back-end') ? 'backend' : 'ats')) as keyof typeof templates;
 
   const render = () => {
     element.innerHTML = `

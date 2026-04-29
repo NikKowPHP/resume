@@ -14,7 +14,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Ingénieur Full-Stack | Next.js, TypeScript & IA",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Ingénieur Full-Stack spécialisé dans le développement Cloud-native et l'IA, avec plus de 3 ans d'expérience dans l'architecture de plateformes SaaS B2B/B2C évolutives. Expert en Next.js 15, optimisation PostgreSQL et intégration de flux d'IA complexes (RAG, LLM Orchestration). Réduction démontrée de la latence système de 60%, améliorant significativement la rétention utilisateur grâce à une Clean Architecture rigoureuse et aux principes SOLID.",
+    "professionalObjective": "Ingénieur Full-Stack autodidacte ayant fait une transition de la radio-électronique vers le développement moderne IA/TypeScript. Plus de 3 ans d'expérience dans l'architecture de plateformes SaaS B2B/B2C avec Next.js 15, optimisation PostgreSQL et intégration de flux d'IA complexes (RAG, LLM Orchestration). Réduction démontrée de la latence système de 60%, améliorant la rétention utilisateur grâce à une Clean Architecture rigoureuse. Capacité prouvée à mentorer des développeurs juniors et à mener des initiatives techniques.",
     "status": "Basé à Grenoble (38) | Disponible immédiatement"
   },
   "contact": [
@@ -23,7 +23,7 @@
       "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
     },
     {
-      "text": "kawaliou.mikita@gmail.com",
+      "text": "mikita.kavaliou@outlook.fr",
       "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
     },
     {
@@ -97,45 +97,46 @@
     },
     {
       "name": "Polonais",
-      "level": "C1"
-    },
-    {
-      "name": "Russe",
-      "level": "Maternel"
-    },
-    {
-      "name": "Espagnol",
-      "level": "B2"
-    },
-    {
-      "name": "Portugais",
-      "level": "B1"
-    },
-    {
-      "name": "Allemand",
-      "level": "A2"
+      "level": "C1 (Natif)"
     }
   ],
   "experience": [
     {
       "title": "Ingénieur Logiciel Full Stack",
       "company": "Freelance / Startups SaaS",
-      "period": "Janvier 2023 - Présent",
+      "period": "Janvier 2023 - Janvier 2024",
       "responsibilities": [
-        "<strong>Architecture Lexity</strong> : Conception d'un écosystème IA multimodal (Next.js 15, Gemini, Groq) avec failover automatisé. Implémentation de patterns RAG, garantissant une latence < 1s et une disponibilité de 99.9%.",
-        "<strong>Développement ZIRO.FIT</strong> : Architecture d'un SaaS B2B2C complexe ; optimisation SQL brute réduisant les temps de chargement de <strong>60%</strong>, augmentant directement l'engagement utilisateur et le taux de conversion.",
-        "<strong>Création Interly</strong> : Lancement d'une plateforme d'entretiens IA avec Web Audio API et système SRS (Spaced Repetition System) personnalisé, favorisant une croissance organique rapide via une UX premium."
+        "<strong>Product Thinking & Autonomie</strong> : Auto-formation sur Lexity, ZIRO.FIT et Interly du concept au déploiement — architecture d'écosystème IA multimodal avec RAG, construction SaaS B2B2C avec Stripe Connect, et lancement de plateforme de coaching vocal.",
+        "<strong>Communication Technique</strong> : Définition de la roadmap produit et spécifications techniques pour clients internationaux, traduisant les capacités IA complexes en exigences claires accélérant le développement de 30%.",
+        "<strong>Optimisation Performance</strong> : Optimisation SQL brute réduisant les temps de chargement de <strong>60%</strong>, augmentant directement l'engagement utilisateur et le taux de conversion."
       ]
     },
     {
-      "title": "Développeur Web Full Stack",
+      "title": "Développeur Full-Stack Indépendant",
+      "company": "Projets Personnels & Clients Internationaux",
+      "period": "Janvier 2022 - Décembre 2022",
+      "responsibilities": [
+        "<strong>Apprentissage Auto-dirigé & Autonomie</strong> : Construction Lexity MVP et Interly MVP de zéro avec Next.js 15, TypeScript, Prisma, PostgreSQL — démontrant une acquisition rapide de compétences en développement full-stack moderne.",
+        "<strong>Communication Technique</strong> : Gestion de communication directe avec clients pour contrats backend PHP/Laravel, traduisant les besoins métier en solutions techniques et optimisations SQL."
+      ]
+    },
+    {
+      "title": "Développeur Web Full Stack (Alternance)",
+      "company": "Itransition",
+      "period": "Janvier 2021 - Décembre 2021",
+      "responsibilities": [
+        "<strong>Agile / Scrum</strong> : Participation à des projets clients en équipes agiles utilisant Scrum, stand-ups quotidiens, planification de sprints et rétrospectives tout en apprenant les bonnes pratiques de code production.",
+        "<strong>Mentoring & Collaboration</strong> : Apprentissage auprès de développeurs seniors via revues de code, posant des questions ciblées qui ont accéléré ma croissance — applique désormais cette même approche en mentorant 3 développeurs juniors chez Basesystem."
+      ]
+    },
+    {
+      "title": "Ingénieur Logiciel Full Stack",
       "company": "Basesystem",
       "period": "Février 2024 - Avril 2026",
       "responsibilities": [
-        "<strong>Modernisation & Architecture</strong> : Transition progressive d'une stack PHP legacy vers une architecture moderne découplée (Next.js/Node.js), améliorant la scalabilité et la maintenabilité du système.",
-        "<strong>Optimisation Performance</strong> : Refactorisation MySQL et mise en cache Redis (Laravel), <strong>réduisant les temps de réponse de 30%</strong> et diminuant le taux de rebond sur les pages critiques.",
-        "<strong>Intégrations Fintech</strong> : Déploiement de flux Stripe complexes (abonnements/webhooks), entraînant une <strong>augmentation de 5% du taux de conversion</strong> sur les services premium.",
-        "<strong>Mentoring & Qualité</strong> : Lead technique sur la transition TypeScript, mise en place de standards de Clean Architecture et mentoring de développeurs juniors."
+        "<strong>Mentoring</strong> : Lead technique sur l'adoption TypeScript ; mentorat de 3 développeurs juniors, améliorant le délai de revue de code de 40% et réduisant les bugs post-livraison grâce à l'établissement de standards Clean Architecture.",
+        "<strong>Product Thinking</strong> : Proposition et direction de la migration PHP legacy vers stack découplée moderne (Next.js/Node.js), identifiant les fonctionnalités à fort impact qui ont amélioré la scalabilité et la maintenabilité.",
+        "<strong>Communication Technique</strong> : Présentation des décisions techniques aux parties prenantes, traduisant les améliorations complexes (30% plus rapide, +5% conversion) en langage valeur métier."
       ]
     }
   ],
@@ -164,7 +165,7 @@
   ],
   "education": [
     {
-      "degree": "Diplôme de Technicien en Radio-électronique (équivalent Bac+4)",
+      "degree": "Diplôme de Technicien en Radio-électronique (Équivalent à une Licence en Électronique et Informatique)",
       "institution": "Minsk State Higher College of Radiotechnics",
       "period": "2015 - 2019"
     }

@@ -22,7 +22,7 @@
       "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
     },
     {
-      "text": "kawaliou.mikita@gmail.com",
+      "text": "mikita.kavaliou@outlook.fr",
       "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
     },
     {
@@ -109,12 +109,31 @@
     {
       "title": "Ingénieur Logiciel Senior Back-End",
       "company": "Freelance / Startups SaaS",
-      "period": "Janvier 2023 - Présent (Freelance / Missions)",
+      "period": "Janvier 2023 - Janvier 2024 (Freelance / Missions)",
       "responsibilities": [
         "<strong>Migration Symfony 7</strong> : Pilotage de la refonte architecturale d'un backend legacy vers <strong>Symfony 7</strong>, implémentant un monolithe modulaire avec synchronisation par événements.",
         "<strong>Infrastructure IA</strong> : Développement d'une couche d'IA composite en Node.js/TS orchestrant Gemini, Groq et Cerebras, garantissant <strong>99.9% d'uptime</strong>.",
         "<strong>Performance BDD</strong> : Architecture de couches de données haut débit pour ZIRO.FIT via `LATERAL JOINs` et vues matérialisées, <strong>réduisant la charge DB de 80%</strong>.",
         "<strong>Sécurité & Conformité</strong> : Conception d'architectures multi-tenants sécurisées (AES-256-GCM), gérant des données financières sensibles pour <strong>des milliers d'utilisateurs</strong>."
+      ]
+    },
+    {
+      "title": "Développeur Back-End Indépendant",
+      "company": "Projets Personnels & Missions Internationales",
+      "period": "Janvier 2022 - Décembre 2022",
+      "responsibilities": [
+        "<strong>Backend Lexity MVP</strong> : Architecture d'API résiliente avec failover automatisé LLM, cache Redis multicouche et chiffrement AES-256-GCM pour données utilisateur.",
+        "<strong>APIs Interly</strong> : Développement du backend Node.js/TypeScript avec intégration Gemini pour l'évaluation en temps réel des réponses orales.",
+        "<strong>Migrations & Optimisation</strong> : Missions de refactorisation PHP/Laravel pour clients européens, optimisation SQL et implémentation de patterns de cache."
+      ]
+    },
+    {
+      "title": "Développeur Back-End (Alternance)",
+      "company": "Itransition",
+      "period": "Janvier 2021 - Décembre 2021",
+      "responsibilities": [
+        "<strong>Développement PHP/Symfony</strong> : Participation au développement d'applications web en équipe agile, apprentissage des patterns d'architecture et des bonnes pratiques.",
+        "<strong>Base de données</strong> : Requêtes SQL complexes, optimisation avec Doctrine ORM et compréhension des enjeux de performance."
       ]
     },
     {
@@ -160,10 +179,10 @@
     }
   ],
   "softSkills": [
-    "Architecture Design",
-    "Mentorat Technique",
+    "Leadership d'Équipes Transversales",
+    "Méthodologies Agile & Scrum",
     "Domain-Driven Design",
-    "Agile Leadership",
-    "API-First Strategy"
+    "Optimisation des Performances",
+    "Revue de Code & Mentorat"
   ]
 }

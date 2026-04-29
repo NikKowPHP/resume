@@ -1,0 +1,147 @@
+{
+  "sections": {
+    "contact": "CONTACT",
+    "skills": "TECHNICAL SKILLS",
+    "languages": "LANGUAGES",
+    "status": "STATUS",
+    "objective": "PROFESSIONAL SUMMARY",
+    "experience": "PROFESSIONAL EXPERIENCE",
+    "projects": "FEATURED PHP PROJECTS",
+    "education": "EDUCATION",
+    "softSkills": "SOFT SKILLS"
+  },
+  "personalInfo": {
+    "name": "MIKITA KAVALIOU",
+    "title": "Senior PHP Engineer | Laravel & Symfony Expert",
+    "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
+    "professionalObjective": "Senior PHP Engineer specialized in Laravel and Symfony ecosystems. Expert in designing secure multi-tenant SaaS architectures, implementing Domain-Driven Design (DDD), and orchestrating complex fintech integrations (Stripe Connect). Proven track record in database optimization (PostgreSQL/Redis) and building resilient applications for mission-critical deployments.",
+    "status": "Based in Grenoble, France. Free access to the EU job market."
+  },
+  "contact": [
+    {
+      "text": "+33753124025",
+      "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+    },
+    {
+      "text": "mikita-kavaliou.online",
+      "url": "https://mikita-kavaliou.online",
+      "svgPath": "<path d=\"M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z\"></path>"
+    },
+    {
+      "text": "mikita.kavaliou@outlook.fr",
+      "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+    },
+    {
+      "text": "linkedin.com/in/mikita-kavaliou",
+      "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+      "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+    },
+    {
+      "text": "github.com/NiKKowPHP",
+      "url": "https://github.com/NiKKowPHP",
+      "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+    }
+  ],
+  "skills": [
+    {
+      "title": "PHP Ecosystem (Expert)",
+      "skills": [
+        "PHP 8.2/8.3 (Expert)",
+        "Laravel 10/11 (Expert)",
+        "Symfony 6/7",
+        "API Platform",
+        "Doctrine ORM / DDD",
+        "PHPUnit & Behat / Pest"
+      ]
+    },
+    {
+      "title": "Database & Caching",
+      "skills": [
+        "PostgreSQL (Query Optimization)",
+        "MySQL / MariaDB",
+        "Redis (Distributed Caching)",
+        "Elasticsearch",
+        "Database Migration Strategies"
+      ]
+    },
+    {
+      "title": "Infrastructure & DevOps",
+      "skills": [
+        "Docker & Docker Compose",
+        "AWS (EC2, RDS, S3, Lambda)",
+        "CI/CD (GitHub Actions)",
+        "Nginx / Apache",
+        "PHP-FPM Tuning",
+        "Linux Administration"
+      ]
+    }
+  ],
+  "languages": [
+    { "name": "English", "level": "C1 (Professional)" },
+    { "name": "French", "level": "B2" },
+    { "name": "Polish", "level": "C1" },
+    { "name": "Russian", "level": "Native" },
+    { "name": "Spanish", "level": "B2" }
+  ],
+  "experience": [
+    {
+      "title": "Senior PHP Engineer",
+      "company": "Basesystem",
+      "period": "February 2024 - April 2026 (Full-time)",
+      "responsibilities": [
+        "<strong>Laravel/Symfony Architecture</strong>: Architected mission-critical APIs using <strong>Laravel 11</strong> and <strong>Symfony 6/7</strong>, enforcing <strong>Clean Architecture</strong> and SOLID principles.",
+        "<strong>Database Optimization</strong>: Optimized PostgreSQL configurations and queries, resulting in a <strong>30% reduction in API response times</strong>.",
+        "<strong>Security & Compliance</strong>: Designed secure multi-tenant architectures with field-level encryption, managing sensitive data for thousands of users."
+      ]
+    },
+    {
+      "title": "Senior Back End Engineer",
+      "company": "Independent Contractor / SaaS Startups",
+      "period": "January 2023 - January 2024",
+      "responsibilities": [
+        "<strong>SaaS Backend</strong>: Led architectural redesign to <strong>Symfony 7</strong>, implementing modular monolith with event-driven synchronization.",
+        "<strong>Performance</strong>: Architected high-throughput data layers using <code>LATERAL JOINs</code> and materialized views, <strong>reducing DB load by 80%</strong>.",
+        "<strong>Fintech Integration</strong>: Developed Stripe Connect workflows for multi-party payouts and automated KYC verification."
+      ]
+    },
+    {
+      "title": "PHP Developer",
+      "company": "Itransition",
+      "period": "January 2021 - December 2021",
+      "responsibilities": [
+        "<strong>PHP/Laravel Development</strong>: Contributed to web application development in agile teams.",
+        "<strong>Database</strong>: Complex SQL queries, Doctrine ORM optimization."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Core-API: Laravel Multi-tenant Framework",
+      "url": "https://github.com/NiKKowPHP",
+      "description": "High-performance boilerplate for multi-tenant SaaS applications built with Laravel 11, featuring JWT authentication and automated tenancy switching.",
+      "stack_title": "PHP Stack",
+      "stack": "Laravel 11, PostgreSQL, Docker, Redis"
+    },
+    {
+      "name": "ZIRO.FIT: Fintech & Marketplace Engine",
+      "url": "https://ziro.fit",
+      "description": "Architected a dual-sided marketplace routing complex Stripe Connect payouts, utilizing advanced SQL to collapse N+1 queries.",
+      "stack_title": "PHP Stack",
+      "stack": "Laravel, PostgreSQL, Stripe Connect"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Diploma of Technician in Radio-electronics",
+      "institution": "Minsk State Higher College of Radiotechnics",
+      "period": "2015 - 2019"
+    }
+  ],
+  "softSkills": [
+    "Cross-functional Team Leadership",
+    "Agile & Scrum Methodologies",
+    "Domain-Driven Design",
+    "Performance Optimization",
+    "Code Review & Mentorship"
+  ]
+}

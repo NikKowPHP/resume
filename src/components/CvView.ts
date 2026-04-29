@@ -15,8 +15,7 @@ export const renderCvView = (data: CVData, lang: LanguageCode, onUpdate: (newCvD
   const t = translations[lang];
   let currentSuggestions = '';
 
-  let selectedTemplateId = (localStorage.getItem('selectedCvTemplate') || 
-                            (data.personalInfo.title.toLowerCase().includes('back-end') ? 'backend' : 'ats')) as keyof typeof templates;
+  let selectedTemplateId = (localStorage.getItem('selectedCvTemplate') || 'ats') as keyof typeof templates;
 
   const render = () => {
     element.innerHTML = `
@@ -42,11 +41,12 @@ export const renderCvView = (data: CVData, lang: LanguageCode, onUpdate: (newCvD
         </button>
         <div class="template-switcher">
           <span class="switcher-label">${t.templates}:</span>
-          ${Object.entries(templates).map(([id, { name }]) => `
-            <button class="template-btn ${id === selectedTemplateId ? 'active' : ''}" data-template-id="${id}">
-              ${name}
-            </button>
-          `).join('')}
+          <button class="template-btn ${selectedTemplateId === 'classic' ? 'active' : ''}" data-template-id="classic">
+            ${templates.classic.name}
+          </button>
+          <button class="template-btn ${selectedTemplateId === 'ats' ? 'active' : ''}" data-template-id="ats">
+            ${templates.ats.name}
+          </button>
         </div>
         <button class="print-button" id="print-cv-btn">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

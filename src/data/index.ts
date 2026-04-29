@@ -6,6 +6,8 @@ import frontendEn from './frontend-en.json';
 import frontendFr from './frontend-fr.json';
 import backendEn from './backend-en.json';
 import backendFr from './backend-fr.json';
+import phpEn from './php-en.json';
+import phpFr from './php-fr.json';
 
 export const cvDatabase: CVDatabase = [
   {
@@ -30,6 +32,14 @@ export const cvDatabase: CVDatabase = [
     data: {
       en: backendEn,
       fr: backendFr
+    }
+  },
+  {
+    id: 'php_engineer',
+    name: 'PHP Engineer',
+    data: {
+      en: phpEn,
+      fr: phpFr
     }
   }
 ];

@@ -247,9 +247,9 @@ strong { font-weight: 700; color: var(--heading-color); }
   
   #app-container { padding: 0; }
   
-  .cv-container, .cv-container-modern, .cv-container-compact, .cv-container-corporate, #letter-output {
-    margin: 0; box-shadow: none; width: 210mm; height: 297mm; min-height: 297mm; max-height: 297mm;
-  }
+   .cv-container, .cv-container-modern, .cv-container-compact, .cv-container-corporate, .cv-container-backend, .ats-container, #letter-output {
+     margin: 0; box-shadow: none; width: 210mm; height: 297mm; min-height: 297mm; max-height: 297mm; overflow: hidden;
+   }
   
   #letter-view { padding: 0; box-shadow: none; background-color: transparent; }
   #letter-output { border: none; padding: 1rem; font-size: 9pt; }

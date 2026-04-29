@@ -103,6 +103,16 @@
   "experience": [
     {
       "title": "Ingénieur Logiciel Full Stack",
+      "company": "Basesystem",
+      "period": "Février 2024 - Avril 2026",
+      "responsibilities": [
+        "<strong>Mentoring</strong> : Lead technique sur l'adoption TypeScript ; mentorat de 3 développeurs juniors, améliorant le délai de revue de code de 40% et réduisant les bugs post-livraison grâce à l'établissement de standards Clean Architecture.",
+        "<strong>Product Thinking</strong> : Proposition et direction de la migration PHP legacy vers stack découplée moderne (Next.js/Node.js), identifiant les fonctionnalités à fort impact qui ont amélioré la scalabilité et la maintenabilité.",
+        "<strong>Communication Technique</strong> : Présentation des décisions techniques aux parties prenantes, traduisant les améliorations complexes (30% plus rapide, +5% conversion) en langage valeur métier."
+      ]
+    },
+    {
+      "title": "Ingénieur Logiciel Full Stack",
       "company": "Freelance / Startups SaaS",
       "period": "Janvier 2023 - Janvier 2024",
       "responsibilities": [
@@ -127,16 +137,6 @@
       "responsibilities": [
         "<strong>Agile / Scrum</strong> : Participation à des projets clients en équipes agiles utilisant Scrum, stand-ups quotidiens, planification de sprints et rétrospectives tout en apprenant les bonnes pratiques de code production.",
         "<strong>Mentoring & Collaboration</strong> : Apprentissage auprès de développeurs seniors via revues de code, posant des questions ciblées qui ont accéléré ma croissance — applique désormais cette même approche en mentorant 3 développeurs juniors chez Basesystem."
-      ]
-    },
-    {
-      "title": "Ingénieur Logiciel Full Stack",
-      "company": "Basesystem",
-      "period": "Février 2024 - Avril 2026",
-      "responsibilities": [
-        "<strong>Mentoring</strong> : Lead technique sur l'adoption TypeScript ; mentorat de 3 développeurs juniors, améliorant le délai de revue de code de 40% et réduisant les bugs post-livraison grâce à l'établissement de standards Clean Architecture.",
-        "<strong>Product Thinking</strong> : Proposition et direction de la migration PHP legacy vers stack découplée moderne (Next.js/Node.js), identifiant les fonctionnalités à fort impact qui ont amélioré la scalabilité et la maintenabilité.",
-        "<strong>Communication Technique</strong> : Présentation des décisions techniques aux parties prenantes, traduisant les améliorations complexes (30% plus rapide, +5% conversion) en langage valeur métier."
       ]
     }
   ],

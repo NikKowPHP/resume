@@ -100,7 +100,17 @@
       "level": "C1 (Native)"
     }
   ],
-  "experience": [
+"experience": [
+      {
+        "title": "Full Stack Web Developer",
+        "company": "Basesystem",
+        "period": "February 2024 - Present",
+        "responsibilities": [
+          "<strong>Mentoring</strong>: Led TypeScript adoption initiative; mentored 3 junior developers, improving code review turnaround by 40% and reducing post-release bugs by establishing Clean Architecture standards.",
+          "<strong>Product Thinking</strong>: Proposed and led migration from legacy PHP to modern decoupled stack (Next.js/Node.js), identifying high-impact features that improved scalability and maintainability.",
+          "<strong>Technical Communication</strong>: Presented technical decisions to stakeholders, translating complex performance improvements (30% faster responses, 5% conversion increase) into business value language."
+        ]
+      },
     {
       "title": "Full Stack Software Engineer",
       "company": "Independent Contractor / SaaS Startups",
@@ -127,16 +137,6 @@
       "responsibilities": [
         "<strong>Agile / Scrum</strong>: Contributed to client projects in agile teams using Scrum methodology, participating in daily stand-ups, sprint planning, and retrospectives while learning production code best practices.",
         "<strong>Mentoring & Collaboration</strong>: Learned from senior developers through code reviews, asking targeted questions that accelerated my growth—now apply same approach mentoring 3 junior developers at Basesystem."
-      ]
-    },
-    {
-      "title": "Full Stack Web Developer",
-      "company": "Basesystem",
-      "period": "February 2024 - Present",
-      "responsibilities": [
-        "<strong>Mentoring</strong>: Led TypeScript adoption initiative; mentored 3 junior developers, improving code review turnaround by 40% and reducing post-release bugs by establishing Clean Architecture standards.",
-        "<strong>Product Thinking</strong>: Proposed and led migration from legacy PHP to modern decoupled stack (Next.js/Node.js), identifying high-impact features that improved scalability and maintainability.",
-        "<strong>Technical Communication</strong>: Presented technical decisions to stakeholders, translating complex performance improvements (30% faster responses, 5% conversion increase) into business value language."
       ]
     }
   ],

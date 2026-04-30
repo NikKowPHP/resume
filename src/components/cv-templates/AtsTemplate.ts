@@ -42,7 +42,7 @@ export const render = (data: CVData, _lang: LanguageCode): string => {
           ${data.contact.map(createContactItem).join(' | ')}
         </div>
         <div style="font-weight: bold; margin-top: 2px;">${data.personalInfo.title}</div>
-        <div style="font-size: 8pt; margin-top: 2px;">${data.personalInfo.status}</div>
+        <div style="font-size: 10pt; margin-top: 2px;">${data.personalInfo.status}</div>
       </header>
 
       <section class="ats-section">

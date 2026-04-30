@@ -39,10 +39,6 @@
       "text": "github.com/NiKKowPHP",
       "url": "https://github.com/NiKKowPHP",
       "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
-    },
-    {
-      "text": "Visa VPF – Libre accès au marché du travail français",
-      "svgPath": "<path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"></path>"
     }
   ],
   "skills": [
@@ -130,9 +126,9 @@
       "company": "Divers Clients B2B & Startups",
       "period": "Janvier 2022 – Février 2024",
       "responsibilities": [
-        "<strong>Lexity (EdTech) :</strong> Conçu et déployé une plateforme d'apprentissage linguistique full-stack (Next.js 15, TypeScript, Prisma, PostgreSQL) avec feedback contextuel RAG et chiffrement AES-256-GCM, incluant un exécuteur LLM tolérant aux pannes avec rotation de clés API et retry exponentiel — 99,9 % de disponibilité.",
-        "<strong>ZIRO.FIT (Marketplace) :</strong> Architecturé un marketplace fitness B2B2C avec routage de paiements multi-parties via Stripe Connect et découverte par géolocalisation (Leaflet), et optimisé les requêtes SQL complexes (json_agg, LATERAL JOINs) réduisant la latence de chargement de 60 %.",
-        "<strong>Interly (Coaching IA) :</strong> Construit une plateforme de coaching vocal IA avec Web Audio API et Google Speech-to-Text, mis en place des pipelines CI/CD (Docker, Vercel) pour des releases automatisées zéro-downtime, et défini la roadmap produit pour clients internationaux."
+        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech)</a> :</strong> Conçu et déployé une plateforme d'apprentissage linguistique full-stack (Next.js, TypeScript, Prisma, PostgreSQL) avec feedback contextuel RAG et chiffrement AES-256-GCM, incluant un exécuteur LLM tolérant aux pannes avec rotation de clés API et retry exponentiel — 99,9 % de disponibilité.",
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace)</a> :</strong> Architecturé un marketplace fitness B2B2C avec routage de paiements multi-parties via Stripe Connect et découverte par géolocalisation (Leaflet), et optimisé les requêtes SQL complexes (json_agg, LATERAL JOINs) réduisant la latence de chargement de 60 %.",
+        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construit une plateforme de coaching vocal IA avec Web Audio API et Google Speech-to-Text, mis en place des pipelines CI/CD (Docker, Vercel) pour des releases automatisées zéro-downtime, et défini la roadmap produit pour clients internationaux."
       ]
     },
     {
@@ -149,13 +145,13 @@
   "education": [
     {
       "degree": "Technicien Radio‑électronique (Bac+2)",
-      "institution": "Minsk State Higher College of Radiotechnics",
+      "institution": "<a href=\"https://en.wikipedia.org/wiki/Minsk_Radioengineering_College\" target=\"_blank\">Minsk State Higher College of Radiotechnics</a>",
       "period": "2015 - 2019",
       "description": "Programme couvrant l'électronique analogique/numérique et la programmation bas niveau de microcontrôleurs (C, Assembleur)."
     },
     {
-      "degree": "Études en systèmes mobiles programmables",
-      "institution": "BSUIR",
+      "degree": "Études en systèmes mobiles programmables (Bac+3)",
+      "institution": "<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_d%27%C3%89tat_de_B%C3%A9larus_d%27informatique_et_de_radio%C3%A9lectronique\" target=\"_blank\">BSUIR</a>",
       "period": "2019 - 2022",
       "description": "Approfondissement en systèmes embarqués, développement mobile (Java/Kotlin) et architectures temps réel."
     }

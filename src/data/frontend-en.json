@@ -121,9 +121,9 @@
       "company": "Various B2B Clients & Startups",
       "period": "January 2022 – February 2024",
       "responsibilities": [
-        "<strong>Lexity (EdTech) :</strong> Architected and deployed a full-stack AI language learning platform (Next.js 15, TypeScript, Tailwind CSS, Zustand) with RAG-based contextual feedback, AES-256 encryption, and responsive 90+ Lighthouse UI.",
-        "<strong>ZIRO.FIT (Marketplace) :</strong> Architected a B2B2C fitness marketplace with interactive map-based discovery (Leaflet), multi-party payment routing, and responsive cross-platform UI with complex data visualizations.",
-        "<strong>Interly (Coaching IA) :</strong> Built an AI voice coaching platform integrating Web MediaRecorder API and Web Audio API, authored comprehensive E2E test suites (Playwright) with auth-bypass for CI/CD pipelines."
+        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech)</a> :</strong> Architected and deployed a full-stack AI language learning platform (Next.js, TypeScript, Tailwind CSS, Zustand) with RAG-based contextual feedback, AES-256 encryption, and responsive 90+ Lighthouse UI.",
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace)</a> :</strong> Architected a B2B2C fitness marketplace with interactive map-based discovery (Leaflet), multi-party payment routing, and responsive cross-platform UI with complex data visualizations.",
+        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Built an AI voice coaching platform integrating Web MediaRecorder API and Web Audio API, authored comprehensive E2E test suites (Playwright) with auth-bypass for CI/CD pipelines."
       ]
     },
     {
@@ -140,13 +140,13 @@
   "education": [
     {
       "degree": "Radio-Electronics Technician (Bac+2)",
-      "institution": "Minsk State Higher College of Radiotechnics",
+      "institution": "<a href=\"https://en.wikipedia.org/wiki/Minsk_Radioengineering_College\" target=\"_blank\">Minsk State Higher College of Radiotechnics</a>",
       "period": "2015 - 2019",
       "description": "Program covering analog/digital electronics and low-level microcontroller programming (C, Assembly)."
     },
     {
-      "degree": "Programmable Mobile Systems Studies",
-      "institution": "BSUIR",
+      "degree": "Programmable Mobile Systems Studies (Bac+3 equivalent)",
+      "institution": "<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_d%27%C3%89tat_de_B%C3%A9larus_d%27informatique_et_de_radio%C3%A9lectronique\" target=\"_blank\">BSUIR</a>",
       "period": "2019 - 2022",
       "description": "Advanced coursework in embedded systems, mobile development (Java/Kotlin), and real-time architectures."
     }

@@ -125,9 +125,9 @@
       "company": "Various B2B Clients & Startups",
       "period": "January 2022 – February 2024",
       "responsibilities": [
-        "<strong>Lexity (EdTech) :</strong> Engineered a Composite AI Service Layer in Node.js/TypeScript orchestrating Gemini, Groq, and Cerebras with automated failover, token-cost throttling, and Prometheus/Grafana observability — 99.9% uptime.",
-        "<strong>ZIRO.FIT (Marketplace) :</strong> Architected high-throughput data layers using LATERAL JOINs and materialized views (80% DB load reduction), developed advanced Stripe Connect workflows for multi-party payouts with KYC verification.",
-        "<strong>Interly (Coaching IA) :</strong> Built Lexity MVP and Interly MVP from scratch (Next.js 15, TypeScript, Prisma, PostgreSQL), implemented automated testing pipelines at 85% code coverage, containerized and deployed on AWS."
+        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech)</a> :</strong> Engineered a Composite AI Service Layer in Node.js/TypeScript orchestrating Gemini, Groq, and Cerebras with automated failover, token-cost throttling, and Prometheus/Grafana observability — 99.9% uptime.",
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace)</a> :</strong> Architected high-throughput data layers using LATERAL JOINs and materialized views (80% DB load reduction), developed advanced Stripe Connect workflows for multi-party payouts with KYC verification.",
+        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Built Lexity MVP and Interly MVP from scratch (Next.js, TypeScript, Prisma, PostgreSQL), implemented automated testing pipelines at 85% code coverage, containerized and deployed on AWS."
       ]
     },
     {
@@ -144,13 +144,13 @@
   "education": [
     {
       "degree": "Radio-Electronics Technician (Bac+2)",
-      "institution": "Minsk State Higher College of Radiotechnics",
+      "institution": "<a href=\"https://en.wikipedia.org/wiki/Minsk_Radioengineering_College\" target=\"_blank\">Minsk State Higher College of Radiotechnics</a>",
       "period": "2015 - 2019",
       "description": "Program covering analog/digital electronics and low-level microcontroller programming (C, Assembly)."
     },
     {
-      "degree": "Programmable Mobile Systems Studies",
-      "institution": "BSUIR",
+      "degree": "Programmable Mobile Systems Studies (Bac+3 equivalent)",
+      "institution": "<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_d%27%C3%89tat_de_B%C3%A9larus_d%27informatique_et_de_radio%C3%A9lectronique\" target=\"_blank\">BSUIR</a>",
       "period": "2019 - 2022",
       "description": "Advanced coursework in embedded systems, mobile development (Java/Kotlin), and real-time architectures."
     }

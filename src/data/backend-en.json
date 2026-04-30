@@ -116,7 +116,7 @@
         "<strong>Asynchronous Processing</strong>: Implemented robust background job systems using <strong>Symfony Messenger</strong> and Redis, handling thousands of concurrent webhooks with zero message loss.",
         "<strong>Fintech Integration</strong>: Developed advanced Stripe Connect workflows for multi-party payouts, including automated KYC verification and complex commission routing.",
         "<strong>Performance Tuning</strong>: Optimized PHP FPM and PostgreSQL configurations, resulting in a <strong>30% reduction in API response times</strong> and significant infrastructure cost savings.",
-        "Containerized backend services with Docker and deployed on AWS (EC2, RDS, Lambda), implementing auto-scaling strategies to handle production traffic spikes.",
+        "Containerized backend services with Docker and deployed on scalable AWS infrastructure, ensuring high availability during production traffic spikes.",
         "Implemented automated testing pipelines (PHPUnit/Behat) achieving 85% code coverage across backend services, significantly reducing regression risk during deployments."
       ]
     },

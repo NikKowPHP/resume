@@ -117,7 +117,7 @@
         "Architecture d'APIs critiques avec Symfony 6/7 et API Platform, imposant la Clean Architecture et les principes DDD pour une scalabilité企Enterprise.",
         "Mis en place des systèmes de jobs robustes via Symfony Messenger et Redis, traitant des milliers de webhooks sans perte de messages.",
         "Développé des workflows Stripe Connect complexes pour paiements multi-parties avec vérification KYC automatisée.",
-        "Conteneurisé les services backend avec Docker et déployé sur AWS (EC2, RDS, Lambda), implémentant des stratégies d'auto-scaling pour gérer les pics de trafic production.",
+        "Conteneurisé les services backend avec Docker et déployé sur une infrastructure AWS scalable, assurant une haute disponibilité lors des pics de charge.",
         "Mis en place des pipelines de test automatisés (PHPUnit/Behat) atteignant 85% de couverture de code sur les services backend, réduisant considérablement les risques de régression lors des déploiements."
       ]
     },

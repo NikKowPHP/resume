@@ -154,6 +154,7 @@ body {
 
 #app-container {
   padding-top: 1rem;
+  padding-bottom: 5rem;
 }
 
 
@@ -248,7 +249,7 @@ strong { font-weight: 700; color: var(--heading-color); }
   #app-container { padding: 0; }
   
    .cv-container, .cv-container-modern, .cv-container-compact, .cv-container-corporate, .cv-container-backend, .ats-container, #letter-output {
-     margin: 0; box-shadow: none; width: 210mm; height: 297mm; min-height: 297mm; max-height: 297mm; overflow: hidden;
+     margin: 0 auto; box-shadow: none; width: 210mm; min-height: 297mm; overflow: visible;
    }
   
   #letter-view { padding: 0; box-shadow: none; background-color: transparent; }

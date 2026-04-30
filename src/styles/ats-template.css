@@ -2,11 +2,11 @@
   width: 210mm;
   min-height: 297mm;
   margin: 0 auto;
-  padding: 8mm 12mm;
+  padding: 5mm 10mm;
   background-color: #fff;
   color: #000;
   font-family: "Times New Roman", Times, serif;
-  line-height: 1.5;
+  line-height: 1.35;
   font-size: 9pt;
   box-sizing: border-box;
   overflow: visible;
@@ -30,7 +30,7 @@
 }
 
 .ats-section {
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 .ats-section h2 {

@@ -7,14 +7,13 @@
     "objective": "OBJECTIF PROFESSIONNEL",
     "experience": "EXPÉRIENCE PROFESSIONNELLE",
     "projects": "PROJETS BACKEND SÉLECTIONNÉS",
-    "education": "FORMATION",
-    "softSkills": "SOFT SKILLS"
+    "education": "FORMATION"
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
     "title": "Ingénieur Logiciel Senior | Expert IA & Backend Distribué",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Architecte Backend Senior spécialisé dans les systèmes distribués et l'infrastructure IA. Expert en orchestration multi-LLM avec failover automatisé, monitoring temps réel (Prometheus/Grafana) et optimisation token-cost. Expérience prouvée en réduction de 25% des coûts API IA tout en maintenant 99.9% de disponibilité. Compétences en Symfony 7, Node.js et PostgreSQL haute performance.",
+    "professionalObjective": "Architecte Backend spécialisé en PHP (Symfony 7), Node.js et systèmes distribués. Expert en conception d'architectures SaaS multi-tenants sécurisées, orchestration d'intégrations fintech (Stripe Connect) et construction de systèmes de failover IA résilients pour applications critiques.",
     "status": "Basé à Grenoble (38) | Autorisation de travail en France (Aucune démarche employeur)"
   },
   "contact": [
@@ -100,27 +99,19 @@
       ]
     },
     {
-      "title": "Ingénieur Back-End Senior",
-      "company": "Freelance / Startups SaaS",
-      "period": "Janvier 2023 - Janvier 2024",
+      "title": "Ingénieur Back-End Freelance",
+      "company": "Startups SaaS & Clients Internationaux",
+      "period": "Janvier 2022 – Janvier 2024",
       "responsibilities": [
-        "Développé une couche d'IA composite en Node.js/TS orchestrant Gemini, Groq et Cerebras avec failover automatisé et fallback intelligent, garantissant 99.9% d'uptime.",
-        "Pilotá la refonte architecturale d'un backend legacy vers Symfony 7, implémentant un monolithe modulaire avec synchronisation par événements et API Gateway.",
-        "Architecture de couches de données haut débit pour ZIRO.FIT via LATERAL JOINs et vues matérialisées, réduisant la charge DB de 80%.",
-        "Conçu des architectures multi-tenants sécurisées (AES-256-GCM), gérant des données financières sensibles pour des milliers d'utilisateurs."
+        "Piloté la refonte architecturale d'un backend legacy vers Symfony 7, implémentant un monolithe modulaire avec synchronisation par événements et API Gateway.",
+        "Développé une couche d'IA composite en Node.js/TypeScript orchestrant Gemini, Groq et Cerebras avec failover automatisé et fallback intelligent, garantissant 99,9 % d'uptime.",
+        "Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées, réduisant la charge DB de 80 %.",
+        "Conçu des architectures multi-tenants sécurisées (AES-256-GCM), gérant des données financières sensibles pour des milliers d'utilisateurs.",
+        "Construit Lexity MVP et Interly MVP de zéro pour des clients B2B avec Next.js 15, TypeScript, Prisma et PostgreSQL."
       ]
     },
     {
-      "title": "Développeur Full-Stack Indépendant",
-      "company": "Clients Internationaux (B2B)",
-      "period": "Janvier 2022 - Décembre 2022",
-      "responsibilities": [
-        "Construit Lexity MVP et Interly MVP de zéro pour des clients B2B avec Next.js 15, TypeScript, Prisma et PostgreSQL — démontrant une acquisition rapide de compétences en développement full-stack moderne.",
-        "Géré la communication directe avec clients pour contrats backend PHP/Laravel, traduisant les besoins métier en solutions techniques et optimisations SQL."
-      ]
-    },
-    {
-      "title": "Développeur Back-End (Alternance)",
+      "title": "Développeur Back-End Junior",
       "company": "Itransition",
       "period": "Janvier 2021 - Décembre 2021",
       "responsibilities": [
@@ -129,41 +120,12 @@
       ]
     }
   ],
-  "projects": [
-    {
-      "name": "Core-API : Framework Multi-tenant Symfony 7",
-      "url": "https://github.com/NiKKowPHP",
-      "description": "Boilerplate haute performance pour applications SaaS multi-tenants avec Symfony 7, incluant auth JWT et gestion dynamique de tenancy.",
-      "stack_title": "Stack",
-      "stack": "Symfony 7, API Platform, PostgreSQL, Docker, Redis"
-    },
-    {
-      "name": "Lexity : Backend IA Composite",
-      "url": "https://lexity.app",
-      "description": "Backend résilient avec failover automatisé entre 3 fournisseurs de LLM, monitoring token-cost via Prometheus/Grafana et chiffrement serveur pour la confidentialité.",
-      "stack_title": "Stack",
-      "stack": "Node.js, Prisma, PostgreSQL, Redis, AES-256, Prometheus"
-    },
-    {
-      "name": "ZIRO.FIT : Moteur Fintech & Marketplace",
-      "url": "https://ziro.fit",
-      "description": "Architecture d'une marketplace gérant des flux Stripe Connect complexes, utilisant l'optimisation SQL pour agréger les requêtes N+1.",
-      "stack_title": "Stack",
-      "stack": "Next.js APIs, PostgreSQL, Prisma, Stripe Connect"
-    }
-  ],
+  "projects": [],
   "education": [
     {
-      "degree": "Diplôme de Technicien en Radio-électronique (équivalent Bac+4)",
+      "degree": "Diplôme de Technicien en Radio-Électronique — Équivalent Bac+4",
       "institution": "Minsk State Higher College of Radiotechnics",
       "period": "2015 - 2019"
     }
-  ],
-  "softSkills": [
-    "Leadership d'Équipes Transversales",
-    "Méthodologies Agile & Scrum",
-    "Domain-Driven Design",
-    "Optimisation des Performances",
-    "Revue de Code & Mentorat"
   ]
 }

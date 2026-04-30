@@ -3,7 +3,6 @@
     "contact": "CONTACT",
     "skills": "COMPÉTENCES TECHNIQUES",
     "languages": "LANGUAGES",
-    "softSkills": "SOFT SKILLS",
     "status": "STATUT",
     "objective": "OBJECTIF PROFESSIONNEL",
     "experience": "EXPÉRIENCE PROFESSIONNELLE",
@@ -14,7 +13,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Ingénieur Full-Stack | Next.js, TypeScript & IA",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Ingénieur Full-Stack spécialisé en IA et TypeScript avec +3 ans d'expérience dans l'architecture de plateformes SaaS B2B/B2C. Expert en intégration de flux d'IA complexes (RAG, Orchestration LLM) et optimisation de bases de données PostgreSQL. Réduction démontrée de la latence système de 60 %, instaurant les standards Clean Architecture et pilotant des équipes de développeurs juniors.",
+    "professionalObjective": "Ingénieur Full-Stack spécialisé en Next.js, TypeScript et orchestration IA composite. Expert en modernisation de systèmes legacy, optimisation PostgreSQL (latence réduite de 60 %) et architecture LLM tolérante aux pannes pour plateformes SaaS à forte scalabilité.",
     "status": "Basé à Grenoble (38) | Disponible immédiatement"
   },
   "contact": [
@@ -87,13 +86,6 @@
       ]
     }
   ],
-  "softSkills": [
-    "Product Thinking",
-    "Agile / Scrum",
-    "Mentoring",
-    "Autonomie",
-    "Communication Technique"
-  ],
   "languages": [
     {
       "name": "Anglais",
@@ -106,6 +98,10 @@
     {
       "name": "Polonais",
       "level": "C1 (Natif)"
+    },
+    {
+      "name": "Russe",
+      "level": "Maternel"
     }
   ],
   "experience": [
@@ -120,28 +116,20 @@
       ]
     },
     {
-      "title": "Ingénieur Logiciel Full Stack",
-      "company": "Freelance / Startups SaaS",
-      "period": "Janvier 2023 - Janvier 2024",
+      "title": "Ingénieur Full-Stack Freelance",
+      "company": "Startups SaaS & Clients Internationaux",
+      "period": "Janvier 2022 – Janvier 2024",
       "responsibilities": [
-        "Conçu et déployé de zéro l'écosystème IA multimodal de Lexity avec RAG, chiffrement AES-256 et algorithmes SM-2 pour l'apprentissage linguistique.",
-        "Construit la plateforme B2B2C ZIRO.FIT avec Stripe Connect, géolocalisation Leaflet et dashboard analytique temps réel pour la gestion d'abonnements fitness.",
-        "Lancé Interly — plateforme de coaching vocal IA via Web Audio API et Google Speech-to-Text, permettant l'évaluation STAR en temps réel pour la préparation aux entretiens.",
-        "Ré-écrit et optimisé les requêtes SQL complexes, réduisant la latence de chargement de 60 % et générant une hausse directe du taux de conversion et de l'engagement utilisateur.",
-        "Défini la roadmap produit et les spécifications techniques pour clients internationaux, traduisant les capacités IA complexes en exigences claires accélérant le développement de 30 %."
+        "Conçu et déployé de zéro trois plateformes SaaS en production : Lexity (apprentissage linguistique IA avec RAG et chiffrement AES-256), ZIRO.FIT (marketplace B2B2C avec Stripe Connect et géolocalisation Leaflet), et Interly (coaching vocal IA via Web Audio API et Google Speech-to-Text).",
+        "Réécrit et optimisé les requêtes SQL complexes (json_agg, LATERAL JOINs), réduisant la latence de chargement de 60 % et générant une hausse directe du taux de conversion et de l'engagement utilisateur.",
+        "Construit un exécuteur LLM tolérant aux pannes avec rotation de clés API et retry exponentiel, maintenant 99,9 % de disponibilité malgré les limites de taux strictes.",
+        "Mis en place des pipelines CI/CD avec Docker et Vercel, réduisant les cycles de déploiement de processus manuels à des releases automatisées zéro-downtime.",
+        "Défini la roadmap produit et les spécifications techniques pour clients internationaux, traduisant les capacités IA complexes en exigences claires accélérant le développement de 30 %.",
+        "Livré des solutions backend PHP/Laravel pour clients internationaux, implémentant des optimisations SQL réduisant les temps d'exécution de 40 %."
       ]
     },
     {
-      "title": "Développeur Full-Stack Indépendant",
-      "company": "Clients Internationaux (B2B)",
-      "period": "Janvier 2022 - Décembre 2022",
-      "responsibilities": [
-        "Construis Lexity MVP et Interly MVP de zéro pour des clients B2B avec Next.js 15, TypeScript, Prisma et PostgreSQL — démontrant une acquisition rapide de compétences en développement full-stack moderne.",
-        "Géré la communication directe avec clients pour contrats backend PHP/Laravel, traduisant les besoins métier en solutions techniques et optimisations SQL."
-      ]
-    },
-    {
-      "title": "Développeur Web Full Stack (Alternance)",
+      "title": "Développeur Full-Stack Junior",
       "company": "Itransition",
       "period": "Janvier 2021 - Décembre 2021",
       "responsibilities": [
@@ -150,32 +138,10 @@
       ]
     }
   ],
-  "projects": [
-    {
-      "name": "Lexity : IA Linguistique Multimodale",
-      "url": "https://lexity.app",
-      "description": "Plateforme IA intégrant algorithmes SM-2, RAG, et chiffrement AES-256. Focus sur la haute performance et la sécurité des données.",
-      "stack_title": "Stack",
-      "stack": "Next.js 15, TypeScript, Prisma, Redis, Composite AI Orchestration"
-    },
-    {
-      "name": "Interly : Coaching IA Temps Réel",
-      "url": "https://interly.app",
-      "description": "Analyse vocale interactive via Web Audio API et LLM. Évaluation en temps réel de la méthode STAR pour la préparation aux entretiens.",
-      "stack_title": "Stack",
-      "stack": "Next.js 15, Zustand, Web Audio API, Google Speech-to-Text, PostgreSQL"
-    },
-    {
-      "name": "ZIRO.FIT : Marketplace SaaS B2B2C",
-      "url": "https://ziro.fit",
-      "description": "Système de fitness avec abonnements Stripe Connect, géolocalisation Leaflet et dashboard analytique temps réel haute performance.",
-      "stack_title": "Stack",
-      "stack": "Laravel, Node.js, PostgreSQL, Stripe Connect, Vercel KV"
-    }
-  ],
+  "projects": [],
   "education": [
     {
-      "degree": "Diplôme de Technicien en Radio-électronique (Équivalent à une Licence en Électronique et Informatique)",
+      "degree": "Diplôme de Technicien en Radio-Électronique — Équivalent Bac+4",
       "institution": "Minsk State Higher College of Radiotechnics",
       "period": "2015 - 2019"
     }

@@ -1,4 +1,4 @@
-import { CVData, Contact, SkillCategory, Language, Experience, Project, Education, LanguageCode } from '../../types';
+import { CVData, Contact, SkillCategory, Language, Experience, Education, LanguageCode } from '../../types';
 
 const createContactItem = (item: Contact) => item.url ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.text}</a>` : `<span>${item.text}</span>`;
 
@@ -15,16 +15,6 @@ const createExperienceItem = (job: Experience) => `
     <ul class="ats-list">
       ${job.responsibilities.map(res => `<li>${res}</li>`).join('')}
     </ul>
-  </div>
-`;
-
-const createProjectItem = (project: Project) => `
-  <div class="ats-item">
-    <div class="ats-header">
-      <span>${project.name.toUpperCase()}</span>
-      <span style="font-weight: normal; font-size: 8pt;">${project.url}</span>
-    </div>
-    <p style="margin-bottom: 0;">${project.description} <strong>Stack:</strong> ${project.stack}</p>
   </div>
 `;
 
@@ -47,17 +37,11 @@ export const render = (data: CVData, _lang: LanguageCode): string => {
       <section class="ats-section">
         <h2>${data.sections.skills}</h2>
         ${data.skills.map(createSkillCategory).join('')}
-        <p><strong>Soft Skills:</strong> ${data.softSkills.join(', ')}</p>
       </section>
 
       <section class="ats-section">
         <h2>${data.sections.experience}</h2>
         ${data.experience.map(createExperienceItem).join('')}
-      </section>
-
-      <section class="ats-section">
-        <h2>${data.sections.projects}</h2>
-        ${data.projects.map(createProjectItem).join('')}
       </section>
 
       <section class="ats-section">

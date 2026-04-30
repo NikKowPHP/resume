@@ -7,14 +7,13 @@
     "objective": "PROFESSIONAL SUMMARY",
     "experience": "PROFESSIONAL EXPERIENCE",
     "projects": "FEATURED BACKEND PROJECTS",
-    "education": "EDUCATION",
-    "softSkills": "SOFT SKILLS"
+    "education": "EDUCATION"
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
     "title": "Senior Back-End Engineer | Symfony 7 & Node.js Expert",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Senior Backend Architect specialized in high-performance PHP (Symfony 7) and Node.js ecosystems. Expert in designing secure multi-tenant SaaS architectures, implementing Domain-Driven Design (DDD), and orchestrating complex fintech integrations (Stripe Connect). Proven track record in database optimization (PostgreSQL/Redis) and building resilient AI failover systems for mission-critical applications.",
+    "professionalObjective": "Backend Architect specializing in high-performance PHP (Symfony 7), Node.js, and distributed systems. Expert in designing secure multi-tenant SaaS architectures, orchestrating complex fintech integrations (Stripe Connect), and building resilient AI failover systems for mission-critical applications.",
     "status": "Based in Grenoble, France. Free access to the EU job market."
   },
   "contact": [
@@ -109,35 +108,6 @@
   ],
   "experience": [
     {
-      "title": "Senior Back End Engineer",
-      "company": "Independent Contractor / SaaS Startups",
-      "period": "January 2023 - January 2024 (Contract / Freelance)",
-      "responsibilities": [
-        "<strong>Symfony 7 Migration</strong>: Led the architectural redesign of a legacy backend to <strong>Symfony 7</strong>, implementing a modular monolith with event-driven synchronization.",
-        "<strong>AI Infrastructure</strong>: Engineered a Composite AI Service Layer in Node.js/TypeScript orchestrating Gemini, Groq, and Cerebras, maintaining <strong>99.9% uptime</strong> through custom failover logic.",
-        "<strong>Database Performance</strong>: Architected high-throughput data layers for ZIRO.FIT using `LATERAL JOINs` and materialized views, <strong>reducing DB load by 80%</strong>.",
-        "<strong>Security & Compliance</strong>: Designed secure multi-tenant architectures with field-level encryption (AES-256-GCM), managing sensitive financial data for <strong>thousands of users</strong>."
-      ]
-    },
-    {
-      "title": "Independent Full-Stack Developer",
-      "company": "International Clients (B2B)",
-      "period": "January 2022 - December 2022",
-      "responsibilities": [
-        "Built Lexity MVP and Interly MVP from scratch for B2B clients using Next.js 15, TypeScript, Prisma, and PostgreSQL—demonstrating rapid skill acquisition in modern full-stack development.",
-        "Managed direct communication with clients for PHP/Laravel backend contracts, translating business needs into technical solutions and SQL optimizations."
-      ]
-    },
-    {
-      "title": "Back End Developer (Apprenticeship)",
-      "company": "Itransition",
-      "period": "January 2021 - December 2021",
-      "responsibilities": [
-        "<strong>PHP/Symfony Development</strong>: Contributed to web application development in agile teams, learning architectural patterns and industry best practices.",
-        "<strong>Database</strong>: Complex SQL queries, optimization with Doctrine ORM, understanding of performance considerations."
-      ]
-    },
-    {
       "title": "Lead Back End Developer",
       "company": "Basesystem",
       "period": "February 2024 - April 2026 (Full-time / Permanent)",
@@ -147,43 +117,35 @@
         "<strong>Fintech Integration</strong>: Developed advanced Stripe Connect workflows for multi-party payouts, including automated KYC verification and complex commission routing.",
         "<strong>Performance Tuning</strong>: Optimized PHP FPM and PostgreSQL configurations, resulting in a <strong>30% reduction in API response times</strong> and significant infrastructure cost savings."
       ]
-    }
-  ],
-  "projects": [
-    {
-      "name": "Core-API: Symfony 7 Multi-tenant Framework",
-      "url": "https://github.com/NiKKowPHP",
-      "description": "A high-performance boilerplate for multi-tenant SaaS applications built with Symfony 7, featuring JWT authentication, automated tenancy switching, and API Platform integration.",
-      "stack_title": "Back End Stack",
-      "stack": "Symfony 7, API Platform, PostgreSQL, Docker, Redis"
     },
     {
-      "name": "Lexity: AI Failover Backend",
-      "url": "https://lexity.app",
-      "description": "Resilient backend featuring automated failovers between 3 LLM providers, Redis caching, and server-side encryption for user privacy.",
-      "stack_title": "Back End Stack",
-      "stack": "Node.js, Prisma, PostgreSQL, Redis, AES-256"
+      "title": "Freelance Back-End Engineer",
+      "company": "SaaS Startups & International Clients",
+      "period": "January 2022 – January 2024",
+      "responsibilities": [
+        "Led architectural redesign of a legacy backend to Symfony 7, implementing a modular monolith with event-driven synchronization and API Gateway.",
+        "Engineered a Composite AI Service Layer in Node.js/TypeScript orchestrating Gemini, Groq, and Cerebras, maintaining 99.9% uptime through custom failover logic.",
+        "Architected high-throughput data layers using LATERAL JOINs and materialized views, reducing database load by 80%.",
+        "Designed secure multi-tenant architectures with field-level encryption (AES-256-GCM), managing sensitive financial data for thousands of users.",
+        "Built Lexity MVP and Interly MVP from scratch for B2B clients using Next.js 15, TypeScript, Prisma, and PostgreSQL."
+      ]
     },
     {
-      "name": "ZIRO.FIT: Fintech & Marketplace Engine",
-      "url": "https://ziro.fit",
-      "description": "Architected a dual-sided marketplace routing complex Stripe Connect payouts, utilizing advanced SQL to collapse N+1 queries into single payloads.",
-      "stack_title": "Back End Stack",
-      "stack": "Next.js APIs, PostgreSQL, Prisma, Stripe Connect"
+      "title": "Junior Back End Developer",
+      "company": "Itransition",
+      "period": "January 2021 - December 2021",
+      "responsibilities": [
+        "<strong>PHP/Symfony Development</strong>: Contributed to web application development in agile teams, learning architectural patterns and industry best practices.",
+        "<strong>Database</strong>: Complex SQL queries, optimization with Doctrine ORM, understanding of performance considerations."
+      ]
     }
   ],
+  "projects": [],
   "education": [
     {
-      "degree": "Diploma of Technician in Radio-electronics",
+      "degree": "B.Sc. Equivalent in Radio-Electronics",
       "institution": "Minsk State Higher College of Radiotechnics",
       "period": "2015 - 2019"
     }
-  ],
-  "softSkills": [
-    "Cross-functional Team Leadership",
-    "Agile & Scrum Methodologies",
-    "Domain-Driven Design",
-    "Performance Optimization",
-    "Code Review & Mentorship"
   ]
 }

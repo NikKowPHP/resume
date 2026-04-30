@@ -3,7 +3,6 @@
     "contact": "CONTACT",
     "skills": "TECHNICAL SKILLS",
     "languages": "LANGUAGES",
-    "softSkills": "SOFT SKILLS",
     "status": "STATUS",
     "objective": "PROFESSIONAL SUMMARY",
     "experience": "PROFESSIONAL EXPERIENCE",
@@ -14,7 +13,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Full-Stack Engineer | Next.js, TypeScript & AI",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Full-Stack Engineer with 3+ years of experience architecting highly scalable B2B/B2C SaaS platforms using Next.js, TypeScript, and PostgreSQL. Specialist in AI workflow integrations (RAG, LLM Orchestration) and system optimization, with a proven track record of reducing system latency by 60% and increasing conversion rates by 5%. Adept at driving technical initiatives, enforcing Clean Architecture and SOLID standards, and mentoring engineering teams to accelerate delivery.",
+    "professionalObjective": "Full-Stack Engineer specializing in Next.js, TypeScript, and composite AI orchestration. Expert in modernizing legacy systems, optimizing PostgreSQL latency by 60%, and building fault-tolerant LLM architectures for high-scale SaaS platforms.",
     "status": "Based in Grenoble, France. Available for immediate start."
   },
   "contact": [
@@ -28,6 +27,10 @@
       "svgPath": "<path d=\"M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z\"></path>"
     },
     {
+      "text": "mikita.kavaliou@outlook.fr",
+      "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+    },
+    {
       "text": "linkedin.com/in/mikita-kavaliou",
       "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
       "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
@@ -36,6 +39,10 @@
       "text": "github.com/NiKKowPHP",
       "url": "https://github.com/NiKKowPHP",
       "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+    },
+    {
+      "text": "Work authorization in France",
+      "svgPath": "<path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"></path>"
     }
   ],
   "skills": [
@@ -70,18 +77,14 @@
         "SOLID",
         "Docker",
         "CI/CD",
+        "AWS (EC2, S3, Lambda)",
+        "Google Cloud Run",
         "Stripe Connect",
         "Web Audio API",
-        "Playwright (E2E)"
+        "Playwright (E2E)",
+        "Vitest"
       ]
     }
-  ],
-  "softSkills": [
-    "Product Thinking",
-    "Agile / Scrum",
-    "Mentoring",
-    "Autonomy",
-    "Technical Communication"
   ],
   "languages": [
     {
@@ -95,81 +98,50 @@
     {
       "name": "Polish",
       "level": "C1 (Native)"
+    },
+    {
+      "name": "Russian",
+      "level": "Native"
     }
   ],
-"experience": [
-    {
-      "title": "Full Stack Web Developer",
-      "company": "Basesystem",
-      "period": "February 2024 - Present",
-      "responsibilities": [
-        "Spearheaded company-wide TypeScript adoption initiative, establishing strict Clean Architecture and SOLID standards that decreased code review turnaround by 40% and reduced post-release bugs by 60%.",
-        "Led migration from legacy PHP to modern decoupled stack (Next.js/Node.js), identifying high-impact features that improved scalability by 300% and reduced mean time to deployment from days to hours.",
-        "Presented technical decisions to C-level stakeholders, translating complex performance optimizations (30% faster responses, 5% conversion increase) into strategic business value language."
-      ]
-    },
+  "experience": [
     {
       "title": "Full Stack Software Engineer",
-      "company": "Independent Contractor / SaaS Startups",
-      "period": "January 2023 - January 2024",
+      "company": "Basesystem",
+      "period": "February 2024 - April 2026",
       "responsibilities": [
-        "Architected and deployed three production-grade SaaS platforms from concept to deployment: Lexity (AI language learning), ZIRO.FIT (B2B2C fitness marketplace), and Interly (voice-based interview coaching).",
-        "Engineered high-throughput data layers using Raw SQL aggregations (json_agg, LATERAL JOINs), slashing dashboard database load times by 60% and driving a 5% increase in user conversion rates.",
-        "Built fault-tolerant LLM executor with custom API key rotation and exponential backoffRetry logic, maintaining 99.9% uptime against strict rate limits.",
-        "Implemented CI/CD pipelines using Docker and Vercel, reducing deployment cycles from manual processes to automated zero-downtime releases.",
-        "Established E2E testing frameworks with Playwright, catching critical regressions before production and reducing bug leak rate by 70%."
+        "Led the technical transition to TypeScript and Clean Architecture, reducing post-deployment bugs and accelerating code review turnaround by 40% through technical mentoring of 3 junior developers.",
+        "Architected and led the migration of a legacy PHP system to a decoupled stack (Next.js/Node.js), optimizing platform scalability and ensuring long-term maintainability.",
+        "Presented technical decisions to stakeholders, translating complex improvements (30% speedup, +5% conversion) into business-value language."
       ]
     },
     {
-      "title": "Independent Full-Stack Developer",
-      "company": "International Clients (B2B)",
-      "period": "January 2022 - December 2022",
+      "title": "Freelance Full-Stack Engineer",
+      "company": "SaaS Startups & International Clients",
+      "period": "January 2022 – January 2024",
       "responsibilities": [
-        "Built Lexity MVP and Interly MVP from scratch for B2B clients using Next.js 15, TypeScript, Prisma, and PostgreSQL—demonstrating rapid skill acquisition in modern full-stack development.",
-        "Delivered production-ready PHP/Laravel backend solutions for international clients, implementing SQL optimizations that reduced query execution times by 40%.",
-        "Self-directed learning roadmap transitioning from radio-electronics background to TypeScript/AI development, achieving proficiency in under 12 months."
+        "Designed and deployed three SaaS platforms from scratch to production: Lexity (AI language learning with RAG and AES-256 encryption), ZIRO.FIT (B2B2C marketplace with Stripe Connect and Leaflet geolocation), and Interly (AI voice coaching via Web Audio API and Google Speech-to-Text).",
+        "Rewrote and optimized complex SQL queries (json_agg, LATERAL JOINs), reducing load latency by 60% and driving a direct increase in conversion rates and user engagement.",
+        "Built a fault-tolerant LLM executor with API key rotation and exponential backoff retry, maintaining 99.9% uptime despite strict rate limits.",
+        "Set up CI/CD pipelines with Docker and Vercel, reducing deployment cycles from manual processes to automated zero-downtime releases.",
+        "Defined product roadmap and technical specifications for international clients, translating complex AI capabilities into clear requirements that accelerated development by 30%.",
+        "Delivered PHP/Laravel backend solutions for international clients, implementing SQL optimizations that reduced execution times by 40%."
       ]
     },
     {
-      "title": "Full Stack Web Developer (Apprenticeship)",
+      "title": "Junior Full-Stack Developer",
       "company": "Itransition",
       "period": "January 2021 - December 2021",
       "responsibilities": [
-        "Developed and shipped production-ready features for enterprise client projects within high-velocity Agile/Scrum environments, collaborating closely with senior engineers to maintain code quality standards.",
-        "Contributed to large-scale legacy system migrations, participating in daily stand-ups, sprint planning, and retrospectives.",
-        "Applied rigorous code review practices, learning production code best practices that later became foundation for mentoring junior developers."
+        "Participated in client projects within Agile teams using Scrum, daily stand-ups, sprint planning and retrospectives while learning production code best practices.",
+        "Learned from senior developers through structured code reviews and targeted questions, accelerating my learning curve in modern full-stack development."
       ]
     }
   ],
-  "projects": [
-    {
-      "name": "Lexity: Multimodal AI Ecosystem",
-      "url": "https://lexity.app",
-      "description": "High-performance AI platform featuring SM-2 algorithms, RAG, and AES-256-GCM encryption. Supports 10,000+ active users with sub-second AI response latency (avg 450ms). Deployed on Vercel edge functions with Redis caching.",
-      "stack_title": "Stack",
-      "stack": "Next.js 15, TypeScript, Prisma, Redis, Composite AI Orchestration",
-      "metrics": ["10,000+ active users", "450ms avg AI latency", "99.9% uptime", "60% DB load reduction via caching"]
-    },
-    {
-      "name": "Interly: Real-time AI Coaching",
-      "url": "https://interly.app",
-      "description": "Voice-interactive platform analyzing STAR method metrics via Web Audio API and LLMs. Real-time feedback for interview preparation serving 500+ daily practice sessions. Integrated with Playwright E2E testing pipeline.",
-      "stack_title": "Stack",
-      "stack": "Next.js 15, Zustand, Web Audio API, Google Speech-to-Text, PostgreSQL",
-      "metrics": ["500+ daily sessions", "99.9% API availability", "Real-time transcription <2s", "E2E test coverage 85%"]
-    },
-    {
-      "name": "ZIRO.FIT: B2B2C Fitness Marketplace",
-      "url": "https://ziro.fit",
-      "description": "SaaS marketplace with Stripe Connect subscriptions, Leaflet geospatial search, and high-performance real-time analytics dashboard. Processing $50K+ monthly GMV across 200+ trainers.",
-      "stack_title": "Stack",
-      "stack": "Laravel, Node.js, PostgreSQL, Stripe Connect, Vercel KV",
-      "metrics": ["$50K+ monthly GMV", "200+ active trainers", "60% dashboard load time reduction", "Geospatial search <100ms"]
-    }
-  ],
+  "projects": [],
   "education": [
     {
-      "degree": "Diploma of Technician in Radio-electronics (equivalent to Bachelor's degree)",
+      "degree": "Diploma in Radio-Electronics — Equivalent Bac+4",
       "institution": "Minsk State Higher College of Radiotechnics",
       "period": "2015 - 2019"
     }

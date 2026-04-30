@@ -7,14 +7,13 @@
     "objective": "OBJECTIF PROFESSIONNEL",
     "experience": "EXPÉRIENCE PROFESSIONNELLE",
     "projects": "PROJETS SAAS SÉLECTIONNÉS",
-    "education": "FORMATION",
-    "softSkills": "SOFT SKILLS"
+    "education": "FORMATION"
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
     "title": "Ingénieur Front-End Senior | React 19 & Performance",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Ingénieur Front-End focalisé sur le produit, expert en Server-Component-First architecture avec Next.js 15 et React 19. Spécialiste en réduction de bundles JS de 45% et sub-second Time to Interactive sur des dashboards data-heavy. Maîtrise de Zustand, TanStack Query et intégrations浏览器 API (Web Audio, WebRTC) pour des expériences immersives et performantes.",
+    "professionalObjective": "Ingénieur Front-End orienté produit, spécialisé en React 19, Next.js 15 et TypeScript. Expert en création d'interfaces accessibles et performantes (scores Lighthouse >90), intégrant des API navigateur complexes (Web Audio, WebRTC) pour des expériences web natives.",
     "status": "Basé à Grenoble (38) | Autorisation de travail en France (Aucune démarche employeur)"
   },
   "contact": [
@@ -98,27 +97,19 @@
       ]
     },
     {
-      "title": "Ingénieur Front-End Senior",
-      "company": "Freelance / Startups SaaS",
-      "period": "Janvier 2023 - Janvier 2024",
+      "title": "Ingénieur Front-End Freelance",
+      "company": "Startups SaaS & Clients Internationaux",
+      "period": "Janvier 2022 – Janvier 2024",
       "responsibilities": [
-        "Développé des interfaces client hautement réactives pour Lexity et Interly (React 19, Next.js 15), atteignant systématiquement des scores Lighthouse >90.",
-        "Intégré Web MediaRecorder pour le traitement vocal temps réel et application de transformations DOM interactives (ePub.js) pour la lecture immersive.",
+        "Développé des interfaces client hautement réactives pour Lexity, Interly et ZIRO.FIT (React 19, Next.js 15), atteignant systématiquement des scores Lighthouse >90.",
+        "Intégré Web MediaRecorder pour le traitement vocal temps réel et appliqué des transformations DOM interactives (ePub.js) pour la lecture immersive.",
         "Créé des visualisations de données interactives complexes avec Chart.js, optimisant les performances de rendu pour des datasets volumineux.",
-        "Rédaction de suites de tests E2E avec Playwright pour les pipelines CI/CD, garantissant la stabilité des déploiements."
+        "Rédigé des suites de tests E2E avec Playwright pour les pipelines CI/CD, garantissant la stabilité des déploiements.",
+        "Construit Lexity MVP et Interly MVP de zéro pour des clients B2B avec Next.js 15, TypeScript, Prisma et PostgreSQL."
       ]
     },
     {
-      "title": "Développeur Full-Stack Indépendant",
-      "company": "Clients Internationaux (B2B)",
-      "period": "Janvier 2022 - Décembre 2022",
-      "responsibilities": [
-        "Construit Lexity MVP et Interly MVP de zéro pour des clients B2B avec Next.js 15, TypeScript, Prisma et PostgreSQL — démontrant une acquisition rapide de compétences en développement full-stack moderne.",
-        "Géré la communication directe avec clients pour contrats backend PHP/Laravel, traduisant les besoins métier en solutions techniques et optimisations SQL."
-      ]
-    },
-    {
-      "title": "Développeur Front-End (Alternance)",
+      "title": "Développeur Front-End Junior",
       "company": "Itransition",
       "period": "Janvier 2021 - Décembre 2021",
       "responsibilities": [
@@ -127,41 +118,12 @@
       ]
     }
   ],
-  "projects": [
-    {
-      "name": "Lexity : Écosystème Interactif d'Apprentissage",
-      "url": "https://lexity.app",
-      "description": "PWA avec lecteur ePub.js interactif optimisé via Server Components, atteignant Lighthouse 95+ malgré les transformations DOM complexes.",
-      "stack_title": "Stack",
-      "stack": "React 19, Next.js 15 Server Components, TanStack Query, shadcn/ui, ePub.js"
-    },
-    {
-      "name": "Interly : Dashboard Audio Temps Réel",
-      "url": "https://interly.app",
-      "description": "Dashboard de coaching visualisant les métriques en temps réel via Chart.js optimisé et Web Audio API, avec sub-second rendu.",
-      "stack_title": "Stack",
-      "stack": "TypeScript, Zustand, Web Audio API, Chart.js, Framer Motion"
-    },
-    {
-      "name": "ZIRO.FIT : Interface de Découverte Géospatiale",
-      "url": "https://ziro.fit",
-      "description": "Moteur de découverte géolocalisée avec Leaflet.js, accompagné d'un tableau de bord analytique complexe optimisé pour la performance.",
-      "stack_title": "Stack",
-      "stack": "Next.js Server Components, Leaflet.js, Tailwind CSS, Playwright"
-    }
-  ],
+  "projects": [],
   "education": [
     {
-      "degree": "Diplôme de Technicien en Radio-électronique (équivalent Bac+4)",
+      "degree": "Diplôme de Technicien en Radio-Électronique — Équivalent Bac+4",
       "institution": "Minsk State Higher College of Radiotechnics",
       "period": "2015 - 2019"
     }
-  ],
-  "softSkills": [
-    "Leadership d'Équipes Transversales",
-    "Méthodologies Agile & Scrum",
-    "Architecture UI/UX",
-    "Optimisation de Performance",
-    "Code Review & Mentorat"
   ]
 }

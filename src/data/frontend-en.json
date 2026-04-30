@@ -7,14 +7,13 @@
     "objective": "PROFESSIONAL SUMMARY",
     "experience": "PROFESSIONAL EXPERIENCE",
     "projects": "FEATURED SAAS PROJECTS",
-    "education": "EDUCATION",
-    "softSkills": "SOFT SKILLS"
+    "education": "EDUCATION"
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
     "title": "Senior Front End Engineer | React & Next.js",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Product-focused Front End Engineer specializing in React 19, Next.js 15, and TypeScript. Passionate about building highly interactive, accessible, and performant user interfaces. Adept at state management (Zustand), optimistic UI updates (TanStack Query), and complex browser API integrations (Web Audio, WebRTC) to deliver seamless, native-like web experiences.",
+    "professionalObjective": "Product-focused Front-End Engineer specializing in React 19, Next.js 15, and TypeScript. Expert in building highly interactive, accessible interfaces with 90+ Lighthouse scores, integrating complex browser APIs (Web Audio, WebRTC) for native-like web experiences.",
     "status": "Based in Grenoble, France. Free access to the EU job market."
   },
   "contact": [
@@ -105,35 +104,6 @@
   ],
   "experience": [
     {
-      "title": "Senior Front End Engineer",
-      "company": "Independent Contractor / SaaS Startups",
-      "period": "January 2023 - January 2024",
-      "responsibilities": [
-        "<strong>Advanced UI Architecture</strong>: Developed highly responsive, client-facing interfaces using React 19 and Next.js 15, consistently achieving <strong>90+ Lighthouse performance scores</strong>.",
-        "<strong>Browser API Integration</strong>: Integrated the Web MediaRecorder API for real-time voice processing and applied custom interactive DOM transformations (ePub.js) for immersive reading.",
-        "<strong>State & Animations</strong>: Engineered optimistic UI updates via TanStack Query and built complex, interactive data visualizations using Chart.js and Framer Motion.",
-        "<strong>Quality Assurance</strong>: Authored comprehensive E2E test suites using Playwright, including custom auth-bypass mechanisms to streamline CI/CD pipelines."
-      ]
-    },
-    {
-      "title": "Independent Full-Stack Developer",
-      "company": "International Clients (B2B)",
-      "period": "January 2022 - December 2022",
-      "responsibilities": [
-        "Built Lexity MVP and Interly MVP from scratch for B2B clients using Next.js 15, TypeScript, Prisma, and PostgreSQL—demonstrating rapid skill acquisition in modern full-stack development.",
-        "Managed direct communication with clients for PHP/Laravel backend contracts, translating business needs into technical solutions and SQL optimizations."
-      ]
-    },
-    {
-      "title": "Front End Web Developer (Apprenticeship)",
-      "company": "Itransition",
-      "period": "January 2021 - December 2021",
-      "responsibilities": [
-        "<strong>Front-End Development</strong>: Contributed to web application development in agile teams, learning React fundamentals and modern JavaScript.",
-        "<strong>Integration & Debug</strong>: Layout implementation, cross-browser debugging and responsive interface development."
-      ]
-    },
-    {
       "title": "Front End Web Developer",
       "company": "Basesystem",
       "period": "February 2024 - April 2026",
@@ -143,43 +113,35 @@
         "<strong>State & Performance</strong>: Implemented strict state management (Zustand) and caching strategies, significantly reducing client-side rendering bottlenecks in large-scale applications.",
         "<strong>Conversion Optimization</strong>: Collaborated directly with UX/UI designers to implement responsive design patterns, increasing mobile usability and engagement metrics."
       ]
-    }
-  ],
-  "projects": [
-    {
-      "name": "Lexity: Interactive Language Ecosystem",
-      "url": "https://lexity.app",
-      "description": "Built a PWA featuring an interactive ePub.js book reader wrapping individual words in interactive spans, paired with seamless optimistic UI updates.",
-      "stack_title": "Front End Stack",
-      "stack": "React 19, Next.js 15, TanStack Query, shadcn/ui, ePub.js"
     },
     {
-      "name": "Interly: Real-Time Audio Dashboard",
-      "url": "https://interly.app",
-      "description": "Developed a real-time coaching dashboard visualizing WPM pacing and filler words using Chart.js, Framer Motion, and the Web Audio API.",
-      "stack_title": "Front End Stack",
-      "stack": "TypeScript, Zustand, Web Audio API, Chart.js, Framer Motion"
+      "title": "Freelance Front-End Engineer",
+      "company": "SaaS Startups & International Clients",
+      "period": "January 2022 – January 2024",
+      "responsibilities": [
+        "Developed highly responsive, client-facing interfaces using React 19 and Next.js 15, consistently achieving 90+ Lighthouse performance scores across three production-grade SaaS platforms.",
+        "Integrated Web MediaRecorder API for real-time voice processing and applied custom interactive DOM transformations (ePub.js) for immersive reading experiences.",
+        "Engineered optimistic UI updates via TanStack Query and built complex, interactive data visualizations using Chart.js and Framer Motion.",
+        "Authored comprehensive E2E test suites using Playwright, including custom auth-bypass mechanisms to streamline CI/CD pipelines.",
+        "Built Lexity MVP and Interly MVP from scratch for B2B clients using Next.js 15, TypeScript, Prisma, and PostgreSQL."
+      ]
     },
     {
-      "name": "ZIRO.FIT: Geospatial Discovery UI",
-      "url": "https://ziro.fit",
-      "description": "Engineered a location-based discovery engine utilizing Leaflet.js, alongside a complex multi-view analytics dashboard for personal trainers.",
-      "stack_title": "Front End Stack",
-      "stack": "Next.js, Leaflet.js, Radix UI, Tailwind CSS, Playwright"
+      "title": "Junior Front End Web Developer",
+      "company": "Itransition",
+      "period": "January 2021 - December 2021",
+      "responsibilities": [
+        "<strong>Front-End Development</strong>: Contributed to web application development in agile teams, learning React fundamentals and modern JavaScript.",
+        "<strong>Integration & Debug</strong>: Layout implementation, cross-browser debugging and responsive interface development."
+      ]
     }
   ],
+  "projects": [],
   "education": [
     {
-      "degree": "Diploma of Technician in Radio-electronics",
+      "degree": "B.Sc. Equivalent in Radio-Electronics",
       "institution": "Minsk State Higher College of Radiotechnics",
       "period": "2015 - 2019"
     }
-  ],
-   "softSkills": [
-      "Cross-functional Team Leadership",
-      "Agile & Scrum Methodologies",
-      "UI/UX Architecture",
-      "Performance Optimization",
-      "Code Review & Mentorship"
-    ]
+  ]
 }

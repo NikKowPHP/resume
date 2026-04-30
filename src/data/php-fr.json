@@ -7,14 +7,13 @@
     "objective": "OBJECTIF PROFESSIONNEL",
     "experience": "EXPÉRIENCE PROFESSIONNELLE",
     "projects": "PROJETS PHP PHARES",
-    "education": "FORMATION",
-    "softSkills": "SOFT SKILLS"
+    "education": "FORMATION"
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
     "title": "Ingénieur PHP Senior | Expert Laravel & Symfony",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Ingénieur PHP Senior spécialisé dans les écosystèmes Laravel et Symfony avec une expertise en migration legacy. Architecte de systèmes modulaires avec le Strangler Fig pattern, garantissant des transitions zero-downtime sur des monolithes de 10+ ans. Expert en DDD, Stripe Connect multi-parties et optimisation PostgreSQL pour applications critiques FinTech et E-commerce.",
+    "professionalObjective": "Ingénieur PHP spécialisé dans les écosystèmes Laravel et Symfony. Expert en conception d'architectures SaaS multi-tenants sécurisées, optimisation PostgreSQL et orchestration d'intégrations fintech (Stripe Connect) pour applications critiques.",
     "status": "Basé à Grenoble (38) | Autorisation de travail en France (Aucune démarche employeur)"
   },
   "contact": [
@@ -99,21 +98,14 @@
       ]
     },
     {
-      "title": "Ingénieur Back-End Senior",
-      "company": "Freelance / Startups SaaS",
-      "period": "Janvier 2023 - Janvier 2024",
+      "title": "Ingénieur PHP Freelance",
+      "company": "Startups SaaS & Clients Internationaux",
+      "period": "Janvier 2022 – Janvier 2024",
       "responsibilities": [
-        "Pilaté la refonte architecturale vers Symfony 7 d'un monolithe legacy, implémentant un système modulaire avec synchronisation par événements et API Gateway.",
-        "Développé des workflows Stripe Connect complexes pour paiements multi-parties avec vérification KYC automatisée, traitant des flux financiers de plusieurs milliers d'euros par mois.",
-        "Architecture de couches de données haut débit via LATERAL JOINs et vues matérialisées, réduisant la charge DB de 80%."
-      ]
-    },
-    {
-      "title": "Développeur Full-Stack Indépendant",
-      "company": "Clients Internationaux (B2B)",
-      "period": "Janvier 2022 - Décembre 2022",
-      "responsibilities": [
-        "Construit Lexity MVP et Interly MVP de zéro pour des clients B2B avec Next.js 15, TypeScript, Prisma et PostgreSQL — démontrant une acquisition rapide de compétences en développement full-stack moderne.",
+        "Piloté la refonte architecturale vers Symfony 7 d'un monolithe legacy, implémentant un système modulaire avec synchronisation par événements et API Gateway.",
+        "Développé des workflows Stripe Connect complexes pour paiements multi-parties avec vérification KYC automatisée.",
+        "Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées, réduisant la charge DB de 80 %.",
+        "Construit Lexity MVP et Interly MVP de zéro pour des clients B2B avec Next.js 15, TypeScript, Prisma et PostgreSQL.",
         "Géré la communication directe avec clients pour contrats backend PHP/Laravel, traduisant les besoins métier en solutions techniques et optimisations SQL."
       ]
     },
@@ -127,34 +119,12 @@
       ]
     }
   ],
-  "projects": [
-    {
-      "name": "Core-API : Framework Multi-tenant Laravel",
-      "url": "https://github.com/NiKKowPHP",
-      "description": "Boilerplate haute performance pour applications SaaS multi-tenants avec Laravel 11, incluant authentification JWT et gestion dynamique de tenancy.",
-      "stack_title": "Stack PHP",
-      "stack": "Laravel 11, PostgreSQL, Docker, Redis"
-    },
-    {
-      "name": "ZIRO.FIT : Moteur Fintech & Marketplace",
-      "url": "https://ziro.fit",
-      "description": "Architecture d'une marketplace gérant des flux Stripe Connect complexes, utilisant l'optimisation SQL pour agréger les requêtes N+1.",
-      "stack_title": "Stack PHP",
-      "stack": "Laravel, PostgreSQL, Stripe Connect"
-    }
-  ],
+  "projects": [],
   "education": [
     {
-      "degree": "Diplôme de Technicien en Radio-électronique (équivalent Bac+4)",
+      "degree": "Diplôme de Technicien en Radio-Électronique — Équivalent Bac+4",
       "institution": "Minsk State Higher College of Radiotechnics",
       "period": "2015 - 2019"
     }
-  ],
-  "softSkills": [
-    "Leadership d'Équipes Transversales",
-    "Méthodologies Agile & Scrum",
-    "Domain-Driven Design",
-    "Optimisation des Performances",
-    "Revue de Code & Mentorat"
   ]
 }

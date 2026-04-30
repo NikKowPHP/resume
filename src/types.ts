@@ -55,12 +55,10 @@ export interface CVData {
     experience: string;
     projects: string;
     education: string;
-    softSkills: string;
   };
   personalInfo: PersonalInfo;
   contact: Contact[];
   skills: SkillCategory[];
-  softSkills: string[];
   languages: Language[];
   experience: Experience[];
   projects: Project[];

@@ -125,9 +125,9 @@
       "company": "Various B2B Clients & Startups",
       "period": "January 2022 – February 2024",
       "responsibilities": [
-        "**Lexity (EdTech)** : Engineered a Composite AI Service Layer in Node.js/TypeScript orchestrating Gemini, Groq, and Cerebras with automated failover, token-cost throttling, and Prometheus/Grafana observability — 99.9% uptime.",
-        "**ZIRO.FIT (Marketplace)** : Architected high-throughput data layers using LATERAL JOINs and materialized views (80% DB load reduction), developed advanced Stripe Connect workflows for multi-party payouts with KYC verification.",
-        "**Interly (Coaching IA)** : Built Lexity MVP and Interly MVP from scratch (Next.js 15, TypeScript, Prisma, PostgreSQL), implemented automated testing pipelines at 85% code coverage, containerized and deployed on AWS."
+        "<strong>Lexity (EdTech) :</strong> Engineered a Composite AI Service Layer in Node.js/TypeScript orchestrating Gemini, Groq, and Cerebras with automated failover, token-cost throttling, and Prometheus/Grafana observability — 99.9% uptime.",
+        "<strong>ZIRO.FIT (Marketplace) :</strong> Architected high-throughput data layers using LATERAL JOINs and materialized views (80% DB load reduction), developed advanced Stripe Connect workflows for multi-party payouts with KYC verification.",
+        "<strong>Interly (Coaching IA) :</strong> Built Lexity MVP and Interly MVP from scratch (Next.js 15, TypeScript, Prisma, PostgreSQL), implemented automated testing pipelines at 85% code coverage, containerized and deployed on AWS."
       ]
     },
     {

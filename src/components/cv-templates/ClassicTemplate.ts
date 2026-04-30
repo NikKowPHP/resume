@@ -72,16 +72,13 @@ export const render = (data: CVData, lang: LanguageCode): string => {
           </ul>
         </section>
         
-        <section>
-          <h2>${data.sections.status}</h2>
-          <p>${data.personalInfo.status}</p>
-        </section>
       </aside>
 
       <main class="right-column">
         <header>
           <h1>${data.personalInfo.name}</h1>
           <h3>${data.personalInfo.title}</h3>
+          <p class="status-line">${data.personalInfo.status}</p>
         </header>
 
         <section>

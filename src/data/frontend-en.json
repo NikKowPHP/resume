@@ -121,9 +121,9 @@
       "company": "Various B2B Clients & Startups",
       "period": "January 2022 – February 2024",
       "responsibilities": [
-        "**Lexity (EdTech)** : Architected and deployed a full-stack AI language learning platform (Next.js 15, TypeScript, Tailwind CSS, Zustand) with RAG-based contextual feedback, AES-256 encryption, and responsive 90+ Lighthouse UI.",
-        "**ZIRO.FIT (Marketplace)** : Architected a B2B2C fitness marketplace with interactive map-based discovery (Leaflet), multi-party payment routing, and responsive cross-platform UI with complex data visualizations.",
-        "**Interly (Coaching IA)** : Built an AI voice coaching platform integrating Web MediaRecorder API and Web Audio API, authored comprehensive E2E test suites (Playwright) with auth-bypass for CI/CD pipelines."
+        "<strong>Lexity (EdTech) :</strong> Architected and deployed a full-stack AI language learning platform (Next.js 15, TypeScript, Tailwind CSS, Zustand) with RAG-based contextual feedback, AES-256 encryption, and responsive 90+ Lighthouse UI.",
+        "<strong>ZIRO.FIT (Marketplace) :</strong> Architected a B2B2C fitness marketplace with interactive map-based discovery (Leaflet), multi-party payment routing, and responsive cross-platform UI with complex data visualizations.",
+        "<strong>Interly (Coaching IA) :</strong> Built an AI voice coaching platform integrating Web MediaRecorder API and Web Audio API, authored comprehensive E2E test suites (Playwright) with auth-bypass for CI/CD pipelines."
       ]
     },
     {

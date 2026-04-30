@@ -2,7 +2,7 @@
   "sections": {
     "contact": "CONTACT",
     "skills": "COMPÉTENCES TECHNIQUES",
-    "languages": "LANGUAGES",
+    "languages": "LANGUES",
     "status": "STATUT",
     "objective": "OBJECTIF PROFESSIONNEL",
     "experience": "EXPÉRIENCE PROFESSIONNELLE",
@@ -99,9 +99,9 @@
       "company": "Divers Clients B2B & Startups",
       "period": "Janvier 2022 – Février 2024",
       "responsibilities": [
-        "**Lexity (EdTech)** : Architecturé et déployé une plateforme d'apprentissage linguistique full-stack (Next.js 15, TypeScript, Tailwind CSS, Zustand) avec feedback contextuel RAG, chiffrement AES-256 et UI responsive atteignant des scores Lighthouse >90.",
-        "**ZIRO.FIT (Marketplace)** : Architecturé un marketplace fitness B2B2C avec découverte interactive par carte (Leaflet), routage de paiements multi-parties et UI responsive cross-platform avec visualisations de données complexes (Zustand).",
-        "**Interly (Coaching IA)** : Construit une plateforme de coaching vocal IA intégrant Web MediaRecorder API et Web Audio API, rédigé des suites de tests E2E (Playwright) avec auth-bypass pour les pipelines CI/CD."
+        "<strong>Lexity (EdTech) :</strong> Architecturé et déployé une plateforme d'apprentissage linguistique full-stack (Next.js 15, TypeScript, Tailwind CSS, Zustand) avec feedback contextuel RAG, chiffrement AES-256 et UI responsive atteignant des scores Lighthouse >90.",
+        "<strong>ZIRO.FIT (Marketplace) :</strong> Architecturé un marketplace fitness B2B2C avec découverte interactive par carte (Leaflet), routage de paiements multi-parties et UI responsive cross-platform avec visualisations de données complexes (Zustand).",
+        "<strong>Interly (Coaching IA) :</strong> Construit une plateforme de coaching vocal IA intégrant Web MediaRecorder API et Web Audio API, rédigé des suites de tests E2E (Playwright) avec auth-bypass pour les pipelines CI/CD."
       ]
     },
     {

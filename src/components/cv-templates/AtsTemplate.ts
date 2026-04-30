@@ -42,6 +42,7 @@ export const render = (data: CVData, _lang: LanguageCode): string => {
           ${data.contact.map(createContactItem).join(' | ')}
         </div>
         <div style="font-weight: bold; margin-top: 2px;">${data.personalInfo.title}</div>
+        <div style="font-size: 8pt; margin-top: 2px;">${data.personalInfo.status}</div>
       </header>
 
       <section class="ats-section">
@@ -81,9 +82,6 @@ export const render = (data: CVData, _lang: LanguageCode): string => {
         ${data.projects.map(createProjectItem).join('')}
       </section>` : ''}
 
-      <section class="ats-section" style="border-top: 0.5px solid #eee; padding-top: 2px;">
-        <p style="font-size: 8pt; text-align: center; margin: 0;">${data.personalInfo.status}</p>
-      </section>
     </div>
   `;
 };

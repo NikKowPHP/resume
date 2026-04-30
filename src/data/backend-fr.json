@@ -2,7 +2,7 @@
   "sections": {
     "contact": "CONTACT",
     "skills": "COMPÉTENCES TECHNIQUES",
-    "languages": "LANGUAGES",
+    "languages": "LANGUES",
     "status": "STATUT",
     "objective": "OBJECTIF PROFESSIONNEL",
     "experience": "EXPÉRIENCE PROFESSIONNELLE",
@@ -105,9 +105,9 @@
       "company": "Divers Clients B2B & Startups",
       "period": "Janvier 2022 – Février 2024",
       "responsibilities": [
-        "**Lexity (EdTech)** : Développé une couche de service IA composite en Node.js/TypeScript orchestrant Gemini, Groq et Cerebras avec failover automatisé, throttling par coût de tokens et observabilité Prometheus/Grafana — 99,9% de disponibilité.",
-        "**ZIRO.FIT (Marketplace)** : Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées (réduction charge DB de 80%), développé des workflows Stripe Connect pour paiements multi-parties avec vérification KYC automatisée.",
-        "**Interly (Coaching IA)** : Construit Lexity MVP et Interly MVP de zéro (Next.js 15, TypeScript, Prisma, PostgreSQL), mis en place des pipelines de test automatisés (PHPUnit/Behat) à 85% de couverture et conteneurisé les services sur AWS."
+        "<strong>Lexity (EdTech) :</strong> Développé une couche de service IA composite en Node.js/TypeScript orchestrant Gemini, Groq et Cerebras avec failover automatisé, throttling par coût de tokens et observabilité Prometheus/Grafana — 99,9% de disponibilité.",
+        "<strong>ZIRO.FIT (Marketplace) :</strong> Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées (réduction charge DB de 80%), développé des workflows Stripe Connect pour paiements multi-parties avec vérification KYC automatisée.",
+        "<strong>Interly (Coaching IA) :</strong> Construit Lexity MVP et Interly MVP de zéro (Next.js 15, TypeScript, Prisma, PostgreSQL), mis en place des pipelines de test automatisés (PHPUnit/Behat) à 85% de couverture et conteneurisé les services sur AWS."
       ]
     },
     {

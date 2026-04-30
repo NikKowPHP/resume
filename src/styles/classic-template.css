@@ -35,6 +35,13 @@
   color: var(--accent-color);
 }
 
+.classic-template .status-line {
+  font-size: 0.85rem;
+  color: var(--text-color);
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
 .classic-template .job h4 a {
   color: var(--link-color);
   text-decoration: none;

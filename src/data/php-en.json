@@ -100,9 +100,9 @@
       "company": "Various B2B Clients & Startups",
       "period": "January 2022 – February 2024",
       "responsibilities": [
-        "**Lexity (EdTech)** : Orchestrated modularization of a PHP backend into Symfony 7 services using the Strangler Fig pattern (100% uptime), architected mission-critical APIs with API Platform and Doctrine ORM.",
-        "**ZIRO.FIT (Marketplace)** : Architected high-throughput data layers using LATERAL JOINs and materialized views (80% DB load reduction), developed Stripe Connect workflows for multi-party payouts with KYC verification.",
-        "**Interly (Coaching IA)** : Built Lexity MVP and Interly MVP from scratch (Next.js 15, Prisma, PostgreSQL), implemented automated test suites (PHPUnit/Pest) at 85% code coverage."
+        "<strong>Lexity (EdTech) :</strong> Orchestrated modularization of a PHP backend into Symfony 7 services using the Strangler Fig pattern (100% uptime), architected mission-critical APIs with API Platform and Doctrine ORM.",
+        "<strong>ZIRO.FIT (Marketplace) :</strong> Architected high-throughput data layers using LATERAL JOINs and materialized views (80% DB load reduction), developed Stripe Connect workflows for multi-party payouts with KYC verification.",
+        "<strong>Interly (Coaching IA) :</strong> Built Lexity MVP and Interly MVP from scratch (Next.js 15, Prisma, PostgreSQL), implemented automated test suites (PHPUnit/Pest) at 85% code coverage."
       ]
     },
     {

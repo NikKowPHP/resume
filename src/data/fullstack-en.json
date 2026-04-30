@@ -130,9 +130,9 @@
       "company": "Various B2B Clients & Startups",
       "period": "January 2022 – February 2024",
       "responsibilities": [
-        "**Lexity (EdTech)** : Designed and deployed a full-stack AI language learning platform (Next.js 15, TypeScript, Prisma, PostgreSQL) with RAG-based contextual feedback and AES-256-GCM encryption, including a fault-tolerant LLM executor with API key rotation and exponential backoff retry — 99.9% uptime.",
-        "**ZIRO.FIT (Marketplace)** : Architected a B2B2C fitness marketplace with multi-party payment routing via Stripe Connect and geolocation-based discovery (Leaflet), optimizing complex SQL queries (json_agg, LATERAL JOINs) to reduce load latency by 60%.",
-        "**Interly (Coaching IA)** : Built an AI voice coaching platform with Web Audio API and Google Speech-to-Text, set up CI/CD pipelines (Docker, Vercel) for automated zero-downtime releases, and defined product roadmap for international clients."
+        "<strong>Lexity (EdTech) :</strong> Designed and deployed a full-stack AI language learning platform (Next.js 15, TypeScript, Prisma, PostgreSQL) with RAG-based contextual feedback and AES-256-GCM encryption, including a fault-tolerant LLM executor with API key rotation and exponential backoff retry — 99.9% uptime.",
+        "<strong>ZIRO.FIT (Marketplace) :</strong> Architected a B2B2C fitness marketplace with multi-party payment routing via Stripe Connect and geolocation-based discovery (Leaflet), optimizing complex SQL queries (json_agg, LATERAL JOINs) to reduce load latency by 60%.",
+        "<strong>Interly (Coaching IA) :</strong> Built an AI voice coaching platform with Web Audio API and Google Speech-to-Text, set up CI/CD pipelines (Docker, Vercel) for automated zero-downtime releases, and defined product roadmap for international clients."
       ]
     },
     {

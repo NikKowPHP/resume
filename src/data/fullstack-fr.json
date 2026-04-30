@@ -108,7 +108,7 @@
     {
       "title": "Ingénieur Logiciel Full Stack",
       "company": "Basesystem",
-      "period": "Février 2024 - Avril 2026",
+      "period": "Février 2024 - Avril 2026 (CDI)",
       "responsibilities": [
         "Piloté la transition technique vers TypeScript etClean Architecture, réduisant les bugs post-déploiement et accélérant les délais de revue de code de 40 % via la formation technique de 3 développeurs juniors.",
         "Architecturé et dirigé la migration d'un système PHP legacy vers une stack découplée (Next.js/Node.js), optimisant la scalabilité de la plateforme et garantissant une maintenabilité à long terme.",
@@ -120,7 +120,7 @@
     {
       "title": "Lead Developer & Architecte — Lexity",
       "company": "Plateforme d'Apprentissage Linguistique IA",
-      "period": "2022 – 2024",
+      "period": "2022 – 2024 (B2B)",
       "responsibilities": [
         "Conçu et déployé une plateforme d'apprentissage linguistique full-stack (Next.js 15, TypeScript, Prisma, PostgreSQL) avec feedback contextuel RAG et chiffrement AES-256-GCM.",
         "Construit un exécuteur LLM tolérant aux pannes avec rotation de clés API et retry exponentiel, maintenant 99,9 % de disponibilité."
@@ -129,7 +129,7 @@
     {
       "title": "Lead Developer & Architecte — ZIRO.FIT",
       "company": "Marketplace Fitness B2B2C",
-      "period": "2022 – 2024",
+      "period": "2022 – 2024 (B2B)",
       "responsibilities": [
         "Architecturé un marketplace fitness B2B2C avec routage de paiements multi-parties via Stripe Connect et découverte par géolocalisation (Leaflet).",
         "Réécrit et optimisé les requêtes SQL complexes (json_agg, LATERAL JOINs), réduisant la latence de chargement de 60 %."
@@ -138,7 +138,7 @@
     {
       "title": "Lead Developer & Architecte — Interly",
       "company": "Plateforme de Coaching Vocal IA",
-      "period": "2022 – 2024",
+      "period": "2022 – 2024 (B2B)",
       "responsibilities": [
         "Construit une plateforme de coaching vocal IA utilisant Web Audio API et Google Speech-to-Text pour le traitement vocal temps réel.",
         "Mis en place des pipelines CI/CD avec Docker et Vercel, réduisant les cycles de déploiement de processus manuels à des releases automatisées zéro-downtime.",
@@ -148,7 +148,7 @@
     {
       "title": "Développeur Full-Stack Junior",
       "company": "Itransition",
-      "period": "Janvier 2021 - Décembre 2021",
+      "period": "Janvier 2021 - Décembre 2021 (Alternance)",
       "responsibilities": [
         "Développé et maintenu des modules d'application critiques dans une architecture micro-services en environnement Agile/Scrum, participant activement aux sprint plannings, mêlées quotidiennes et revues de code.",
         "Contribué à la standardisation des processus de revue de code, améliorant la qualité globale du code et accélérant l'intégration des nouveaux développeurs."

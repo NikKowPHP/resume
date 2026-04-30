@@ -13,7 +13,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Ingénieur Front-End Senior | React 19 & Performance",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Ingénieur Front-End orienté produit, spécialisé en React 19, Next.js 15 et TypeScript. Expert en création d'interfaces accessibles et performantes (scores Lighthouse >90), intégrant des API navigateur complexes (Web Audio, WebRTC) pour des expériences web natives.",
+    "professionalObjective": "Ingénieur Front-End orienté produit, spécialisé React 19, Next.js 15 et TypeScript. Expert en création d'interfaces performantes et accessibles (Lighthouse >90) et intégration d'API navigateur complexes (Web Audio, WebRTC) pour des expériences web de qualité native.",
     "status": "Basé à Grenoble (38) | Autorisation de travail en France (Aucune démarche employeur)"
   },
   "contact": [
@@ -93,35 +93,59 @@
         "Standardisé une architecture Server-Component-First en Next.js 15, réduisant les bundles client de 45% et atteignant un sub-second Time to Interactive sur des dashboards data-heavy.",
         "Dirigé la refonte de vues legacy vers des composants Next.js modulaires, établissant une architecture frontend accessible et scalable avec des scores Lighthouse systématiquement >90.",
         "Implémenté une gestion d'état stricte (Zustand) et des stratégies de cache via TanStack Query, réduisant drastiquement les re-rendus inutiles.",
-        "Mentoré 3 développeurs juniors sur les bonnes pratiques React et la gestion d'état, réduisant les bugs UI post-déploiement de 30%."
+        "Mentoré 3 développeurs juniors sur les bonnes pratiques React et la gestion d'état, réduisant les bugs UI post-déploiement de 30%.",
+        "Géré les déploiements cloud sur Vercel et AWS, configurant des pipelines CI/CD pour des releases zéro-downtime entre les environnements de staging et production.",
+        "Implémenté une suite de tests E2E (Playwright) couvrant 80% des parcours critiques, réduisant les régressions en production de 35%."
       ]
     },
     {
-      "title": "Ingénieur Front-End Freelance",
-      "company": "Startups SaaS & Clients Internationaux",
-      "period": "Janvier 2022 – Janvier 2024",
+      "title": "Lead Front-End Developer — Lexity",
+      "company": "Plateforme d'Apprentissage Linguistique IA",
+      "period": "2022 – 2024 (B2B)",
       "responsibilities": [
-        "Développé des interfaces client hautement réactives pour Lexity, Interly et ZIRO.FIT (React 19, Next.js 15), atteignant systématiquement des scores Lighthouse >90.",
-        "Intégré Web MediaRecorder pour le traitement vocal temps réel et appliqué des transformations DOM interactives (ePub.js) pour la lecture immersive.",
-        "Créé des visualisations de données interactives complexes avec Chart.js, optimisant les performances de rendu pour des datasets volumineux.",
-        "Rédigé des suites de tests E2E avec Playwright pour les pipelines CI/CD, garantissant la stabilité des déploiements.",
-        "Construit Lexity MVP et Interly MVP de zéro pour des clients B2B avec Next.js 15, TypeScript, Prisma et PostgreSQL."
+        "Construit le MVP Lexity de zéro avec Next.js 15 et TypeScript, atteignant des scores Lighthouse >90 avec une UI responsive et accessible.",
+        "Implémenté des interfaces de feedback contextuel temps réel via TanStack Query et Zustand, offrant des mises à jour UI optimistes fluides."
+      ]
+    },
+    {
+      "title": "Lead Front-End Developer — Interly",
+      "company": "Plateforme de Coaching Vocal IA",
+      "period": "2022 – 2024 (B2B)",
+      "responsibilities": [
+        "Construit le MVP Interly de zéro, intégrant Web MediaRecorder pour le traitement vocal temps réel avec transformations DOM interactives personnalisées.",
+        "Rédigé des suites de tests E2E complètes avec Playwright, incluant des mécanismes d'auth-bypass pour fluidifier les pipelines CI/CD.",
+        "Conçu des mises à jour UI optimistes et des visualisations de données interactives complexes avec Chart.js et Framer Motion."
       ]
     },
     {
       "title": "Développeur Front-End Junior",
       "company": "Itransition",
-      "period": "Janvier 2021 - Décembre 2021",
+      "period": "Janvier 2021 - Décembre 2021 (Alternance)",
       "responsibilities": [
-        "Participé au développement d'applications web en équipe agile, apprentissage des fondamentaux React et JavaScript moderne.",
-        "Intégré des maquettes, débogué cross-browser et travaillé sur la responsivité des interfaces."
+        "Développé des composants d'application web responsives en équipes Agile avec React et JavaScript moderne, collaborant sur l'implémentation de fonctionnalités et les revues de code.",
+        "Implémenté des mises en page compatibles multi-navigateurs et effectué du débogage sur plusieurs plateformes, garantissant des expériences utilisateur homogènes."
       ]
     }
   ],
-  "projects": [],
+  "projects": [
+    {
+      "name": "Lexity MVP",
+      "url": "",
+      "description": "MVP full-stack d'une plateforme d'apprentissage linguistique IA construite de zéro — frontend Next.js 15 avec UI interactive, feedback temps réel et design responsive atteignant des scores Lighthouse >90.",
+      "stack_title": "Stack",
+      "stack": "Next.js 15, TypeScript, Tailwind CSS, Zustand, TanStack Query, Prisma"
+    },
+    {
+      "name": "Interly MVP",
+      "url": "",
+      "description": "MVP de coaching vocal IA avec intégration Web Audio API pour le traitement audio temps réel, composants UI interactifs personnalisés et tests E2E complets avec Playwright.",
+      "stack_title": "Stack",
+      "stack": "Next.js 15, TypeScript, Web Audio API, Tailwind CSS, Playwright, Framer Motion"
+    }
+  ],
   "education": [
     {
-      "degree": "Diplôme de Technicien en Radio-Électronique — Équivalent Bac+4",
+      "degree": "Diplôme d'Ingénieur en Radio-Électronique — Équivalent Master (Bac+4)",
       "institution": "Minsk State Higher College of Radiotechnics",
       "period": "2015 - 2019"
     }

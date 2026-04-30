@@ -13,7 +13,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Ingénieur PHP Senior | Expert Laravel & Symfony",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Ingénieur PHP spécialisé dans les écosystèmes Laravel et Symfony. Expert en conception d'architectures SaaS multi-tenants sécurisées, optimisation PostgreSQL et orchestration d'intégrations fintech (Stripe Connect) pour applications critiques.",
+    "professionalObjective": "Ingénieur PHP Senior spécialisé dans les écosystèmes Laravel et Symfony. Expert en architectures SaaS multi-tenants sécurisées, optimisation PostgreSQL et intégrations fintech (Stripe Connect) pour applications critiques.",
     "status": "Basé à Grenoble (38) | Autorisation de travail en France (Aucune démarche employeur)"
   },
   "contact": [
@@ -94,17 +94,26 @@
         "Orchestré la modularisation d'un système PHP legacy en microservices Symfony 7, implémentant le Strangler Fig pattern pour garantir 100% de disponibilité système pendant la transition de 6 mois.",
         "Architecturé des APIs critiques avec Laravel 11 et Symfony 6/7, imposant la Clean Architecture et les principes SOLID pour une maintenabilité à long terme.",
         "Conçu des architectures multi-tenants sécurisées avec chiffrement au niveau des champs, gérant des données sensibles pour des milliers d'utilisateurs.",
-        "Optimisé les configurations et requêtes PostgreSQL via LATERAL JOINs et vues matérialisées, résultant en une réduction de 30% des temps de réponse API."
+        "Optimisé les configurations et requêtes PostgreSQL via LATERAL JOINs et vues matérialisées, résultant en une réduction de 30% des temps de réponse API.",
+        "Conteneurisé les applications PHP avec Docker et géré l'infrastructure cloud sur AWS (EC2, RDS), implémentant des pipelines CI/CD pour des déploiements automatisés zéro-downtime.",
+        "Mis en place des suites de tests automatisés (PHPUnit/Pest) avec 85% de couverture de code, imposant des quality gates dans le CI/CD pour prévenir les régressions lors des déploiements rapides."
+      ]
+    },
+    {
+      "title": "Architecte PHP — Modernisation Symfony",
+      "company": "Projet de Migration Legacy",
+      "period": "2022 – 2024 (B2B)",
+      "responsibilities": [
+        "Piloté la refonte architecturale d'un backend legacy vers Symfony 7, implémentant un monolithe modulaire avec synchronisation par événements et API Gateway.",
+        "Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées, réduisant la charge DB de 80%."
       ]
     },
     {
       "title": "Ingénieur PHP Freelance",
-      "company": "Startups SaaS & Clients Internationaux",
-      "period": "Janvier 2022 – Janvier 2024",
+      "company": "Clients SaaS Internationaux",
+      "period": "2022 – 2024 (B2B)",
       "responsibilities": [
-        "Piloté la refonte architecturale vers Symfony 7 d'un monolithe legacy, implémentant un système modulaire avec synchronisation par événements et API Gateway.",
         "Développé des workflows Stripe Connect complexes pour paiements multi-parties avec vérification KYC automatisée.",
-        "Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées, réduisant la charge DB de 80 %.",
         "Construit Lexity MVP et Interly MVP de zéro pour des clients B2B avec Next.js 15, TypeScript, Prisma et PostgreSQL.",
         "Géré la communication directe avec clients pour contrats backend PHP/Laravel, traduisant les besoins métier en solutions techniques et optimisations SQL."
       ]
@@ -112,17 +121,32 @@
     {
       "title": "Développeur PHP",
       "company": "Itransition",
-      "period": "Janvier 2021 - Décembre 2021",
+      "period": "Janvier 2021 - Décembre 2021 (Alternance)",
       "responsibilities": [
-        "Participé au développement d'applications web en équipe agile, acquérant les fondamentaux de l'architecture PHP professionnelle.",
-        "Optimisé des requêtes SQL complexes et amélioré les performances Doctrine ORM pour des applications à fort trafic."
+        "Développé des modules d'application PHP/Laravel en équipes Agile, maîtrisant les patterns d'architecture PHP professionnels et les standards de code production grâce à une collaboration structurée.",
+        "Optimisé des requêtes SQL complexes et amélioré les performances Doctrine ORM pour des applications à fort trafic, contribuant à des réductions mesurables des temps de réponse."
       ]
     }
   ],
-  "projects": [],
+  "projects": [
+    {
+      "name": "Migration vers un Monolithe Modulaire Symfony",
+      "url": "",
+      "description": "Architecturé et exécuté la transformation d'un monolithe PHP legacy en monolithe modulaire Symfony 7 en utilisant le pattern Strangler Fig, garantissant 100% de disponibilité système pendant la transition de 6 mois.",
+      "stack_title": "Stack",
+      "stack": "Symfony 7, API Platform, Doctrine ORM, PostgreSQL, Redis, Docker, GitHub Actions"
+    },
+    {
+      "name": "Intégration Fintech Stripe Connect",
+      "url": "",
+      "description": "Développé des workflows Stripe Connect avancés pour paiements multi-parties avec vérification KYC automatisée, routage de commissions complexe et chiffrement au niveau des champs (AES-256-GCM) pour la protection des données financières.",
+      "stack_title": "Stack",
+      "stack": "Symfony 7, Laravel 11, Stripe Connect, PostgreSQL, AES-256-GCM, Docker"
+    }
+  ],
   "education": [
     {
-      "degree": "Diplôme de Technicien en Radio-Électronique — Équivalent Bac+4",
+      "degree": "Diplôme d'Ingénieur en Radio-Électronique — Équivalent Master (Bac+4)",
       "institution": "Minsk State Higher College of Radiotechnics",
       "period": "2015 - 2019"
     }

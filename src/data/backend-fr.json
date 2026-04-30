@@ -13,7 +13,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Ingénieur Logiciel Senior | Expert IA & Backend Distribué",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Architecte Backend spécialisé en PHP (Symfony 7), Node.js et systèmes distribués. Expert en conception d'architectures SaaS multi-tenants sécurisées, orchestration d'intégrations fintech (Stripe Connect) et construction de systèmes de failover IA résilients pour applications critiques.",
+    "professionalObjective": "Architecte Backend spécialisé en PHP (Symfony 7), Node.js et systèmes distribués. Expert en architectures SaaS multi-tenants sécurisées, intégrations fintech (Stripe Connect) et systèmes de failover IA résilients pour applications critiques.",
     "status": "Basé à Grenoble (38) | Autorisation de travail en France (Aucune démarche employeur)"
   },
   "contact": [
@@ -95,35 +95,59 @@
         "Archicté une gateway LLM multi-fournisseur avec failover automatisé et token-cost throttling, utilisant Prometheus/Grafana pour l'observabilité temps réel, réduisant les coûts API de 25% tout en maintenant 99.9% de disponibilité.",
         "Architecture d'APIs critiques avec Symfony 6/7 et API Platform, imposant la Clean Architecture et les principes DDD pour une scalabilité企Enterprise.",
         "Mis en place des systèmes de jobs robustes via Symfony Messenger et Redis, traitant des milliers de webhooks sans perte de messages.",
-        "Développé des workflows Stripe Connect complexes pour paiements multi-parties avec vérification KYC automatisée."
+        "Développé des workflows Stripe Connect complexes pour paiements multi-parties avec vérification KYC automatisée.",
+        "Conteneurisé les services backend avec Docker et déployé sur AWS (EC2, RDS, Lambda), implémentant des stratégies d'auto-scaling pour gérer les pics de trafic production.",
+        "Mis en place des pipelines de test automatisés (PHPUnit/Behat) atteignant 85% de couverture de code sur les services backend, réduisant considérablement les risques de régression lors des déploiements."
       ]
     },
     {
-      "title": "Ingénieur Back-End Freelance",
-      "company": "Startups SaaS & Clients Internationaux",
-      "period": "Janvier 2022 – Janvier 2024",
+      "title": "Architecte Backend — Modernisation Symfony",
+      "company": "Migration Legacy vers Moderne",
+      "period": "2022 – 2024 (B2B)",
       "responsibilities": [
         "Piloté la refonte architecturale d'un backend legacy vers Symfony 7, implémentant un monolithe modulaire avec synchronisation par événements et API Gateway.",
-        "Développé une couche d'IA composite en Node.js/TypeScript orchestrant Gemini, Groq et Cerebras avec failover automatisé et fallback intelligent, garantissant 99,9 % d'uptime.",
-        "Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées, réduisant la charge DB de 80 %.",
-        "Conçu des architectures multi-tenants sécurisées (AES-256-GCM), gérant des données financières sensibles pour des milliers d'utilisateurs.",
+        "Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées, réduisant la charge DB de 80%."
+      ]
+    },
+    {
+      "title": "Architecte Backend — Infrastructure IA",
+      "company": "Plateforme IA Composite",
+      "period": "2022 – 2024 (B2B)",
+      "responsibilities": [
+        "Développé une couche d'IA composite en Node.js/TypeScript orchestrant Gemini, Groq et Cerebras avec failover automatisé, garantissant 99,9% d'uptime.",
+        "Conçu des architectures multi-tenants sécurisées avec chiffrement AES-256-GCM, gérant des données financières sensibles pour des milliers d'utilisateurs.",
         "Construit Lexity MVP et Interly MVP de zéro pour des clients B2B avec Next.js 15, TypeScript, Prisma et PostgreSQL."
       ]
     },
     {
       "title": "Développeur Back-End Junior",
       "company": "Itransition",
-      "period": "Janvier 2021 - Décembre 2021",
+      "period": "Janvier 2021 - Décembre 2021 (Alternance)",
       "responsibilities": [
-        "Participé au développement d'applications web en équipe agile, apprentissage des patterns d'architecture et des bonnes pratiques de code production.",
-        "Acquis les fondamentaux de la conception de bases de données performantes et de l'optimisation SQL."
+        "Développé des modules d'application PHP/Symfony en équipes Agile, appliquant les patterns architecturaux et les bonnes pratiques de code production acquises lors de revues de code structurées.",
+        "Conçu des requêtes SQL complexes et optimisé les performances Doctrine ORM pour des applications à fort trafic, construisant une base solide en optimisation de performance base de données."
       ]
     }
   ],
-  "projects": [],
+  "projects": [
+    {
+      "name": "Couche de Service IA Composite",
+      "url": "",
+      "description": "Passerelle LLM multi-fournisseur en Node.js/TypeScript orchestrant Gemini, Groq et Cerebras avec failover automatisé, throttling par coût de tokens et observabilité Prometheus/Grafana — maintenant 99,9% de disponibilité.",
+      "stack_title": "Stack",
+      "stack": "Node.js, TypeScript, Gemini AI, Groq, Cerebras, Redis, Prometheus, Grafana, Docker"
+    },
+    {
+      "name": "Architecture SaaS Multi-Tenant Sécurisée",
+      "url": "",
+      "description": "Conçu un backend multi-tenant chiffré au niveau des champs (AES-256-GCM) avec Symfony 7, API Platform et synchronisation par événements pour la gestion de données financières sensibles à travers des milliers d'utilisateurs.",
+      "stack_title": "Stack",
+      "stack": "Symfony 7, API Platform, Doctrine ORM, PostgreSQL, AES-256-GCM, Redis, Docker"
+    }
+  ],
   "education": [
     {
-      "degree": "Diplôme de Technicien en Radio-Électronique — Équivalent Bac+4",
+      "degree": "Diplôme d'Ingénieur en Radio-Électronique — Équivalent Master (Bac+4)",
       "institution": "Minsk State Higher College of Radiotechnics",
       "period": "2015 - 2019"
     }

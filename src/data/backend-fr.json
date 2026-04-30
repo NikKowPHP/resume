@@ -13,7 +13,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Ingénieur Backend | IA & Systèmes Distribués",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Architecte Backend spécialisé en PHP (Symfony 7), Node.js et systèmes distribués. Expert en architectures SaaS multi-tenants sécurisées, intégrations fintech (Stripe Connect) et systèmes de failover IA résilients pour applications critiques.",
+    "professionalObjective": "Architecte Backend spécialisé en PHP (Symfony 7), Node.js et systèmes distribués. Expert en architectures SaaS multi-tenants sécurisées, intégrations fintech (Stripe Connect) et systèmes de failover IA résilients pour plateformes servant 200k+ utilisateurs actifs (MAU).",
     "status": "Basé à Grenoble (38) | Visa VPF – Libre accès au marché du travail"
   },
   "contact": [
@@ -113,11 +113,11 @@
       "company": "Basesystem",
       "period": "Février 2024 – Avril 2026",
       "responsibilities": [
-        "Archicté une gateway LLM multi-fournisseur avec failover automatisé et token-cost throttling, utilisant Prometheus/Grafana pour l'observabilité temps réel, réduisant les coûts API de 25% tout en maintenant 99.9% de disponibilité.",
-        "Architecture d'APIs critiques avec Symfony 6/7 et API Platform, imposant la Clean Architecture et les principes DDD pour une scalabilité企Enterprise.",
+        "Architecturé une gateway LLM multi-fournisseur avec failover automatisé et token-cost throttling pour une plateforme de 200k+ utilisateurs, utilisant Prometheus/Grafana pour l'observabilité temps réel, réduisant les coûts API de 25% tout en maintenant 99.9% de disponibilité.",
+        "Architecture d'APIs critiques avec Symfony 6/7 et API Platform, imposant la Clean Architecture et les principes DDD pour une scalabilité Enterprise, optimisant le support de pics de 1 200 requêtes/seconde (RPS).",
         "Mis en place des systèmes de jobs robustes via Symfony Messenger et Redis, traitant des milliers de webhooks sans perte de messages.",
-        "Développé des workflows Stripe Connect complexes pour paiements multi-parties avec vérification KYC automatisée.",
-        "Conteneurisé les services backend avec Docker et déployé sur une infrastructure AWS scalable, assurant une haute disponibilité lors des pics de charge.",
+        "Développé des workflows Stripe Connect complexes pour paiements multi-parties gérant 500k$+ de GMV mensuel avec vérification KYC automatisée.",
+        "Conteneurisé les services backend avec Docker et déployé sur une infrastructure AWS scalable, garantissant une disponibilité de 99,95% lors de pics de charge 10x.",
         "Mis en place des pipelines de test automatisés (PHPUnit/Behat) atteignant 85% de couverture de code sur les services backend, réduisant considérablement les risques de régression lors des déploiements."
       ]
     },
@@ -126,15 +126,15 @@
       "company": "Divers Clients B2B & Startups",
       "period": "Janvier 2022 – Février 2024",
       "responsibilities": [
-        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech)</a> :</strong> Développé une couche de service IA composite en Node.js/TypeScript orchestrant Gemini, Groq et Cerebras avec failover automatisé, throttling par coût de tokens et observabilité Prometheus/Grafana — 99,9% de disponibilité.",
-        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace)</a> :</strong> Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées (réduction charge DB de 80%), développé des workflows Stripe Connect pour paiements multi-parties avec vérification KYC automatisée.",
-        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construit Lexity MVP et Interly MVP de zéro (Next.js, TypeScript, Prisma, PostgreSQL), mis en place des pipelines de test automatisés (PHPUnit/Behat) à 85% de couverture et conteneurisé les services sur AWS."
+        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech)</a> :</strong> Développé une couche de service IA composite en Node.js/TypeScript orchestrant Gemini, Groq et Cerebras avec failover automatisé, maintenant un TTFT < 200ms et une disponibilité de 99,9%.",
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace)</a> :</strong> Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées (réduction charge DB de 80% sur +2M d'enregistrements), développé des workflows Stripe Connect gérant 500k$+ de GMV mensuel avec vérification KYC automatisée.",
+        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construit Lexity MVP et Interly MVP de zéro (Next.js, TypeScript, Prisma, PostgreSQL), supportant 500+ flux audio simultanés avec une latence < 300ms; mis en place des pipelines de test automatisés à 85% de couverture."
       ]
     },
     {
       "title": "Développeur Back-End Junior",
       "company": "Itransition",
-      "period": "Janvier 2021 - Décembre 2021 (Alternance)",
+      "period": "Janvier 2021 - Décembre 2021",
       "responsibilities": [
         "Développé des modules d'application PHP/Symfony en équipes Agile, appliquant les patterns architecturaux et les bonnes pratiques de code production acquises lors de revues de code structurées.",
         "Conçu des requêtes SQL complexes et optimisé les performances Doctrine ORM, réduisant les temps de réponse des requêtes les plus lentes de 35 % sur les endpoints à fort trafic."

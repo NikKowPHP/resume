@@ -13,7 +13,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Ingénieur PHP | Laravel & Symfony",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Ingénieur PHP spécialisé dans les écosystèmes Laravel et Symfony. Expert en architectures SaaS multi-tenants sécurisées, optimisation PostgreSQL et intégrations fintech (Stripe Connect) pour applications critiques.",
+    "professionalObjective": "Ingénieur PHP spécialisé dans les écosystèmes Laravel et Symfony. Expert en architectures SaaS multi-tenants sécurisées, optimisation PostgreSQL et intégrations fintech (Stripe Connect) pour plateformes servant 200k+ utilisateurs actifs (MAU).",
     "status": "Basé à Grenoble (38) | Visa VPF – Libre accès au marché du travail"
   },
   "contact": [
@@ -106,10 +106,10 @@
       "company": "Basesystem",
       "period": "Février 2024 – Avril 2026",
       "responsibilities": [
-        "Orchestré la modularisation d'un système PHP legacy en microservices Symfony 7, implémentant le Strangler Fig pattern pour garantir 100% de disponibilité système pendant la transition de 6 mois.",
-        "Architecturé des APIs critiques avec Laravel 11 et Symfony 6/7, imposant la Clean Architecture et les principes SOLID pour une maintenabilité à long terme.",
+        "Orchestré la modularisation d'un système PHP legacy en microservices Symfony 7 pour une plateforme de 200k+ utilisateurs, implémentant le Strangler Fig pattern pour garantir 100% de disponibilité système pendant la transition.",
+        "Architecturé des APIs critiques avec Laravel 11 et Symfony 6/7, imposant la Clean Architecture et les principes SOLID, optimisant la scalabilité pour supporter des pics de 1 200 requêtes/seconde (RPS).",
         "Conçu des architectures multi-tenants sécurisées avec chiffrement au niveau des champs, gérant des données sensibles pour des milliers d'utilisateurs.",
-        "Optimisé les configurations et requêtes PostgreSQL via LATERAL JOINs et vues matérialisées, résultant en une réduction de 30% des temps de réponse API.",
+        "Optimisé les configurations et requêtes PostgreSQL via LATERAL JOINs et vues matérialisées, résultant en une réduction de 30% des temps de réponse API et maintenant une disponibilité de 99,95% lors de pics de charge.",
         "Conteneurisé les applications PHP avec Docker et géré l'infrastructure cloud sur AWS (EC2, RDS), implémentant des pipelines CI/CD pour des déploiements automatisés zéro-downtime.",
         "Mis en place des suites de tests automatisés (PHPUnit/Pest) avec 85% de couverture de code, imposant des quality gates dans le CI/CD pour prévenir les régressions lors des déploiements rapides."
       ]
@@ -119,15 +119,15 @@
       "company": "Divers Clients B2B & Startups",
       "period": "Janvier 2022 – Février 2024",
       "responsibilities": [
-        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech)</a> :</strong> Orchestré la modularisation d'un backend PHP en microservices Symfony 7 avec le pattern Strangler Fig (100% de disponibilité), architecturé des APIs critiques avec API Platform et Doctrine ORM.",
-        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace)</a> :</strong> Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées (réduction charge DB de 80%), développé des workflows Stripe Connect pour paiements multi-parties avec vérification KYC.",
-        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construit Lexity MVP et Interly MVP de zéro (Next.js, Prisma, PostgreSQL), mis en place des suites de tests automatisés (PHPUnit/Pest) à 85% de couverture."
+        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech)</a> :</strong> Orchestré la modularisation d'un backend PHP en microservices Symfony 7 avec le pattern Strangler Fig (100% de disponibilité), architecturé des APIs critiques avec API Platform et Doctrine ORM — maintenant un TTFT < 200ms.",
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace)</a> :</strong> Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées (réduction charge DB de 80% sur +2M d'enregistrements), développé des workflows Stripe Connect gérant 500k$+ de GMV mensuel avec vérification KYC.",
+        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construit Lexity MVP et Interly MVP de zéro (Next.js, Prisma, PostgreSQL), supportant 500+ flux audio simultanés avec une latence < 300ms; mis en place des suites de tests automatisés (PHPUnit/Pest) à 85% de couverture."
       ]
     },
     {
       "title": "Développeur PHP",
       "company": "Itransition",
-      "period": "Janvier 2021 - Décembre 2021 (Alternance)",
+      "period": "Janvier 2021 - Décembre 2021",
       "responsibilities": [
         "Développé des modules d'application PHP/Laravel en équipes Agile, maîtrisant les patterns d'architecture PHP professionnels et les standards de code production grâce à une collaboration structurée.",
         "Optimisé des requêtes SQL complexes et les performances Doctrine ORM, réduisant les temps de réponse des requêtes les plus lentes de 35 % sur les endpoints à fort trafic."

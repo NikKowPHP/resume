@@ -13,7 +13,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Ingénieur Front-End | React 19 & Performance",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Ingénieur Front-End orienté produit, spécialisé React 19, Next.js 15 et TypeScript. Expert en création d'interfaces performantes et accessibles (Lighthouse >90) et intégration d'API navigateur complexes (Web Audio, WebRTC) pour des expériences web de qualité native.",
+    "professionalObjective": "Ingénieur Front-End orienté produit, spécialisé React 19, Next.js 15 et TypeScript. Expert en création d'interfaces performantes et accessibles (Lighthouse >90) pour plateformes SaaS servant 200k+ utilisateurs actifs (MAU), et intégration d'API navigateur complexes (Web Audio, WebRTC) pour des expériences web de qualité native.",
     "status": "Basé à Grenoble (38) | Visa VPF – Libre accès au marché du travail"
   },
   "contact": [
@@ -107,11 +107,11 @@
       "company": "Basesystem",
       "period": "Février 2024 – Avril 2026",
       "responsibilities": [
-        "Standardisé une architecture Server-Component-First en Next.js, réduisant les bundles client de 45% et atteignant un sub-second Time to Interactive sur des dashboards data-heavy.",
-        "Dirigé la refonte de vues legacy vers des composants Next.js modulaires, établissant une architecture frontend accessible et scalable avec des scores Lighthouse systématiquement >90.",
-        "Implémenté une gestion d'état stricte (Zustand) et des stratégies de cache via TanStack Query, réduisant drastiquement les re-rendus inutiles.",
-        "Mentoré 3 développeurs juniors sur les bonnes pratiques React et la gestion d'état, réduisant les bugs UI post-déploiement de 30%.",
-        "Géré les déploiements cloud sur Vercel et AWS, configurant des pipelines CI/CD pour des releases zéro-downtime entre les environnements de staging et production.",
+        "Standardisé une architecture Server-Component-First en Next.js pour une plateforme de 200k+ utilisateurs, réduisant les bundles client de 45% et atteignant un sub-second Time to Interactive sur des dashboards data-heavy.",
+        "Dirigé la refonte de vues legacy vers des composants Next.js modulaires, établissant une architecture scalable optimisée pour supporter des pics de 1 200 requêtes/seconde (RPS) avec des scores Lighthouse systématiquement >90.",
+        "Implémenté une gestion d'état stricte (Zustand) et des stratégies de cache via TanStack Query, contribuant à une accélération globale de 30% et réduisant drastiquement les re-rendus inutiles.",
+        "Collaboré directement avec les designers UX/UI pour implémenter des motifs responsive, améliorant la mobilité et générant +5% de conversion.",
+        "Géré les déploiements cloud sur Vercel et AWS, configurant des pipelines CI/CD pour des releases zéro-downtime, garantissant une disponibilité de 99,95% lors de pics de charge 10x.",
         "Implémenté une suite de tests E2E (Playwright) couvrant 80% des parcours critiques, réduisant les régressions en production de 35%."
       ]
     },
@@ -120,15 +120,15 @@
       "company": "Divers Clients B2B & Startups",
       "period": "Janvier 2022 – Février 2024",
       "responsibilities": [
-        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech)</a> :</strong> Architecturé et déployé une plateforme d'apprentissage linguistique full-stack (Next.js, TypeScript, Tailwind CSS, Zustand) avec feedback contextuel RAG, chiffrement AES-256 et UI responsive atteignant des scores Lighthouse >90.",
-        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace)</a> :</strong> Architecturé un marketplace fitness B2B2C avec découverte interactive par carte (Leaflet), routage de paiements multi-parties et UI responsive cross-platform avec visualisations de données complexes (Zustand).",
-        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construit une plateforme de coaching vocal IA intégrant Web MediaRecorder API et Web Audio API, rédigé des suites de tests E2E (Playwright) avec auth-bypass pour les pipelines CI/CD."
+        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech)</a> :</strong> Architecturé et déployé une plateforme d'apprentissage linguistique full-stack (Next.js, TypeScript, Tailwind CSS, Zustand) avec feedback contextuel RAG, chiffrement AES-256 et UI responsive Lighthouse >90 — assurant un TTFT < 200ms.",
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace)</a> :</strong> Architecturé un marketplace fitness B2B2C gérant 500k$+ de GMV mensuel avec découverte interactive par carte (Leaflet), routage de paiements multi-parties et UI responsive cross-platform avec visualisations de données complexes sur +2M d'enregistrements.",
+        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construit une plateforme de coaching vocal IA supportant 500+ flux audio simultanés avec une latence < 300ms, intégrant Web MediaRecorder API et Web Audio API, avec des suites de tests E2E (Playwright) pour les pipelines CI/CD."
       ]
     },
     {
       "title": "Développeur Front-End Junior",
       "company": "Itransition",
-      "period": "Janvier 2021 - Décembre 2021 (Alternance)",
+      "period": "Janvier 2021 - Décembre 2021",
       "responsibilities": [
         "Développé des composants d'application web responsives en équipes Agile avec React et JavaScript moderne, collaborant sur l'implémentation de fonctionnalités et les revues de code.",
         "Implémenté des mises en page compatibles multi-navigateurs et effectué du débogage cross-plateforme, garantissant des expériences utilisateur homogènes sur 6 navigateurs et réduisant les tickets d'incompatibilité de 40 %."

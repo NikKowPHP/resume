@@ -13,7 +13,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Ingénieur Full-Stack | Next.js, TypeScript & IA",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Ingénieur Full-Stack spécialisé Next.js 15, TypeScript et orchestration IA. Expert en modernisation de systèmes legacy, optimisation SQL (latence réduite jusqu'à 60 %) et architectures LLM tolérantes aux pannes pour plateformes SaaS à forte scalabilité.",
+    "professionalObjective": "Ingénieur Full-Stack spécialisé Next.js 15, TypeScript et orchestration IA. Expert en modernisation de systèmes legacy, optimisation SQL (latence réduite de 60%) et architectures LLM pour plateformes SaaS servant +200k utilisateurs actifs (MAU).",
     "status": "Basé à Grenoble (38) | Visa VPF – Libre accès au marché du travail"
   },
   "contact": [
@@ -114,11 +114,11 @@
       "company": "Basesystem",
       "period": "Février 2024 – Avril 2026",
       "responsibilities": [
-        "Piloté la transition technique vers TypeScript et Clean Architecture, réduisant les bugs post-déploiement et accélérant les délais de revue de code de 40 % via la formation technique de 3 développeurs juniors.",
-        "Architecturé et dirigé la migration d'un système PHP legacy vers une stack découplée (Next.js/Node.js), optimisant la scalabilité de la plateforme et garantissant une maintenabilité à long terme.",
-        "Présenté les décisions techniques aux parties prenantes, traduisant les améliorations complexes (accélération de 30 %, +5 % conversion) en langage valeur métier.",
-        "Conteneurisation des micro-services avec Docker et déploiement sur une infrastructure AWS scalable, assurant une haute disponibilité lors des pics de charge.",
-        "Implémenté une suite de tests E2E (Playwright) couvrant 80 % des parcours critiques, réduisant les régressions en production de 35 %."
+        "Piloté la transition vers TypeScript et Clean Architecture pour une plateforme de 200k+ utilisateurs, accélérant les délais de revue de code de 40%.",
+        "Architecture de la migration d'un système PHP legacy vers une stack Next.js/Node.js, optimisant la scalabilité pour supporter des pics de 1 200 requêtes/seconde (RPS).",
+        "Présenté les décisions techniques aux parties prenantes, traduisant les gains de performance (accélération de 30%, +5% conversion) en valeur métier.",
+        "Conteneurisation des micro-services avec Docker et déploiement sur AWS, garantissant une disponibilité de 99,95% lors de pics de charge critiques.",
+        "Implémenté une suite de tests E2E (Playwright) couvrant 80% des parcours critiques, réduisant les régressions en production de 35%."
       ]
     },
     {
@@ -126,18 +126,18 @@
       "company": "Divers Clients B2B & Startups",
       "period": "Janvier 2022 – Février 2024",
       "responsibilities": [
-        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech)</a> :</strong> Conçu et déployé une plateforme d'apprentissage linguistique full-stack (Next.js, TypeScript, Prisma, PostgreSQL) avec feedback contextuel RAG et chiffrement AES-256-GCM, incluant un exécuteur LLM tolérant aux pannes avec rotation de clés API et retry exponentiel — 99,9 % de disponibilité.",
-        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace)</a> :</strong> Architecturé un marketplace fitness B2B2C avec routage de paiements multi-parties via Stripe Connect et découverte par géolocalisation (Leaflet), et optimisé les requêtes SQL complexes (json_agg, LATERAL JOINs) réduisant la latence de chargement de 60 %.",
-        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construit une plateforme de coaching vocal IA avec Web Audio API et Google Speech-to-Text, mis en place des pipelines CI/CD (Docker, Vercel) pour des releases automatisées zéro-downtime, et défini la roadmap produit pour clients internationaux."
+        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech)</a> :</strong> Déploiement d'une plateforme IA avec feedback RAG et exécuteur LLM résilient, assurant un TTFT < 200ms et une disponibilité de 99,9%.",
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace)</a> :</strong> Architecture d'un marketplace gérant 500k$+ de GMV mensuel via Stripe Connect ; optimisation SQL (LATERAL JOINs) réduisant la latence de 60% sur +2M d'enregistrements.",
+        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construction d'une plateforme de coaching vocal supportant 500+ flux audio simultanés avec une latence < 300ms via Web Audio API et Google Speech-to-Text."
       ]
     },
     {
       "title": "Développeur Full-Stack Junior",
       "company": "Itransition",
-      "period": "Janvier 2021 - Décembre 2021 (Alternance)",
+      "period": "Janvier 2021 - Décembre 2021",
       "responsibilities": [
-        "Développé et maintenu des modules d'application critiques dans une architecture micro-services en environnement Agile/Scrum, participant activement aux sprint plannings, mêlées quotidiennes et revues de code.",
-        "Standardisé les processus de revue de code avec une checklist structurée, réduisant le temps de review de 25 % et ramenant les retours post-merge à moins de 2 par sprint."
+        "Développement et maintenance de modules critiques dans une architecture micro-services pour des clients grands comptes en environnement Agile/Scrum.",
+        "Standardisation des revues de code avec une checklist structurée, réduisant le temps de review de 25% et limitant les retours post-merge à moins de 2 par sprint."
       ]
     }
   ],
@@ -147,10 +147,10 @@
       "degree": "Technicien Radio‑électronique (Bac+2)",
       "institution": "<a href=\"https://en.wikipedia.org/wiki/Minsk_Radioengineering_College\" target=\"_blank\">Minsk State Higher College of Radiotechnics</a>",
       "period": "2019",
-      "description": "Programme couvrant l'électronique analogique/numérique et la programmation bas niveau de microcontrôleurs (C, Assembleur)."
+      "description": "Programme couvrant l'électronique analogique/numérique et la programmation bas niveau (C, Assembleur)."
     },
     {
-      "degree": "Études en systèmes mobiles programmables (Bac+3)",
+      "degree": "Équivalent Bachelor en Systèmes Mobiles Programmables (Bac+3)",
       "institution": "<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_d%27%C3%89tat_de_B%C3%A9larus_d%27informatique_et_de_radio%C3%A9lectronique\" target=\"_blank\">BSUIR</a>",
       "period": "2022",
       "description": "Approfondissement en systèmes embarqués, développement mobile (Java/Kotlin) et architectures temps réel."

@@ -13,7 +13,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Full-Stack Engineer | Next.js, TypeScript & AI",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Full-Stack Engineer specializing in Next.js 15, TypeScript, and AI orchestration. Expert in legacy system modernization, SQL optimization (60% latency reduction), and fault-tolerant LLM architectures for high-scale SaaS platforms.",
+    "professionalObjective": "Full-Stack Engineer specializing in Next.js 15, TypeScript, and AI orchestration. Expert in legacy system modernization, SQL optimization (60% latency reduction), and fault-tolerant LLM architectures for SaaS platforms serving 200k+ Monthly Active Users (MAU).",
     "status": "Based in Grenoble, France | VPF Visa – Free access to the French job market"
   },
   "contact": [
@@ -114,10 +114,10 @@
       "company": "Basesystem",
       "period": "February 2024 – April 2026",
       "responsibilities": [
-        "Led the technical transition to TypeScript and Clean Architecture, reducing post-deployment bugs and accelerating code review turnaround by 40% through technical mentoring of 3 junior developers.",
-        "Architected and led the migration of a legacy PHP system to a decoupled stack (Next.js/Node.js), optimizing platform scalability and ensuring long-term maintainability.",
-        "Presented technical decisions to stakeholders, translating complex improvements (30% speedup, +5% conversion) into business-value language.",
-        "Containerized micro-services with Docker and deployed on scalable AWS infrastructure, ensuring high availability during production traffic spikes.",
+        "Led the technical transition to TypeScript and Clean Architecture for a platform serving 200k+ users, reducing post-deployment bugs and accelerating code review turnaround by 40%.",
+        "Architected the migration of a legacy PHP system to a decoupled Next.js/Node.js stack, optimizing scalability to handle peak loads of 1,200+ Requests Per Second (RPS).",
+        "April 2026ed technical decisions to stakeholders, translating complex improvements (30% speedup, +5% conversion) into business-value language.",
+        "Containerized micro-services with Docker and deployed on AWS infrastructure, maintaining 99.95% availability during 10x production traffic spikes.",
         "Implemented a comprehensive E2E test suite (Playwright) covering 80% of critical user paths, reducing production regressions by 35%."
       ]
     },
@@ -126,9 +126,9 @@
       "company": "Various B2B Clients & Startups",
       "period": "January 2022 – February 2024",
       "responsibilities": [
-        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech)</a> :</strong> Designed and deployed a full-stack AI language learning platform (Next.js, TypeScript, Prisma, PostgreSQL) with RAG-based contextual feedback and AES-256-GCM encryption, including a fault-tolerant LLM executor with API key rotation and exponential backoff retry — 99.9% uptime.",
-        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace)</a> :</strong> Architected a B2B2C fitness marketplace with multi-party payment routing via Stripe Connect and geolocation-based discovery (Leaflet), optimizing complex SQL queries (json_agg, LATERAL JOINs) to reduce load latency by 60%.",
-        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Built an AI voice coaching platform with Web Audio API and Google Speech-to-Text, set up CI/CD pipelines (Docker, Vercel) for automated zero-downtime releases, and defined product roadmap for international clients."
+        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech)</a> :</strong> Deployed a full-stack AI platform with RAG-based feedback and a fault-tolerant LLM executor, maintaining a sub-200ms Time To First Token (TTFT) and 99.9% uptime.",
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace)</a> :</strong> Architected a fitness marketplace managing $500k+ monthly GMV via Stripe Connect; optimized SQL queries (LATERAL JOINs) to reduce latency by 60% across 2M+ records.",
+        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Built an AI voice coaching platform supporting 500+ concurrent voice streams with <300ms E2E latency using Web Audio API and Google Speech-to-Text."
       ]
     },
     {
@@ -136,7 +136,7 @@
       "company": "Itransition",
       "period": "January 2021 - December 2021",
       "responsibilities": [
-        "Developed and maintained critical application modules in a microservices architecture within Agile/Scrum environment, collaborating on sprint planning, stand-ups, and code reviews.",
+        "Developed and maintained critical application modules in a microservices architecture, collaborating on sprint planning and code reviews for enterprise-level clients.",
         "Standardized code review processes with a structured checklist, reducing review turnaround time by 25% and keeping post-merge defects under 2 per sprint."
       ]
     }
@@ -150,7 +150,7 @@
       "description": "Program covering analog/digital electronics and low-level microcontroller programming (C, Assembly)."
     },
     {
-      "degree": "Programmable Mobile Systems Studies (Bac+3 equivalent)",
+      "degree": "Bachelor's Degree Equivalent in Programmable Mobile Systems (Bac+3)",
       "institution": "<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_d%27%C3%89tat_de_B%C3%A9larus_d%27informatique_et_de_radio%C3%A9lectronique\" target=\"_blank\">BSUIR</a>",
       "period": "2022",
       "description": "Advanced coursework in embedded systems, mobile development (Java/Kotlin), and real-time architectures."

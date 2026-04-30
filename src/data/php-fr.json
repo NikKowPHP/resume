@@ -11,7 +11,7 @@
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Ingénieur PHP Senior | Expert Laravel & Symfony",
+    "title": "Ingénieur PHP | Laravel & Symfony",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
     "professionalObjective": "Ingénieur PHP Senior spécialisé dans les écosystèmes Laravel et Symfony. Expert en architectures SaaS multi-tenants sécurisées, optimisation PostgreSQL et intégrations fintech (Stripe Connect) pour applications critiques.",
     "status": "Basé à Grenoble (38) | Autorisation de travail en France (Aucune démarche employeur)"
@@ -87,7 +87,7 @@
   ],
   "experience": [
     {
-      "title": "Ingénieur PHP Senior",
+      "title": "Ingénieur PHP",
       "company": "Basesystem",
       "period": "Février 2024 - Avril 2026 (CDI)",
       "responsibilities": [
@@ -100,22 +100,38 @@
       ]
     },
     {
-      "title": "Architecte PHP — Modernisation Symfony",
-      "company": "Projet de Migration Legacy",
+      "title": "",
+      "company": "▸ Projets Freelance / B2B",
+      "period": "",
+      "responsibilities": []
+    },
+    {
+      "title": "Lead Developer & Architecte — Lexity",
+      "company": "Plateforme d'Apprentissage Linguistique IA",
       "period": "2022 – 2024 (B2B)",
       "responsibilities": [
-        "Piloté la refonte architecturale d'un backend legacy vers Symfony 7, implémentant un monolithe modulaire avec synchronisation par événements et API Gateway.",
-        "Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées, réduisant la charge DB de 80%."
+        "Orchestré la modularisation d'un backend PHP en microservices Symfony 7 avec le pattern Strangler Fig, garantissant 100% de disponibilité pendant la transition.",
+        "Architecturé des APIs critiques avec API Platform et Doctrine ORM, imposant la Clean Architecture et les principes SOLID."
       ]
     },
     {
-      "title": "Ingénieur PHP Freelance",
-      "company": "Clients SaaS Internationaux",
+      "title": "Lead Developer & Architecte — ZIRO.FIT",
+      "company": "Marketplace Fitness B2B2C",
       "period": "2022 – 2024 (B2B)",
       "responsibilities": [
-        "Développé des workflows Stripe Connect complexes pour paiements multi-parties avec vérification KYC automatisée.",
+        "Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées, réduisant la charge DB de 80%.",
+        "Développé des workflows Stripe Connect pour paiements multi-parties avec vérification KYC automatisée et routage de commissions complexe.",
+        "Conçu des architectures multi-tenants sécurisées avec chiffrement AES-256-GCM, gérant des données financières sensibles."
+      ]
+    },
+    {
+      "title": "Lead Developer & Architecte — Interly",
+      "company": "Plateforme de Coaching Vocal IA",
+      "period": "2022 – 2024 (B2B)",
+      "responsibilities": [
         "Construit Lexity MVP et Interly MVP de zéro pour des clients B2B avec Next.js 15, TypeScript, Prisma et PostgreSQL.",
-        "Géré la communication directe avec clients pour contrats backend PHP/Laravel, traduisant les besoins métier en solutions techniques et optimisations SQL."
+        "Conteneurisé les applications PHP avec Docker et géré l'infrastructure cloud sur AWS (EC2, RDS), implémentant des pipelines CI/CD pour des déploiements automatisés zéro-downtime.",
+        "Mis en place des suites de tests automatisés (PHPUnit/Pest) avec 85% de couverture de code, imposant des quality gates dans le CI/CD."
       ]
     },
     {
@@ -128,22 +144,7 @@
       ]
     }
   ],
-  "projects": [
-    {
-      "name": "Migration vers un Monolithe Modulaire Symfony",
-      "url": "",
-      "description": "Architecturé et exécuté la transformation d'un monolithe PHP legacy en monolithe modulaire Symfony 7 en utilisant le pattern Strangler Fig, garantissant 100% de disponibilité système pendant la transition de 6 mois.",
-      "stack_title": "Stack",
-      "stack": "Symfony 7, API Platform, Doctrine ORM, PostgreSQL, Redis, Docker, GitHub Actions"
-    },
-    {
-      "name": "Intégration Fintech Stripe Connect",
-      "url": "",
-      "description": "Développé des workflows Stripe Connect avancés pour paiements multi-parties avec vérification KYC automatisée, routage de commissions complexe et chiffrement au niveau des champs (AES-256-GCM) pour la protection des données financières.",
-      "stack_title": "Stack",
-      "stack": "Symfony 7, Laravel 11, Stripe Connect, PostgreSQL, AES-256-GCM, Docker"
-    }
-  ],
+  "projects": [],
   "education": [
     {
       "degree": "Diplôme d'Ingénieur en Radio-Électronique — Équivalent Master (Bac+4)",

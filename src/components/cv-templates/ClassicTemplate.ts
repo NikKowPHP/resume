@@ -16,7 +16,11 @@ const createLanguageItem = (lang: Language) => `
   <li><strong>${lang.name}:</strong> ${lang.level}</li>
 `;
 
-const createExperienceItem = (job: Experience) => `
+const createExperienceItem = (job: Experience) => {
+  if (job.title === '' && job.period === '' && job.responsibilities.length === 0) {
+    return `<h3 class="section-subheader">${job.company}</h3>`;
+  }
+  return `
   <div class="job">
     <h4>${job.title}</h4>
     <p class="company-info">${job.company} | ${job.period}</p>
@@ -25,6 +29,7 @@ const createExperienceItem = (job: Experience) => `
     </ul>
   </div>
 `;
+};
 
 const createEducationItem = (edu: Education) => `
   <div class="job">

@@ -42,6 +42,16 @@
   font-weight: bold;
 }
 
+.ats-subheader {
+  font-size: 9pt;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 6px 0 2px 0;
+  padding-bottom: 1px;
+  border-bottom: 0.5px dashed #888;
+  color: #333;
+}
+
 .ats-section p {
   margin: 0 0 2px 0;
 }

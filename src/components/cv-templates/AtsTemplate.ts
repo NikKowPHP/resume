@@ -6,7 +6,11 @@ const createSkillCategory = (category: SkillCategory) => `
   <p style="margin-bottom: 1px;"><strong>${category.title}:</strong> ${category.skills.join(', ')}</p>
 `;
 
-const createExperienceItem = (job: Experience) => `
+const createExperienceItem = (job: Experience) => {
+  if (job.title === '' && job.period === '' && job.responsibilities.length === 0) {
+    return `<h3 class="ats-subheader">${job.company}</h3>`;
+  }
+  return `
   <div class="ats-item">
     <div class="ats-header">
       <span>${job.title.toUpperCase()} | ${job.company}</span>
@@ -17,6 +21,7 @@ const createExperienceItem = (job: Experience) => `
     </ul>
   </div>
 `;
+};
 
 const createProjectItem = (project: Project) => `
   <div class="ats-item">

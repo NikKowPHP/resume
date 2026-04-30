@@ -11,7 +11,7 @@
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Ingénieur Front-End Senior | React 19 & Performance",
+    "title": "Ingénieur Front-End | React 19 & Performance",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
     "professionalObjective": "Ingénieur Front-End orienté produit, spécialisé React 19, Next.js 15 et TypeScript. Expert en création d'interfaces performantes et accessibles (Lighthouse >90) et intégration d'API navigateur complexes (Web Audio, WebRTC) pour des expériences web de qualité native.",
     "status": "Basé à Grenoble (38) | Autorisation de travail en France (Aucune démarche employeur)"
@@ -99,20 +99,35 @@
       ]
     },
     {
-      "title": "Lead Front-End Developer — Lexity",
+      "title": "",
+      "company": "▸ Projets Freelance / B2B",
+      "period": "",
+      "responsibilities": []
+    },
+    {
+      "title": "Lead Developer & Architecte — Lexity",
       "company": "Plateforme d'Apprentissage Linguistique IA",
       "period": "2022 – 2024 (B2B)",
       "responsibilities": [
-        "Construit le MVP Lexity de zéro avec Next.js 15 et TypeScript, atteignant des scores Lighthouse >90 avec une UI responsive et accessible.",
-        "Implémenté des interfaces de feedback contextuel temps réel via TanStack Query et Zustand, offrant des mises à jour UI optimistes fluides."
+        "Architecturé et déployé une plateforme d'apprentissage linguistique full-stack (Next.js 15, TypeScript, Tailwind CSS, Zustand) avec feedback contextuel RAG et chiffrement AES-256.",
+        "Construit une UI responsive et accessible atteignant des scores Lighthouse >90 avec feedback contextuel temps réel via TanStack Query et mises à jour optimistes."
       ]
     },
     {
-      "title": "Lead Front-End Developer — Interly",
+      "title": "Lead Developer & Architecte — ZIRO.FIT",
+      "company": "Marketplace Fitness B2B2C",
+      "period": "2022 – 2024 (B2B)",
+      "responsibilities": [
+        "Architecturé un marketplace fitness B2B2C avec découverte interactive par carte (Leaflet), routage de paiements multi-parties et UI responsive cross-platform.",
+        "Implémenté des visualisations de données interactives complexes et une gestion d'état (Zustand) pour les données marché en temps réel."
+      ]
+    },
+    {
+      "title": "Lead Developer & Architecte — Interly",
       "company": "Plateforme de Coaching Vocal IA",
       "period": "2022 – 2024 (B2B)",
       "responsibilities": [
-        "Construit le MVP Interly de zéro, intégrant Web MediaRecorder pour le traitement vocal temps réel avec transformations DOM interactives personnalisées.",
+        "Construit une plateforme de coaching vocal IA intégrant Web MediaRecorder API et Web Audio API pour le traitement vocal temps réel avec transformations DOM interactives.",
         "Rédigé des suites de tests E2E complètes avec Playwright, incluant des mécanismes d'auth-bypass pour fluidifier les pipelines CI/CD.",
         "Conçu des mises à jour UI optimistes et des visualisations de données interactives complexes avec Chart.js et Framer Motion."
       ]
@@ -127,22 +142,7 @@
       ]
     }
   ],
-  "projects": [
-    {
-      "name": "Lexity MVP",
-      "url": "",
-      "description": "MVP full-stack d'une plateforme d'apprentissage linguistique IA construite de zéro — frontend Next.js 15 avec UI interactive, feedback temps réel et design responsive atteignant des scores Lighthouse >90.",
-      "stack_title": "Stack",
-      "stack": "Next.js 15, TypeScript, Tailwind CSS, Zustand, TanStack Query, Prisma"
-    },
-    {
-      "name": "Interly MVP",
-      "url": "",
-      "description": "MVP de coaching vocal IA avec intégration Web Audio API pour le traitement audio temps réel, composants UI interactifs personnalisés et tests E2E complets avec Playwright.",
-      "stack_title": "Stack",
-      "stack": "Next.js 15, TypeScript, Web Audio API, Tailwind CSS, Playwright, Framer Motion"
-    }
-  ],
+  "projects": [],
   "education": [
     {
       "degree": "Diplôme d'Ingénieur en Radio-Électronique — Équivalent Master (Bac+4)",

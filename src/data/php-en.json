@@ -11,7 +11,7 @@
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Senior PHP Engineer | Laravel & Symfony Expert",
+    "title": "PHP Engineer | Laravel & Symfony",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
     "professionalObjective": "Senior PHP Engineer specializing in Laravel and Symfony ecosystems. Expert in secure multi-tenant SaaS architectures, PostgreSQL optimization, and fintech integrations (Stripe Connect) for mission-critical applications.",
     "status": "Based in Grenoble, France. Free access to the EU job market."
@@ -84,7 +84,7 @@
   ],
   "experience": [
     {
-      "title": "Senior PHP Engineer",
+      "title": "PHP Engineer",
       "company": "Basesystem",
       "period": "February 2024 - April 2026 (Full-time)",
       "responsibilities": [
@@ -96,22 +96,38 @@
       ]
     },
     {
-      "title": "PHP Architect — Symfony Modernization",
-      "company": "Legacy Migration Project",
+      "title": "",
+      "company": "▸ Freelance / B2B Projects",
+      "period": "",
+      "responsibilities": []
+    },
+    {
+      "title": "Lead Developer & Architect — Lexity",
+      "company": "AI Language Learning Platform",
       "period": "2022 – 2024",
       "responsibilities": [
-        "Led architectural redesign of a legacy backend to Symfony 7, implementing a modular monolith with event-driven synchronization and API Gateway.",
-        "Architected high-throughput data layers using LATERAL JOINs and materialized views, reducing database load by 80%."
+        "Orchestrated the modularization of a PHP backend into Symfony 7 services using the Strangler Fig pattern, ensuring 100% system uptime during transition.",
+        "Architected mission-critical APIs with API Platform and Doctrine ORM, enforcing Clean Architecture and SOLID principles."
       ]
     },
     {
-      "title": "Freelance PHP Engineer",
-      "company": "International SaaS Clients",
+      "title": "Lead Developer & Architect — ZIRO.FIT",
+      "company": "B2B2C Fitness Marketplace",
       "period": "2022 – 2024",
       "responsibilities": [
+        "Architected high-throughput data layers using LATERAL JOINs and materialized views, reducing database load by 80%.",
         "Developed Stripe Connect workflows for multi-party payouts with automated KYC verification and complex commission routing.",
+        "Designed secure multi-tenant architectures with field-level encryption (AES-256-GCM), managing sensitive financial data."
+      ]
+    },
+    {
+      "title": "Lead Developer & Architect — Interly",
+      "company": "AI Voice Coaching Platform",
+      "period": "2022 – 2024",
+      "responsibilities": [
         "Built Lexity MVP and Interly MVP from scratch for B2B clients using Next.js 15, TypeScript, Prisma, and PostgreSQL.",
-        "Managed direct communication with clients for PHP/Laravel backend contracts, translating business needs into technical solutions and SQL optimizations."
+        "Containerized PHP applications with Docker and managed cloud infrastructure on AWS (EC2, RDS), implementing CI/CD pipelines for automated zero-downtime deployments.",
+        "Implemented automated test suites (PHPUnit/Pest) with 85% code coverage, enforcing quality gates in CI/CD."
       ]
     },
     {
@@ -124,22 +140,7 @@
       ]
     }
   ],
-  "projects": [
-    {
-      "name": "Symfony Modular Monolith Migration",
-      "url": "",
-      "description": "Architected and executed the transformation of a legacy PHP monolith into a Symfony 7 modular monolith using the Strangler Fig pattern, ensuring 100% system uptime during the 6-month transition.",
-      "stack_title": "Stack",
-      "stack": "Symfony 7, API Platform, Doctrine ORM, PostgreSQL, Redis, Docker, GitHub Actions"
-    },
-    {
-      "name": "Stripe Connect Fintech Integration",
-      "url": "",
-      "description": "Developed advanced Stripe Connect workflows for multi-party payouts with automated KYC verification, complex commission routing, and field-level encryption (AES-256-GCM) for financial data protection.",
-      "stack_title": "Stack",
-      "stack": "Symfony 7, Laravel 11, Stripe Connect, PostgreSQL, AES-256-GCM, Docker"
-    }
-  ],
+  "projects": [],
   "education": [
     {
       "degree": "Engineering Degree in Radio-Electronics — Master's Equivalent (Bac+4)",

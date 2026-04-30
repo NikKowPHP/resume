@@ -11,7 +11,7 @@
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Senior Front End Engineer | React & Next.js",
+    "title": "Front End Engineer | React & Next.js",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
     "professionalObjective": "Product-focused Front-End Engineer specializing in React 19, Next.js 15, and TypeScript. Expert in building high-performance, accessible interfaces (90+ Lighthouse) and integrating complex browser APIs (Web Audio, WebRTC) for native-quality web experiences.",
     "status": "Based in Grenoble, France. Free access to the EU job market."
@@ -117,22 +117,37 @@
       ]
     },
     {
-      "title": "Lead Front-End Developer — Lexity",
+      "title": "",
+      "company": "▸ Freelance / B2B Projects",
+      "period": "",
+      "responsibilities": []
+    },
+    {
+      "title": "Lead Developer & Architect — Lexity",
       "company": "AI Language Learning Platform",
       "period": "2022 – 2024",
       "responsibilities": [
-        "Built Lexity MVP from scratch using Next.js 15 and TypeScript, achieving 90+ Lighthouse performance scores with responsive, accessible UI.",
-        "Implemented real-time contextual feedback interfaces via TanStack Query and Zustand, delivering smooth optimistic UI updates."
+        "Architected and deployed a full-stack AI language learning platform (Next.js 15, TypeScript, Tailwind CSS, Zustand) with RAG-based contextual feedback and AES-256 encryption.",
+        "Built responsive, accessible UI achieving 90+ Lighthouse scores with real-time contextual feedback via TanStack Query and optimistic updates."
       ]
     },
     {
-      "title": "Lead Front-End Developer — Interly",
+      "title": "Lead Developer & Architect — ZIRO.FIT",
+      "company": "B2B2C Fitness Marketplace",
+      "period": "2022 – 2024",
+      "responsibilities": [
+        "Architected a B2B2C fitness marketplace with interactive map-based discovery (Leaflet), multi-party payment routing, and responsive cross-platform UI.",
+        "Implemented complex interactive data visualizations and state management (Zustand) for real-time marketplace data."
+      ]
+    },
+    {
+      "title": "Lead Developer & Architect — Interly",
       "company": "AI Voice Coaching Platform",
       "period": "2022 – 2024",
       "responsibilities": [
-        "Built Interly MVP from scratch, integrating Web MediaRecorder API for real-time voice processing with custom interactive DOM transformations.",
+        "Built an AI voice coaching platform integrating Web MediaRecorder API and Web Audio API for real-time voice processing with interactive DOM transformations.",
         "Authored comprehensive E2E test suites using Playwright with custom auth-bypass mechanisms to streamline CI/CD pipelines.",
-        "Engineered optimistic UI updates and complex interactive data visualizations using Chart.js and Framer Motion."
+        "Engineered optimistic UI updates and complex data visualizations using Chart.js and Framer Motion."
       ]
     },
     {
@@ -145,22 +160,7 @@
       ]
     }
   ],
-  "projects": [
-    {
-      "name": "Lexity MVP",
-      "url": "",
-      "description": "Full-stack MVP of an AI language learning platform built from scratch — Next.js 15 frontend with interactive UI, real-time feedback, and responsive design achieving 90+ Lighthouse scores.",
-      "stack_title": "Stack",
-      "stack": "Next.js 15, TypeScript, Tailwind CSS, Zustand, TanStack Query, Prisma"
-    },
-    {
-      "name": "Interly MVP",
-      "url": "",
-      "description": "AI voice coaching MVP with Web Audio API integration for real-time audio processing, custom interactive UI components, and comprehensive E2E testing with Playwright.",
-      "stack_title": "Stack",
-      "stack": "Next.js 15, TypeScript, Web Audio API, Tailwind CSS, Playwright, Framer Motion"
-    }
-  ],
+  "projects": [],
   "education": [
     {
       "degree": "Engineering Degree in Radio-Electronics — Master's Equivalent (Bac+4)",

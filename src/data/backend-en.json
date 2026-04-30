@@ -11,7 +11,7 @@
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Senior Back-End Engineer | Symfony 7 & Node.js Expert",
+    "title": "Back-End Engineer | Symfony 7 & Node.js",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
     "professionalObjective": "Backend Architect specializing in high-performance PHP (Symfony 7), Node.js, and distributed systems. Expert in secure multi-tenant SaaS architectures, fintech integrations (Stripe Connect), and resilient AI failover systems for mission-critical applications.",
     "status": "Based in Grenoble, France. Free access to the EU job market."
@@ -121,22 +121,38 @@
       ]
     },
     {
-      "title": "Backend Architect — Symfony Modernization",
-      "company": "Legacy-to-Modern Migration",
+      "title": "",
+      "company": "▸ Freelance / B2B Projects",
+      "period": "",
+      "responsibilities": []
+    },
+    {
+      "title": "Lead Developer & Architect — Lexity",
+      "company": "AI Language Learning Platform",
       "period": "2022 – 2024",
       "responsibilities": [
-        "Led architectural redesign of a legacy backend to Symfony 7, implementing a modular monolith with event-driven synchronization and API Gateway.",
-        "Architected high-throughput data layers using LATERAL JOINs and materialized views, reducing database load by 80%."
+        "Engineered a Composite AI Service Layer in Node.js/TypeScript orchestrating Gemini, Groq, and Cerebras with automated failover, token-cost throttling, and Prometheus/Grafana observability — maintaining 99.9% uptime.",
+        "Designed secure multi-tenant architecture with field-level encryption (AES-256-GCM) for managing sensitive user data."
       ]
     },
     {
-      "title": "Backend Architect — AI Infrastructure",
-      "company": "Composite AI Platform",
+      "title": "Lead Developer & Architect — ZIRO.FIT",
+      "company": "B2B2C Fitness Marketplace",
       "period": "2022 – 2024",
       "responsibilities": [
-        "Engineered a Composite AI Service Layer in Node.js/TypeScript orchestrating Gemini, Groq, and Cerebras, maintaining 99.9% uptime through custom failover logic.",
-        "Designed secure multi-tenant architectures with field-level encryption (AES-256-GCM), managing sensitive financial data for thousands of users.",
-        "Built Lexity MVP and Interly MVP from scratch for B2B clients using Next.js 15, TypeScript, Prisma, and PostgreSQL."
+        "Architected high-throughput data layers using LATERAL JOINs and materialized views, reducing database load by 80%.",
+        "Developed advanced Stripe Connect workflows for multi-party payouts with automated KYC verification and complex commission routing.",
+        "Designed secure multi-tenant architectures handling sensitive financial data for thousands of users."
+      ]
+    },
+    {
+      "title": "Lead Developer & Architect — Interly",
+      "company": "AI Voice Coaching Platform",
+      "period": "2022 – 2024",
+      "responsibilities": [
+        "Built Lexity MVP and Interly MVP from scratch for B2B clients using Next.js 15, TypeScript, Prisma, and PostgreSQL.",
+        "Implemented automated testing pipelines (PHPUnit/Behat) achieving 85% code coverage across backend services.",
+        "Containerized backend services with Docker and deployed on AWS (EC2, RDS, Lambda) with auto-scaling for production traffic spikes."
       ]
     },
     {
@@ -149,22 +165,7 @@
       ]
     }
   ],
-  "projects": [
-    {
-      "name": "Composite AI Service Layer",
-      "url": "",
-      "description": "Multi-provider LLM gateway in Node.js/TypeScript orchestrating Gemini, Groq, and Cerebras with automated failover, token-cost throttling, and Prometheus/Grafana observability — maintaining 99.9% uptime.",
-      "stack_title": "Stack",
-      "stack": "Node.js, TypeScript, Gemini AI, Groq, Cerebras, Redis, Prometheus, Grafana, Docker"
-    },
-    {
-      "name": "Secure Multi-Tenant SaaS Architecture",
-      "url": "",
-      "description": "Designed a field-level encrypted (AES-256-GCM) multi-tenant backend with Symfony 7, API Platform, and event-driven synchronization for managing sensitive financial data across thousands of users.",
-      "stack_title": "Stack",
-      "stack": "Symfony 7, API Platform, Doctrine ORM, PostgreSQL, AES-256-GCM, Redis, Docker"
-    }
-  ],
+  "projects": [],
   "education": [
     {
       "degree": "Engineering Degree in Radio-Electronics — Master's Equivalent (Bac+4)",

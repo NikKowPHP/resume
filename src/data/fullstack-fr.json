@@ -118,6 +118,12 @@
       ]
     },
     {
+      "title": "",
+      "company": "▸ Projets Freelance / B2B",
+      "period": "",
+      "responsibilities": []
+    },
+    {
       "title": "Lead Developer & Architecte — Lexity",
       "company": "Plateforme d'Apprentissage Linguistique IA",
       "period": "2022 – 2024 (B2B)",
@@ -155,29 +161,7 @@
       ]
     }
   ],
-  "projects": [
-    {
-      "name": "Lexity",
-      "url": "",
-      "description": "Plateforme d'apprentissage linguistique IA avec feedback contextuel RAG et chiffrement AES-256. Stack Next.js 15 complète avec PostgreSQL pour un stockage scalable de données.",
-      "stack_title": "Stack",
-      "stack": "Next.js 15, TypeScript, Prisma, PostgreSQL, Gemini AI, RAG"
-    },
-    {
-      "name": "ZIRO.FIT",
-      "url": "",
-      "description": "Marketplace fitness B2B2C avec routage de paiements multi-parties (Stripe Connect), découverte par géolocalisation (Leaflet) et workflows automatisés de vérification KYC.",
-      "stack_title": "Stack",
-      "stack": "Next.js, TypeScript, Stripe Connect, Leaflet, PostgreSQL, Docker"
-    },
-    {
-      "name": "Interly",
-      "url": "",
-      "description": "Plateforme de coaching vocal IA utilisant Web Audio API et Google Speech-to-Text pour le traitement vocal temps réel avec boucles de feedback interactives.",
-      "stack_title": "Stack",
-      "stack": "Next.js 15, TypeScript, Web Audio API, Google Speech-to-Text, Prisma"
-    }
-  ],
+  "projects": [],
   "education": [
     {
       "degree": "Diplôme d'Ingénieur en Radio-Électronique — Équivalent Master (Bac+4)",

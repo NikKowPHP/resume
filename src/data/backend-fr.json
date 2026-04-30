@@ -11,7 +11,7 @@
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Ingénieur Logiciel Senior | Expert IA & Backend Distribué",
+    "title": "Ingénieur Backend | IA & Systèmes Distribués",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
     "professionalObjective": "Architecte Backend spécialisé en PHP (Symfony 7), Node.js et systèmes distribués. Expert en architectures SaaS multi-tenants sécurisées, intégrations fintech (Stripe Connect) et systèmes de failover IA résilients pour applications critiques.",
     "status": "Basé à Grenoble (38) | Autorisation de travail en France (Aucune démarche employeur)"
@@ -101,22 +101,38 @@
       ]
     },
     {
-      "title": "Architecte Backend — Modernisation Symfony",
-      "company": "Migration Legacy vers Moderne",
+      "title": "",
+      "company": "▸ Projets Freelance / B2B",
+      "period": "",
+      "responsibilities": []
+    },
+    {
+      "title": "Lead Developer & Architecte — Lexity",
+      "company": "Plateforme d'Apprentissage Linguistique IA",
       "period": "2022 – 2024 (B2B)",
       "responsibilities": [
-        "Piloté la refonte architecturale d'un backend legacy vers Symfony 7, implémentant un monolithe modulaire avec synchronisation par événements et API Gateway.",
-        "Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées, réduisant la charge DB de 80%."
+        "Développé une couche de service IA composite en Node.js/TypeScript orchestrant Gemini, Groq et Cerebras avec failover automatisé, throttling par coût de tokens et observabilité Prometheus/Grafana — maintenant 99,9% de disponibilité.",
+        "Conçu une architecture multi-tenant sécurisée avec chiffrement AES-256-GCM pour la gestion de données utilisateur sensibles."
       ]
     },
     {
-      "title": "Architecte Backend — Infrastructure IA",
-      "company": "Plateforme IA Composite",
+      "title": "Lead Developer & Architecte — ZIRO.FIT",
+      "company": "Marketplace Fitness B2B2C",
       "period": "2022 – 2024 (B2B)",
       "responsibilities": [
-        "Développé une couche d'IA composite en Node.js/TypeScript orchestrant Gemini, Groq et Cerebras avec failover automatisé, garantissant 99,9% d'uptime.",
-        "Conçu des architectures multi-tenants sécurisées avec chiffrement AES-256-GCM, gérant des données financières sensibles pour des milliers d'utilisateurs.",
-        "Construit Lexity MVP et Interly MVP de zéro pour des clients B2B avec Next.js 15, TypeScript, Prisma et PostgreSQL."
+        "Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées, réduisant la charge DB de 80%.",
+        "Développé des workflows Stripe Connect avancés pour paiements multi-parties avec vérification KYC automatisée et routage de commissions complexe.",
+        "Conçu des architectures multi-tenants sécurisées gérant des données financières sensibles pour des milliers d'utilisateurs."
+      ]
+    },
+    {
+      "title": "Lead Developer & Architecte — Interly",
+      "company": "Plateforme de Coaching Vocal IA",
+      "period": "2022 – 2024 (B2B)",
+      "responsibilities": [
+        "Construit Lexity MVP et Interly MVP de zéro pour des clients B2B avec Next.js 15, TypeScript, Prisma et PostgreSQL.",
+        "Mis en place des pipelines de test automatisés (PHPUnit/Behat) atteignant 85% de couverture de code sur les services backend.",
+        "Conteneurisé les services backend avec Docker et déployé sur AWS (EC2, RDS, Lambda) avec auto-scaling pour les pics de trafic production."
       ]
     },
     {
@@ -129,22 +145,7 @@
       ]
     }
   ],
-  "projects": [
-    {
-      "name": "Couche de Service IA Composite",
-      "url": "",
-      "description": "Passerelle LLM multi-fournisseur en Node.js/TypeScript orchestrant Gemini, Groq et Cerebras avec failover automatisé, throttling par coût de tokens et observabilité Prometheus/Grafana — maintenant 99,9% de disponibilité.",
-      "stack_title": "Stack",
-      "stack": "Node.js, TypeScript, Gemini AI, Groq, Cerebras, Redis, Prometheus, Grafana, Docker"
-    },
-    {
-      "name": "Architecture SaaS Multi-Tenant Sécurisée",
-      "url": "",
-      "description": "Conçu un backend multi-tenant chiffré au niveau des champs (AES-256-GCM) avec Symfony 7, API Platform et synchronisation par événements pour la gestion de données financières sensibles à travers des milliers d'utilisateurs.",
-      "stack_title": "Stack",
-      "stack": "Symfony 7, API Platform, Doctrine ORM, PostgreSQL, AES-256-GCM, Redis, Docker"
-    }
-  ],
+  "projects": [],
   "education": [
     {
       "degree": "Diplôme d'Ingénieur en Radio-Électronique — Équivalent Master (Bac+4)",

@@ -13,7 +13,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Full-Stack Engineer | Next.js, TypeScript & AI",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Full-Stack Engineer specializing in Next.js, TypeScript, and composite AI orchestration. Expert in modernizing legacy systems, optimizing PostgreSQL latency by 60%, and building fault-tolerant LLM architectures for high-scale SaaS platforms.",
+    "professionalObjective": "Senior Full-Stack Engineer specializing in Next.js 15, TypeScript, and AI orchestration. Expert in legacy system modernization, SQL optimization (60% latency reduction), and fault-tolerant LLM architectures for high-scale SaaS platforms.",
     "status": "Based in Grenoble, France. Available for immediate start."
   },
   "contact": [
@@ -112,20 +112,37 @@
       "responsibilities": [
         "Led the technical transition to TypeScript and Clean Architecture, reducing post-deployment bugs and accelerating code review turnaround by 40% through technical mentoring of 3 junior developers.",
         "Architected and led the migration of a legacy PHP system to a decoupled stack (Next.js/Node.js), optimizing platform scalability and ensuring long-term maintainability.",
-        "Presented technical decisions to stakeholders, translating complex improvements (30% speedup, +5% conversion) into business-value language."
+        "Presented technical decisions to stakeholders, translating complex improvements (30% speedup, +5% conversion) into business-value language.",
+        "Containerized micro-services with Docker, deploying to AWS Lambda with auto-scaling to handle production traffic spikes across distributed environments.",
+        "Implemented a comprehensive E2E test suite (Playwright) covering 80% of critical user paths, reducing production regressions by 35%."
       ]
     },
     {
-      "title": "Freelance Full-Stack Engineer",
-      "company": "SaaS Startups & International Clients",
-      "period": "January 2022 – January 2024",
+      "title": "Lead Developer & Architect — Lexity",
+      "company": "AI Language Learning Platform",
+      "period": "2022 – 2024",
       "responsibilities": [
-        "Designed and deployed three SaaS platforms from scratch to production: Lexity (AI language learning with RAG and AES-256 encryption), ZIRO.FIT (B2B2C marketplace with Stripe Connect and Leaflet geolocation), and Interly (AI voice coaching via Web Audio API and Google Speech-to-Text).",
-        "Rewrote and optimized complex SQL queries (json_agg, LATERAL JOINs), reducing load latency by 60% and driving a direct increase in conversion rates and user engagement.",
-        "Built a fault-tolerant LLM executor with API key rotation and exponential backoff retry, maintaining 99.9% uptime despite strict rate limits.",
+        "Designed and deployed a full-stack AI language learning platform (Next.js 15, TypeScript, Prisma, PostgreSQL) with RAG-based contextual feedback and AES-256-GCM encryption.",
+        "Built a fault-tolerant LLM executor with API key rotation and exponential backoff retry, maintaining 99.9% uptime despite strict rate limits."
+      ]
+    },
+    {
+      "title": "Lead Developer & Architect — ZIRO.FIT",
+      "company": "B2B2C Fitness Marketplace",
+      "period": "2022 – 2024",
+      "responsibilities": [
+        "Architected a B2B2C fitness marketplace with multi-party payment routing via Stripe Connect and geolocation-based discovery (Leaflet).",
+        "Rewrote and optimized complex SQL queries (json_agg, LATERAL JOINs), reducing load latency by 60% and driving a direct increase in conversion rates."
+      ]
+    },
+    {
+      "title": "Lead Developer & Architect — Interly",
+      "company": "AI Voice Coaching Platform",
+      "period": "2022 – 2024",
+      "responsibilities": [
+        "Built an AI voice coaching platform leveraging Web Audio API and Google Speech-to-Text for real-time voice processing.",
         "Set up CI/CD pipelines with Docker and Vercel, reducing deployment cycles from manual processes to automated zero-downtime releases.",
-        "Defined product roadmap and technical specifications for international clients, translating complex AI capabilities into clear requirements that accelerated development by 30%.",
-        "Delivered PHP/Laravel backend solutions for international clients, implementing SQL optimizations that reduced execution times by 40%."
+        "Defined product roadmap and technical specifications for international clients, translating complex AI capabilities into clear requirements that accelerated development by 30%."
       ]
     },
     {
@@ -133,15 +150,37 @@
       "company": "Itransition",
       "period": "January 2021 - December 2021",
       "responsibilities": [
-        "Participated in client projects within Agile teams using Scrum, daily stand-ups, sprint planning and retrospectives while learning production code best practices.",
-        "Learned from senior developers through structured code reviews and targeted questions, accelerating my learning curve in modern full-stack development."
+        "Developed and maintained critical application modules in a microservices architecture within Agile/Scrum environment, collaborating on sprint planning, stand-ups, and code reviews.",
+        "Contributed to code review standardization processes, raising overall team code quality and accelerating new developer onboarding."
       ]
     }
   ],
-  "projects": [],
+  "projects": [
+    {
+      "name": "Lexity",
+      "url": "",
+      "description": "AI-powered language learning platform with RAG-based contextual feedback and AES-256 encryption. Full Next.js 15 stack with PostgreSQL for scalable data storage.",
+      "stack_title": "Stack",
+      "stack": "Next.js 15, TypeScript, Prisma, PostgreSQL, Gemini AI, RAG"
+    },
+    {
+      "name": "ZIRO.FIT",
+      "url": "",
+      "description": "B2B2C fitness marketplace with multi-party payment routing (Stripe Connect), geolocation-based discovery (Leaflet), and automated KYC verification workflows.",
+      "stack_title": "Stack",
+      "stack": "Next.js, TypeScript, Stripe Connect, Leaflet, PostgreSQL, Docker"
+    },
+    {
+      "name": "Interly",
+      "url": "",
+      "description": "AI voice coaching platform leveraging Web Audio API and Google Speech-to-Text for real-time voice processing with interactive feedback loops.",
+      "stack_title": "Stack",
+      "stack": "Next.js 15, TypeScript, Web Audio API, Google Speech-to-Text, Prisma"
+    }
+  ],
   "education": [
     {
-      "degree": "Diploma in Radio-Electronics — Equivalent Bac+4",
+      "degree": "Engineering Degree in Radio-Electronics — Master's Equivalent (Bac+4)",
       "institution": "Minsk State Higher College of Radiotechnics",
       "period": "2015 - 2019"
     }

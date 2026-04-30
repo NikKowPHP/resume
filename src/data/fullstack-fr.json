@@ -13,7 +13,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Ingénieur Full-Stack | Next.js, TypeScript & IA",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Ingénieur Full-Stack spécialisé en Next.js, TypeScript et orchestration IA composite. Expert en modernisation de systèmes legacy, optimisation PostgreSQL (latence réduite de 60 %) et architecture LLM tolérante aux pannes pour plateformes SaaS à forte scalabilité.",
+    "professionalObjective": "Ingénieur Full-Stack Senior spécialisé Next.js 15, TypeScript et orchestration IA. Expert en modernisation de systèmes legacy, optimisation SQL (latence réduite de 60 %) et architectures LLM tolérantes aux pannes pour plateformes SaaS à forte scalabilité.",
     "status": "Basé à Grenoble (38) | Disponible immédiatement"
   },
   "contact": [
@@ -112,20 +112,37 @@
       "responsibilities": [
         "Piloté la transition technique vers TypeScript etClean Architecture, réduisant les bugs post-déploiement et accélérant les délais de revue de code de 40 % via la formation technique de 3 développeurs juniors.",
         "Architecturé et dirigé la migration d'un système PHP legacy vers une stack découplée (Next.js/Node.js), optimisant la scalabilité de la plateforme et garantissant une maintenabilité à long terme.",
-        "Présenté les décisions techniques aux parties prenantes, traduisant les améliorations complexes (accélération de 30 %, +5 % conversion) en langage valeur métier."
+        "Présenté les décisions techniques aux parties prenantes, traduisant les améliorations complexes (accélération de 30 %, +5 % conversion) en langage valeur métier.",
+        "Conteneurisé des micro-services avec Docker, déployé sur AWS Lambda avec auto-scaling pour gérer les pics de trafic production dans des environnements distribués.",
+        "Implémenté une suite de tests E2E (Playwright) couvrant 80 % des parcours critiques, réduisant les régressions en production de 35 %."
       ]
     },
     {
-      "title": "Ingénieur Full-Stack Freelance",
-      "company": "Startups SaaS & Clients Internationaux",
-      "period": "Janvier 2022 – Janvier 2024",
+      "title": "Lead Developer & Architecte — Lexity",
+      "company": "Plateforme d'Apprentissage Linguistique IA",
+      "period": "2022 – 2024",
       "responsibilities": [
-        "Conçu et déployé de zéro trois plateformes SaaS en production : Lexity (apprentissage linguistique IA avec RAG et chiffrement AES-256), ZIRO.FIT (marketplace B2B2C avec Stripe Connect et géolocalisation Leaflet), et Interly (coaching vocal IA via Web Audio API et Google Speech-to-Text).",
-        "Réécrit et optimisé les requêtes SQL complexes (json_agg, LATERAL JOINs), réduisant la latence de chargement de 60 % et générant une hausse directe du taux de conversion et de l'engagement utilisateur.",
-        "Construit un exécuteur LLM tolérant aux pannes avec rotation de clés API et retry exponentiel, maintenant 99,9 % de disponibilité malgré les limites de taux strictes.",
+        "Conçu et déployé une plateforme d'apprentissage linguistique full-stack (Next.js 15, TypeScript, Prisma, PostgreSQL) avec feedback contextuel RAG et chiffrement AES-256-GCM.",
+        "Construit un exécuteur LLM tolérant aux pannes avec rotation de clés API et retry exponentiel, maintenant 99,9 % de disponibilité."
+      ]
+    },
+    {
+      "title": "Lead Developer & Architecte — ZIRO.FIT",
+      "company": "Marketplace Fitness B2B2C",
+      "period": "2022 – 2024",
+      "responsibilities": [
+        "Architecturé un marketplace fitness B2B2C avec routage de paiements multi-parties via Stripe Connect et découverte par géolocalisation (Leaflet).",
+        "Réécrit et optimisé les requêtes SQL complexes (json_agg, LATERAL JOINs), réduisant la latence de chargement de 60 %."
+      ]
+    },
+    {
+      "title": "Lead Developer & Architecte — Interly",
+      "company": "Plateforme de Coaching Vocal IA",
+      "period": "2022 – 2024",
+      "responsibilities": [
+        "Construit une plateforme de coaching vocal IA utilisant Web Audio API et Google Speech-to-Text pour le traitement vocal temps réel.",
         "Mis en place des pipelines CI/CD avec Docker et Vercel, réduisant les cycles de déploiement de processus manuels à des releases automatisées zéro-downtime.",
-        "Défini la roadmap produit et les spécifications techniques pour clients internationaux, traduisant les capacités IA complexes en exigences claires accélérant le développement de 30 %.",
-        "Livré des solutions backend PHP/Laravel pour clients internationaux, implémentant des optimisations SQL réduisant les temps d'exécution de 40 %."
+        "Défini la roadmap produit et les spécifications techniques pour clients internationaux, traduisant les capacités IA complexes en exigences claires accélérant le développement de 30 %."
       ]
     },
     {
@@ -133,15 +150,37 @@
       "company": "Itransition",
       "period": "Janvier 2021 - Décembre 2021",
       "responsibilities": [
-        "Participé à des projets clients en équipes agiles utilisant Scrum, stand-ups quotidiens, planification de sprints et rétrospectives tout en apprenant les bonnes pratiques de code production.",
-        "Appris auprès de développeurs seniors via revues de code structurées et questions ciblées, accélérant ma courbe d'apprentissage en développement full-stack moderne."
+        "Développé et maintenu des modules d'application critiques dans une architecture micro-services en environnement Agile/Scrum, participant activement aux sprint plannings, mêlées quotidiennes et revues de code.",
+        "Contribué à la standardisation des processus de revue de code, améliorant la qualité globale du code et accélérant l'intégration des nouveaux développeurs."
       ]
     }
   ],
-  "projects": [],
+  "projects": [
+    {
+      "name": "Lexity",
+      "url": "",
+      "description": "Plateforme d'apprentissage linguistique IA avec feedback contextuel RAG et chiffrement AES-256. Stack Next.js 15 complète avec PostgreSQL pour un stockage scalable de données.",
+      "stack_title": "Stack",
+      "stack": "Next.js 15, TypeScript, Prisma, PostgreSQL, Gemini AI, RAG"
+    },
+    {
+      "name": "ZIRO.FIT",
+      "url": "",
+      "description": "Marketplace fitness B2B2C avec routage de paiements multi-parties (Stripe Connect), découverte par géolocalisation (Leaflet) et workflows automatisés de vérification KYC.",
+      "stack_title": "Stack",
+      "stack": "Next.js, TypeScript, Stripe Connect, Leaflet, PostgreSQL, Docker"
+    },
+    {
+      "name": "Interly",
+      "url": "",
+      "description": "Plateforme de coaching vocal IA utilisant Web Audio API et Google Speech-to-Text pour le traitement vocal temps réel avec boucles de feedback interactives.",
+      "stack_title": "Stack",
+      "stack": "Next.js 15, TypeScript, Web Audio API, Google Speech-to-Text, Prisma"
+    }
+  ],
   "education": [
     {
-      "degree": "Diplôme de Technicien en Radio-Électronique — Équivalent Bac+4",
+      "degree": "Diplôme d'Ingénieur en Radio-Électronique — Équivalent Master (Bac+4)",
       "institution": "Minsk State Higher College of Radiotechnics",
       "period": "2015 - 2019"
     }

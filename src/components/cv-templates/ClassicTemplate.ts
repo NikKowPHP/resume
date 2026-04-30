@@ -1,4 +1,4 @@
-import { CVData, Contact, SkillCategory, Language, Experience, Education, LanguageCode } from '../../types';
+import { CVData, Contact, SkillCategory, Language, Experience, Education, Project, LanguageCode } from '../../types';
 
 const createContactItem = (item: Contact) => `
   <li>
@@ -30,6 +30,14 @@ const createEducationItem = (edu: Education) => `
   <div class="job">
     <h4>${edu.degree}</h4>
     <p class="company-info">${edu.institution} | ${edu.period}</p>
+  </div>
+`;
+
+const createProjectItem = (project: Project) => `
+  <div class="job">
+    <h4>${project.name}</h4>
+    <p>${project.description}</p>
+    ${project.stack ? `<p class="company-info"><strong>${project.stack_title}:</strong> ${project.stack}</p>` : ''}
   </div>
 `;
 
@@ -84,6 +92,12 @@ export const render = (data: CVData, lang: LanguageCode): string => {
           <h2>${data.sections.education}</h2>
           ${data.education.map(createEducationItem).join('')}
         </section>
+
+        ${data.projects.length > 0 ? `
+        <section>
+          <h2>${data.sections.projects}</h2>
+          ${data.projects.map(createProjectItem).join('')}
+        </section>` : ''}
       </main>
     </div>
   `;

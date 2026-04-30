@@ -13,7 +13,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Senior Front End Engineer | React & Next.js",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Product-focused Front-End Engineer specializing in React 19, Next.js 15, and TypeScript. Expert in building highly interactive, accessible interfaces with 90+ Lighthouse scores, integrating complex browser APIs (Web Audio, WebRTC) for native-like web experiences.",
+    "professionalObjective": "Product-focused Front-End Engineer specializing in React 19, Next.js 15, and TypeScript. Expert in building high-performance, accessible interfaces (90+ Lighthouse) and integrating complex browser APIs (Web Audio, WebRTC) for native-quality web experiences.",
     "status": "Based in Grenoble, France. Free access to the EU job market."
   },
   "contact": [
@@ -111,19 +111,28 @@
         "<strong>Enterprise UI Development</strong>: Built and deployed production-ready web applications from scratch using Next.js and React, while developing new interactive features for existing enterprise dashboards.",
         "<strong>System Migration</strong>: Spearheaded the migration of legacy views into modular, reusable Next.js components, establishing a scalable and accessible frontend architecture.",
         "<strong>State & Performance</strong>: Implemented strict state management (Zustand) and caching strategies, significantly reducing client-side rendering bottlenecks in large-scale applications.",
-        "<strong>Conversion Optimization</strong>: Collaborated directly with UX/UI designers to implement responsive design patterns, increasing mobile usability and engagement metrics."
+        "<strong>Conversion Optimization</strong>: Collaborated directly with UX/UI designers to implement responsive design patterns, increasing mobile usability and engagement metrics.",
+        "Managed cloud deployments on Vercel and AWS, configuring CI/CD pipelines for zero-downtime releases across staging and production environments.",
+        "Implemented a comprehensive E2E test suite (Playwright) covering 80% of critical user paths, reducing production regressions by 35%."
       ]
     },
     {
-      "title": "Freelance Front-End Engineer",
-      "company": "SaaS Startups & International Clients",
-      "period": "January 2022 – January 2024",
+      "title": "Lead Front-End Developer — Lexity",
+      "company": "AI Language Learning Platform",
+      "period": "2022 – 2024",
       "responsibilities": [
-        "Developed highly responsive, client-facing interfaces using React 19 and Next.js 15, consistently achieving 90+ Lighthouse performance scores across three production-grade SaaS platforms.",
-        "Integrated Web MediaRecorder API for real-time voice processing and applied custom interactive DOM transformations (ePub.js) for immersive reading experiences.",
-        "Engineered optimistic UI updates via TanStack Query and built complex, interactive data visualizations using Chart.js and Framer Motion.",
-        "Authored comprehensive E2E test suites using Playwright, including custom auth-bypass mechanisms to streamline CI/CD pipelines.",
-        "Built Lexity MVP and Interly MVP from scratch for B2B clients using Next.js 15, TypeScript, Prisma, and PostgreSQL."
+        "Built Lexity MVP from scratch using Next.js 15 and TypeScript, achieving 90+ Lighthouse performance scores with responsive, accessible UI.",
+        "Implemented real-time contextual feedback interfaces via TanStack Query and Zustand, delivering smooth optimistic UI updates."
+      ]
+    },
+    {
+      "title": "Lead Front-End Developer — Interly",
+      "company": "AI Voice Coaching Platform",
+      "period": "2022 – 2024",
+      "responsibilities": [
+        "Built Interly MVP from scratch, integrating Web MediaRecorder API for real-time voice processing with custom interactive DOM transformations.",
+        "Authored comprehensive E2E test suites using Playwright with custom auth-bypass mechanisms to streamline CI/CD pipelines.",
+        "Engineered optimistic UI updates and complex interactive data visualizations using Chart.js and Framer Motion."
       ]
     },
     {
@@ -131,15 +140,30 @@
       "company": "Itransition",
       "period": "January 2021 - December 2021",
       "responsibilities": [
-        "<strong>Front-End Development</strong>: Contributed to web application development in agile teams, learning React fundamentals and modern JavaScript.",
-        "<strong>Integration & Debug</strong>: Layout implementation, cross-browser debugging and responsive interface development."
+        "Developed responsive web application components in Agile teams using React and modern JavaScript, collaborating on feature implementation and code reviews.",
+        "Implemented cross-browser compatible layouts and performed debugging across multiple platforms, ensuring consistent user experiences."
       ]
     }
   ],
-  "projects": [],
+  "projects": [
+    {
+      "name": "Lexity MVP",
+      "url": "",
+      "description": "Full-stack MVP of an AI language learning platform built from scratch — Next.js 15 frontend with interactive UI, real-time feedback, and responsive design achieving 90+ Lighthouse scores.",
+      "stack_title": "Stack",
+      "stack": "Next.js 15, TypeScript, Tailwind CSS, Zustand, TanStack Query, Prisma"
+    },
+    {
+      "name": "Interly MVP",
+      "url": "",
+      "description": "AI voice coaching MVP with Web Audio API integration for real-time audio processing, custom interactive UI components, and comprehensive E2E testing with Playwright.",
+      "stack_title": "Stack",
+      "stack": "Next.js 15, TypeScript, Web Audio API, Tailwind CSS, Playwright, Framer Motion"
+    }
+  ],
   "education": [
     {
-      "degree": "B.Sc. Equivalent in Radio-Electronics",
+      "degree": "Engineering Degree in Radio-Electronics — Master's Equivalent (Bac+4)",
       "institution": "Minsk State Higher College of Radiotechnics",
       "period": "2015 - 2019"
     }

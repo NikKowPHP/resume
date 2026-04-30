@@ -120,13 +120,12 @@
       ]
     },
     {
-      "title": "Independent Back-End Developer",
-      "company": "Personal Projects & International Contracts",
+      "title": "Independent Full-Stack Developer",
+      "company": "International Clients (B2B)",
       "period": "January 2022 - December 2022",
       "responsibilities": [
-        "<strong>Lexity MVP Backend</strong>: Architected resilient API with automated LLM failover, multi-layer Redis caching, and AES-256-GCM encryption for user data.",
-        "<strong>Interly APIs</strong>: Built Node.js/TypeScript backend with Gemini integration for real-time oral response evaluation.",
-        "<strong>Migrations & Optimization</strong>: PHP/Laravel refactoring contracts for European clients, SQL optimization and cache pattern implementation."
+        "Built Lexity MVP and Interly MVP from scratch for B2B clients using Next.js 15, TypeScript, Prisma, and PostgreSQL—demonstrating rapid skill acquisition in modern full-stack development.",
+        "Managed direct communication with clients for PHP/Laravel backend contracts, translating business needs into technical solutions and SQL optimizations."
       ]
     },
     {

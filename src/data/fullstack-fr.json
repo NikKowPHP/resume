@@ -133,10 +133,10 @@
     },
     {
       "title": "Développeur Full-Stack Indépendant",
-      "company": "Projets Personnels & Clients Internationaux",
+      "company": "Clients Internationaux (B2B)",
       "period": "Janvier 2022 - Décembre 2022",
       "responsibilities": [
-        "Construis Lexity MVP et Interly MVP de zéro avec Next.js 15, TypeScript, Prisma et PostgreSQL — démontrant une acquisition rapide de compétences en développement full-stack moderne.",
+        "Construis Lexity MVP et Interly MVP de zéro pour des clients B2B avec Next.js 15, TypeScript, Prisma et PostgreSQL — démontrant une acquisition rapide de compétences en développement full-stack moderne.",
         "Géré la communication directe avec clients pour contrats backend PHP/Laravel, traduisant les besoins métier en solutions techniques et optimisations SQL."
       ]
     },

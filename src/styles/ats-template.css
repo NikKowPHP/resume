@@ -77,8 +77,8 @@
 }
 
 .ats-container a {
-  color: #000;
-  text-decoration: none;
+  color: #2b6cb0;
+  text-decoration: underline;
 }
 
 @media print {

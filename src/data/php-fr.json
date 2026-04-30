@@ -14,11 +14,11 @@
     "title": "Ingénieur PHP | Laravel & Symfony",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
     "professionalObjective": "Ingénieur PHP Senior spécialisé dans les écosystèmes Laravel et Symfony. Expert en architectures SaaS multi-tenants sécurisées, optimisation PostgreSQL et intégrations fintech (Stripe Connect) pour applications critiques.",
-    "status": "Basé à Grenoble (38) | Autorisation de travail en France (Aucune démarche employeur)"
+    "status": "Basé à Grenoble (38) | Visa VPF – Libre accès au marché du travail"
   },
   "contact": [
     {
-      "text": "+33753124025",
+      "text": "+33 7 53 12 40 25",
       "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
     },
     {
@@ -89,7 +89,7 @@
     {
       "title": "Ingénieur PHP",
       "company": "Basesystem",
-      "period": "Février 2024 - Avril 2026 (CDI)",
+      "period": "Février 2024 – Avril 2026",
       "responsibilities": [
         "Orchestré la modularisation d'un système PHP legacy en microservices Symfony 7, implémentant le Strangler Fig pattern pour garantir 100% de disponibilité système pendant la transition de 6 mois.",
         "Architecturé des APIs critiques avec Laravel 11 et Symfony 6/7, imposant la Clean Architecture et les principes SOLID pour une maintenabilité à long terme.",
@@ -100,38 +100,13 @@
       ]
     },
     {
-      "title": "",
-      "company": "▸ Projets Freelance / B2B",
-      "period": "",
-      "responsibilities": []
-    },
-    {
-      "title": "Lead Developer & Architecte — Lexity",
-      "company": "Plateforme d'Apprentissage Linguistique IA",
-      "period": "2022 – 2024 (B2B)",
+      "title": "Développeur PHP Indépendant",
+      "company": "Divers Clients B2B & Startups",
+      "period": "Janvier 2022 – Février 2024",
       "responsibilities": [
-        "Orchestré la modularisation d'un backend PHP en microservices Symfony 7 avec le pattern Strangler Fig, garantissant 100% de disponibilité pendant la transition.",
-        "Architecturé des APIs critiques avec API Platform et Doctrine ORM, imposant la Clean Architecture et les principes SOLID."
-      ]
-    },
-    {
-      "title": "Lead Developer & Architecte — ZIRO.FIT",
-      "company": "Marketplace Fitness B2B2C",
-      "period": "2022 – 2024 (B2B)",
-      "responsibilities": [
-        "Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées, réduisant la charge DB de 80%.",
-        "Développé des workflows Stripe Connect pour paiements multi-parties avec vérification KYC automatisée et routage de commissions complexe.",
-        "Conçu des architectures multi-tenants sécurisées avec chiffrement AES-256-GCM, gérant des données financières sensibles."
-      ]
-    },
-    {
-      "title": "Lead Developer & Architecte — Interly",
-      "company": "Plateforme de Coaching Vocal IA",
-      "period": "2022 – 2024 (B2B)",
-      "responsibilities": [
-        "Construit Lexity MVP et Interly MVP de zéro pour des clients B2B avec Next.js 15, TypeScript, Prisma et PostgreSQL.",
-        "Conteneurisé les applications PHP avec Docker et géré l'infrastructure cloud sur AWS (EC2, RDS), implémentant des pipelines CI/CD pour des déploiements automatisés zéro-downtime.",
-        "Mis en place des suites de tests automatisés (PHPUnit/Pest) avec 85% de couverture de code, imposant des quality gates dans le CI/CD."
+        "**Lexity (EdTech)** : Orchestré la modularisation d'un backend PHP en microservices Symfony 7 avec le pattern Strangler Fig (100% de disponibilité), architecturé des APIs critiques avec API Platform et Doctrine ORM.",
+        "**ZIRO.FIT (Marketplace)** : Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées (réduction charge DB de 80%), développé des workflows Stripe Connect pour paiements multi-parties avec vérification KYC.",
+        "**Interly (Coaching IA)** : Construit Lexity MVP et Interly MVP de zéro (Next.js 15, Prisma, PostgreSQL), mis en place des suites de tests automatisés (PHPUnit/Pest) à 85% de couverture."
       ]
     },
     {
@@ -140,16 +115,23 @@
       "period": "Janvier 2021 - Décembre 2021 (Alternance)",
       "responsibilities": [
         "Développé des modules d'application PHP/Laravel en équipes Agile, maîtrisant les patterns d'architecture PHP professionnels et les standards de code production grâce à une collaboration structurée.",
-        "Optimisé des requêtes SQL complexes et amélioré les performances Doctrine ORM pour des applications à fort trafic, contribuant à des réductions mesurables des temps de réponse."
+        "Optimisé des requêtes SQL complexes et les performances Doctrine ORM, réduisant les temps de réponse des requêtes les plus lentes de 35 % sur les endpoints à fort trafic."
       ]
     }
   ],
   "projects": [],
   "education": [
     {
-      "degree": "Diplôme d'Ingénieur en Radio-Électronique — Équivalent Master (Bac+4)",
+      "degree": "Technicien Radio‑électronique (Bac+2)",
       "institution": "Minsk State Higher College of Radiotechnics",
-      "period": "2015 - 2019"
+      "period": "2015 - 2019",
+      "description": "Programme couvrant l'électronique analogique/numérique et la programmation bas niveau de microcontrôleurs (C, Assembleur)."
+    },
+    {
+      "degree": "Études en systèmes mobiles programmables",
+      "institution": "BSUIR",
+      "period": "2019 - 2022",
+      "description": "Approfondissement en systèmes embarqués, développement mobile (Java/Kotlin) et architectures temps réel."
     }
   ]
 }

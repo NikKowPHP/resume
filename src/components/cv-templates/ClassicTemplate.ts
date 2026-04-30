@@ -23,7 +23,7 @@ const createExperienceItem = (job: Experience) => {
   return `
   <div class="job">
     <h4>${job.title}</h4>
-    <p class="company-info">${job.company} | ${job.period}</p>
+    <p class="company-info">${job.company}${job.url ? ` — <a href="${job.url}" target="_blank" rel="noopener noreferrer">${job.url.replace(/^https?:\/\//, '')}</a>` : ''} | ${job.period}</p>
     <ul>
       ${job.responsibilities.map(res => `<li>${res}</li>`).join('')}
     </ul>
@@ -35,6 +35,7 @@ const createEducationItem = (edu: Education) => `
   <div class="job">
     <h4>${edu.degree}</h4>
     <p class="company-info">${edu.institution} | ${edu.period}</p>
+    ${edu.description ? `<p>${edu.description}</p>` : ''}
   </div>
 `;
 

@@ -14,11 +14,11 @@
     "title": "Ingénieur Backend | IA & Systèmes Distribués",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
     "professionalObjective": "Architecte Backend spécialisé en PHP (Symfony 7), Node.js et systèmes distribués. Expert en architectures SaaS multi-tenants sécurisées, intégrations fintech (Stripe Connect) et systèmes de failover IA résilients pour applications critiques.",
-    "status": "Basé à Grenoble (38) | Autorisation de travail en France (Aucune démarche employeur)"
+    "status": "Basé à Grenoble (38) | Visa VPF – Libre accès au marché du travail"
   },
   "contact": [
     {
-      "text": "+33753124025",
+      "text": "+33 7 53 12 40 25",
       "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
     },
     {
@@ -90,7 +90,7 @@
     {
       "title": "Ingénieur Logiciel Senior Backend & IA",
       "company": "Basesystem",
-      "period": "Février 2024 - Avril 2026 (CDI)",
+      "period": "Février 2024 – Avril 2026",
       "responsibilities": [
         "Archicté une gateway LLM multi-fournisseur avec failover automatisé et token-cost throttling, utilisant Prometheus/Grafana pour l'observabilité temps réel, réduisant les coûts API de 25% tout en maintenant 99.9% de disponibilité.",
         "Architecture d'APIs critiques avec Symfony 6/7 et API Platform, imposant la Clean Architecture et les principes DDD pour une scalabilité企Enterprise.",
@@ -101,38 +101,13 @@
       ]
     },
     {
-      "title": "",
-      "company": "▸ Projets Freelance / B2B",
-      "period": "",
-      "responsibilities": []
-    },
-    {
-      "title": "Lead Developer & Architecte — Lexity",
-      "company": "Plateforme d'Apprentissage Linguistique IA",
-      "period": "2022 – 2024 (B2B)",
+      "title": "Développeur Backend Indépendant",
+      "company": "Divers Clients B2B & Startups",
+      "period": "Janvier 2022 – Février 2024",
       "responsibilities": [
-        "Développé une couche de service IA composite en Node.js/TypeScript orchestrant Gemini, Groq et Cerebras avec failover automatisé, throttling par coût de tokens et observabilité Prometheus/Grafana — maintenant 99,9% de disponibilité.",
-        "Conçu une architecture multi-tenant sécurisée avec chiffrement AES-256-GCM pour la gestion de données utilisateur sensibles."
-      ]
-    },
-    {
-      "title": "Lead Developer & Architecte — ZIRO.FIT",
-      "company": "Marketplace Fitness B2B2C",
-      "period": "2022 – 2024 (B2B)",
-      "responsibilities": [
-        "Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées, réduisant la charge DB de 80%.",
-        "Développé des workflows Stripe Connect avancés pour paiements multi-parties avec vérification KYC automatisée et routage de commissions complexe.",
-        "Conçu des architectures multi-tenants sécurisées gérant des données financières sensibles pour des milliers d'utilisateurs."
-      ]
-    },
-    {
-      "title": "Lead Developer & Architecte — Interly",
-      "company": "Plateforme de Coaching Vocal IA",
-      "period": "2022 – 2024 (B2B)",
-      "responsibilities": [
-        "Construit Lexity MVP et Interly MVP de zéro pour des clients B2B avec Next.js 15, TypeScript, Prisma et PostgreSQL.",
-        "Mis en place des pipelines de test automatisés (PHPUnit/Behat) atteignant 85% de couverture de code sur les services backend.",
-        "Conteneurisé les services backend avec Docker et déployé sur AWS (EC2, RDS, Lambda) avec auto-scaling pour les pics de trafic production."
+        "**Lexity (EdTech)** : Développé une couche de service IA composite en Node.js/TypeScript orchestrant Gemini, Groq et Cerebras avec failover automatisé, throttling par coût de tokens et observabilité Prometheus/Grafana — 99,9% de disponibilité.",
+        "**ZIRO.FIT (Marketplace)** : Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées (réduction charge DB de 80%), développé des workflows Stripe Connect pour paiements multi-parties avec vérification KYC automatisée.",
+        "**Interly (Coaching IA)** : Construit Lexity MVP et Interly MVP de zéro (Next.js 15, TypeScript, Prisma, PostgreSQL), mis en place des pipelines de test automatisés (PHPUnit/Behat) à 85% de couverture et conteneurisé les services sur AWS."
       ]
     },
     {
@@ -141,16 +116,23 @@
       "period": "Janvier 2021 - Décembre 2021 (Alternance)",
       "responsibilities": [
         "Développé des modules d'application PHP/Symfony en équipes Agile, appliquant les patterns architecturaux et les bonnes pratiques de code production acquises lors de revues de code structurées.",
-        "Conçu des requêtes SQL complexes et optimisé les performances Doctrine ORM pour des applications à fort trafic, construisant une base solide en optimisation de performance base de données."
+        "Conçu des requêtes SQL complexes et optimisé les performances Doctrine ORM, réduisant les temps de réponse des requêtes les plus lentes de 35 % sur les endpoints à fort trafic."
       ]
     }
   ],
   "projects": [],
   "education": [
     {
-      "degree": "Diplôme d'Ingénieur en Radio-Électronique — Équivalent Master (Bac+4)",
+      "degree": "Technicien Radio‑électronique (Bac+2)",
       "institution": "Minsk State Higher College of Radiotechnics",
-      "period": "2015 - 2019"
+      "period": "2015 - 2019",
+      "description": "Programme couvrant l'électronique analogique/numérique et la programmation bas niveau de microcontrôleurs (C, Assembleur)."
+    },
+    {
+      "degree": "Études en systèmes mobiles programmables",
+      "institution": "BSUIR",
+      "period": "2019 - 2022",
+      "description": "Approfondissement en systèmes embarqués, développement mobile (Java/Kotlin) et architectures temps réel."
     }
   ]
 }

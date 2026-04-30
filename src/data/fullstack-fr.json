@@ -14,11 +14,11 @@
     "title": "Ingénieur Full-Stack | Next.js, TypeScript & IA",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
     "professionalObjective": "Ingénieur Full-Stack Senior spécialisé Next.js 15, TypeScript et orchestration IA. Expert en modernisation de systèmes legacy, optimisation SQL (latence réduite de 60 %) et architectures LLM tolérantes aux pannes pour plateformes SaaS à forte scalabilité.",
-    "status": "Basé à Grenoble (38) | Disponible immédiatement"
+    "status": "Basé à Grenoble (38) | Visa VPF – Libre accès au marché du travail"
   },
   "contact": [
     {
-      "text": "+33753124025",
+      "text": "+33 7 53 12 40 25",
       "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
     },
     {
@@ -41,7 +41,7 @@
       "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
     },
     {
-      "text": "Autorisation de travail en France",
+      "text": "Visa VPF – Libre accès au marché du travail français",
       "svgPath": "<path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"></path>"
     }
   ],
@@ -84,6 +84,14 @@
         "Playwright (E2E)",
         "Vitest"
       ]
+    },
+    {
+      "title": "Fondamentaux",
+      "skills": [
+        "Programmation bas niveau (C, microcontrôleurs)",
+        "Architectures temps réel",
+        "Systèmes embarqués"
+      ]
     }
   ],
   "languages": [
@@ -108,7 +116,7 @@
     {
       "title": "Ingénieur Logiciel Full Stack",
       "company": "Basesystem",
-      "period": "Février 2024 - Avril 2026 (CDI)",
+      "period": "Février 2024 – Avril 2026",
       "responsibilities": [
         "Piloté la transition technique vers TypeScript etClean Architecture, réduisant les bugs post-déploiement et accélérant les délais de revue de code de 40 % via la formation technique de 3 développeurs juniors.",
         "Architecturé et dirigé la migration d'un système PHP legacy vers une stack découplée (Next.js/Node.js), optimisant la scalabilité de la plateforme et garantissant une maintenabilité à long terme.",
@@ -118,37 +126,13 @@
       ]
     },
     {
-      "title": "",
-      "company": "▸ Projets Freelance / B2B",
-      "period": "",
-      "responsibilities": []
-    },
-    {
-      "title": "Lead Developer & Architecte — Lexity",
-      "company": "Plateforme d'Apprentissage Linguistique IA",
-      "period": "2022 – 2024 (B2B)",
+      "title": "Développeur Full-Stack Indépendant",
+      "company": "Divers Clients B2B & Startups",
+      "period": "Janvier 2022 – Février 2024",
       "responsibilities": [
-        "Conçu et déployé une plateforme d'apprentissage linguistique full-stack (Next.js 15, TypeScript, Prisma, PostgreSQL) avec feedback contextuel RAG et chiffrement AES-256-GCM.",
-        "Construit un exécuteur LLM tolérant aux pannes avec rotation de clés API et retry exponentiel, maintenant 99,9 % de disponibilité."
-      ]
-    },
-    {
-      "title": "Lead Developer & Architecte — ZIRO.FIT",
-      "company": "Marketplace Fitness B2B2C",
-      "period": "2022 – 2024 (B2B)",
-      "responsibilities": [
-        "Architecturé un marketplace fitness B2B2C avec routage de paiements multi-parties via Stripe Connect et découverte par géolocalisation (Leaflet).",
-        "Réécrit et optimisé les requêtes SQL complexes (json_agg, LATERAL JOINs), réduisant la latence de chargement de 60 %."
-      ]
-    },
-    {
-      "title": "Lead Developer & Architecte — Interly",
-      "company": "Plateforme de Coaching Vocal IA",
-      "period": "2022 – 2024 (B2B)",
-      "responsibilities": [
-        "Construit une plateforme de coaching vocal IA utilisant Web Audio API et Google Speech-to-Text pour le traitement vocal temps réel.",
-        "Mis en place des pipelines CI/CD avec Docker et Vercel, réduisant les cycles de déploiement de processus manuels à des releases automatisées zéro-downtime.",
-        "Défini la roadmap produit et les spécifications techniques pour clients internationaux, traduisant les capacités IA complexes en exigences claires accélérant le développement de 30 %."
+        "**Lexity (EdTech)** : Conçu et déployé une plateforme d'apprentissage linguistique full-stack (Next.js 15, TypeScript, Prisma, PostgreSQL) avec feedback contextuel RAG et chiffrement AES-256-GCM, incluant un exécuteur LLM tolérant aux pannes avec rotation de clés API et retry exponentiel — 99,9 % de disponibilité.",
+        "**ZIRO.FIT (Marketplace)** : Architecturé un marketplace fitness B2B2C avec routage de paiements multi-parties via Stripe Connect et découverte par géolocalisation (Leaflet), et optimisé les requêtes SQL complexes (json_agg, LATERAL JOINs) réduisant la latence de chargement de 60 %.",
+        "**Interly (Coaching IA)** : Construit une plateforme de coaching vocal IA avec Web Audio API et Google Speech-to-Text, mis en place des pipelines CI/CD (Docker, Vercel) pour des releases automatisées zéro-downtime, et défini la roadmap produit pour clients internationaux."
       ]
     },
     {
@@ -157,16 +141,23 @@
       "period": "Janvier 2021 - Décembre 2021 (Alternance)",
       "responsibilities": [
         "Développé et maintenu des modules d'application critiques dans une architecture micro-services en environnement Agile/Scrum, participant activement aux sprint plannings, mêlées quotidiennes et revues de code.",
-        "Contribué à la standardisation des processus de revue de code, améliorant la qualité globale du code et accélérant l'intégration des nouveaux développeurs."
+        "Standardisé les processus de revue de code avec une checklist structurée, réduisant le temps de review de 25 % et ramenant les retours post-merge à moins de 2 par sprint."
       ]
     }
   ],
   "projects": [],
   "education": [
     {
-      "degree": "Diplôme d'Ingénieur en Radio-Électronique — Équivalent Master (Bac+4)",
+      "degree": "Technicien Radio‑électronique (Bac+2)",
       "institution": "Minsk State Higher College of Radiotechnics",
-      "period": "2015 - 2019"
+      "period": "2015 - 2019",
+      "description": "Programme couvrant l'électronique analogique/numérique et la programmation bas niveau de microcontrôleurs (C, Assembleur)."
+    },
+    {
+      "degree": "Études en systèmes mobiles programmables",
+      "institution": "BSUIR",
+      "period": "2019 - 2022",
+      "description": "Approfondissement en systèmes embarqués, développement mobile (Java/Kotlin) et architectures temps réel."
     }
   ]
 }

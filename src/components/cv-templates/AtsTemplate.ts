@@ -13,7 +13,7 @@ const createExperienceItem = (job: Experience) => {
   return `
   <div class="ats-item">
     <div class="ats-header">
-      <span>${job.title.toUpperCase()} | ${job.company}</span>
+      <span>${job.title.toUpperCase()} | ${job.company}${job.url ? ` — <a href="${job.url}" target="_blank" rel="noopener noreferrer">${job.url.replace(/^https?:\/\//, '')}</a>` : ''}</span>
       <span>${job.period}</span>
     </div>
     <ul class="ats-list">
@@ -61,11 +61,16 @@ export const render = (data: CVData, _lang: LanguageCode): string => {
 
       <section class="ats-section">
         <h2>${data.sections.education} & ${data.sections.languages}</h2>
-        <div class="ats-header">
-          <span>${data.education[0].degree} | ${data.education[0].institution}</span>
-          <span>${data.education[0].period}</span>
+        ${data.education.map(edu => `
+        <div class="ats-item" style="margin-bottom: 4px;">
+          <div class="ats-header">
+            <span>${edu.degree} | ${edu.institution}</span>
+            <span>${edu.period}</span>
+          </div>
+          ${edu.description ? `<p style="margin: 2px 0; font-size: 8pt;">${edu.description}</p>` : ''}
         </div>
-        <p style="margin-top: 2px;">
+        `).join('')}
+        <p style="margin-top: 4px;">
           <strong>${data.sections.languages}:</strong> ${data.languages.map(l => `${l.name} (${l.level})`).join(', ')}
         </p>
       </section>

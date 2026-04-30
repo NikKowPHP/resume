@@ -14,11 +14,11 @@
     "title": "Front End Engineer | React & Next.js",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
     "professionalObjective": "Product-focused Front-End Engineer specializing in React 19, Next.js 15, and TypeScript. Expert in building high-performance, accessible interfaces (90+ Lighthouse) and integrating complex browser APIs (Web Audio, WebRTC) for native-quality web experiences.",
-    "status": "Based in Grenoble, France. Free access to the EU job market."
+    "status": "Based in Grenoble, France | VPF Visa – Free access to the French job market"
   },
   "contact": [
     {
-      "text": "+33753124025",
+      "text": "+33 7 53 12 40 25",
       "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
     },
     {
@@ -106,7 +106,7 @@
     {
       "title": "Front End Web Developer",
       "company": "Basesystem",
-      "period": "February 2024 - April 2026",
+      "period": "February 2024 – April 2026",
       "responsibilities": [
         "<strong>Enterprise UI Development</strong>: Built and deployed production-ready web applications from scratch using Next.js and React, while developing new interactive features for existing enterprise dashboards.",
         "<strong>System Migration</strong>: Spearheaded the migration of legacy views into modular, reusable Next.js components, establishing a scalable and accessible frontend architecture.",
@@ -117,37 +117,13 @@
       ]
     },
     {
-      "title": "",
-      "company": "▸ Freelance / B2B Projects",
-      "period": "",
-      "responsibilities": []
-    },
-    {
-      "title": "Lead Developer & Architect — Lexity",
-      "company": "AI Language Learning Platform",
-      "period": "2022 – 2024",
+      "title": "Freelance Front-End Developer",
+      "company": "Various B2B Clients & Startups",
+      "period": "January 2022 – February 2024",
       "responsibilities": [
-        "Architected and deployed a full-stack AI language learning platform (Next.js 15, TypeScript, Tailwind CSS, Zustand) with RAG-based contextual feedback and AES-256 encryption.",
-        "Built responsive, accessible UI achieving 90+ Lighthouse scores with real-time contextual feedback via TanStack Query and optimistic updates."
-      ]
-    },
-    {
-      "title": "Lead Developer & Architect — ZIRO.FIT",
-      "company": "B2B2C Fitness Marketplace",
-      "period": "2022 – 2024",
-      "responsibilities": [
-        "Architected a B2B2C fitness marketplace with interactive map-based discovery (Leaflet), multi-party payment routing, and responsive cross-platform UI.",
-        "Implemented complex interactive data visualizations and state management (Zustand) for real-time marketplace data."
-      ]
-    },
-    {
-      "title": "Lead Developer & Architect — Interly",
-      "company": "AI Voice Coaching Platform",
-      "period": "2022 – 2024",
-      "responsibilities": [
-        "Built an AI voice coaching platform integrating Web MediaRecorder API and Web Audio API for real-time voice processing with interactive DOM transformations.",
-        "Authored comprehensive E2E test suites using Playwright with custom auth-bypass mechanisms to streamline CI/CD pipelines.",
-        "Engineered optimistic UI updates and complex data visualizations using Chart.js and Framer Motion."
+        "**Lexity (EdTech)** : Architected and deployed a full-stack AI language learning platform (Next.js 15, TypeScript, Tailwind CSS, Zustand) with RAG-based contextual feedback, AES-256 encryption, and responsive 90+ Lighthouse UI.",
+        "**ZIRO.FIT (Marketplace)** : Architected a B2B2C fitness marketplace with interactive map-based discovery (Leaflet), multi-party payment routing, and responsive cross-platform UI with complex data visualizations.",
+        "**Interly (Coaching IA)** : Built an AI voice coaching platform integrating Web MediaRecorder API and Web Audio API, authored comprehensive E2E test suites (Playwright) with auth-bypass for CI/CD pipelines."
       ]
     },
     {
@@ -156,16 +132,23 @@
       "period": "January 2021 - December 2021",
       "responsibilities": [
         "Developed responsive web application components in Agile teams using React and modern JavaScript, collaborating on feature implementation and code reviews.",
-        "Implemented cross-browser compatible layouts and performed debugging across multiple platforms, ensuring consistent user experiences."
+        "Implemented cross-browser compatible layouts and performed debugging across 6 platforms, ensuring consistent user experiences and reducing browser compatibility tickets by 40%."
       ]
     }
   ],
   "projects": [],
   "education": [
     {
-      "degree": "Engineering Degree in Radio-Electronics — Master's Equivalent (Bac+4)",
+      "degree": "Radio-Electronics Technician (Bac+2)",
       "institution": "Minsk State Higher College of Radiotechnics",
-      "period": "2015 - 2019"
+      "period": "2015 - 2019",
+      "description": "Program covering analog/digital electronics and low-level microcontroller programming (C, Assembly)."
+    },
+    {
+      "degree": "Programmable Mobile Systems Studies",
+      "institution": "BSUIR",
+      "period": "2019 - 2022",
+      "description": "Advanced coursework in embedded systems, mobile development (Java/Kotlin), and real-time architectures."
     }
   ]
 }

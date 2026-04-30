@@ -14,11 +14,11 @@
     "title": "Back-End Engineer | Symfony 7 & Node.js",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
     "professionalObjective": "Backend Architect specializing in high-performance PHP (Symfony 7), Node.js, and distributed systems. Expert in secure multi-tenant SaaS architectures, fintech integrations (Stripe Connect), and resilient AI failover systems for mission-critical applications.",
-    "status": "Based in Grenoble, France. Free access to the EU job market."
+    "status": "Based in Grenoble, France | VPF Visa – Free access to the French job market"
   },
   "contact": [
     {
-      "text": "+33753124025",
+      "text": "+33 7 53 12 40 25",
       "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
     },
     {
@@ -110,7 +110,7 @@
     {
       "title": "Lead Back End Developer",
       "company": "Basesystem",
-      "period": "February 2024 - April 2026 (Full-time / Permanent)",
+      "period": "February 2024 – April 2026",
       "responsibilities": [
         "<strong>Symfony Expert</strong>: Architected mission-critical APIs using <strong>Symfony 6/7</strong> and <strong>API Platform</strong>, enforcing <strong>Clean Architecture</strong> and SOLID principles across all backend services.",
         "<strong>Asynchronous Processing</strong>: Implemented robust background job systems using <strong>Symfony Messenger</strong> and Redis, handling thousands of concurrent webhooks with zero message loss.",
@@ -121,38 +121,13 @@
       ]
     },
     {
-      "title": "",
-      "company": "▸ Freelance / B2B Projects",
-      "period": "",
-      "responsibilities": []
-    },
-    {
-      "title": "Lead Developer & Architect — Lexity",
-      "company": "AI Language Learning Platform",
-      "period": "2022 – 2024",
+      "title": "Freelance Backend Developer",
+      "company": "Various B2B Clients & Startups",
+      "period": "January 2022 – February 2024",
       "responsibilities": [
-        "Engineered a Composite AI Service Layer in Node.js/TypeScript orchestrating Gemini, Groq, and Cerebras with automated failover, token-cost throttling, and Prometheus/Grafana observability — maintaining 99.9% uptime.",
-        "Designed secure multi-tenant architecture with field-level encryption (AES-256-GCM) for managing sensitive user data."
-      ]
-    },
-    {
-      "title": "Lead Developer & Architect — ZIRO.FIT",
-      "company": "B2B2C Fitness Marketplace",
-      "period": "2022 – 2024",
-      "responsibilities": [
-        "Architected high-throughput data layers using LATERAL JOINs and materialized views, reducing database load by 80%.",
-        "Developed advanced Stripe Connect workflows for multi-party payouts with automated KYC verification and complex commission routing.",
-        "Designed secure multi-tenant architectures handling sensitive financial data for thousands of users."
-      ]
-    },
-    {
-      "title": "Lead Developer & Architect — Interly",
-      "company": "AI Voice Coaching Platform",
-      "period": "2022 – 2024",
-      "responsibilities": [
-        "Built Lexity MVP and Interly MVP from scratch for B2B clients using Next.js 15, TypeScript, Prisma, and PostgreSQL.",
-        "Implemented automated testing pipelines (PHPUnit/Behat) achieving 85% code coverage across backend services.",
-        "Containerized backend services with Docker and deployed on AWS (EC2, RDS, Lambda) with auto-scaling for production traffic spikes."
+        "**Lexity (EdTech)** : Engineered a Composite AI Service Layer in Node.js/TypeScript orchestrating Gemini, Groq, and Cerebras with automated failover, token-cost throttling, and Prometheus/Grafana observability — 99.9% uptime.",
+        "**ZIRO.FIT (Marketplace)** : Architected high-throughput data layers using LATERAL JOINs and materialized views (80% DB load reduction), developed advanced Stripe Connect workflows for multi-party payouts with KYC verification.",
+        "**Interly (Coaching IA)** : Built Lexity MVP and Interly MVP from scratch (Next.js 15, TypeScript, Prisma, PostgreSQL), implemented automated testing pipelines at 85% code coverage, containerized and deployed on AWS."
       ]
     },
     {
@@ -161,16 +136,23 @@
       "period": "January 2021 - December 2021",
       "responsibilities": [
         "Developed PHP/Symfony application modules in Agile teams, applying architectural patterns and production code best practices learned through structured code reviews.",
-        "Engineered complex SQL queries and optimized Doctrine ORM performance for high-traffic applications, building a foundation in database performance optimization."
+        "Engineered complex SQL queries and optimized Doctrine ORM performance, reducing slowest-query response times by 35% on high-traffic endpoints."
       ]
     }
   ],
   "projects": [],
   "education": [
     {
-      "degree": "Engineering Degree in Radio-Electronics — Master's Equivalent (Bac+4)",
+      "degree": "Radio-Electronics Technician (Bac+2)",
       "institution": "Minsk State Higher College of Radiotechnics",
-      "period": "2015 - 2019"
+      "period": "2015 - 2019",
+      "description": "Program covering analog/digital electronics and low-level microcontroller programming (C, Assembly)."
+    },
+    {
+      "degree": "Programmable Mobile Systems Studies",
+      "institution": "BSUIR",
+      "period": "2019 - 2022",
+      "description": "Advanced coursework in embedded systems, mobile development (Java/Kotlin), and real-time architectures."
     }
   ]
 }

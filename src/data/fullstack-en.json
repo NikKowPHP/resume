@@ -14,11 +14,11 @@
     "title": "Full-Stack Engineer | Next.js, TypeScript & AI",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
     "professionalObjective": "Senior Full-Stack Engineer specializing in Next.js 15, TypeScript, and AI orchestration. Expert in legacy system modernization, SQL optimization (60% latency reduction), and fault-tolerant LLM architectures for high-scale SaaS platforms.",
-    "status": "Based in Grenoble, France. Available for immediate start."
+    "status": "Based in Grenoble, France | VPF Visa – Free access to the French job market"
   },
   "contact": [
     {
-      "text": "+33753124025",
+      "text": "+33 7 53 12 40 25",
       "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
     },
     {
@@ -41,7 +41,7 @@
       "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
     },
     {
-      "text": "Work authorization in France",
+      "text": "VPF Visa – Free access to the French job market",
       "svgPath": "<path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"></path>"
     }
   ],
@@ -84,6 +84,14 @@
         "Playwright (E2E)",
         "Vitest"
       ]
+    },
+    {
+      "title": "Fundamentals",
+      "skills": [
+        "Low-level programming (C, microcontrollers)",
+        "Real-time architectures",
+        "Embedded systems"
+      ]
     }
   ],
   "languages": [
@@ -108,7 +116,7 @@
     {
       "title": "Full Stack Software Engineer",
       "company": "Basesystem",
-      "period": "February 2024 - April 2026",
+      "period": "February 2024 – April 2026",
       "responsibilities": [
         "Led the technical transition to TypeScript and Clean Architecture, reducing post-deployment bugs and accelerating code review turnaround by 40% through technical mentoring of 3 junior developers.",
         "Architected and led the migration of a legacy PHP system to a decoupled stack (Next.js/Node.js), optimizing platform scalability and ensuring long-term maintainability.",
@@ -118,37 +126,13 @@
       ]
     },
     {
-      "title": "",
-      "company": "▸ Freelance / B2B Projects",
-      "period": "",
-      "responsibilities": []
-    },
-    {
-      "title": "Lead Developer & Architect — Lexity",
-      "company": "AI Language Learning Platform",
-      "period": "2022 – 2024",
+      "title": "Freelance Full-Stack Developer",
+      "company": "Various B2B Clients & Startups",
+      "period": "January 2022 – February 2024",
       "responsibilities": [
-        "Designed and deployed a full-stack AI language learning platform (Next.js 15, TypeScript, Prisma, PostgreSQL) with RAG-based contextual feedback and AES-256-GCM encryption.",
-        "Built a fault-tolerant LLM executor with API key rotation and exponential backoff retry, maintaining 99.9% uptime despite strict rate limits."
-      ]
-    },
-    {
-      "title": "Lead Developer & Architect — ZIRO.FIT",
-      "company": "B2B2C Fitness Marketplace",
-      "period": "2022 – 2024",
-      "responsibilities": [
-        "Architected a B2B2C fitness marketplace with multi-party payment routing via Stripe Connect and geolocation-based discovery (Leaflet).",
-        "Rewrote and optimized complex SQL queries (json_agg, LATERAL JOINs), reducing load latency by 60% and driving a direct increase in conversion rates."
-      ]
-    },
-    {
-      "title": "Lead Developer & Architect — Interly",
-      "company": "AI Voice Coaching Platform",
-      "period": "2022 – 2024",
-      "responsibilities": [
-        "Built an AI voice coaching platform leveraging Web Audio API and Google Speech-to-Text for real-time voice processing.",
-        "Set up CI/CD pipelines with Docker and Vercel, reducing deployment cycles from manual processes to automated zero-downtime releases.",
-        "Defined product roadmap and technical specifications for international clients, translating complex AI capabilities into clear requirements that accelerated development by 30%."
+        "**Lexity (EdTech)** : Designed and deployed a full-stack AI language learning platform (Next.js 15, TypeScript, Prisma, PostgreSQL) with RAG-based contextual feedback and AES-256-GCM encryption, including a fault-tolerant LLM executor with API key rotation and exponential backoff retry — 99.9% uptime.",
+        "**ZIRO.FIT (Marketplace)** : Architected a B2B2C fitness marketplace with multi-party payment routing via Stripe Connect and geolocation-based discovery (Leaflet), optimizing complex SQL queries (json_agg, LATERAL JOINs) to reduce load latency by 60%.",
+        "**Interly (Coaching IA)** : Built an AI voice coaching platform with Web Audio API and Google Speech-to-Text, set up CI/CD pipelines (Docker, Vercel) for automated zero-downtime releases, and defined product roadmap for international clients."
       ]
     },
     {
@@ -157,16 +141,23 @@
       "period": "January 2021 - December 2021",
       "responsibilities": [
         "Developed and maintained critical application modules in a microservices architecture within Agile/Scrum environment, collaborating on sprint planning, stand-ups, and code reviews.",
-        "Contributed to code review standardization processes, raising overall team code quality and accelerating new developer onboarding."
+        "Standardized code review processes with a structured checklist, reducing review turnaround time by 25% and keeping post-merge defects under 2 per sprint."
       ]
     }
   ],
   "projects": [],
   "education": [
     {
-      "degree": "Engineering Degree in Radio-Electronics — Master's Equivalent (Bac+4)",
+      "degree": "Radio-Electronics Technician (Bac+2)",
       "institution": "Minsk State Higher College of Radiotechnics",
-      "period": "2015 - 2019"
+      "period": "2015 - 2019",
+      "description": "Program covering analog/digital electronics and low-level microcontroller programming (C, Assembly)."
+    },
+    {
+      "degree": "Programmable Mobile Systems Studies",
+      "institution": "BSUIR",
+      "period": "2019 - 2022",
+      "description": "Advanced coursework in embedded systems, mobile development (Java/Kotlin), and real-time architectures."
     }
   ]
 }

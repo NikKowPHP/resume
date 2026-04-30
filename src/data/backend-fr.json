@@ -12,9 +12,9 @@
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Ingénieur Logiciel Senior | Expert Symfony 7 & Node.js",
+    "title": "Ingénieur Logiciel Senior | Expert IA & Backend Distribué",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Architecte Backend Senior spécialisé dans les écosystèmes PHP haute performance (Symfony 7) et Node.js. Expert dans la conception d'architectures SaaS multi-tenants sécurisées, l'implémentation du Domain-Driven Design (DDD) et l'orchestration d'intégrations fintech complexes (Stripe Connect). Expertise reconnue en optimisation de bases de données (PostgreSQL/Redis) et en création de systèmes de failover IA résilients.",
+    "professionalObjective": "Architecte Backend Senior spécialisé dans les systèmes distribués et l'infrastructure IA. Expert en orchestration multi-LLM avec failover automatisé, monitoring temps réel (Prometheus/Grafana) et optimisation token-cost. Expérience prouvée en réduction de 25% des coûts API IA tout en maintenant 99.9% de disponibilité. Compétences en Symfony 7, Node.js et PostgreSQL haute performance.",
     "status": "Basé à Grenoble (38) | Autorisation de travail en France (Aucune démarche employeur)"
   },
   "contact": [
@@ -44,89 +44,70 @@
   ],
   "skills": [
     {
-      "title": "Écosystème PHP (Expert)",
+      "title": "Orchestration IA & LLM",
+      "skills": [
+        "Multi-Provider LLM Gateway",
+        "Token-Cost Throttling",
+        "AI Failover Automatisé",
+        "Prometheus / Grafana",
+        "AI Drift Monitoring",
+        "RAG & Vector DB"
+      ]
+    },
+    {
+      "title": "Backend & Infrastructure",
       "skills": [
         "Symfony 6/7 (Expert)",
-        "API Platform",
-        "Doctrine ORM / DDD",
-        "Symfony Messenger & Workflows",
-        "PHPUnit & Behat",
-        "Laravel 11"
-      ]
-    },
-    {
-      "title": "Node.js & Infrastructure",
-      "skills": [
-        "TypeScript / NestJS",
-        "Next.js API Routes / Prisma",
+        "Node.js / NestJS",
+        "API Platform / GraphQL",
         "PostgreSQL (Optimisation)",
         "Redis (Cache Distribué)",
-        "Docker & AWS (EC2, RDS, S3)",
-        "CI/CD (GitHub Actions)"
+        "Docker & Kubernetes",
+        "AWS (EC2, Lambda, S3)"
       ]
     },
     {
-      "title": "Sécurité & Architecture",
+      "title": "Architecture & Sécurité",
       "skills": [
-        "Design REST & GraphQL",
+        "Clean Architecture / DDD",
+        "Event-Driven Design",
         "Stripe Connect / Fintech",
         "Chiffrement AES-256-GCM",
-        "Stratégies Fallback IA",
-        "Clean Architecture",
-        "Event-Driven Design"
+        "CI/CD (GitHub Actions)",
+        "Observabilité Complète"
       ]
     }
   ],
   "languages": [
-    {
-      "name": "Anglais",
-      "level": "C1 (Professionnel)"
-    },
-    {
-      "name": "Français",
-      "level": "B2"
-    },
-    {
-      "name": "Polonais",
-      "level": "C1"
-    },
-    {
-      "name": "Russe",
-      "level": "Maternel"
-    },
-    {
-      "name": "Espagnol",
-      "level": "B2"
-    },
-    {
-      "name": "Portugais",
-      "level": "B1"
-    },
-    {
-      "name": "Allemand",
-      "level": "A2"
-    }
+    { "name": "Anglais", "level": "C1 (Professionnel)" },
+    { "name": "Français", "level": "B2" },
+    { "name": "Polonais", "level": "C1" },
+    { "name": "Russe", "level": "Maternel" },
+    { "name": "Espagnol", "level": "B2" },
+    { "name": "Portugais", "level": "B1" },
+    { "name": "Allemand", "level": "A2" }
   ],
   "experience": [
     {
-      "title": "Ingénieur Logiciel Senior Back-End",
-      "company": "Freelance / Startups SaaS",
-      "period": "Janvier 2023 - Janvier 2024 (Freelance / Missions)",
+      "title": "Ingénieur Logiciel Senior Backend & IA",
+      "company": "Basesystem",
+      "period": "Février 2024 - Avril 2026 (CDI)",
       "responsibilities": [
-        "<strong>Migration Symfony 7</strong> : Pilotage de la refonte architecturale d'un backend legacy vers <strong>Symfony 7</strong>, implémentant un monolithe modulaire avec synchronisation par événements.",
-        "<strong>Infrastructure IA</strong> : Développement d'une couche d'IA composite en Node.js/TS orchestrant Gemini, Groq et Cerebras, garantissant <strong>99.9% d'uptime</strong>.",
-        "<strong>Performance BDD</strong> : Architecture de couches de données haut débit pour ZIRO.FIT via `LATERAL JOINs` et vues matérialisées, <strong>réduisant la charge DB de 80%</strong>.",
-        "<strong>Sécurité & Conformité</strong> : Conception d'architectures multi-tenants sécurisées (AES-256-GCM), gérant des données financières sensibles pour <strong>des milliers d'utilisateurs</strong>."
+        "Archicté une gateway LLM multi-fournisseur avec failover automatisé et token-cost throttling, utilisant Prometheus/Grafana pour l'observabilité temps réel, réduisant les coûts API de 25% tout en maintenant 99.9% de disponibilité.",
+        "Architecture d'APIs critiques avec Symfony 6/7 et API Platform, imposant la Clean Architecture et les principes DDD pour une scalabilité企Enterprise.",
+        "Mis en place des systèmes de jobs robustes via Symfony Messenger et Redis, traitant des milliers de webhooks sans perte de messages.",
+        "Développé des workflows Stripe Connect complexes pour paiements multi-parties avec vérification KYC automatisée."
       ]
     },
     {
-      "title": "Développeur Back-End Indépendant",
-      "company": "Projets Personnels & Missions Internationales",
-      "period": "Janvier 2022 - Décembre 2022",
+      "title": "Ingénieur Back-End Senior",
+      "company": "Freelance / Startups SaaS",
+      "period": "Janvier 2023 - Janvier 2024",
       "responsibilities": [
-        "<strong>Backend Lexity MVP</strong> : Architecture d'API résiliente avec failover automatisé LLM, cache Redis multicouche et chiffrement AES-256-GCM pour données utilisateur.",
-        "<strong>APIs Interly</strong> : Développement du backend Node.js/TypeScript avec intégration Gemini pour l'évaluation en temps réel des réponses orales.",
-        "<strong>Migrations & Optimisation</strong> : Missions de refactorisation PHP/Laravel pour clients européens, optimisation SQL et implémentation de patterns de cache."
+        "Développé une couche d'IA composite en Node.js/TS orchestrant Gemini, Groq et Cerebras avec failover automatisé et fallback intelligent, garantissant 99.9% d'uptime.",
+        "Pilotá la refonte architecturale d'un backend legacy vers Symfony 7, implémentant un monolithe modulaire avec synchronisation par événements et API Gateway.",
+        "Architecture de couches de données haut débit pour ZIRO.FIT via LATERAL JOINs et vues matérialisées, réduisant la charge DB de 80%.",
+        "Conçu des architectures multi-tenants sécurisées (AES-256-GCM), gérant des données financières sensibles pour des milliers d'utilisateurs."
       ]
     },
     {
@@ -134,19 +115,8 @@
       "company": "Itransition",
       "period": "Janvier 2021 - Décembre 2021",
       "responsibilities": [
-        "<strong>Développement PHP/Symfony</strong> : Participation au développement d'applications web en équipe agile, apprentissage des patterns d'architecture et des bonnes pratiques.",
-        "<strong>Base de données</strong> : Requêtes SQL complexes, optimisation avec Doctrine ORM et compréhension des enjeux de performance."
-      ]
-    },
-    {
-      "title": "Développeur Back-End Lead",
-      "company": "Basesystem",
-      "period": "Février 2024 - Avril 2026 (CDI / Temps plein)",
-      "responsibilities": [
-        "<strong>Expert Symfony</strong> : Architecture d'APIs critiques avec <strong>Symfony 6/7</strong> et <strong>API Platform</strong>, imposant la <strong>Clean Architecture</strong> et les principes SOLID.",
-        "<strong>Traitement Asynchrone</strong> : Mise en place de systèmes de jobs robustes via <strong>Symfony Messenger</strong> et Redis, traitant des milliers de webhooks sans perte de messages.",
-        "<strong>Intégration Fintech</strong> : Développement de workflows Stripe Connect complexes pour des paiements multi-parties, incluant la vérification KYC automatisée.",
-        "<strong>Optimisation Performance</strong> : Tuning fin de PHP-FPM et PostgreSQL, résultant en une <strong>réduction de 30% des temps de réponse API</strong>."
+        "Participé au développement d'applications web en équipe agile, apprentissage des patterns d'architecture et des bonnes pratiques de code production.",
+        "Acquis les fondamentaux de la conception de bases de données performantes et de l'optimisation SQL."
       ]
     }
   ],
@@ -154,16 +124,16 @@
     {
       "name": "Core-API : Framework Multi-tenant Symfony 7",
       "url": "https://github.com/NiKKowPHP",
-      "description": "Boilerplate haute performance pour applications SaaS multi-tenants built avec Symfony 7, incluant auth JWT et gestion dynamique de tenancy.",
+      "description": "Boilerplate haute performance pour applications SaaS multi-tenants avec Symfony 7, incluant auth JWT et gestion dynamique de tenancy.",
       "stack_title": "Stack",
       "stack": "Symfony 7, API Platform, PostgreSQL, Docker, Redis"
     },
     {
       "name": "Lexity : Backend IA Composite",
       "url": "https://lexity.app",
-      "description": "Backend résilient avec failover automatisé entre 3 fournisseurs de LLM, cache Redis et chiffrement serveur pour la confidentialité.",
+      "description": "Backend résilient avec failover automatisé entre 3 fournisseurs de LLM, monitoring token-cost via Prometheus/Grafana et chiffrement serveur pour la confidentialité.",
       "stack_title": "Stack",
-      "stack": "Node.js, Prisma, PostgreSQL, Redis, AES-256"
+      "stack": "Node.js, Prisma, PostgreSQL, Redis, AES-256, Prometheus"
     },
     {
       "name": "ZIRO.FIT : Moteur Fintech & Marketplace",

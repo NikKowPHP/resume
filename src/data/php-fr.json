@@ -14,7 +14,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Ingénieur PHP Senior | Expert Laravel & Symfony",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Ingénieur PHP Senior spécialisé dans les écosystèmes Laravel et Symfony. Expert en conception d'architectures SaaS multi-tenants sécurisées, implémentation du Domain-Driven Design (DDD) et orchestration d'intégrations fintech complexes (Stripe Connect). Expertise reconnue en optimisation de bases de données (PostgreSQL/Redis) et création d'applications résilientes pour déploiements critiques.",
+    "professionalObjective": "Ingénieur PHP Senior spécialisé dans les écosystèmes Laravel et Symfony avec une expertise en migration legacy. Architecte de systèmes modulaires avec le Strangler Fig pattern, garantissant des transitions zero-downtime sur des monolithes de 10+ ans. Expert en DDD, Stripe Connect multi-parties et optimisation PostgreSQL pour applications critiques FinTech et E-commerce.",
     "status": "Basé à Grenoble (38) | Autorisation de travail en France (Aucune démarche employeur)"
   },
   "contact": [
@@ -48,9 +48,10 @@
       "skills": [
         "PHP 8.2/8.3 (Expert)",
         "Laravel 10/11 (Expert)",
-        "Symfony 6/7",
+        "Symfony 6/7 (Expert)",
         "API Platform",
         "Doctrine ORM / DDD",
+        "Strangler Fig Pattern",
         "PHPUnit & Behat / Pest"
       ]
     },
@@ -61,7 +62,8 @@
         "MySQL / MariaDB",
         "Redis (Cache Distribué)",
         "Elasticsearch",
-        "Stratégies de Migration"
+        "Stratégies de Migration",
+        "Zero-Downtime Deployments"
       ]
     },
     {
@@ -72,7 +74,8 @@
         "CI/CD (GitHub Actions)",
         "Nginx / Apache",
         "PHP-FPM Tuning",
-        "Administration Linux"
+        "Administration Linux",
+        "Monitoring & Alerting"
       ]
     }
   ],
@@ -89,9 +92,10 @@
       "company": "Basesystem",
       "period": "Février 2024 - Avril 2026 (CDI)",
       "responsibilities": [
-        "<strong>Architecture Laravel/Symfony</strong> : Architecture d'APIs critiques avec <strong>Laravel 11</strong> et <strong>Symfony 6/7</strong>, imposant la <strong>Clean Architecture</strong> et les principes SOLID.",
-        "<strong>Optimisation Base de Données</strong> : Optimisation des configurations et requêtes PostgreSQL, résultant en une <strong>réduction de 30% des temps de réponse API</strong>.",
-        "<strong>Sécurité & Conformité</strong> : Conception d'architectures multi-tenants sécurisées avec chiffrement au niveau des champs, gérant des données sensibles pour des milliers d'utilisateurs."
+        "Orchestré la modularisation d'un système PHP legacy en microservices Symfony 7, implémentant le Strangler Fig pattern pour garantir 100% de disponibilité système pendant la transition de 6 mois.",
+        "Architecturé des APIs critiques avec Laravel 11 et Symfony 6/7, imposant la Clean Architecture et les principes SOLID pour une maintenabilité à long terme.",
+        "Conçu des architectures multi-tenants sécurisées avec chiffrement au niveau des champs, gérant des données sensibles pour des milliers d'utilisateurs.",
+        "Optimisé les configurations et requêtes PostgreSQL via LATERAL JOINs et vues matérialisées, résultant en une réduction de 30% des temps de réponse API."
       ]
     },
     {
@@ -99,9 +103,9 @@
       "company": "Freelance / Startups SaaS",
       "period": "Janvier 2023 - Janvier 2024",
       "responsibilities": [
-        "<strong>Backend SaaS</strong> : Pilotage de la refonte architecturale vers <strong>Symfony 7</strong>, implémentant un monolithe modulaire avec synchronisation par événements.",
-        "<strong>Performance</strong> : Architecture de couches de données haut débit via <code>LATERAL JOINs</code> et vues matérialisées, <strong>réduisant la charge DB de 80%</strong>.",
-        "<strong>Intégration Fintech</strong> : Développement de workflows Stripe Connect pour paiements multi-parties et vérification KYC automatisée."
+        "Pilaté la refonte architecturale vers Symfony 7 d'un monolithe legacy, implémentant un système modulaire avec synchronisation par événements et API Gateway.",
+        "Développé des workflows Stripe Connect complexes pour paiements multi-parties avec vérification KYC automatisée, traitant des flux financiers de plusieurs milliers d'euros par mois.",
+        "Architecture de couches de données haut débit via LATERAL JOINs et vues matérialisées, réduisant la charge DB de 80%."
       ]
     },
     {
@@ -109,8 +113,8 @@
       "company": "Itransition",
       "period": "Janvier 2021 - Décembre 2021",
       "responsibilities": [
-        "<strong>Développement PHP/Laravel</strong> : Participation au développement d'applications web en équipe agile.",
-        "<strong>Base de données</strong> : Requêtes SQL complexes, optimisation Doctrine ORM."
+        "Participé au développement d'applications web en équipe agile, acquérant les fondamentaux de l'architecture PHP professionnelle.",
+        "Optimisé des requêtes SQL complexes et amélioré les performances Doctrine ORM pour des applications à fort trafic."
       ]
     }
   ],

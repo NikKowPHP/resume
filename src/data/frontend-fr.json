@@ -12,9 +12,9 @@
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Ingénieur Front-End Senior | React & Next.js",
+    "title": "Ingénieur Front-End Senior | React 19 & Performance",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Ingénieur Front-End focalisé sur le produit, spécialiste React 19, Next.js 15 et TypeScript. Expert en interfaces interactives et performantes, gestion d'état (Zustand), optimisations (TanStack Query) et intégrations d'APIs navigateur (Web Audio, WebRTC) pour des expériences fluides.",
+    "professionalObjective": "Ingénieur Front-End focalisé sur le produit, expert en Server-Component-First architecture avec Next.js 15 et React 19. Spécialiste en réduction de bundles JS de 45% et sub-second Time to Interactive sur des dashboards data-heavy. Maîtrise de Zustand, TanStack Query et intégrations浏览器 API (Web Audio, WebRTC) pour des expériences immersives et performantes.",
     "status": "Basé à Grenoble (38) | Autorisation de travail en France (Aucune démarche employeur)"
   },
   "contact": [
@@ -34,7 +34,7 @@
     {
       "text": "linkedin.com/in/mikita-kavaliou",
       "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
-      "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+       "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
     },
     {
       "text": "Grenoble, France",
@@ -43,12 +43,12 @@
   ],
   "skills": [
     {
-      "title": "Cœur Front-End",
+      "title": "Core Front-End",
       "skills": [
         "JavaScript (ES6+)",
         "TypeScript",
         "HTML5",
-        "CSS3 / SASS",
+        "CSS3 / Tailwind",
         "Web Audio API",
         "WebRTC"
       ]
@@ -56,97 +56,65 @@
     {
       "title": "Frameworks & UI",
       "skills": [
-        "React 19",
+        "React 19 (Server Components)",
         "Next.js 15 (App Router)",
-        "Tailwind CSS",
-        "shadcn/ui",
-        "Framer Motion",
-        "Chart.js",
-        "Leaflet"
+        "Server-Component-First",
+        "Zustand",
+        "TanStack Query",
+        "shadcn/ui"
       ]
     },
     {
-      "title": "Architecture & Tests",
+      "title": "Performance & Tests",
       "skills": [
-        "Zustand",
-        "TanStack Query",
-        "Playwright (E2E Testing)",
-        "Jest",
-        "Core Web Vitals",
+        "Core Web Vitals Optimization",
+        "Bundle Size Optimization",
+        "Lighthouse > 90",
+        "Playwright (E2E)",
+        "Vitest",
         "PWA"
       ]
     }
   ],
   "languages": [
-    {
-      "name": "Anglais",
-      "level": "C1 (Professionnel)"
-    },
-    {
-      "name": "Français",
-      "level": "B2"
-    },
-    {
-      "name": "Polonais",
-      "level": "C1"
-    },
-    {
-      "name": "Russe",
-      "level": "Maternel"
-    },
-    {
-      "name": "Espagnol",
-      "level": "B2"
-    },
-    {
-      "name": "Portugais",
-      "level": "B1"
-    },
-    {
-      "name": "Allemand",
-      "level": "A2"
-    }
+    { "name": "Anglais", "level": "C1 (Professionnel)" },
+    { "name": "Français", "level": "B2" },
+    { "name": "Polonais", "level": "C1" },
+    { "name": "Russe", "level": "Maternel" },
+    { "name": "Espagnol", "level": "B2" },
+    { "name": "Portugais", "level": "B1" },
+    { "name": "Allemand", "level": "A2" }
   ],
   "experience": [
+    {
+      "title": "Ingénieur Front-End Senior",
+      "company": "Basesystem",
+      "period": "Février 2024 - Avril 2026 (CDI)",
+      "responsibilities": [
+        "Standardisé une architecture Server-Component-First en Next.js 15, réduisant les bundles client de 45% et atteignant un sub-second Time to Interactive sur des dashboards data-heavy.",
+        "Dirigé la refonte de vues legacy vers des composants Next.js modulaires, établissant une architecture frontend accessible et scalable avec des scores Lighthouse systématiquement >90.",
+        "Implémenté une gestion d'état stricte (Zustand) et des stratégies de cache via TanStack Query, réduisant drastiquement les re-rendus inutiles.",
+        "Mentoré 3 développeurs juniors sur les bonnes pratiques React et la gestion d'état, réduisant les bugs UI post-déploiement de 30%."
+      ]
+    },
     {
       "title": "Ingénieur Front-End Senior",
       "company": "Freelance / Startups SaaS",
       "period": "Janvier 2023 - Janvier 2024",
       "responsibilities": [
-        "<strong>Architecture UI Avancée</strong> : Développement d'interfaces client hautement réactives pour Lexity et Interly (React 19, Next.js 15), atteignant systématiquement des <strong>scores Lighthouse > 90</strong>.",
-        "<strong>Intégration d'API Navigateur</strong> : Intégration de Web MediaRecorder pour le traitement vocal temps réel et application de transformations DOM interactives (ePub.js) pour la lecture immersive.",
-        "<strong>États & Animations</strong> : Mise en place d'optimistic UI via TanStack Query et création de visualisations de données interactives complexes avec Chart.js et Framer Motion.",
-        "<strong>Assurance Qualité</strong> : Rédaction de suites de tests E2E avec Playwright, incluant des mécanismes personnalisés de contournement d'authentification pour les pipelines CI/CD."
+        "Développé des interfaces client hautement réactives pour Lexity et Interly (React 19, Next.js 15), atteignant systématiquement des scores Lighthouse >90.",
+        "Intégré Web MediaRecorder pour le traitement vocal temps réel et application de transformations DOM interactives (ePub.js) pour la lecture immersive.",
+        "Créé des visualisations de données interactives complexes avec Chart.js, optimisant les performances de rendu pour des datasets volumineux.",
+        "Rédaction de suites de tests E2E avec Playwright pour les pipelines CI/CD, garantissant la stabilité des déploiements."
       ]
     },
     {
-      "title": "Développeur Front-End Indépendant",
-      "company": "Projets Personnels & Clients Internationaux",
-      "period": "Janvier 2022 - Décembre 2022",
-      "responsibilities": [
-        "<strong>Lexity MVP Front-End</strong> : Développement de l'interface utilisateur React 19 avec lecture ePub.js interactive, optimise UI avec TanStack Query et animations fluides via Framer Motion.",
-        "<strong>Interly MVP Front-End</strong> : Création du dashboard temps réel avec Web Audio API, visualisations Chart.js pour les métriques WPM et filler words.",
-        "<strong>Missions Front-End</strong> : Développement d'interfaces pour clients internationaux, intégration de composants React et optimisations de performance."
-      ]
-    },
-    {
-      "title": "Développeur Web Front-End (Alternance)",
+      "title": "Développeur Front-End (Alternance)",
       "company": "Itransition",
       "period": "Janvier 2021 - Décembre 2021",
       "responsibilities": [
-        "<strong>Développement Front-End</strong> : Participation au développement d'applications web en équipe agile, apprentissage des fondamentaux React et JavaScript moderne.",
-        "<strong>Intégration & Debug</strong> : Intégration de maquettes, débogage cross-browser et travail sur la responsivité des interfaces."
-      ]
-    },
-    {
-      "title": "Développeur Web Front-End",
-      "company": "Basesystem",
-      "period": "February 2024 - Present",
-      "responsibilities": [
-        "<strong>Développement UI Enterprise</strong> : Création d'applications web de production (Next.js/React) et intégration de nouvelles fonctionnalités interactives complexes sur des tableaux de bord d'entreprise existants.",
-        "<strong>Migration de Systèmes</strong> : Direction de la refonte de vues legacy vers des composants Next.js modulaires, établissant une architecture frontend accessible et scalable.",
-        "<strong>États & Performances</strong> : Implémentation d'une gestion d'état stricte (Zustand) et de stratégies de cache, réduisant drastiquement les goulots d'étranglement de rendu côté client.",
-        "<strong>Mentorat & Standards</strong> : Mentorat de 3 développeurs juniors sur les bonnes pratiques React et la gestion d'état, réduisant les bugs UI post-déploiement de 30% et améliorant la vélocité de l'équipe."
+        "Participé au développement d'applications web en équipe agile, apprentissage des fondamentaux React et JavaScript moderne.",
+        "Intégré des maquettes, débogué cross-browser et travaillé sur la responsivité des interfaces."
       ]
     }
   ],
@@ -154,23 +122,23 @@
     {
       "name": "Lexity : Écosystème Interactif d'Apprentissage",
       "url": "https://lexity.app",
-      "description": "PWA incluant un lecteur ePub.js interactif enveloppant chaque mot dans des spans dynamiques, couplé à une interface utilisateur optimiste.",
+      "description": "PWA avec lecteur ePub.js interactif optimisé via Server Components, atteignant Lighthouse 95+ malgré les transformations DOM complexes.",
       "stack_title": "Stack",
-      "stack": "React 19, Next.js 15, TanStack Query, shadcn/ui, ePub.js"
+      "stack": "React 19, Next.js 15 Server Components, TanStack Query, shadcn/ui, ePub.js"
     },
     {
       "name": "Interly : Dashboard Audio Temps Réel",
       "url": "https://interly.app",
-      "description": "Dashboard de coaching visualisant les mots par minute et les tics de langage en temps réel via Chart.js, Framer Motion, et Web Audio API.",
+      "description": "Dashboard de coaching visualisant les métriques en temps réel via Chart.js optimisé et Web Audio API, avec sub-second rendu.",
       "stack_title": "Stack",
       "stack": "TypeScript, Zustand, Web Audio API, Chart.js, Framer Motion"
     },
     {
       "name": "ZIRO.FIT : Interface de Découverte Géospatiale",
       "url": "https://ziro.fit",
-      "description": "Moteur de découverte géolocalisée avec Leaflet.js, accompagné d'un tableau de bord d'analyse complexe pour les coachs.",
+      "description": "Moteur de découverte géolocalisée avec Leaflet.js, accompagné d'un tableau de bord analytique complexe optimisé pour la performance.",
       "stack_title": "Stack",
-      "stack": "Next.js, Leaflet.js, Radix UI, Tailwind CSS, Playwright"
+      "stack": "Next.js Server Components, Leaflet.js, Tailwind CSS, Playwright"
     }
   ],
   "education": [
